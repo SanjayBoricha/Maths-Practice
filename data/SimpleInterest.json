@@ -7,7 +7,7 @@
   "questions": [
     {
       "id": 1,
-      "section": "Basic Formula",
+      "section": "Questions Based on Basic Formula",
       "question_markdown": "Find the simple interest on `15,000 at the rate of 7% p.a. for 3 years.",
       "options": {
         "A": "`3,000",
@@ -23,7 +23,7 @@
     },
     {
       "id": 2,
-      "section": "Basic Formula",
+      "section": "Questions Based on Basic Formula",
       "question_markdown": "Find the simple interest (in `) on `9,900 at 9% per annum in 3 years",
       "options": {
         "A": "2512",
@@ -39,7 +39,7 @@
     },
     {
       "id": 3,
-      "section": "Basic Formula",
+      "section": "Questions Based on Basic Formula",
       "question_markdown": "The simple interest on a sum of `1,500 at 5% p.a. for 3 year is:",
       "options": {
         "A": "`180",
@@ -55,7 +55,7 @@
     },
     {
       "id": 4,
-      "section": "Basic Formula",
+      "section": "Questions Based on Basic Formula",
       "question_markdown": "The simple interest on a certain sum of money is Rs.2275 at 13% per annum in 5 years. Find the sum of money.",
       "options": {
         "A": "Rs.4000",
@@ -71,7 +71,7 @@
     },
     {
       "id": 5,
-      "section": "Basic Formula",
+      "section": "Questions Based on Basic Formula",
       "question_markdown": "A sum of simple interest at the rate of 5% per annum amount Rs.4160 in 6 years. Find the sum.",
       "options": {
         "A": "Rs.2800",
@@ -87,7 +87,7 @@
     },
     {
       "id": 6,
-      "section": "Basic Formula",
+      "section": "Questions Based on Basic Formula",
       "question_markdown": "What sum of money (in `) will amount to `840 at 4% per annum simple interest in 3 years?",
       "options": {
         "A": "750",
@@ -103,7 +103,7 @@
     },
     {
       "id": 7,
-      "section": "Basic Formula",
+      "section": "Questions Based on Basic Formula",
       "question_markdown": "What principal would amount to Rs.21,420 in 2 years at the rate of 9.5% p.a. simple interest?",
       "options": {
         "A": "Rs.11,273",
@@ -119,7 +119,7 @@
     },
     {
       "id": 8,
-      "section": "Basic Formula",
+      "section": "Questions Based on Basic Formula",
       "question_markdown": "A man has invested Rs.65000 at a rate of 7 1/2% per annum simple interest for 6 years. Find the amount the he will receive after 6 years.",
       "options": {
         "A": "Rs.28750",
@@ -135,7 +135,7 @@
     },
     {
       "id": 9,
-      "section": "Basic Formula",
+      "section": "Questions Based on Basic Formula",
       "question_markdown": "A person invests `54,500 at 12% per annum simple interest for 2 years. Find the amount (in `) he will receive after 2 years.",
       "options": {
         "A": "68,580",
@@ -151,7 +151,7 @@
     },
     {
       "id": 10,
-      "section": "Basic Formula",
+      "section": "Questions Based on Basic Formula",
       "question_markdown": "A sum when invested at 12 1/2% simple interest per annum amounts to Rs.17500 after 2 years. What is the simple interest?",
       "options": {
         "A": "Rs.3450",
@@ -167,7 +167,7 @@
     },
     {
       "id": 11,
-      "section": "Basic Formula",
+      "section": "Questions Based on Basic Formula",
       "question_markdown": "The simple interest on a certain sum of money at 8% per annum for 3 years is Rs.360 more than the simple interest on the same sum at 6% per annum for 3 years. Find the principal.",
       "options": {
         "A": "`4,800",
@@ -183,7 +183,7 @@
     },
     {
       "id": 12,
-      "section": "Basic Formula",
+      "section": "Questions Based on Basic Formula",
       "question_markdown": "The difference between the simple interests on the principal of `500 at an interest rate of 5% per annum for 3 years and 4% per annum for 4 years is:",
       "options": {
         "A": "Rs.7.5",
@@ -199,7 +199,7 @@
     },
     {
       "id": 13,
-      "section": "Basic Formula",
+      "section": "Questions Based on Basic Formula",
       "question_markdown": "The difference between simple interest on a certain sum at the annual rate of 11 percent for 8 years and 9 years is Rs.132. What is the sum?",
       "options": {
         "A": "Rs.1200",
@@ -215,7 +215,7 @@
     },
     {
       "id": 14,
-      "section": "Basic Formula",
+      "section": "Questions Based on Basic Formula",
       "question_markdown": "The simple interest on a certain sum for 4 years at 14% per annum is `6,160 less than the simple interest on the same sum at the same rate for 8 years. Find the sum.",
       "options": {
         "A": "` 10,000",
@@ -231,7 +231,7 @@
     },
     {
       "id": 15,
-      "section": "Basic Formula",
+      "section": "Questions Based on Basic Formula",
       "question_markdown": "The difference between the simple interest on a sum of money for 3 1/2 years at the rate of 12% per annum and simple interest on the same sum of money for 4 1/2 years at 10% per annum is `360. Find the sum (in `).",
       "options": {
         "A": "16,000",
@@ -247,7 +247,7 @@
     },
     {
       "id": 16,
-      "section": "Basic Formula",
+      "section": "Questions Based on Basic Formula",
       "question_markdown": "If the simple interest on a certain sum of money for 20 months at the rate of 19.2% per annum exceeds the simple interest on the same sum for 15 months at the rate of 11.2% p.a. by `2,920, then what is the sum (in `, to the nearest hundreds)?",
       "options": {
         "A": "16,620",
@@ -263,7 +263,7 @@
     },
     {
       "id": 17,
-      "section": "Basic Formula",
+      "section": "Questions Based on Basic Formula",
       "question_markdown": "If a sum of Rs.5,000 is taken at a simple rate of interest of 15% per annum for 3 years and another sum of Rs.8,000 is taken at a simple interest of 12% per annum for 4 years, the positive difference of the interests paid is:",
       "options": {
         "A": "Rs.1643",
@@ -279,7 +279,7 @@
     },
     {
       "id": 18,
-      "section": "Basic Formula",
+      "section": "Questions Based on Basic Formula",
       "question_markdown": "A man invested a sum of Rs. 5,000 on simple interest for 5 years such that the rate of interest for the first 2 years is10% per annum, for the next 3 years it is 12% per annum How much interest (in Rs), will he earn at the end of 5 years?",
       "options": {
         "A": "2800",
@@ -295,7 +295,7 @@
     },
     {
       "id": 19,
-      "section": "Basic Formula",
+      "section": "Questions Based on Basic Formula",
       "question_markdown": "How much simple interest will Rs.6,700 earn in 13 months at a 12% interest rate per annum?",
       "options": {
         "A": "Rs.871",
@@ -311,7 +311,7 @@
     },
     {
       "id": 20,
-      "section": "Basic Formula",
+      "section": "Questions Based on Basic Formula",
       "question_markdown": "Find the simple interest on Rs.27,000 at 2 14 % 3 per annum for 8 months.",
       "options": {
         "A": "2600",
@@ -327,7 +327,7 @@
     },
     {
       "id": 21,
-      "section": "Basic Formula",
+      "section": "Questions Based on Basic Formula",
       "question_markdown": "A sum of `12,000 amounts to `15,000 in 5 years at the rate of simple interest. What is the rate of interest per annum?",
       "options": {
         "A": "8%",
@@ -343,7 +343,7 @@
     },
     {
       "id": 22,
-      "section": "Basic Formula",
+      "section": "Questions Based on Basic Formula",
       "question_markdown": "In how many years will a sum of Rs.2,500 invested at 16% simple interest become Rs.4,100?",
       "options": {
         "A": "3",
@@ -359,7 +359,7 @@
     },
     {
       "id": 23,
-      "section": "Basic Formula",
+      "section": "Questions Based on Basic Formula",
       "question_markdown": "How many years will it take for Rs.8,400 to amount to Rs.11,928 at a simple interest rate of 7% per annum?",
       "options": {
         "A": "8",
@@ -375,7 +375,7 @@
     },
     {
       "id": 24,
-      "section": "Basic Formula",
+      "section": "Questions Based on Basic Formula",
       "question_markdown": "In how much time will Rs.5,000 at 4% per annum simple interest produce the same interest as Rs.8,000 in 1 2 2 years at 8% per annum simple interest?",
       "options": {
         "A": "8 years",
@@ -391,7 +391,7 @@
     },
     {
       "id": 25,
-      "section": "Basic Formula",
+      "section": "Questions Based on Basic Formula",
       "question_markdown": "Find the simple interest (in closest integer `) on `3,000 at 8% per annum rate of interest for the period from 14 February 2024 to 15 April",
       "options": {
         "A": "39",
@@ -407,7 +407,7 @@
     },
     {
       "id": 26,
-      "section": "Basic Formula",
+      "section": "Questions Based on Basic Formula",
       "question_markdown": "Find the simple interest (in `) on `2,000 at 5.75% per annum rate of interest for the period from 15 February 2023 to 29 April",
       "options": {
         "A": "24",
@@ -423,7 +423,7 @@
     },
     {
       "id": 27,
-      "section": "Basic Formula",
+      "section": "Questions Based on Basic Formula",
       "question_markdown": "Find the simple interest (in `) on `2000 at 6.5% per annum rate of interest for the period from 14 February 2023 to 28 April",
       "options": {
         "A": "24",
@@ -439,7 +439,7 @@
     },
     {
       "id": 28,
-      "section": "Basic Formula",
+      "section": "Questions Based on Basic Formula",
       "question_markdown": "Archana took a loan of `78,000 from a bank on 24th January 2012 at 8 3/4% per annum simple interest and paid it back on 18th June 2012. Find the total amount paid by Archana. (Approximated to nearest integer)",
       "options": {
         "A": "`80,723",
@@ -455,7 +455,7 @@
     },
     {
       "id": 29,
-      "section": "Basic Formula",
+      "section": "Questions Based on Basic Formula",
       "question_markdown": "If the simple interest on a certain sum of money is `7480 at the rate of 1 18/3% per annum for 4 years 3 months. Then find the principal? % 3 `",
       "options": {
         "A": "`8400",
@@ -471,7 +471,7 @@
     },
     {
       "id": 30,
-      "section": "Basic Formula",
+      "section": "Questions Based on Basic Formula",
       "question_markdown": "If the simple interest at the same interest rate on Rs.500 for 4 years and Rs.700 for 2 years, combined together, is Rs.280, then what is the rate of interest?",
       "options": {
         "A": "3 9 % 17",
@@ -487,7 +487,7 @@
     },
     {
       "id": 31,
-      "section": "Basic Formula",
+      "section": "Questions Based on Basic Formula",
       "question_markdown": "A person deposited Rs.500 for 3 years, Rs. 650 for 5 years, and Rs.1,250 for 7 years. He received a total simple interest of Rs.1,620. The rate of interest per annum is:",
       "options": {
         "A": "12%",
@@ -503,7 +503,7 @@
     },
     {
       "id": 32,
-      "section": "Basic Formula",
+      "section": "Questions Based on Basic Formula",
       "question_markdown": "A sum of money becomes 8 7 of itself in 2 years at a certain rate of simple interest. The rate per annum is:",
       "options": {
         "A": "3 6 % 7",
@@ -519,7 +519,7 @@
     },
     {
       "id": 33,
-      "section": "Basic Formula",
+      "section": "Questions Based on Basic Formula",
       "question_markdown": "A person borrowed some money on simple interest. After 3 years, he returned 4 3 of the money to the lender. What was the rate of interest?",
       "options": {
         "A": "2 11 % 9 p.a",
@@ -535,7 +535,7 @@
     },
     {
       "id": 34,
-      "section": "Basic Formula",
+      "section": "Questions Based on Basic Formula",
       "question_markdown": "A person borrowed some money on simple interest. After 4 years, he returned 9 5 of the money to lender. What was the rate of interest?",
       "options": {
         "A": "20% p.a.",
@@ -551,7 +551,7 @@
     },
     {
       "id": 35,
-      "section": "Basic Formula",
+      "section": "Questions Based on Basic Formula",
       "question_markdown": "A man took a loan of `32,400 at a certain rate of simple interest per annum. The rate of interest is one-fourth of the number of years for which the loan is taken. If he paid `11,664 as interest at the end of the loan period, the rate of interest was:",
       "options": {
         "A": "3%",
@@ -567,7 +567,7 @@
     },
     {
       "id": 36,
-      "section": "Basic Formula",
+      "section": "Questions Based on Basic Formula",
       "question_markdown": "The simple interest on a certain sum is one- eighth of the sum when the number of years is equal to half of the rate percentage per annum. Find the simple interest (in Rs.) on Rs.15,000 at the same rate of simple interest for 8 years.",
       "options": {
         "A": "5800",
@@ -583,7 +583,7 @@
     },
     {
       "id": 37,
-      "section": "Basic Formula",
+      "section": "Questions Based on Basic Formula",
       "question_markdown": "Simple interest on a certain sum is one-fourth of the sum and the interest rate per annum is four times the number of years. If the rate of interest increases by 2%, then how much will the simple interest (in Rs) be on Rs 3600, for 6 years.",
       "options": {
         "A": "2562",
@@ -599,7 +599,7 @@
     },
     {
       "id": 38,
-      "section": "Basic Formula",
+      "section": "Questions Based on Basic Formula",
       "question_markdown": "A certain sum amounts to `12096 at 8% p.a. in 1 5 2 years at simple interest. What will be the simple interest on the same sum at 10% p.a. in 8 years.",
       "options": {
         "A": "` 6770",
@@ -615,7 +615,7 @@
     },
     {
       "id": 39,
-      "section": "Basic Formula",
+      "section": "Questions Based on Basic Formula",
       "question_markdown": "A sum of ` 10,500 amounts to ` 13,825 in 4 3 5 years at a certain rate percent per annum simple interest. What will be the simple interest on the same sum for 5 years at double the earlier rate?",
       "options": {
         "A": "` 8,470",
@@ -631,7 +631,7 @@
     },
     {
       "id": 40,
-      "section": "Basic Formula",
+      "section": "Questions Based on Basic Formula",
       "question_markdown": "A sum of Rs 8,400 amounts to Rs 11,046 at 8.75% p.a. simple interest in a certain time. What will be the simple interest (in Rs) on a sum of Rs 10,800 at the same rate for the same time?",
       "options": {
         "A": "3402",
@@ -647,7 +647,7 @@
     },
     {
       "id": 41,
-      "section": "Basic Formula",
+      "section": "Questions Based on Basic Formula",
       "question_markdown": "A sum of ` 8400 amounts to ` 11,046 at 8.75% p.a. simple interest in a certain time. What is the simple interest on the sum of ` 9600 at the same rate for the same time?",
       "options": {
         "A": "` 2990",
@@ -663,7 +663,7 @@
     },
     {
       "id": 42,
-      "section": "Basic Formula",
+      "section": "Questions Based on Basic Formula",
       "question_markdown": "If Rs.72 amounts to Rs.104.4 in 3 years, what will Rs.120 amount to in 5 years at the same rate percent per annum?",
       "options": {
         "A": "Rs. 450",
@@ -679,7 +679,7 @@
     },
     {
       "id": 43,
-      "section": "Basic Formula",
+      "section": "Questions Based on Basic Formula",
       "question_markdown": "At simple interest a sum of Rs. 6400 becomes Rs. 8320 in 3 years. What amount will Rs. 7200 become in 5 years at the same rate ?",
       "options": {
         "A": "Rs.10200",
@@ -695,7 +695,7 @@
     },
     {
       "id": 44,
-      "section": "Basic Formula",
+      "section": "Questions Based on Basic Formula",
       "question_markdown": "A bank charges simple interest for Rs.K at the rate of 1 2 r for n2 years. Another bank charges simple interest for Rs.L at the rate of 3 r for n3 years and gives the same interest. The ratio between K and L is: K , n2 r L n3 r",
       "options": {
         "A": "1 1 : r n",
@@ -711,7 +711,7 @@
     },
     {
       "id": 45,
-      "section": "Basic Formula",
+      "section": "Questions Based on Basic Formula",
       "question_markdown": "Simple interest on a certain sum is one-fifth of the sum and the interest rate percent per annum is 5 times the number of years. If the rate of interest increases by 3%, then how much will the simple interest (in Rs.) be on Rs.5,600 for 6 years?",
       "options": {
         "A": "4668",
@@ -727,7 +727,7 @@
     },
     {
       "id": 46,
-      "section": "Basic Formula",
+      "section": "Questions Based on Basic Formula",
       "question_markdown": "Simple interest on a certain sum is one-fourth of the sum and the interest rate percentage per annum is 4 times the number of years. If the rate of interest increases by 2%, then what will be the simple interest (in Rs.) on Rs. 5000 for 3 years?",
       "options": {
         "A": "300",
@@ -743,7 +743,7 @@
     },
     {
       "id": 47,
-      "section": "Basic Formula",
+      "section": "Questions Based on Basic Formula",
       "question_markdown": "The simple interest on a certain sum is one- fifth of the sum and the interest rate percent per annum is 3.2 times the number of years. If the rate of interest increases by 4%, then the simple interest (in `) on `7,500 for 4 years is:",
       "options": {
         "A": "3,600",
@@ -759,7 +759,7 @@
     },
     {
       "id": 48,
-      "section": "Basic Formula",
+      "section": "Questions Based on Basic Formula",
       "question_markdown": "A sum amounts Rs.3985.2 at 14% rate of simple interest after 3 2 5 years. What is the simple interest on same sum at 9% rate of interest after 16 months?",
       "options": {
         "A": "Rs. 272",
@@ -775,7 +775,7 @@
     },
     {
       "id": 49,
-      "section": "Basic Formula",
+      "section": "Questions Based on Basic Formula",
       "question_markdown": "A sum amounts to Rs.4298.4 at 13.2% rate of simple interest after 7.5 years. What is the simple interest on same sum at 6.5 rate of interest after 2 years and 6 months?",
       "options": {
         "A": "Rs. 351",
@@ -791,7 +791,7 @@
     },
     {
       "id": 50,
-      "section": "Basic Formula",
+      "section": "Questions Based on Basic Formula",
       "question_markdown": "A sum becomes Rs.11925 at 13% rate of simple interest in 2 1/2 years and becomes Rs.11200 at _____% rate of simple interest in 4 years. 2 1 ________",
       "options": {
         "A": "6 2/7%",
@@ -807,7 +807,7 @@
     },
     {
       "id": 51,
-      "section": "Basic Formula",
+      "section": "Questions Based on Basic Formula",
       "question_markdown": "The Simple interest at the end of 3 years on a sum of Rs.2000 is Rs.300. What will be the simple interest on Rs.6000 for the same period at the same rate ?",
       "options": {
         "A": "Rs.600",
@@ -823,7 +823,7 @@
     },
     {
       "id": 52,
-      "section": "Basic Formula",
+      "section": "Questions Based on Basic Formula",
       "question_markdown": "The Simple interest at the end of 5.1 years on a sum of Rs 4500 is Rs 175. What will be the simple interest on Rs 9000 for the same period at the same rate ?",
       "options": {
         "A": "Rs.650",
@@ -839,7 +839,7 @@
     },
     {
       "id": 53,
-      "section": "Basic Formula",
+      "section": "Questions Based on Basic Formula",
       "question_markdown": "The Simple interest at the end of 3 years at certain rate per annum on a sum of Rs 500 is Rs 100 . What will be the simple interest on Rs 500 for the same period at the double rate ?",
       "options": {
         "A": "Rs.100",
@@ -855,7 +855,7 @@
     },
     {
       "id": 54,
-      "section": "Basic Formula",
+      "section": "Questions Based on Basic Formula",
       "question_markdown": "The Simple interest in a certain time at 6.15% per annum on a sum of Rs.6000 is Rs.200 . What will be the simple interest on Rs.6000 for the same period at the triple rate ?",
       "options": {
         "A": "Rs.100",
@@ -871,7 +871,7 @@
     },
     {
       "id": 55,
-      "section": "Basic Formula",
+      "section": "Questions Based on Basic Formula",
       "question_markdown": "At a fixed simple interest rate, the amount of Rs.500 becomes Rs.600 in 2 years. If the rate of interest is half, then what will be the amount of Rs.500 in 2 years",
       "options": {
         "A": "Rs.500",
@@ -887,7 +887,7 @@
     },
     {
       "id": 56,
-      "section": "Basic Formula",
+      "section": "Questions Based on Basic Formula",
       "question_markdown": "The Simple interest at the end of 3 year at r% per annum on a sum of Rs.25000 is Rs.1000 . What will be the simple interest on the same sum for 6 year at the same rate ? r",
       "options": {
         "A": "Rs.1000",
@@ -903,7 +903,7 @@
     },
     {
       "id": 57,
-      "section": "Basic Formula",
+      "section": "Questions Based on Basic Formula",
       "question_markdown": "The Simple interest at the end of 3.54 year at r% per annum on a sum of Rs.4000 is Rs.100. What will be the simple interest on the same sum for 7.08 year at the same rate ? r",
       "options": {
         "A": "Rs.100",
@@ -919,7 +919,7 @@
     },
     {
       "id": 58,
-      "section": "Basic Formula",
+      "section": "Questions Based on Basic Formula",
       "question_markdown": "The Simple interest at the end of t year at r% per annum on a sum of Rs.P is Rs.100 . What will be the simple interest on the same sum for 3t year at the 2r% rate ? trP t r",
       "options": {
         "A": "Rs.100",
@@ -935,7 +935,7 @@
     },
     {
       "id": 59,
-      "section": "Basic Formula",
+      "section": "Questions Based on Basic Formula",
       "question_markdown": "The Simple interest at the end of t year at r% per annum on a sum of Rs.P is Rs.60 . What will be the simple interest on the same sum for 5t year at the r/3% rate ? trP t r",
       "options": {
         "A": "Rs.100",
@@ -951,7 +951,7 @@
     },
     {
       "id": 60,
-      "section": "Basic Formula",
+      "section": "Questions Based on Basic Formula",
       "question_markdown": "The Simple interest at the end of t year at r% per annum on a sum of Rs.P is Rs.80 . What will be the simple interest on double the sum for t/4 years at the 3r% rate ? trP t 3r%",
       "options": {
         "A": "Rs.160",
@@ -967,7 +967,7 @@
     },
     {
       "id": 61,
-      "section": "Basic Formula",
+      "section": "Questions Based on Basic Formula",
       "question_markdown": "The Simple interest at the end of 3t year at r% per annum on a sum of Rs.2P is Rs.100. What will be the simple interest on the 3P for 5t years at the 3r% rate ? Pr r",
       "options": {
         "A": "Rs.160",
@@ -983,7 +983,7 @@
     },
     {
       "id": 62,
-      "section": "Basic Formula",
+      "section": "Questions Based on Basic Formula",
       "question_markdown": "In how many years will the simple interest on a sum of money be equal to the principal at rate of 12.5 % p.a.?",
       "options": {
         "A": "6",
@@ -999,7 +999,7 @@
     },
     {
       "id": 63,
-      "section": "Basic Formula",
+      "section": "Questions Based on Basic Formula",
       "question_markdown": "In how many years will the simple interest on a sum of money be equal to the double of the principal at rate of 12.5 % p.a.?",
       "options": {
         "A": "4",
@@ -1015,7 +1015,7 @@
     },
     {
       "id": 64,
-      "section": "Basic Formula",
+      "section": "Questions Based on Basic Formula",
       "question_markdown": "In how many years will the simple interest on a sum of money be equal to the 5 time of principal at rate of 25 % p.a.?",
       "options": {
         "A": "16",
@@ -1031,7 +1031,7 @@
     },
     {
       "id": 65,
-      "section": "Basic Formula",
+      "section": "Questions Based on Basic Formula",
       "question_markdown": "If rate of interest increased by 14.28% and time decreased from 4.5 years to 2.5 years then simple interest decreased by 920. Find the decreased S.I.",
       "options": {
         "A": "Rs.1600",
@@ -1047,7 +1047,7 @@
     },
     {
       "id": 66,
-      "section": "Basic Formula",
+      "section": "Questions Based on Basic Formula",
       "question_markdown": "A sum of Rs.7700 amounts to Rs.9478 at (11.75% p.a. simple interest in certain time. What is the simple interest on the sum of Rs.9,900 at the same rate for the same time?",
       "options": {
         "A": "Rs.2286",
@@ -1063,7 +1063,7 @@
     },
     {
       "id": 67,
-      "section": "Basic Formula",
+      "section": "Questions Based on Basic Formula",
       "question_markdown": "A sum of Rs.8,400 amounts to Rs.11,046 at 8.75% p.a. simple interest in certain time. What is the simple interest on the sum of Rs.9,600 at the same rate for the same time?",
       "options": {
         "A": "Rs.3024",
@@ -1079,7 +1079,7 @@
     },
     {
       "id": 68,
-      "section": "Basic Formula",
+      "section": "Questions Based on Basic Formula",
       "question_markdown": "Veeru invested Rs.10000 at 5% simple annual interest, and exactly after two years, Joy invested Rs.8000 at 10% simple annual interest. How many years after Veeru's investment, will their balances, i.e., principal plus accumulated interest, be equal?",
       "options": {
         "A": "9",

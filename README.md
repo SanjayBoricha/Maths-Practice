@@ -33,5 +33,5 @@ Use schema version 2:
 The website tracks answered question IDs per chapter in localStorage so **Continue from progress** avoids already answered questions.
 
 
-## Added chapters (v12)
+## Added chapters (v13)
 Proportion, Questions Based on Age, Partnership, Mixture, Alligation, Simple Interest, and SI Installment were extracted from the supplied classroom-sheet PDFs with source answer keys and source section/type headings where present.
