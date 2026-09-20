@@ -1,0 +1,14 @@
+{
+  "chapters": [
+    {
+      "id": "ratio",
+      "name": "Ratio",
+      "file": "Ratio.json"
+    },
+    {
+      "id": "percentage",
+      "name": "Percentage",
+      "file": "Percentage.json"
+    }
+  ]
+}

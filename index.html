@@ -1,0 +1,29 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>SSC Maths Practice</title>
+<link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+<header class="topbar"><div><h1>SSC Maths Practice</h1><p>25-question practice sets from your classroom-sheet JSON files.</p></div><button id="themeBtn" class="ghost">Theme</button></header>
+<main>
+<section class="panel controls">
+  <div class="field"><label>Chapter</label><select id="chapterSelect"></select></div>
+  <div class="field"><label>Section</label><select id="sectionSelect"><option value="all">All sections</option></select></div>
+  <div class="field"><label>Set size</label><select id="sizeSelect"><option>25</option><option>10</option><option>50</option><option>100</option></select></div>
+  <div class="field"><label>Mode</label><select id="modeSelect"><option value="continue">Continue from progress</option><option value="random">Random unused</option><option value="all">Random from all</option></select></div>
+  <button id="startBtn" class="primary">Start practice</button>
+  <label class="upload"><input id="fileInput" type="file" accept=".json,application/json" multiple>Import JSON</label>
+</section>
+<section class="stats"><div><b id="chapterName">—</b><span id="chapterCount">0 questions</span></div><div><b id="progressText">0 / 0</b><span>chapter progress</span></div><div><b id="scoreText">—</b><span>current score</span></div></section>
+<section id="empty" class="panel empty"><h2>Choose a chapter and start</h2><p>Add more JSON chapters through the <code>data/</code> folder and list them in <code>data/manifest.json</code>, or import JSON files above for this session.</p></section>
+<section id="quiz" class="quiz hidden">
+  <div class="quizhead"><span id="setLabel">Set</span><span id="timerLabel"></span></div>
+  <div id="questionList"></div>
+  <div class="actions"><button id="submitBtn" class="primary">Check answers</button><button id="resetBtn" class="ghost">New set</button></div>
+  <div id="result" class="result hidden"></div>
+</section>
+</main>
+<script src="js/app.js"></script>
+</body></html>

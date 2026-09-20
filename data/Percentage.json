@@ -1,0 +1,3433 @@
+{
+  "schema_version": 2,
+  "chapter_id": "percentage",
+  "chapter_name": "Percentage",
+  "source_file": "Percentage (ClassRoom Sheet)(1).pdf",
+  "question_count": 214,
+  "questions": [
+    {
+      "id": 1,
+      "section": "Percentage",
+      "question_markdown": "2.5% of 200 = ?",
+      "options": {
+        "A": "5",
+        "B": "4",
+        "C": "3",
+        "D": "1"
+      },
+      "answer": {
+        "option": "A",
+        "text": "5"
+      },
+      "pdf_page": 2
+    },
+    {
+      "id": 2,
+      "section": "Percentage",
+      "question_markdown": "What is 80% of 50% of 90?",
+      "options": {
+        "A": "36",
+        "B": "30",
+        "C": "34",
+        "D": "32"
+      },
+      "answer": {
+        "option": "A",
+        "text": "36"
+      },
+      "pdf_page": 2
+    },
+    {
+      "id": 3,
+      "section": "Percentage",
+      "question_markdown": "If 10% of 24% of x is 240,then x = ?",
+      "options": {
+        "A": "10000",
+        "B": "100",
+        "C": "1000",
+        "D": "100000"
+      },
+      "answer": {
+        "option": "A",
+        "text": "10000"
+      },
+      "pdf_page": 2
+    },
+    {
+      "id": 4,
+      "section": "Percentage",
+      "question_markdown": "Evaluate: 80% of 350 – 1 37 2        % of 160 + 11% of 500.",
+      "options": {
+        "A": "225",
+        "B": "250",
+        "C": "275",
+        "D": "300"
+      },
+      "answer": {
+        "option": "C",
+        "text": "275"
+      },
+      "pdf_page": 2
+    },
+    {
+      "id": 5,
+      "section": "Percentage",
+      "question_markdown": "If 20% of 35% of a number is 240.8, then 18% of that number (rounded off to 1 decimal place) is:",
+      "options": {
+        "A": "621.2",
+        "B": "619.2",
+        "C": "623.2",
+        "D": "618.2"
+      },
+      "answer": {
+        "option": "B",
+        "text": "619.2"
+      },
+      "pdf_page": 2
+    },
+    {
+      "id": 6,
+      "section": "Percentage",
+      "question_markdown": "If 15% of 'a' is equal to 25% of 'b', then find the ratio a : b.",
+      "options": {
+        "A": "3 : 5",
+        "B": "5 : 3",
+        "C": "4 : 5",
+        "D": "5 : 4"
+      },
+      "answer": {
+        "option": "B",
+        "text": "5 : 3"
+      },
+      "pdf_page": 2
+    },
+    {
+      "id": 7,
+      "section": "Percentage",
+      "question_markdown": "1 20 , is what percentage of 1 40 .",
+      "options": {
+        "A": "400%",
+        "B": "215%",
+        "C": "200%",
+        "D": "210%"
+      },
+      "answer": {
+        "option": "C",
+        "text": "200%"
+      },
+      "pdf_page": 2
+    },
+    {
+      "id": 8,
+      "section": "Percentage",
+      "question_markdown": "0.002 is what percent of 0.12?",
+      "options": {
+        "A": "6%",
+        "B": "5 3 %",
+        "C": "3 5 %",
+        "D": "5%"
+      },
+      "answer": {
+        "option": "B",
+        "text": "5 3 %"
+      },
+      "pdf_page": 3
+    },
+    {
+      "id": 9,
+      "section": "Percentage",
+      "question_markdown": "80 meter is what percent of 5 km?",
+      "options": {
+        "A": "1%",
+        "B": "2%",
+        "C": "1.6%",
+        "D": "3.2%"
+      },
+      "answer": {
+        "option": "C",
+        "text": "1.6%"
+      },
+      "pdf_page": 3
+    },
+    {
+      "id": 10,
+      "section": "Percentage",
+      "question_markdown": "What percent of 3 days is 12 hours?",
+      "options": {
+        "A": "5%",
+        "B": "2%",
+        "C": "10%",
+        "D": "2 16 % 3"
+      },
+      "answer": {
+        "option": "D",
+        "text": "2 16 % 3"
+      },
+      "pdf_page": 3
+    },
+    {
+      "id": 11,
+      "section": "Percentage",
+      "question_markdown": "8% of 5 litre is :",
+      "options": {
+        "A": "0.4 ml",
+        "B": "400 ml",
+        "C": "40 ml",
+        "D": "4 ml"
+      },
+      "answer": {
+        "option": "B",
+        "text": "400 ml"
+      },
+      "pdf_page": 3
+    },
+    {
+      "id": 12,
+      "section": "Percentage",
+      "question_markdown": "Mahesh's annual salary increased from `2,00,000 to `2,40,000. Find the percentage increase in the salary.",
+      "options": {
+        "A": "22%",
+        "B": "20%",
+        "C": "24%",
+        "D": "18%"
+      },
+      "answer": {
+        "option": "B",
+        "text": "20%"
+      },
+      "pdf_page": 3
+    },
+    {
+      "id": 13,
+      "section": "Percentage",
+      "question_markdown": "The cost price of an item increased from `2,500 to `3,000. Find the increase percentage.",
+      "options": {
+        "A": "15%",
+        "B": "20%",
+        "C": "30%",
+        "D": "25%"
+      },
+      "answer": {
+        "option": "B",
+        "text": "20%"
+      },
+      "pdf_page": 3
+    },
+    {
+      "id": 14,
+      "section": "Percentage",
+      "question_markdown": "Shantanu’s income decreased from Rs 42,800 to Rs.37,236. Find the percentage decrease in his income.",
+      "options": {
+        "A": "13%",
+        "B": "14%",
+        "C": "11%",
+        "D": "12%"
+      },
+      "answer": {
+        "option": "A",
+        "text": "13%"
+      },
+      "pdf_page": 3
+    },
+    {
+      "id": 15,
+      "section": "Percentage",
+      "question_markdown": "The price of an electric bike was `1,25,000 last year. This year, its price got decreased by 30%. What is the price (in `) of the electric bike this year?",
+      "options": {
+        "A": "87,000",
+        "B": "86,000",
+        "C": "87,500",
+        "D": "86,500"
+      },
+      "answer": {
+        "option": "C",
+        "text": "87,500"
+      },
+      "pdf_page": 3
+    },
+    {
+      "id": 16,
+      "section": "Percentage",
+      "question_markdown": "A fraction 4 5  is changed to 5 6 . How much percentage change is done in the fraction?",
+      "options": {
+        "A": "4.73%",
+        "B": "4.71%",
+        "C": "4.17%",
+        "D": "4.37%"
+      },
+      "answer": {
+        "option": "C",
+        "text": "4.17%"
+      },
+      "pdf_page": 3
+    },
+    {
+      "id": 17,
+      "section": "Percentage",
+      "question_markdown": "A number increased by 20% gives 240. Find the number.",
+      "options": {
+        "A": "200",
+        "B": "280",
+        "C": "240",
+        "D": "250"
+      },
+      "answer": {
+        "option": "A",
+        "text": "200"
+      },
+      "pdf_page": 3
+    },
+    {
+      "id": 18,
+      "section": "Percentage",
+      "question_markdown": "How much is 50% of 60 more than 30% of 40?",
+      "options": {
+        "A": "15",
+        "B": "20",
+        "C": "13",
+        "D": "18"
+      },
+      "answer": {
+        "option": "D",
+        "text": "18"
+      },
+      "pdf_page": 4
+    },
+    {
+      "id": 19,
+      "section": "Percentage",
+      "question_markdown": "20% of a number is 180 more than 20% of 530. Find the number.",
+      "options": {
+        "A": "1530",
+        "B": "1480",
+        "C": "1280",
+        "D": "1430"
+      },
+      "answer": {
+        "option": "D",
+        "text": "1430"
+      },
+      "pdf_page": 4
+    },
+    {
+      "id": 20,
+      "section": "Percentage",
+      "question_markdown": "What is the number which needs to be added to 20% of 460 to have the sum as 70% of 920?",
+      "options": {
+        "A": "335",
+        "B": "762",
+        "C": "926",
+        "D": "552"
+      },
+      "answer": {
+        "option": "D",
+        "text": "552"
+      },
+      "pdf_page": 4
+    },
+    {
+      "id": 21,
+      "section": "Percentage",
+      "question_markdown": "Which of the following is the least?",
+      "options": {
+        "A": "18% of 450",
+        "B": "20% of 380",
+        "C": "25% of 300",
+        "D": "30% of 240"
+      },
+      "answer": {
+        "option": "D",
+        "text": "30% of 240"
+      },
+      "pdf_page": 4
+    },
+    {
+      "id": 22,
+      "section": "Percentage",
+      "question_markdown": "The value of 1 1 1 17 % of 3 % of 33 % 2 4 3 of 7200 is:",
+      "options": {
+        "A": "7.65",
+        "B": "11.68",
+        "C": "13.65",
+        "D": "9.65"
+      },
+      "answer": {
+        "option": "C",
+        "text": "13.65"
+      },
+      "pdf_page": 4
+    },
+    {
+      "id": 23,
+      "section": "Percentage",
+      "question_markdown": "The value of 18% of 15% of 25 9  of 3800 is:",
+      "options": {
+        "A": "285",
+        "B": "582",
+        "C": "583",
+        "D": "385"
+      },
+      "answer": {
+        "option": "A",
+        "text": "285"
+      },
+      "pdf_page": 4
+    },
+    {
+      "id": 24,
+      "section": "Percentage",
+      "question_markdown": "The fraction equivalent to 1 % 5 is:",
+      "options": {
+        "A": "1 125",
+        "B": "1 500",
+        "C": "1 200",
+        "D": "1 40"
+      },
+      "answer": {
+        "option": "B",
+        "text": "1 500"
+      },
+      "pdf_page": 4
+    },
+    {
+      "id": 25,
+      "section": "Percentage",
+      "question_markdown": "Two numbers are respectively 20% less and 30% more than a third number. What is the ratio of the two numbers?",
+      "options": {
+        "A": "8 : 13",
+        "B": "2 : 3",
+        "C": "4 : 5",
+        "D": "7 : 9"
+      },
+      "answer": {
+        "option": "A",
+        "text": "8 : 13"
+      },
+      "pdf_page": 4
+    },
+    {
+      "id": 26,
+      "section": "Percentage",
+      "question_markdown": "If x% of 280 = 15% of 240 + 20% of 310, then the value of x is:",
+      "options": {
+        "A": "38",
+        "B": "35",
+        "C": "30",
+        "D": "40"
+      },
+      "answer": {
+        "option": "B",
+        "text": "35"
+      },
+      "pdf_page": 4
+    },
+    {
+      "id": 27,
+      "section": "Percentage",
+      "question_markdown": "If 25% of 400 + 35% of 1260 + 27% of 1800 = 1020 + x, then the value of x lies between:",
+      "options": {
+        "A": "6 to 10",
+        "B": "0 to 5",
+        "C": "11 to 15",
+        "D": "16 to 20"
+      },
+      "answer": {
+        "option": "A",
+        "text": "6 to 10"
+      },
+      "pdf_page": 4
+    },
+    {
+      "id": 28,
+      "section": "Percentage",
+      "question_markdown": "If 2 66 % 3 of 75% of 1 8 of a certain number is 179, then 1 33 % 3 of three- fourth of that number is:",
+      "options": {
+        "A": "537",
+        "B": "716",
+        "C": "787.6",
+        "D": "859.2"
+      },
+      "answer": {
+        "option": "B",
+        "text": "716"
+      },
+      "pdf_page": 4
+    },
+    {
+      "id": 29,
+      "section": "Percentage",
+      "question_markdown": "Ravi score 72% marks in examination. If these are 360 marks, then the maximum marks are :",
+      "options": {
+        "A": "500",
+        "B": "350",
+        "C": "450",
+        "D": "400"
+      },
+      "answer": {
+        "option": "A",
+        "text": "500"
+      },
+      "pdf_page": 4
+    },
+    {
+      "id": 30,
+      "section": "Percentage",
+      "question_markdown": "A number increased by 1 12 % 2 given 99 as result. The number is?",
+      "options": {
+        "A": "88",
+        "B": "70",
+        "C": "90",
+        "D": "100"
+      },
+      "answer": {
+        "option": "A",
+        "text": "88"
+      },
+      "pdf_page": 4
+    },
+    {
+      "id": 31,
+      "section": "Percentage",
+      "question_markdown": "If 37.5% of a number is added with itself then result becomes 1320. Find the original number.",
+      "options": {
+        "A": "940",
+        "B": "980",
+        "C": "960",
+        "D": "950"
+      },
+      "answer": {
+        "option": "C",
+        "text": "960"
+      },
+      "pdf_page": 5
+    },
+    {
+      "id": 32,
+      "section": "Percentage",
+      "question_markdown": "A number when increased by 1 57 % 2 , gives 378. The number is:",
+      "options": {
+        "A": "240",
+        "B": "200",
+        "C": "400",
+        "D": "100"
+      },
+      "answer": {
+        "option": "A",
+        "text": "240"
+      },
+      "pdf_page": 5
+    },
+    {
+      "id": 33,
+      "section": "Percentage",
+      "question_markdown": "If 62.5% of a number is subtracted from itself then result becomes 6321. Find the original number.",
+      "options": {
+        "A": "16865",
+        "B": "16856",
+        "C": "16685",
+        "D": "16756"
+      },
+      "answer": {
+        "option": "B",
+        "text": "16856"
+      },
+      "pdf_page": 5
+    },
+    {
+      "id": 34,
+      "section": "Percentage",
+      "question_markdown": "If 64 is added in a number then number becomes 1 157 % 7 of itself. Find the original number.",
+      "options": {
+        "A": "113",
+        "B": "112",
+        "C": "114",
+        "D": "115"
+      },
+      "answer": {
+        "option": "B",
+        "text": "112"
+      },
+      "pdf_page": 5
+    },
+    {
+      "id": 35,
+      "section": "Percentage",
+      "question_markdown": "If 85% of a number is added to 75, then the result is the number itself. The number is",
+      "options": {
+        "A": "500",
+        "B": "200",
+        "C": "300",
+        "D": "100"
+      },
+      "answer": {
+        "option": "A",
+        "text": "500"
+      },
+      "pdf_page": 5
+    },
+    {
+      "id": 36,
+      "section": "Percentage",
+      "question_markdown": "If 930 is added in a number then number becomes 4 444 9 % of itself. Find the original number.",
+      "options": {
+        "A": "280",
+        "B": "270",
+        "C": "260",
+        "D": "230"
+      },
+      "answer": {
+        "option": "B",
+        "text": "270"
+      },
+      "pdf_page": 5
+    },
+    {
+      "id": 37,
+      "section": "Percentage",
+      "question_markdown": "If 21 is added in a number then number becomes 1 1372 % of itself. Find the original number.",
+      "options": {
+        "A": "57",
+        "B": "34",
+        "C": "56",
+        "D": "72"
+      },
+      "answer": {
+        "option": "C",
+        "text": "56"
+      },
+      "pdf_page": 5
+    },
+    {
+      "id": 38,
+      "section": "Percentage",
+      "question_markdown": "If the sum of 40% of a number and 30% of the same number is 70, then the number is:",
+      "options": {
+        "A": "150",
+        "B": "200",
+        "C": "100",
+        "D": "125"
+      },
+      "answer": {
+        "option": "C",
+        "text": "100"
+      },
+      "pdf_page": 5
+    },
+    {
+      "id": 39,
+      "section": "Percentage",
+      "question_markdown": "P’s salary is 30% of Q’s salary and Q’s salary is 20% of R’s salary. What percentage of R’s salary is P’s salary?",
+      "options": {
+        "A": "5%",
+        "B": "6%",
+        "C": "8%",
+        "D": "10%"
+      },
+      "answer": {
+        "option": "B",
+        "text": "6%"
+      },
+      "pdf_page": 5
+    },
+    {
+      "id": 40,
+      "section": "Percentage",
+      "question_markdown": "If the numerator of a fraction is increased by 140% and the denominator of the fraction is decreased by 20%, the resultant fraction is 12/7. Find the original fraction.",
+      "options": {
+        "A": "4 9",
+        "B": "4 7",
+        "C": "7 6",
+        "D": "8 9"
+      },
+      "answer": {
+        "option": "B",
+        "text": "4 7"
+      },
+      "pdf_page": 5
+    },
+    {
+      "id": 41,
+      "section": "Percentage",
+      "question_markdown": "If the numerator of a fraction is increased by 60% and the denominator is increased by 40%, then the resultant fraction is 16 63 . The original fraction is :",
+      "options": {
+        "A": "5 9",
+        "B": "2 11",
+        "C": "4 9",
+        "D": "2 9"
+      },
+      "answer": {
+        "option": "D",
+        "text": "2 9"
+      },
+      "pdf_page": 5
+    },
+    {
+      "id": 42,
+      "section": "Percentage",
+      "question_markdown": "A man multiply a number by 3 5  instead of 5 3 . Find the percentage change in his result. ,d vkneh 5",
+      "options": {
+        "A": "65%",
+        "B": "64%",
+        "C": "68%",
+        "D": "None of these"
+      },
+      "answer": {
+        "option": "B",
+        "text": "64%"
+      },
+      "pdf_page": 6
+    },
+    {
+      "id": 43,
+      "section": "Percentage",
+      "question_markdown": "A man multiplied a number by 8 5  instead of 5 8 , what is the percentage error in the calculation?",
+      "options": {
+        "A": "124%",
+        "B": "162%",
+        "C": "156%",
+        "D": "100%"
+      },
+      "answer": {
+        "option": "C",
+        "text": "156%"
+      },
+      "pdf_page": 6
+    },
+    {
+      "id": 44,
+      "section": "Percentage",
+      "question_markdown": "During a division, Pranjal mistakenly took as the dividend a number that was 10% more than the original dividend. He also mistakenly took as the divisor a number that was 25% more than the original divisor. If the correct quotient of the original division problem was 25 and the remainder was 0, what was the quotient that Pranjal obtained, assuming his calculations had no error?",
+      "options": {
+        "A": "21.75",
+        "B": "21.25",
+        "C": "28.75",
+        "D": "22"
+      },
+      "answer": {
+        "option": "D",
+        "text": "22"
+      },
+      "pdf_page": 6
+    },
+    {
+      "id": 45,
+      "section": "Percentage",
+      "question_markdown": "Ankit was to get a 29% hike in his salary but due to typing error. It is wrongly typed the figure 57% and printed the new slip. He received this revised salary for 3 months before the organization realized the mistake, if the excess paid to him in the previous months is to be deducted from his fourth month salary. If after deduction he gets Rs.9000 as fourth months salary then find his actual salary?",
+      "options": {
+        "A": "Rs.28700",
+        "B": "Rs.25400",
+        "C": "Rs.21400",
+        "D": "Rs.25800"
+      },
+      "answer": {
+        "option": "D",
+        "text": "Rs.25800"
+      },
+      "pdf_page": 6
+    },
+    {
+      "id": 46,
+      "section": "Percentage",
+      "question_markdown": "In a competitive exam with 120 questions, there are three sections: General Knowledge (20 questions), Reasoning (50 questions), and English (50 questions). A candidate answered 70% of General Knowledge, 50% of Reasoning, and 30% of English questions correctly. If the minimum passing score is 60%, how many more questions did the candidate need to answer correctly to pass?",
+      "options": {
+        "A": "2",
+        "B": "15",
+        "C": "18",
+        "D": "20"
+      },
+      "answer": {
+        "option": "C",
+        "text": "18"
+      },
+      "pdf_page": 6
+    },
+    {
+      "id": 47,
+      "section": "Percentage",
+      "question_markdown": "A's income is 25% more than income of B. Income of B is how much percent less than income of A?",
+      "options": {
+        "A": "10%",
+        "B": "20%",
+        "C": "40%",
+        "D": "2 16 % 3"
+      },
+      "answer": {
+        "option": "B",
+        "text": "20%"
+      },
+      "pdf_page": 6
+    },
+    {
+      "id": 48,
+      "section": "Percentage",
+      "question_markdown": "Mohan’s income is 40% more than Shyam's income. Shyam's income is what percentage less than Mohan's income?",
+      "options": {
+        "A": "5 28 % 7",
+        "B": "3 28 % 7",
+        "C": "4 28 % 7",
+        "D": "2 28 % 7"
+      },
+      "answer": {
+        "option": "C",
+        "text": "4 28 % 7"
+      },
+      "pdf_page": 6
+    },
+    {
+      "id": 49,
+      "section": "Percentage",
+      "question_markdown": "If A's income is 20% more than B's and B earns `50,000, what percent less is B's income than A's?",
+      "options": {
+        "A": "16.66%",
+        "B": "20%",
+        "C": "18%",
+        "D": "25%"
+      },
+      "answer": {
+        "option": "A",
+        "text": "16.66%"
+      },
+      "pdf_page": 6
+    },
+    {
+      "id": 50,
+      "section": "Percentage",
+      "question_markdown": "If marks of Kejriwal is 33.33% less than Yogi then marks of yogi is how much percent more than that of Kejriwal?",
+      "options": {
+        "A": "80%",
+        "B": "120%",
+        "C": "50%",
+        "D": "175%"
+      },
+      "answer": {
+        "option": "C",
+        "text": "50%"
+      },
+      "pdf_page": 7
+    },
+    {
+      "id": 51,
+      "section": "Percentage",
+      "question_markdown": "Age of Radhema is 20 year If age of Karim is 25% greater than that of Radhema. Then how much percent Radhema's age is less than that of Karim?",
+      "options": {
+        "A": "20%",
+        "B": "40%",
+        "C": "10%",
+        "D": "5%"
+      },
+      "answer": {
+        "option": "A",
+        "text": "20%"
+      },
+      "pdf_page": 7
+    },
+    {
+      "id": 52,
+      "section": "Percentage",
+      "question_markdown": "By what percentage should a racer increase the speed to reduce the time by 25% to cover a fixed distance?",
+      "options": {
+        "A": "1 33 % 3",
+        "B": "1 37 % 3",
+        "C": "41%",
+        "D": "31%"
+      },
+      "answer": {
+        "option": "A",
+        "text": "1 33 % 3"
+      },
+      "pdf_page": 7
+    },
+    {
+      "id": 53,
+      "section": "Percentage",
+      "question_markdown": "If A's salary is 16% more than that of B, then by what percentage is B's salary less than that of A (correct to two decimal places)?",
+      "options": {
+        "A": "13.79%",
+        "B": "13.62%",
+        "C": "15.05%",
+        "D": "12.72%"
+      },
+      "answer": {
+        "option": "A",
+        "text": "13.79%"
+      },
+      "pdf_page": 7
+    },
+    {
+      "id": 54,
+      "section": "Percentage",
+      "question_markdown": "Due to fall in manpower, the production in a company decrease by 35%. By what percentage should the working hours be increased to restore the original production?",
+      "options": {
+        "A": "58.35%",
+        "B": "55.83%",
+        "C": "53.85%",
+        "D": "55.38%"
+      },
+      "answer": {
+        "option": "C",
+        "text": "53.85%"
+      },
+      "pdf_page": 7
+    },
+    {
+      "id": 55,
+      "section": "Percentage",
+      "question_markdown": "By what percent the new price of the article must be increased to restore its former value, if the cost of the article is cut by 25% in the past?",
+      "options": {
+        "A": "1 34 % 4",
+        "B": "1 33 % 3",
+        "C": "33%",
+        "D": "34%"
+      },
+      "answer": {
+        "option": "B",
+        "text": "1 33 % 3"
+      },
+      "pdf_page": 7
+    },
+    {
+      "id": 56,
+      "section": "Percentage",
+      "question_markdown": "If the price of a product increases by 25%, by what percent should the consumption be reduced to keep the expenditure same?",
+      "options": {
+        "A": "10%",
+        "B": "15%",
+        "C": "21%",
+        "D": "20%"
+      },
+      "answer": {
+        "option": "D",
+        "text": "20%"
+      },
+      "pdf_page": 7
+    },
+    {
+      "id": 57,
+      "section": "Percentage",
+      "question_markdown": "If the price of tea is increased by 40%, by what percentage must the consumption of tea be decreased so as not to increase the expenditure?",
+      "options": {
+        "A": "2 31 % 9",
+        "B": "3 31 % 5",
+        "C": "9 35 % 2",
+        "D": "4 28 % 7"
+      },
+      "answer": {
+        "option": "D",
+        "text": "4 28 % 7"
+      },
+      "pdf_page": 7
+    },
+    {
+      "id": 58,
+      "section": "Percentage",
+      "question_markdown": "If side of a square is increased by 10% then find % increase in its perimeter & diagonal",
+      "options": {
+        "A": "10%, 10%",
+        "B": "10%, 21%",
+        "C": "20%, 21%",
+        "D": "20%, 20%"
+      },
+      "answer": {
+        "option": "A",
+        "text": "10%, 10%"
+      },
+      "pdf_page": 7
+    },
+    {
+      "id": 59,
+      "section": "Percentage",
+      "question_markdown": "If radius of a circle is increased by 20% then find % increase in its circumference.",
+      "options": {
+        "A": "10%",
+        "B": "20%",
+        "C": "30%",
+        "D": "40%"
+      },
+      "answer": {
+        "option": "B",
+        "text": "20%"
+      },
+      "pdf_page": 7
+    },
+    {
+      "id": 60,
+      "section": "Percentage",
+      "question_markdown": "If the side of a square is increased by 5%, then the percentage increase in its area will be:",
+      "options": {
+        "A": "10.25%",
+        "B": "11%",
+        "C": "10%",
+        "D": "10.5%"
+      },
+      "answer": {
+        "option": "A",
+        "text": "10.25%"
+      },
+      "pdf_page": 8
+    },
+    {
+      "id": 61,
+      "section": "Percentage",
+      "question_markdown": "If the length of a rectangle is increased by 12% and the breadth is decreased by 8%, the net effect on the area is :",
+      "options": {
+        "A": "Increased by 3.04%",
+        "B": "Increased by 2.6%",
+        "C": "Decreased by 3.04%",
+        "D": "Decreased by 2.6%"
+      },
+      "answer": {
+        "option": "A",
+        "text": "Increased by 3.04%"
+      },
+      "pdf_page": 8
+    },
+    {
+      "id": 62,
+      "section": "Percentage",
+      "question_markdown": "The length and the breadth of a rectangle are made to increase and decrease, respectively, by 8% and 10%. What is the percentage increase or decrease in its area?",
+      "options": {
+        "A": "Decrease by 1.8%",
+        "B": "Increase by 1.8%",
+        "C": "Increase by 2.8%",
+        "D": "Decrease by 2.8%"
+      },
+      "answer": {
+        "option": "D",
+        "text": "Decrease by 2.8%"
+      },
+      "pdf_page": 8
+    },
+    {
+      "id": 63,
+      "section": "Percentage",
+      "question_markdown": "In a rectangle, if length is increased by 20% and breadth is decreased by 20%, what is the percentage change in area?",
+      "options": {
+        "A": "4% decrease",
+        "B": "4% increase",
+        "C": "No change",
+        "D": "10% decrease"
+      },
+      "answer": {
+        "option": "A",
+        "text": "4% decrease"
+      },
+      "pdf_page": 8
+    },
+    {
+      "id": 64,
+      "section": "Percentage",
+      "question_markdown": "The radius of a circle is increased by 300 %. Then its area will increase by what percent.",
+      "options": {
+        "A": "800% increase",
+        "B": "900% increase",
+        "C": "1500% increase",
+        "D": "1600% increase"
+      },
+      "answer": {
+        "option": "C",
+        "text": "1500% increase"
+      },
+      "pdf_page": 8
+    },
+    {
+      "id": 65,
+      "section": "Percentage",
+      "question_markdown": "The radius of a hemisphere is increased by 19 % then what will be effect on total surface area and lateral surface area?",
+      "options": {
+        "A": "41.61% decrease",
+        "B": "41.61% increase",
+        "C": "5 45 % 6 decrease",
+        "D": "44% increase"
+      },
+      "answer": {
+        "option": "B",
+        "text": "41.61% increase"
+      },
+      "pdf_page": 8
+    },
+    {
+      "id": 66,
+      "section": "Percentage",
+      "question_markdown": "If the radius of a cylinder is decreased by 16 percent, then by how much percent its height must be increased, so that the volume of the cylinder remains same?",
+      "options": {
+        "A": "32.96 percent",
+        "B": "41.72 percent",
+        "C": "45.28 percent",
+        "D": "36.43 percent"
+      },
+      "answer": {
+        "option": "B",
+        "text": "41.72 percent"
+      },
+      "pdf_page": 8
+    },
+    {
+      "id": 67,
+      "section": "Percentage",
+      "question_markdown": "The base of a triangle is increased by 40%. By what percentage (correct to two decimal places) should its height be increased so that the area increases by 60%?",
+      "options": {
+        "A": "15.54%",
+        "B": "20.01%",
+        "C": "14.29%",
+        "D": "18.62%"
+      },
+      "answer": {
+        "option": "C",
+        "text": "14.29%"
+      },
+      "pdf_page": 8
+    },
+    {
+      "id": 68,
+      "section": "Percentage",
+      "question_markdown": "Base of a triangle is increased by 1 33 % 3 and its height is reduced by 2 16 % 3 . Find the percentage change in area of triangle?",
+      "options": {
+        "A": "20%",
+        "B": "None of these",
+        "C": "2 16 % 3",
+        "D": "1 11 % 9"
+      },
+      "answer": {
+        "option": "D",
+        "text": "1 11 % 9"
+      },
+      "pdf_page": 8
+    },
+    {
+      "id": 69,
+      "section": "Percentage",
+      "question_markdown": "Base of a triangle is increased by 2 16 % 3 and its height is reduced by 1 33 % 3 . Find the percentage change in area of triangle?",
+      "options": {
+        "A": "20%",
+        "B": "2 22 % 9",
+        "C": "2 16 % 3",
+        "D": "1 11 % 9"
+      },
+      "answer": {
+        "option": "B",
+        "text": "2 22 % 9"
+      },
+      "pdf_page": 8
+    },
+    {
+      "id": 70,
+      "section": "Percentage",
+      "question_markdown": "Length of rectangle is increased by 50%. Then its area is increased by 20%. Find effect on breadth of the rectangle.",
+      "options": {
+        "A": "20% decrease",
+        "B": "25% increase",
+        "C": "20% increase",
+        "D": "25% decrease"
+      },
+      "answer": {
+        "option": "A",
+        "text": "20% decrease"
+      },
+      "pdf_page": 9
+    },
+    {
+      "id": 71,
+      "section": "Percentage",
+      "question_markdown": "The area of a circle is increased by 69% then its radius will increase by what percent.",
+      "options": {
+        "A": "10% increase",
+        "B": "20% increase",
+        "C": "30% increase",
+        "D": "40% increase"
+      },
+      "answer": {
+        "option": "C",
+        "text": "30% increase"
+      },
+      "pdf_page": 9
+    },
+    {
+      "id": 72,
+      "section": "Percentage",
+      "question_markdown": "If the surface area of a sphere increases by 44% by what approximate percent does the radius increase?",
+      "options": {
+        "A": "20%",
+        "B": "21%",
+        "C": "22%",
+        "D": "24%"
+      },
+      "answer": {
+        "option": "A",
+        "text": "20%"
+      },
+      "pdf_page": 9
+    },
+    {
+      "id": 73,
+      "section": "Percentage",
+      "question_markdown": "The area of square is increased by 32.25%. Find the percentage increase in each side of square.",
+      "options": {
+        "A": "10% increase",
+        "B": "15% increase",
+        "C": "20% increase",
+        "D": "25% increase"
+      },
+      "answer": {
+        "option": "B",
+        "text": "15% increase"
+      },
+      "pdf_page": 9
+    },
+    {
+      "id": 74,
+      "section": "Percentage",
+      "question_markdown": "If the area of a square is decreased by 19%, then the diagonal of the square is decreased by :",
+      "options": {
+        "A": "15%",
+        "B": "10%",
+        "C": "5%",
+        "D": "12%"
+      },
+      "answer": {
+        "option": "B",
+        "text": "10%"
+      },
+      "pdf_page": 9
+    },
+    {
+      "id": 75,
+      "section": "Percentage",
+      "question_markdown": "Length of cuboid is increased by 20%, breadth is increased by 30% and height is decreased by 50%. Find effect on volume.",
+      "options": {
+        "A": "22% increase",
+        "B": "22% decrease",
+        "C": "11% increase",
+        "D": "11% decrease"
+      },
+      "answer": {
+        "option": "B",
+        "text": "22% decrease"
+      },
+      "pdf_page": 9
+    },
+    {
+      "id": 76,
+      "section": "Percentage",
+      "question_markdown": "If length and breadth of a cuboid are increased by 7% and 6%, respectively, then the percentage increase in its volume is:",
+      "options": {
+        "A": "11.20%",
+        "B": "13.42%",
+        "C": "18.12%",
+        "D": "15.25%"
+      },
+      "answer": {
+        "option": "B",
+        "text": "13.42%"
+      },
+      "pdf_page": 9
+    },
+    {
+      "id": 77,
+      "section": "Percentage",
+      "question_markdown": "If the height of a cylinder is decreased by 10% and radius increased by 10%, then volume changes by:",
+      "options": {
+        "A": "Decrease by 1%",
+        "B": "Increase by 8.9%",
+        "C": "Decrease by 5.7%",
+        "D": "No change"
+      },
+      "answer": {
+        "option": "B",
+        "text": "Increase by 8.9%"
+      },
+      "pdf_page": 9
+    },
+    {
+      "id": 78,
+      "section": "Percentage",
+      "question_markdown": "The radius of a sphere is reduced by 25%. By what approximate percentage does the volume decrease?",
+      "options": {
+        "A": "58%",
+        "B": "68%",
+        "C": "52%",
+        "D": "50%"
+      },
+      "answer": {
+        "option": "A",
+        "text": "58%"
+      },
+      "pdf_page": 9
+    },
+    {
+      "id": 79,
+      "section": "Percentage",
+      "question_markdown": "If both length and breadth of a cuboid is increased by 12 percent, then by how much percent its height should be reduced so that the volume of the cuboid remains same?",
+      "options": {
+        "A": "14.56 percent",
+        "B": "24.72 percent",
+        "C": "20.28 percent",
+        "D": "28.44 percent"
+      },
+      "answer": {
+        "option": "C",
+        "text": "20.28 percent"
+      },
+      "pdf_page": 9
+    },
+    {
+      "id": 80,
+      "section": "Percentage",
+      "question_markdown": "If the price of petrol increases by 19% and Sunitha intends to spend only an additional 12% on petrol, by what percent should she reduce the quantity of petrol purchased (nearest to an integer) ?",
+      "options": {
+        "A": "7",
+        "B": "6",
+        "C": "5",
+        "D": "8"
+      },
+      "answer": {
+        "option": "B",
+        "text": "6"
+      },
+      "pdf_page": 9
+    },
+    {
+      "id": 81,
+      "section": "Percentage",
+      "question_markdown": "The price of sugar has increased by 18%. A person wants to increase the expenditure by 12% only. By what percent (correct to one decimal place) should he decrease his consumption?",
+      "options": {
+        "A": "6%",
+        "B": "5.1%",
+        "C": "5.3%",
+        "D": "5.6%"
+      },
+      "answer": {
+        "option": "B",
+        "text": "5.1%"
+      },
+      "pdf_page": 10
+    },
+    {
+      "id": 82,
+      "section": "Percentage",
+      "question_markdown": "The price of sugar has increased by 17%. A person wants to increase his expenditure by 5% only. By approximately what percent should he decrease his consumption?",
+      "options": {
+        "A": "10.3",
+        "B": "10.7",
+        "C": "10.9",
+        "D": "9.9"
+      },
+      "answer": {
+        "option": "A",
+        "text": "10.3"
+      },
+      "pdf_page": 10
+    },
+    {
+      "id": 83,
+      "section": "Percentage",
+      "question_markdown": "When the price of a commodity increased by 23%, a family reduced its consumption in such a way that the expenditure on it was only 5% more. By what percentage has the family reduced the consumption of the commodity (correct to one decimal place)?",
+      "options": {
+        "A": "14.2%",
+        "B": "15.8%",
+        "C": "14.6%",
+        "D": "15.2%"
+      },
+      "answer": {
+        "option": "C",
+        "text": "14.6%"
+      },
+      "pdf_page": 10
+    },
+    {
+      "id": 84,
+      "section": "Percentage",
+      "question_markdown": "When the price of rice increases by 25%, a person increases his expenditure on rice only by 15%. By what percentage should he reduce his consumption of rice so as to be able to maintain the same level of expenditure?",
+      "options": {
+        "A": "8%",
+        "B": "5%",
+        "C": "9%",
+        "D": "7%"
+      },
+      "answer": {
+        "option": "A",
+        "text": "8%"
+      },
+      "pdf_page": 10
+    },
+    {
+      "id": 85,
+      "section": "Percentage",
+      "question_markdown": "When the price of an item was reduced by 20%, its sale increased by x%. If there is an increase of 25% in receipt of the revenue, then the value of x is:",
+      "options": {
+        "A": "55.35",
+        "B": "57.75",
+        "C": "56.25",
+        "D": "54.35"
+      },
+      "answer": {
+        "option": "C",
+        "text": "56.25"
+      },
+      "pdf_page": 10
+    },
+    {
+      "id": 86,
+      "section": "Percentage",
+      "question_markdown": "Price of pulse increases by 25%. A person initially purchase 60 kg pulse. How much kg of pulse he can purchase now in same amount?",
+      "options": {
+        "A": "32 kg",
+        "B": "60 kg",
+        "C": "48 kg",
+        "D": "40 kg"
+      },
+      "answer": {
+        "option": "C",
+        "text": "48 kg"
+      },
+      "pdf_page": 10
+    },
+    {
+      "id": 87,
+      "section": "Percentage",
+      "question_markdown": "A reduction of 20% in the price of sugar enables a person to buy 5 kg more for `200. What is the original price per kg?",
+      "options": {
+        "A": "`20",
+        "B": "`10",
+        "C": "`5",
+        "D": "`15"
+      },
+      "answer": {
+        "option": "B",
+        "text": "`10"
+      },
+      "pdf_page": 10
+    },
+    {
+      "id": 88,
+      "section": "Percentage",
+      "question_markdown": "A 25% decrease in the cost of flour enables a consumer to purchase an additional 3 kg for `360. What was the initial price per kg of the flour?",
+      "options": {
+        "A": "30",
+        "B": "36",
+        "C": "40",
+        "D": "45"
+      },
+      "answer": {
+        "option": "C",
+        "text": "40"
+      },
+      "pdf_page": 10
+    },
+    {
+      "id": 89,
+      "section": "Percentage",
+      "question_markdown": "The price of redmi note 9 pro max decreased by 10 % and again reduced by 10 %. Find the combined decrement in total price?",
+      "options": {
+        "A": "19%",
+        "B": "21%",
+        "C": "20%",
+        "D": "CBD"
+      },
+      "answer": {
+        "option": "A",
+        "text": "19%"
+      },
+      "pdf_page": 10
+    },
+    {
+      "id": 90,
+      "section": "Percentage",
+      "question_markdown": "The price of a shirt is increased by 20% and then again increased by 10%. What is the net percentage increase in price?",
+      "options": {
+        "A": "30%",
+        "B": "32%",
+        "C": "31%",
+        "D": "33%"
+      },
+      "answer": {
+        "option": "B",
+        "text": "32%"
+      },
+      "pdf_page": 10
+    },
+    {
+      "id": 91,
+      "section": "Percentage",
+      "question_markdown": "The price of beer shampoo increased by 20% and then decreased by 10%. Find the percentage increase/decrease in total price?",
+      "options": {
+        "A": "8% increase",
+        "B": "8% decrease",
+        "C": "32% increase",
+        "D": "32% decrease"
+      },
+      "answer": {
+        "option": "A",
+        "text": "8% increase"
+      },
+      "pdf_page": 10
+    },
+    {
+      "id": 92,
+      "section": "Percentage",
+      "question_markdown": "If the price of a movie ticket increased by 1 12 % 2 and the sale of tickets also increased by 1 8 % 2 , then find % change in income.",
+      "options": {
+        "A": "21.875%",
+        "B": "22.6750%",
+        "C": "20.675%",
+        "D": "22.0625%"
+      },
+      "answer": {
+        "option": "D",
+        "text": "22.0625%"
+      },
+      "pdf_page": 11
+    },
+    {
+      "id": 93,
+      "section": "Percentage",
+      "question_markdown": "Income of Salman Khan first increased by 8% and then it is decreased by 8%. What is change in his income?",
+      "options": {
+        "A": "0.64% Increase",
+        "B": "0.64% Decrease",
+        "C": "16% Increase",
+        "D": "No change"
+      },
+      "answer": {
+        "option": "B",
+        "text": "0.64% Decrease"
+      },
+      "pdf_page": 11
+    },
+    {
+      "id": 94,
+      "section": "Percentage",
+      "question_markdown": "A person’s salary was decreased by 50% and subsequently increased by 50%. By what much per cent does his salary increase or decrease?",
+      "options": {
+        "A": "Decrease 18%",
+        "B": "Increase 15%",
+        "C": "Increase 20%",
+        "D": "Decrease 25%"
+      },
+      "answer": {
+        "option": "D",
+        "text": "Decrease 25%"
+      },
+      "pdf_page": 11
+    },
+    {
+      "id": 95,
+      "section": "Percentage",
+      "question_markdown": "A number is first increased by 30% and then decreased by 30%. What is the net percentage change?",
+      "options": {
+        "A": "9% decrease",
+        "B": "9% increase",
+        "C": "0%",
+        "D": "6% decrease"
+      },
+      "answer": {
+        "option": "A",
+        "text": "9% decrease"
+      },
+      "pdf_page": 11
+    },
+    {
+      "id": 96,
+      "section": "Percentage",
+      "question_markdown": "The salary of a worker is first increased by 25%, then it is decreased by 12%. The percentage change in his salary is:",
+      "options": {
+        "A": "10% increase",
+        "B": "13% increase",
+        "C": "10% decrease",
+        "D": "13% decrease"
+      },
+      "answer": {
+        "option": "A",
+        "text": "10% increase"
+      },
+      "pdf_page": 11
+    },
+    {
+      "id": 97,
+      "section": "Percentage",
+      "question_markdown": "A number is first decreased by 28% and then increased by 28%. The number so obtained is 784 less than the original number. Find the value of the original number.",
+      "options": {
+        "A": "15000",
+        "B": "1500",
+        "C": "10000",
+        "D": "1000"
+      },
+      "answer": {
+        "option": "C",
+        "text": "10000"
+      },
+      "pdf_page": 11
+    },
+    {
+      "id": 98,
+      "section": "Percentage",
+      "question_markdown": "The price of Rafale first increased by 2 16 % 3 and there after decreased by 1 7 % 7 . What was the change in total price?",
+      "options": {
+        "A": "1 8 % 3 increase",
+        "B": "1 8 % 3 decrease",
+        "C": "None of these",
+        "D": "No Change"
+      },
+      "answer": {
+        "option": "A",
+        "text": "1 8 % 3 increase"
+      },
+      "pdf_page": 11
+    },
+    {
+      "id": 99,
+      "section": "Percentage",
+      "question_markdown": "A worker has an increase of 12 1 2 % in her wages rate per hour but there is a drop of 10% in the number of hours worked per week. If her original weekly wages for a week of 40 hours is Rs.38,400, then the percentage increase in her total weekly wages is:",
+      "options": {
+        "A": "1.25%",
+        "B": "2%",
+        "C": "2.25%",
+        "D": "1.15%"
+      },
+      "answer": {
+        "option": "A",
+        "text": "1.25%"
+      },
+      "pdf_page": 11
+    },
+    {
+      "id": 100,
+      "section": "Percentage",
+      "question_markdown": "Basir's working hours per day were increased by 15% and his wages per hour were increased by 20%. By how much percent did his daily earning increase?",
+      "options": {
+        "A": "40",
+        "B": "38",
+        "C": "35",
+        "D": "36"
+      },
+      "answer": {
+        "option": "B",
+        "text": "38"
+      },
+      "pdf_page": 11
+    },
+    {
+      "id": 101,
+      "section": "Percentage",
+      "question_markdown": "In the expression xy the values of both variables x and y are decreased by 20% . By this, the percentage value of the expression xy is decreased by.",
+      "options": {
+        "A": "36%",
+        "B": "44%",
+        "C": "40%",
+        "D": "None of these"
+      },
+      "answer": {
+        "option": "A",
+        "text": "36%"
+      },
+      "pdf_page": 11
+    },
+    {
+      "id": 102,
+      "section": "Percentage",
+      "question_markdown": "When the price of a watch was reduced by 20%, the number of watches sold is increased by 40%. What was the effect on the sales in percentage?",
+      "options": {
+        "A": "12% Increase",
+        "B": "30% Decrease",
+        "C": "12% Decrease",
+        "D": "30% Increase"
+      },
+      "answer": {
+        "option": "A",
+        "text": "12% Increase"
+      },
+      "pdf_page": 12
+    },
+    {
+      "id": 103,
+      "section": "Percentage",
+      "question_markdown": "A number is first increased by 40% and then decreased by 25%, again increased by 15% and then decreased by 20%. What is the net increase or decrease per cent in the number?",
+      "options": {
+        "A": "7.2% increase",
+        "B": "3.4% increase",
+        "C": "6.4% increase",
+        "D": "3.4% decrease"
+      },
+      "answer": {
+        "option": "D",
+        "text": "3.4% decrease"
+      },
+      "pdf_page": 12
+    },
+    {
+      "id": 104,
+      "section": "Percentage",
+      "question_markdown": "A person’s salary was decreased by 50% and subsequently increased by 50% and then again increased by 100%. How much percentage does he lose or gain?",
+      "options": {
+        "A": "Loss of 40%",
+        "B": "Gain of 50%",
+        "C": "Gain of 25%",
+        "D": "Loss of 10%"
+      },
+      "answer": {
+        "option": "B",
+        "text": "Gain of 50%"
+      },
+      "pdf_page": 12
+    },
+    {
+      "id": 105,
+      "section": "Percentage",
+      "question_markdown": "A number is first increased by 12% and then increased by 23%. The number, so obtained, is now decreased by 34%. What is the net increase or decrease percent in the original number (nearest to an integer)?",
+      "options": {
+        "A": "10% increase",
+        "B": "9% decrease",
+        "C": "10% decrease",
+        "D": "9% increase"
+      },
+      "answer": {
+        "option": "B",
+        "text": "9% decrease"
+      },
+      "pdf_page": 12
+    },
+    {
+      "id": 106,
+      "section": "Percentage",
+      "question_markdown": "The price of a product is decreased by x% and then increased by x%. The final price becomes 10% less than the original. What is the value of x (approximately)?",
+      "options": {
+        "A": "31.6",
+        "B": "33.6",
+        "C": "30.6",
+        "D": "39.6"
+      },
+      "answer": {
+        "option": "C",
+        "text": "30.6"
+      },
+      "pdf_page": 12
+    },
+    {
+      "id": 107,
+      "section": "Percentage",
+      "question_markdown": "Consumption of Wheat increases by 20% and expenditure increases by 50%. What will be the effect on price?",
+      "options": {
+        "A": "20% increase",
+        "B": "20% decrease",
+        "C": "25% increase",
+        "D": "25% decrease"
+      },
+      "answer": {
+        "option": "C",
+        "text": "25% increase"
+      },
+      "pdf_page": 12
+    },
+    {
+      "id": 108,
+      "section": "Percentage",
+      "question_markdown": "When the price of an item was reduced by 25%, then its sale was increased by x%. If there is an increase of 20% in the receipt of the revenue, then the value of x will be:",
+      "options": {
+        "A": "50",
+        "B": "60",
+        "C": "45",
+        "D": "75"
+      },
+      "answer": {
+        "option": "B",
+        "text": "60"
+      },
+      "pdf_page": 12
+    },
+    {
+      "id": 109,
+      "section": "Percentage",
+      "question_markdown": "The population of a town is 15000. If the population increases by 15% in the first year, by 25% in the second year and due to pollution it decreases by 6% in the third year, what will be its population after 3 years? (Round off number in answer)",
+      "options": {
+        "A": "20269",
+        "B": "15269",
+        "C": "25269",
+        "D": "28269"
+      },
+      "answer": {
+        "option": "A",
+        "text": "20269"
+      },
+      "pdf_page": 12
+    },
+    {
+      "id": 110,
+      "section": "Percentage",
+      "question_markdown": "Bike is purchased for Rs.50,000. Its rate depreciates at 10% annually. In how many years will its value be Rs.36,450?",
+      "options": {
+        "A": "3",
+        "B": "2",
+        "C": "5",
+        "D": "4"
+      },
+      "answer": {
+        "option": "A",
+        "text": "3"
+      },
+      "pdf_page": 12
+    },
+    {
+      "id": 111,
+      "section": "Percentage",
+      "question_markdown": "The population of a town increases by 20% in the first year, decreases by 10% in the second year, and again increases by 25% in the third year. If the population at the beginning was 40,000. What will it be after 3 years? Maths by Aditya Ranjan sir 12 Selected gaS Selection fnyk,axs Aditya Ranjan (Excise Inspector) Percentage Join Telegram- Maths by Aditya ranjan",
+      "options": {
+        "A": "24,000",
+        "B": "43,200",
+        "C": "48,000",
+        "D": "54,000"
+      },
+      "answer": {
+        "option": "D",
+        "text": "54,000"
+      },
+      "pdf_page": 12
+    },
+    {
+      "id": 112,
+      "section": "Percentage",
+      "question_markdown": "In a city, the population is increased by 12%. Due to COVID like virus it decreases by 12%. If the population of the city at present is 295680, the initial population of the city is:",
+      "options": {
+        "A": "313000",
+        "B": "320000",
+        "C": "280000",
+        "D": "300000"
+      },
+      "answer": {
+        "option": "D",
+        "text": "300000"
+      },
+      "pdf_page": 13
+    },
+    {
+      "id": 113,
+      "section": "Percentage",
+      "question_markdown": "The population of a town is 36000. If it is increasing at the rate of 2 16 % 3 per annum, then what will be its population two year hence?",
+      "options": {
+        "A": "48000",
+        "B": "49000",
+        "C": "36000",
+        "D": "None of these"
+      },
+      "answer": {
+        "option": "B",
+        "text": "49000"
+      },
+      "pdf_page": 13
+    },
+    {
+      "id": 114,
+      "section": "Percentage",
+      "question_markdown": "The population of a village was 1,00,000. It increased by 5% in the first year and increased by 20% in the second year. Its population after two years is _______.",
+      "options": {
+        "A": "1,26,000",
+        "B": "1,25,000",
+        "C": "1,05,000",
+        "D": "1,20,000"
+      },
+      "answer": {
+        "option": "A",
+        "text": "1,26,000"
+      },
+      "pdf_page": 13
+    },
+    {
+      "id": 115,
+      "section": "Percentage",
+      "question_markdown": "The value of a machine depreciates 10% in the first year, 20% in the second year and 30% in the third year. If the initial value was `10,000, what is its value at the end of 3 years?",
+      "options": {
+        "A": "`5040",
+        "B": "`5600",
+        "C": "`5800",
+        "D": "`6200"
+      },
+      "answer": {
+        "option": "A",
+        "text": "`5040"
+      },
+      "pdf_page": 13
+    },
+    {
+      "id": 116,
+      "section": "Percentage",
+      "question_markdown": "The population of a town is 80,000. It decreases by 8% in the first year and increases by 5% in the second year. What will be the population of the town at the end of 2 years?",
+      "options": {
+        "A": "76150",
+        "B": "86140",
+        "C": "77280",
+        "D": "82540"
+      },
+      "answer": {
+        "option": "C",
+        "text": "77280"
+      },
+      "pdf_page": 13
+    },
+    {
+      "id": 117,
+      "section": "Percentage",
+      "question_markdown": "The population of a town is 15000. It increases by 1 12 % 2 , 1 11 % 9 , 20% in the first year, second and third year. What is the population of the town at the end of 3rd year?",
+      "options": {
+        "A": "15000",
+        "B": "30000",
+        "C": "45000",
+        "D": "None of these"
+      },
+      "answer": {
+        "option": "D",
+        "text": "None of these"
+      },
+      "pdf_page": 13
+    },
+    {
+      "id": 118,
+      "section": "Percentage",
+      "question_markdown": "Two years ago, the population of a town was 9487500. Due to migration to big cities, it decreases every year at the rate of 8%. The present population of the town is:",
+      "options": {
+        "A": "9060110",
+        "B": "7060320",
+        "C": "8070120",
+        "D": "8030220"
+      },
+      "answer": {
+        "option": "D",
+        "text": "8030220"
+      },
+      "pdf_page": 13
+    },
+    {
+      "id": 119,
+      "section": "Percentage",
+      "question_markdown": "The population of a city increased 30% in the first year and decreased by 15% in the next year. If the present population is 11,050 then the population 2 years ago was :",
+      "options": {
+        "A": "10,000",
+        "B": "10,050",
+        "C": "99,000",
+        "D": "99,500"
+      },
+      "answer": {
+        "option": "A",
+        "text": "10,000"
+      },
+      "pdf_page": 13
+    },
+    {
+      "id": 120,
+      "section": "Percentage",
+      "question_markdown": "The population of a town has increased by 5% at the end of the first year and decreased by 4% at the end of second year. If the population at the end of second year was 55,12,248, then the population at the begining of first year was :",
+      "options": {
+        "A": "55,72,950",
+        "B": "56,23,012",
+        "C": "54,68,500",
+        "D": "53,00,420"
+      },
+      "answer": {
+        "option": "C",
+        "text": "54,68,500"
+      },
+      "pdf_page": 13
+    },
+    {
+      "id": 121,
+      "section": "Percentage",
+      "question_markdown": "The population of a place increased to 50,000 from 2016 to 2018 at the rate of 6% per annum, and continued the same trend for the next 3 years. If A is the population in 2016 and B is the population in 2020, both are approximated to the next possible integers, then the value of B – A is:",
+      "options": {
+        "A": "11680",
+        "B": "16270",
+        "C": "13220",
+        "D": "12850"
+      },
+      "answer": {
+        "option": "A",
+        "text": "11680"
+      },
+      "pdf_page": 14
+    },
+    {
+      "id": 122,
+      "section": "Percentage",
+      "question_markdown": "The salary of A on 1-1-22 is `1,52,400 per month. It increased by 8% in March, reduced by 5% in August and again increased by 10% in November. What will be his salary (in `) after the third change? (rounded off to the nearest integer)",
+      "options": {
+        "A": "171998.64",
+        "B": "171998.65",
+        "C": "181978.66",
+        "D": "171988.62"
+      },
+      "answer": {
+        "option": "A",
+        "text": "171998.64"
+      },
+      "pdf_page": 14
+    },
+    {
+      "id": 123,
+      "section": "Percentage",
+      "question_markdown": "A manufacturer sells an item to a wholesale dealer at a profit of 11%. The wholesaler sells the same to a retailer at a profit of 15%. The retailer in turn sells it to a customer for Rs. 17,045, thereby earning a profit of 19%. The cost price of the manufacturer is (consider integral part only):",
+      "options": {
+        "A": "Rs.13,520",
+        "B": "Rs.15,020",
+        "C": "Rs.10,200",
+        "D": "Rs.11,220"
+      },
+      "answer": {
+        "option": "D",
+        "text": "Rs.11,220"
+      },
+      "pdf_page": 14
+    },
+    {
+      "id": 124,
+      "section": "Percentage",
+      "question_markdown": "Price of a one gram gold coin decreased by 10% on its initial price on Monday and increased by 20% on Tuesday and again increased by 8% on Wednesday, and 5% increase on Thursday. If the final price on Thursday is Rs.5511.24, then the initial price (in Rs.) of one gram gold coin on Monday was?",
+      "options": {
+        "A": "4500",
+        "B": "4250",
+        "C": "4000",
+        "D": "5000"
+      },
+      "answer": {
+        "option": "A",
+        "text": "4500"
+      },
+      "pdf_page": 14
+    },
+    {
+      "id": 125,
+      "section": "Percentage",
+      "question_markdown": "The price of an item increases successively by 25% and 18% and then the resulting price is decreased by 40%. If the final price of the item is `141.60, then 35% of the original price of the item is:",
+      "options": {
+        "A": "` 81",
+        "B": "` 72",
+        "C": "` 63",
+        "D": "` 56"
+      },
+      "answer": {
+        "option": "D",
+        "text": "` 56"
+      },
+      "pdf_page": 14
+    },
+    {
+      "id": 126,
+      "section": "Percentage",
+      "question_markdown": "Meena scores 40% in an examination and after review, even though her score is increased by 50% she fails by 35 marks, If her post-review score in increased by 20%, she will have 7 marks more than the passing score. The percentage score needed for passing the examination is.",
+      "options": {
+        "A": "70",
+        "B": "80",
+        "C": "75",
+        "D": "60"
+      },
+      "answer": {
+        "option": "A",
+        "text": "70"
+      },
+      "pdf_page": 14
+    },
+    {
+      "id": 127,
+      "section": "Percentage",
+      "question_markdown": "The population of a city grew from 40 lakh to 44 lakh in one year. The rate of growth per annum.",
+      "options": {
+        "A": "10%",
+        "B": "15%",
+        "C": "20%",
+        "D": "25%"
+      },
+      "answer": {
+        "option": "A",
+        "text": "10%"
+      },
+      "pdf_page": 14
+    },
+    {
+      "id": 128,
+      "section": "Percentage",
+      "question_markdown": "The population of town in 2004 is 1000, in 2007 it grew to 1331. Then find rate of growth per annum if it increases at a constant rate every year. Maths by Aditya Ranjan sir 14 Selected gaS Selection fnyk,axs Aditya Ranjan (Excise Inspector) Percentage Join Telegram- Maths by Aditya ranjan",
+      "options": {
+        "A": "10%",
+        "B": "20%",
+        "C": "16.66%",
+        "D": "33.33%"
+      },
+      "answer": {
+        "option": "A",
+        "text": "10%"
+      },
+      "pdf_page": 14
+    },
+    {
+      "id": 129,
+      "section": "Percentage",
+      "question_markdown": "The income of a company increases by x% per year. If its income is Rs.31,25,000 in the year 2019, and the income in 2017 was Rs.20,00,000, then what is the value of x ?",
+      "options": {
+        "A": "20",
+        "B": "18",
+        "C": "15",
+        "D": "25"
+      },
+      "answer": {
+        "option": "D",
+        "text": "25"
+      },
+      "pdf_page": 15
+    },
+    {
+      "id": 130,
+      "section": "Percentage",
+      "question_markdown": "A shopkeeper has certain length of wire. 10% of wire is stolen and 70% of the remaining was sold out. Find the original length of the wire if 810 meter is still left?",
+      "options": {
+        "A": "1000",
+        "B": "2000",
+        "C": "1500",
+        "D": "3000"
+      },
+      "answer": {
+        "option": "D",
+        "text": "3000"
+      },
+      "pdf_page": 15
+    },
+    {
+      "id": 131,
+      "section": "Percentage",
+      "question_markdown": "In a library 20% of the books are in Hindi, 50% of the remaining in English and 30% of the remaining are in French and rest 6300 books are in regional language. Then find the no. of books in library.",
+      "options": {
+        "A": "16000",
+        "B": "22500",
+        "C": "10200",
+        "D": "14400"
+      },
+      "answer": {
+        "option": "B",
+        "text": "22500"
+      },
+      "pdf_page": 15
+    },
+    {
+      "id": 132,
+      "section": "Percentage",
+      "question_markdown": "Seema spends 5% of her total income in travelling and 20% of the rest spend in food and then she donate ` 120 and still she is left with ` 1400. Find her income.",
+      "options": {
+        "A": "1500",
+        "B": "2000",
+        "C": "2500",
+        "D": "3000"
+      },
+      "answer": {
+        "option": "B",
+        "text": "2000"
+      },
+      "pdf_page": 15
+    },
+    {
+      "id": 133,
+      "section": "Percentage",
+      "question_markdown": "In a city, the current number of literate people is 25,000. If the number of literate males decreases by 5% and the number of literate females increases by 10%, the total literate population becomes 25,250. What is the present number of literate males in the city?",
+      "options": {
+        "A": "12,500",
+        "B": "14,000",
+        "C": "15,000",
+        "D": "16,500"
+      },
+      "answer": {
+        "option": "C",
+        "text": "15,000"
+      },
+      "pdf_page": 15
+    },
+    {
+      "id": 134,
+      "section": "Percentage",
+      "question_markdown": "In a certain year, the population of a city was 18000. If in the next year, the population of males increased by 5% and that of females increased by 7%, and the total population increased to 19200, then what was the ratio of the populations of males and females in that given year?",
+      "options": {
+        "A": "2 : 5",
+        "B": "1 : 5",
+        "C": "4 : 3",
+        "D": "3 : 5"
+      },
+      "answer": {
+        "option": "B",
+        "text": "1 : 5"
+      },
+      "pdf_page": 15
+    },
+    {
+      "id": 135,
+      "section": "Percentage",
+      "question_markdown": "The present population of a village is 15280. If the number of males increases by 25% and the number of females increases by 15%, then the population will become 18428. The difference between present population of males and females in the village is:",
+      "options": {
+        "A": "1840",
+        "B": "1380",
+        "C": "920",
+        "D": "2760"
+      },
+      "answer": {
+        "option": "A",
+        "text": "1840"
+      },
+      "pdf_page": 15
+    },
+    {
+      "id": 136,
+      "section": "Percentage",
+      "question_markdown": "In an examination, 53% of the candidates failed in Science and 48% failed in mathematics. If 40% failed in both subjects, what percentage passed in both subject? ,d ijh{kk esa 53» Nk=k foKku esa vuqÙkh.kZ gq, rFkk 48»",
+      "options": {
+        "A": "51%",
+        "B": "39%",
+        "C": "49%",
+        "D": "43%"
+      },
+      "answer": {
+        "option": "B",
+        "text": "39%"
+      },
+      "pdf_page": 15
+    },
+    {
+      "id": 137,
+      "section": "Percentage",
+      "question_markdown": "In an examination 35% of the students fail in economics, 45% fail in reasoning. If 20% students failed in both. How much percent of students passed in both the subjects? Maths by Aditya Ranjan sir 15 Selected gaS Selection fnyk,axs Aditya Ranjan (Excise Inspector) Percentage Join Telegram- Maths by Aditya ranjan",
+      "options": {
+        "A": "20%",
+        "B": "10%",
+        "C": "30%",
+        "D": "40%"
+      },
+      "answer": {
+        "option": "D",
+        "text": "40%"
+      },
+      "pdf_page": 15
+    },
+    {
+      "id": 138,
+      "section": "Percentage",
+      "question_markdown": "In an office, 55% persons like tea, 60% persons like coffee and 45% like both. Then what is the percentage of persons who like at least one drink?",
+      "options": {
+        "A": "80%",
+        "B": "70%",
+        "C": "45%",
+        "D": "60%"
+      },
+      "answer": {
+        "option": "B",
+        "text": "70%"
+      },
+      "pdf_page": 16
+    },
+    {
+      "id": 139,
+      "section": "Percentage",
+      "question_markdown": "A school conducted a scholarship test where 60% of the students passed in English, 70% passed in Math, and 45% passed in both. What is the percentage of students who passed in at least one subject?",
+      "options": {
+        "A": "90%",
+        "B": "75%",
+        "C": "85%",
+        "D": "80%"
+      },
+      "answer": {
+        "option": "C",
+        "text": "85%"
+      },
+      "pdf_page": 16
+    },
+    {
+      "id": 140,
+      "section": "Percentage",
+      "question_markdown": "In an office 55% people like tea and 64% people like coffee. If 380 people like both tea and coffee then find total number of members?",
+      "options": {
+        "A": "1000",
+        "B": "1500",
+        "C": "2000",
+        "D": "None of these"
+      },
+      "answer": {
+        "option": "C",
+        "text": "2000"
+      },
+      "pdf_page": 16
+    },
+    {
+      "id": 141,
+      "section": "Percentage",
+      "question_markdown": "In an examination 75% of the students passed in science, 60% passed in hindi and 25% failed in both. If 240 students passed both the examination. Find the total number of students who gave the examination? ,d ijh{kk esa 75» Nk=k foKku esa mÙkh.kZ gq,] 60» fganh esa",
+      "options": {
+        "A": "300",
+        "B": "400",
+        "C": "500",
+        "D": "None of these"
+      },
+      "answer": {
+        "option": "B",
+        "text": "400"
+      },
+      "pdf_page": 16
+    },
+    {
+      "id": 142,
+      "section": "Percentage",
+      "question_markdown": "In an election between two candidates, the one who gets 88% of the votes is elected by a majority of 684 votes. What is the total number of votes polled? (all polled votes are valid).",
+      "options": {
+        "A": "900",
+        "B": "800",
+        "C": "850",
+        "D": "750"
+      },
+      "answer": {
+        "option": "A",
+        "text": "900"
+      },
+      "pdf_page": 16
+    },
+    {
+      "id": 143,
+      "section": "Percentage",
+      "question_markdown": "In an election two candidates participated. Winner got 80% votes and won by 4200 votes. Find the total number of votes.",
+      "options": {
+        "A": "4000",
+        "B": "3000",
+        "C": "7000",
+        "D": "None of these"
+      },
+      "answer": {
+        "option": "C",
+        "text": "7000"
+      },
+      "pdf_page": 16
+    },
+    {
+      "id": 144,
+      "section": "Percentage",
+      "question_markdown": "In an election between two candidates, one candidate got 38% of the votes and yet lost by 7200 votes. If all the votes polled were valid, then the total number of votes cast in the election was:",
+      "options": {
+        "A": "13,800",
+        "B": "13,000",
+        "C": "16,200",
+        "D": "30,000"
+      },
+      "answer": {
+        "option": "D",
+        "text": "30,000"
+      },
+      "pdf_page": 16
+    },
+    {
+      "id": 145,
+      "section": "Percentage",
+      "question_markdown": "A total of 7,50,000 voters participated in an election. A candidate received 3,82,500 votes which was 60% of the total valid votes. What was the percentage of invalid votes in the election? ,d pquko esa dqy 7]50]000 ernkrkvksa us Hkkx fy;kA ,d",
+      "options": {
+        "A": "15%",
+        "B": "20%",
+        "C": "12%",
+        "D": "18%"
+      },
+      "answer": {
+        "option": "A",
+        "text": "15%"
+      },
+      "pdf_page": 16
+    },
+    {
+      "id": 146,
+      "section": "Percentage",
+      "question_markdown": "In an election between two candidates, one candidate got 60% of the valid votes. If the total number of votes polled were 8850, and 10% of the votes were invalid, then find the number of valid votes that the other candidate got.",
+      "options": {
+        "A": "3816",
+        "B": "3186",
+        "C": "3681",
+        "D": "3618"
+      },
+      "answer": {
+        "option": "B",
+        "text": "3186"
+      },
+      "pdf_page": 16
+    },
+    {
+      "id": 147,
+      "section": "Percentage",
+      "question_markdown": "In an election, 80% of eligible voters cast their votes. Of these votes, 5% were declared invalid. If a winning candidate received 11,400 votes, which accounted for 60% of the total valid votes, what was the total number of eligible voters enrolled in that election? Maths by Aditya Ranjan sir 16 Selected gaS Selection fnyk,axs Aditya Ranjan (Excise Inspector) Percentage Join Telegram- Maths by Aditya ranjan ,d pquko esa] 80» ;ksX; ernkrkvksa us vius oksV MkysA",
+      "options": {
+        "A": "20,000",
+        "B": "22,500",
+        "C": "25,000",
+        "D": "27,500"
+      },
+      "answer": {
+        "option": "C",
+        "text": "25,000"
+      },
+      "pdf_page": 16
+    },
+    {
+      "id": 148,
+      "section": "Percentage",
+      "question_markdown": "In an election, candidate X got 70% of the overall valid votes. If 20% of the overall votes were declared invalid and the total number of votes is 64000, then find the number of valid votes polled in favour of the candidate.",
+      "options": {
+        "A": "35840",
+        "B": "45000",
+        "C": "40000",
+        "D": "35800"
+      },
+      "answer": {
+        "option": "A",
+        "text": "35840"
+      },
+      "pdf_page": 17
+    },
+    {
+      "id": 149,
+      "section": "Percentage",
+      "question_markdown": "In an election, 25% voters did not vote. Out of the votes polled, 20% were declared invalid. The winner secured 60% of the valid votes and defeated his rival by 2,400 votes. Find the total number of voters.",
+      "options": {
+        "A": "22,000",
+        "B": "16,000",
+        "C": "20,000",
+        "D": "30,000"
+      },
+      "answer": {
+        "option": "C",
+        "text": "20,000"
+      },
+      "pdf_page": 17
+    },
+    {
+      "id": 150,
+      "section": "Percentage",
+      "question_markdown": "In an election between two candidates, 3% did not cast their votes and 5% votes polled were declared invalid. The winning candidate got 54% of the valid votes and won by a majority of 11058 votes. Find the number of voters who did not cast their votes.",
+      "options": {
+        "A": "5050",
+        "B": "3750",
+        "C": "4500",
+        "D": "4125"
+      },
+      "answer": {
+        "option": "C",
+        "text": "4500"
+      },
+      "pdf_page": 17
+    },
+    {
+      "id": 151,
+      "section": "Percentage",
+      "question_markdown": "Two candidates participated in an election. 20% voters did not cast their votes and 10% votes were declared invalid. Winner candidates got 40% of total votes enrolled in the voters list and got elected by 2400 votes. Find the total number of voters in voters list. ,d pquko esa nks mEehnokjksa us Hkkx fy;kA 20» ernkrkvksa",
+      "options": {
+        "A": "20000",
+        "B": "24000",
+        "C": "27500",
+        "D": "30000"
+      },
+      "answer": {
+        "option": "D",
+        "text": "30000"
+      },
+      "pdf_page": 17
+    },
+    {
+      "id": 152,
+      "section": "Percentage",
+      "question_markdown": "In an election between two candidates, 20% of the voters on the voters list did not cast their votes and 80 voters cast their ballot papers blank. The winner secured 45% of all the voters in the list and he got 280 votes more than his rival. The number of voters on the list was:",
+      "options": {
+        "A": "2000",
+        "B": "2800",
+        "C": "2500",
+        "D": "1500"
+      },
+      "answer": {
+        "option": "A",
+        "text": "2000"
+      },
+      "pdf_page": 17
+    },
+    {
+      "id": 153,
+      "section": "Percentage",
+      "question_markdown": "In an election, 15% of the voters on the voters list did not cast their votes and 100 voters cast their ballot paper blank. There were only two candidates Ram and Shyam. The winner, Ram, was supported by 69% of all the voters in the list and he got 630 votes more than Shyam. Find the number of voters on the list.",
+      "options": {
+        "A": "1200",
+        "B": "1000",
+        "C": "1100",
+        "D": "1300"
+      },
+      "answer": {
+        "option": "B",
+        "text": "1000"
+      },
+      "pdf_page": 17
+    },
+    {
+      "id": 154,
+      "section": "Percentage",
+      "question_markdown": "In an election between two candidates, 20% of the registered voters did not cast their votes and 40 votes were declared invalid. The winner received 42% of the registered votes and was declared the winner by 112 votes. What was the number of registered voters?",
+      "options": {
+        "A": "1200",
+        "B": "1500",
+        "C": "1800",
+        "D": "3800"
+      },
+      "answer": {
+        "option": "C",
+        "text": "1800"
+      },
+      "pdf_page": 17
+    },
+    {
+      "id": 155,
+      "section": "Percentage",
+      "question_markdown": "In a village election between three candidates, 80% of the voter cast their votes, out of which 3% votes were declared invalid. The winning candidate got 42,680 votes which were 55% of the total valid votes. Find the number of valid votes received by the candidate who stood third, given that he received only 10% of the total valid votes.",
+      "options": {
+        "A": "7760",
+        "B": "7700",
+        "C": "7670",
+        "D": "7680"
+      },
+      "answer": {
+        "option": "A",
+        "text": "7760"
+      },
+      "pdf_page": 18
+    },
+    {
+      "id": 156,
+      "section": "Percentage",
+      "question_markdown": "In an election, there were four candidates and 95% of voters cast their votes. One candidate got 25% of the votes while the other three shared the remaining votes in the ratio of 6 : 7 : 2. The difference of votes secured by the candidate standing 3rd to the candidate standing 4th is equal to 69198. Find the votes secured by the winning candidate.",
+      "options": {
+        "A": "115330",
+        "B": "138396",
+        "C": "161462",
+        "D": "156458"
+      },
+      "answer": {
+        "option": "C",
+        "text": "161462"
+      },
+      "pdf_page": 18
+    },
+    {
+      "id": 157,
+      "section": "Percentage",
+      "question_markdown": "In an election between two candidates, y% of the voters did not vote. 10% of the votes cast were declared invalid, while all the valid votes were cast in favour of either of the two candidates. The candidate who got 59.375% of the valid votes cast was declared elected by 2484 votes. If the number of people eligible to vote in that election was 16,000, what is the value of y?",
+      "options": {
+        "A": "7.2",
+        "B": "8.4",
+        "C": "8",
+        "D": "7.5"
+      },
+      "answer": {
+        "option": "C",
+        "text": "8"
+      },
+      "pdf_page": 18
+    },
+    {
+      "id": 158,
+      "section": "Percentage",
+      "question_markdown": "Ravi scores 40% marks and fails by 30 marks. Sohan scores 50% marks and gets 20 marks more than the pass marks. Find the maximum marks of the exam.",
+      "options": {
+        "A": "400",
+        "B": "450",
+        "C": "500",
+        "D": "550"
+      },
+      "answer": {
+        "option": "C",
+        "text": "500"
+      },
+      "pdf_page": 18
+    },
+    {
+      "id": 159,
+      "section": "Percentage",
+      "question_markdown": "John got 20% marks in an examination and failed by 10 marks. In the same examination, Jack got 35% marks which were 20 more than the minimum passing marks, Find the percentage of minimum marks required to pass.",
+      "options": {
+        "A": "30",
+        "B": "35",
+        "C": "25",
+        "D": "20"
+      },
+      "answer": {
+        "option": "C",
+        "text": "25"
+      },
+      "pdf_page": 18
+    },
+    {
+      "id": 160,
+      "section": "Percentage",
+      "question_markdown": "A student scores 20% marks and fails by 40 marks while another student who scores 32% marks, gets 47 marks more than the minimum required pass marks. What are the maximum marks for the examination?",
+      "options": {
+        "A": "600",
+        "B": "750",
+        "C": "650",
+        "D": "725"
+      },
+      "answer": {
+        "option": "D",
+        "text": "725"
+      },
+      "pdf_page": 18
+    },
+    {
+      "id": 161,
+      "section": "Percentage",
+      "question_markdown": "A candidate fails by 21 marks from the minimum  to pass an exam while another candidate scores 147 marks more than the minimum required. If the difference in percentage secured by both the candidates is 40%, what is the maximum marks that can be scored in the said exam? ,d mEehnokj ijh{kk eas U;wure ls 21 vad de izkIr djrk",
+      "options": {
+        "A": "420",
+        "B": "360",
+        "C": "400",
+        "D": "380"
+      },
+      "answer": {
+        "option": "A",
+        "text": "420"
+      },
+      "pdf_page": 18
+    },
+    {
+      "id": 162,
+      "section": "Percentage",
+      "question_markdown": "A company give 10% commission to his salesman on total sales and 2.5% bonus on the sales over `10,000, If the salesman earns `2875. Find total sales.",
+      "options": {
+        "A": "`30000",
+        "B": "`25000",
+        "C": "`28000",
+        "D": "`29000"
+      },
+      "answer": {
+        "option": "B",
+        "text": "`25000"
+      },
+      "pdf_page": 19
+    },
+    {
+      "id": 163,
+      "section": "Percentage",
+      "question_markdown": "A company give 1 52 % commission to his salesman on total sales and 0.5% bonus on the sales over `10,000. If the salesman earns `1990. Find total sales.",
+      "options": {
+        "A": "`37000",
+        "B": "`35000",
+        "C": "`36000",
+        "D": "`34000"
+      },
+      "answer": {
+        "option": "D",
+        "text": "`34000"
+      },
+      "pdf_page": 19
+    },
+    {
+      "id": 164,
+      "section": "Percentage",
+      "question_markdown": "A company give 12% commission to his salesman on total sales and 1% bonus on the sales over `15000. If the salesman deposit `52,350 after deducting his commission from total sales. Find total sales.",
+      "options": {
+        "A": "`72000",
+        "B": "`70000",
+        "C": "`48000",
+        "D": "`60000"
+      },
+      "answer": {
+        "option": "D",
+        "text": "`60000"
+      },
+      "pdf_page": 19
+    },
+    {
+      "id": 165,
+      "section": "Percentage",
+      "question_markdown": "A marketing agent earns a commission of 2% on first `2,00,000, 1.5% on next `2,00,000 and 1% on the remaining amount of sales made in a month. If the sales achieved by the agent for the month of April 2018 are `5,68,000. The commission earned is:",
+      "options": {
+        "A": "`8680",
+        "B": "`7730",
+        "C": "`8240",
+        "D": "`7105"
+      },
+      "answer": {
+        "option": "A",
+        "text": "`8680"
+      },
+      "pdf_page": 19
+    },
+    {
+      "id": 166,
+      "section": "Percentage",
+      "question_markdown": "Two saleswomen, Kavitha and Kalyani, are allowed 12% and 15% commission, respectively on the total sales made by them. Kavitha gets 3% and Kalyani gets 5% extra bonus on the sales over `20,000. If the difference in total earnings of both Kavitha and Kalyani is `7,600, then Kavitha's total earning is:",
+      "options": {
+        "A": "`19,200",
+        "B": "`21,600",
+        "C": "`17,800",
+        "D": "`23,400"
+      },
+      "answer": {
+        "option": "D",
+        "text": "`23,400"
+      },
+      "pdf_page": 19
+    },
+    {
+      "id": 167,
+      "section": "Percentage",
+      "question_markdown": "Geeta buys an apartment and pays EMI for the same. Her monthly income is Rs. 80,000. She spends 15% on her children's education, 40% on household chores, sends 10% to GPF, saves 15% in savings bank account and pays the remaining amount as EMI. What amount does she pay as EMI?",
+      "options": {
+        "A": "`14,000",
+        "B": "`16,000",
+        "C": "`20,000",
+        "D": "`18,000"
+      },
+      "answer": {
+        "option": "B",
+        "text": "`16,000"
+      },
+      "pdf_page": 19
+    },
+    {
+      "id": 168,
+      "section": "Percentage",
+      "question_markdown": "A man spent 30% of his monthly income on rent. He spent 15% of the remaining amount on food. 35% of the amount now left was used for all other expenses. If Rs.1,62,435 was left with him, then his monthly income was :",
+      "options": {
+        "A": "`4,80,000",
+        "B": "`4,20,000",
+        "C": "`3,60,000",
+        "D": "`5,40,000"
+      },
+      "answer": {
+        "option": "B",
+        "text": "`4,20,000"
+      },
+      "pdf_page": 19
+    },
+    {
+      "id": 169,
+      "section": "Percentage",
+      "question_markdown": "Fresh fruit contains 60% water and dry fruits contains 20% water. How much dry fruit can be obtained from 100 kgs of fresh fruits?",
+      "options": {
+        "A": "32",
+        "B": "50",
+        "C": "52",
+        "D": "80"
+      },
+      "answer": {
+        "option": "B",
+        "text": "50"
+      },
+      "pdf_page": 20
+    },
+    {
+      "id": 170,
+      "section": "Percentage",
+      "question_markdown": "Fresh fruit contains 50% water and dry fruits contains 10% water. How much dry fruit can be obtained from 180 kgs of fresh fruits?",
+      "options": {
+        "A": "110",
+        "B": "100",
+        "C": "180",
+        "D": "150"
+      },
+      "answer": {
+        "option": "B",
+        "text": "100"
+      },
+      "pdf_page": 20
+    },
+    {
+      "id": 171,
+      "section": "Percentage",
+      "question_markdown": "Mohan saves 14% of his salary while Sohan saves 22%. If both get the same salary and Sohan saves ` 1540, What is the savings of Mohan?",
+      "options": {
+        "A": "960",
+        "B": "980",
+        "C": "1040",
+        "D": "1000"
+      },
+      "answer": {
+        "option": "B",
+        "text": "980"
+      },
+      "pdf_page": 20
+    },
+    {
+      "id": 172,
+      "section": "Percentage",
+      "question_markdown": "There are two types of animal in a room some are cats and some are dogs. Each cat takes 7 biscuits and each dog takes 9 biscuits. If 355 biscuits are eaten by 45 animals. Find the number of cats and dogs.",
+      "options": {
+        "A": "25, 20",
+        "B": "20, 25",
+        "C": "10, 35",
+        "D": "5, 40"
+      },
+      "answer": {
+        "option": "A",
+        "text": "25, 20"
+      },
+      "pdf_page": 20
+    },
+    {
+      "id": 173,
+      "section": "Percentage",
+      "question_markdown": "Anuja owns 2 66 % 3 of a property. If 30% of the property that she owns is worth `1,25,000 then 45% of the value (in `) of the property is :",
+      "options": {
+        "A": "`2,70,000",
+        "B": "`2,62,500",
+        "C": "`2,81,250",
+        "D": "`2,25,000"
+      },
+      "answer": {
+        "option": "C",
+        "text": "`2,81,250"
+      },
+      "pdf_page": 20
+    },
+    {
+      "id": 174,
+      "section": "Percentage",
+      "question_markdown": "If the numerator of a fraction is increased by 60% and the denominator is increased by 40%, then the resultant fraction is 16 63 . The original fraction is :",
+      "options": {
+        "A": "5 9",
+        "B": "2 11",
+        "C": "4 9",
+        "D": "2 9"
+      },
+      "answer": {
+        "option": "D",
+        "text": "2 9"
+      },
+      "pdf_page": 20
+    },
+    {
+      "id": 175,
+      "section": "Percentage",
+      "question_markdown": "If the Numerator of a fraction be increased by 50% and its denominator be diminished by 28%, the value of the fraction 25 36 . Find the original fraction.",
+      "options": {
+        "A": "1 5",
+        "B": "2 3",
+        "C": "2 5",
+        "D": "1 3"
+      },
+      "answer": {
+        "option": "D",
+        "text": "1 3"
+      },
+      "pdf_page": 20
+    },
+    {
+      "id": 176,
+      "section": "Percentage",
+      "question_markdown": "In an examination, there are 800 boys and 600 girls. 40% boys and 60% girls passed the examination. The percentage (correct to two decimal places) of failed students from the total students is :",
+      "options": {
+        "A": "52.34%",
+        "B": "50.36%",
+        "C": "51.43%",
+        "D": "53.57%"
+      },
+      "answer": {
+        "option": "C",
+        "text": "51.43%"
+      },
+      "pdf_page": 20
+    },
+    {
+      "id": 177,
+      "section": "Percentage",
+      "question_markdown": "A certain number of students from school X appeared in an examination and 30% students failed. 150% more students than those from school X, appeared in the same examination from school Y. If 80% of the total number of students who appeared from X and Y passed, then what is the percentage of students who failed from Y?",
+      "options": {
+        "A": "18",
+        "B": "20",
+        "C": "16",
+        "D": "24"
+      },
+      "answer": {
+        "option": "C",
+        "text": "16"
+      },
+      "pdf_page": 20
+    },
+    {
+      "id": 178,
+      "section": "Percentage",
+      "question_markdown": "A certain numbers of students from school X appeared in an examination and 20% students failed. From school Y, 130% more students than that from school X, appeared in the same examination. If 90% of the total number of students appeared from both the schools passed, then what is tha percentage of students from school Y who failed (correct to one decimal place)?",
+      "options": {
+        "A": "8.3%",
+        "B": "10%",
+        "C": "6.4%",
+        "D": "5.7%"
+      },
+      "answer": {
+        "option": "D",
+        "text": "5.7%"
+      },
+      "pdf_page": 21
+    },
+    {
+      "id": 179,
+      "section": "Percentage",
+      "question_markdown": "A vendor sells 60% of apples he had and throws away 15% of the remainder. Next day he sells 50% of the remainder and throws away the rest. What % of his apples does the vendor throw?",
+      "options": {
+        "A": "17",
+        "B": "21",
+        "C": "23",
+        "D": "29"
+      },
+      "answer": {
+        "option": "C",
+        "text": "23"
+      },
+      "pdf_page": 21
+    },
+    {
+      "id": 180,
+      "section": "Percentage",
+      "question_markdown": "A is 25% more than B and B is 30% less than C. If C is 20% more than D, then by what percentage is A more than D?",
+      "options": {
+        "A": "3%",
+        "B": "6%",
+        "C": "5%",
+        "D": "2%"
+      },
+      "answer": {
+        "option": "C",
+        "text": "5%"
+      },
+      "pdf_page": 21
+    },
+    {
+      "id": 181,
+      "section": "Percentage",
+      "question_markdown": "A's salary is 40% more than B's. If B's salary increases by 20% and A's increases by x%, then A's new salary becomes 25% more than B's new salary. What is the value of x?",
+      "options": {
+        "A": "25%",
+        "B": "7.14%",
+        "C": "10.63%",
+        "D": "15.6%"
+      },
+      "answer": {
+        "option": "B",
+        "text": "7.14%"
+      },
+      "pdf_page": 21
+    },
+    {
+      "id": 182,
+      "section": "Percentage",
+      "question_markdown": "A invested 30% more than B, B invested 40% less than C, who invested Rs. 8,000. The average of the total amount invested by all of them together (to the nearest Rs.) is:",
+      "options": {
+        "A": "6347",
+        "B": "6215",
+        "C": "6417",
+        "D": "6143"
+      },
+      "answer": {
+        "option": "A",
+        "text": "6347"
+      },
+      "pdf_page": 21
+    },
+    {
+      "id": 183,
+      "section": "Percentage",
+      "question_markdown": "In an examination, B obtained 20% more marks than those obtained by A, and A obtained 10% less marks than those obtained by C. D obtained 20% more marks than those obtained by C. By what percentage are the marks obtained by D more than those obtained by A?",
+      "options": {
+        "A": "1 33 % 3",
+        "B": "1 13 % 3",
+        "C": "1 43 % 3",
+        "D": "1 23 % 3"
+      },
+      "answer": {
+        "option": "A",
+        "text": "1 33 % 3"
+      },
+      "pdf_page": 21
+    },
+    {
+      "id": 184,
+      "section": "Percentage",
+      "question_markdown": "Bhushan's monthly income is Rs.45,000 and his monthly expenditure is Rs.33,000. If his monthly income is increased by 22% while monthly expenditure is increased by 11%, then what is his new monthly saving (in Rs.)?",
+      "options": {
+        "A": "18,270",
+        "B": "18, 960",
+        "C": "18,000",
+        "D": "19,000"
+      },
+      "answer": {
+        "option": "A",
+        "text": "18,270"
+      },
+      "pdf_page": 21
+    },
+    {
+      "id": 185,
+      "section": "Percentage",
+      "question_markdown": "Rumi used to save 20% of her income. If her income went up by 30%,while her expenditure went up by 40%, her nominal saving went down by Rs.750.Find Rumi's initial income(in Rs.).",
+      "options": {
+        "A": "36,000",
+        "B": "37,500",
+        "C": "35,000",
+        "D": "38,500"
+      },
+      "answer": {
+        "option": "B",
+        "text": "37,500"
+      },
+      "pdf_page": 21
+    },
+    {
+      "id": 186,
+      "section": "Percentage",
+      "question_markdown": "Rupa's savings are 16% of her expenditure. If her savings increase by 25% and expenditure increases by 10.5%, then the percentage in- crease in her income is:",
+      "options": {
+        "A": "14.5%",
+        "B": "14%",
+        "C": "12%",
+        "D": "12.5%"
+      },
+      "answer": {
+        "option": "D",
+        "text": "12.5%"
+      },
+      "pdf_page": 22
+    },
+    {
+      "id": 187,
+      "section": "Percentage",
+      "question_markdown": "Raju saves 15% of his income. His salary was increased by 18% so he increased his savings by 20%. If his expenditure after an increase in salary was `1,32,500, find his savings (in `) before the increase in salary.",
+      "options": {
+        "A": "26,500",
+        "B": "33,125",
+        "C": "23,850",
+        "D": "19,875"
+      },
+      "answer": {
+        "option": "D",
+        "text": "19,875"
+      },
+      "pdf_page": 22
+    },
+    {
+      "id": 188,
+      "section": "Percentage",
+      "question_markdown": "A man spends 80% of his income. His income has increased by 25%, but his expenditure remains the same. By what percent have his savings increased?",
+      "options": {
+        "A": "125%",
+        "B": "150%",
+        "C": "100%",
+        "D": "200%"
+      },
+      "answer": {
+        "option": "A",
+        "text": "125%"
+      },
+      "pdf_page": 22
+    },
+    {
+      "id": 189,
+      "section": "Percentage",
+      "question_markdown": "Z spends 2 66 % 3 of her income. If her income increases by x% and the expenditure increases by 10%, then her savings increases by 25%. What is the value of x?",
+      "options": {
+        "A": "10",
+        "B": "14",
+        "C": "15",
+        "D": "12"
+      },
+      "answer": {
+        "option": "C",
+        "text": "15"
+      },
+      "pdf_page": 22
+    },
+    {
+      "id": 190,
+      "section": "Percentage",
+      "question_markdown": "A man spends 75% of his income. Due to inflation, his expenses increase by 20%, and his income increases by 10%. What is the percentage change in his savings?",
+      "options": {
+        "A": "30% decrease/30» dh deh",
+        "B": "40% decrease/40» dh deh",
+        "C": "10% decrease/10» dh deh",
+        "D": "20% decrease/20» dh deh"
+      },
+      "answer": {
+        "option": "D",
+        "text": "20% decrease/20» dh deh"
+      },
+      "pdf_page": 22
+    },
+    {
+      "id": 191,
+      "section": "Percentage",
+      "question_markdown": "In an institute, 35% are boys and the rest are girls. If 30% of the boys failed and 60% of the girls passed in an examination, then the percentage of the students who failed in the examination is:",
+      "options": {
+        "A": "35.5%",
+        "B": "36.5%",
+        "C": "35%",
+        "D": "40%"
+      },
+      "answer": {
+        "option": "B",
+        "text": "36.5%"
+      },
+      "pdf_page": 22
+    },
+    {
+      "id": 192,
+      "section": "Percentage",
+      "question_markdown": "In a constituency, 55% of the total number of voters are males and the rest are females. If 40% of the males are illiterate and 40% of the females are literate, then by what percent is the number of literate males more than that of illiterate females? ,d fuokZpu {ks=k esa dqy ernkrkvksa esa ls 55» iq#\"k gSa rFkk",
+      "options": {
+        "A": "8 22 % 11",
+        "B": "2 18 % 9",
+        "C": "2 22 % 9",
+        "D": "2 18 % 11"
+      },
+      "answer": {
+        "option": "C",
+        "text": "2 22 % 9"
+      },
+      "pdf_page": 22
+    },
+    {
+      "id": 193,
+      "section": "Percentage",
+      "question_markdown": "In a constituency, 40% of the Voters are senior citizens. 40% of the senior citizen voters are illiterates and 25% of the non-senior citizen voters are literates. By what percentage is the number of literate senior citizens voters less than that of illiterate non-senior citizen voters? ,d fuokZpu {ks=k esa] 40» ernkrk ofj\"B ukxfjd gSaA 40» ofj\"B ukxfjd ernkrk vf'kf{kr gSa rFkk 25» xSj&ofj\"B ukxfjd ernkrk f'kf{kr gSaA fuj{kj xSj&ofj\"B ukxfjd",
+      "options": {
+        "A": "40",
+        "B": "48 1 3",
+        "C": "50",
+        "D": "46 2 3"
+      },
+      "answer": {
+        "option": "D",
+        "text": "46 2 3"
+      },
+      "pdf_page": 22
+    },
+    {
+      "id": 194,
+      "section": "Percentage",
+      "question_markdown": "In a factory with 400 employees, the ratio of the number of male employees to that of female employees is 5:3. There are 87.5% regular employees in the factory. If 92% of male employees are regular employees, then what is the percentage of regular female employees?",
+      "options": {
+        "A": "80%",
+        "B": "78%",
+        "C": "87.5%",
+        "D": "85%"
+      },
+      "answer": {
+        "option": "A",
+        "text": "80%"
+      },
+      "pdf_page": 23
+    },
+    {
+      "id": 195,
+      "section": "Percentage",
+      "question_markdown": "A, B and C donate 8%, 7% and 9%, of their salaries respectively to a charitable trust. The salaries of A and B are the same and the difference between their donations is ` 259. The total donation of A and B is ` 1,185 more than that of C. The total  donation of A and C is what percentage of the total salaries of A, B and C? (Correct to one decimal place)",
+      "options": {
+        "A": "6.2%",
+        "B": "5.8%",
+        "C": "6.4%",
+        "D": "7.1%"
+      },
+      "answer": {
+        "option": "B",
+        "text": "5.8%"
+      },
+      "pdf_page": 23
+    },
+    {
+      "id": 196,
+      "section": "Percentage",
+      "question_markdown": "Three persons A, B and C donate 10%, 7% and 9% respectively of their monthly salaries to a charitable trust. Monthly salaries of A and B are equal and the difference between the donations of A and B is Rs.900. If the total donation by A and B is Rs.600 more than that of C, then what is the monthly salary (in Rs.) of C?",
+      "options": {
+        "A": "60000",
+        "B": "50000",
+        "C": "45000",
+        "D": "55000"
+      },
+      "answer": {
+        "option": "B",
+        "text": "50000"
+      },
+      "pdf_page": 23
+    },
+    {
+      "id": 197,
+      "section": "Percentage",
+      "question_markdown": "Swastik saves 20% of his income while spends the remaining amount on food, rent, education and shopping. 15% of the income is spent on food, while `12,800 is spent on rent, `32,000 on education and `7,200 on shopping. The amount spent on shopping is 11.25% of the total expenditure. How much money (in `) is spent on food?",
+      "options": {
+        "A": "9600",
+        "B": "12000",
+        "C": "15000",
+        "D": "10800"
+      },
+      "answer": {
+        "option": "B",
+        "text": "12000"
+      },
+      "pdf_page": 23
+    },
+    {
+      "id": 198,
+      "section": "Percentage",
+      "question_markdown": "The monthly salary of a person was Rs.1,60,000. He used to spend on three heads — Personal and family expenses (P), Taxes (T) and Education loan (E). The rest were his savings. P was 50% of the income, E was 20% of P, and T was 15% of E. When his salary got raised by 30%, he maintained the percentage level of P, but E became 30% of P and T became 20% of E. The sum of the two savings (in Rs.) is:",
+      "options": {
+        "A": "2,11,680",
+        "B": "1,28,160",
+        "C": "1,18,620",
+        "D": "1,62,810"
+      },
+      "answer": {
+        "option": "B",
+        "text": "1,28,160"
+      },
+      "pdf_page": 23
+    },
+    {
+      "id": 199,
+      "section": "Percentage",
+      "question_markdown": "In a manufacturing unit, it was noted that the price of raw material has increased by 25% and the labour cost has gone up from 30% of the cost of raw material to 38% of the cost of the raw material. What percentage of the consumption of raw material be reduced to keep the cost the same as that before the increase?",
+      "options": {
+        "A": "20.7%",
+        "B": "30.2%",
+        "C": "24.6%",
+        "D": "25.5%"
+      },
+      "answer": {
+        "option": "C",
+        "text": "24.6%"
+      },
+      "pdf_page": 23
+    },
+    {
+      "id": 200,
+      "section": "Percentage",
+      "question_markdown": "11 5 of a number A is 22% of a number B. The number B is equal to 2.5% of a third number C. If the value of C is 5500, then the sum of 80% of A and 40% of B is: Maths by Aditya Ranjan sir 23 Selected gaS Selection fnyk,axs Aditya Ranjan (Excise Inspector) Percentage Join Telegram- Maths by Aditya ranjan",
+      "options": {
+        "A": "88",
+        "B": "75",
+        "C": "48",
+        "D": "66"
+      },
+      "answer": {
+        "option": "D",
+        "text": "66"
+      },
+      "pdf_page": 23
+    },
+    {
+      "id": 201,
+      "section": "Percentage",
+      "question_markdown": "A man started off a business with a certain capital amount. In the first year, he earned 60% profit and donated 50% of the total capital (initial amount + profit), He followed the same procedure with the remaining capital after the second and the third year. If at the end of the three years, he is left with Rs.15,360, what was the initial amount (in Rs.) with which the man started his business?",
+      "options": {
+        "A": "20,000",
+        "B": "30,000",
+        "C": "25,000",
+        "D": "32,000"
+      },
+      "answer": {
+        "option": "B",
+        "text": "30,000"
+      },
+      "pdf_page": 24
+    },
+    {
+      "id": 202,
+      "section": "Percentage",
+      "question_markdown": "The monthly expenditure of a person is 40% more than his monthly savings. If his monthly income increases by 40% and monthly expenditure increases by 60%, then he saves Rs 2,070 more in a month. What is his initial monthly expenditure (in Rs)?",
+      "options": {
+        "A": "20,250",
+        "B": "19,320",
+        "C": "24,150",
+        "D": "22,425"
+      },
+      "answer": {
+        "option": "C",
+        "text": "24,150"
+      },
+      "pdf_page": 24
+    },
+    {
+      "id": 203,
+      "section": "Percentage",
+      "question_markdown": "If A is 50% more than B, and C is 30% less than the sum of A and B, then C is what percent of A?",
+      "options": {
+        "A": "116.67%",
+        "B": "125.57%",
+        "C": "134.26%",
+        "D": "111.14%"
+      },
+      "answer": {
+        "option": "A",
+        "text": "116.67%"
+      },
+      "pdf_page": 24
+    },
+    {
+      "id": 204,
+      "section": "Percentage",
+      "question_markdown": "The income of A is 40% less than that of B, and the income of C is 40% more than 30% of the combined income of A and B. By what percentage is C's income more than the income of A?",
+      "options": {
+        "A": "12%",
+        "B": "10.70%",
+        "C": "12.4%",
+        "D": "15%"
+      },
+      "answer": {
+        "option": "A",
+        "text": "12%"
+      },
+      "pdf_page": 24
+    },
+    {
+      "id": 205,
+      "section": "Percentage",
+      "question_markdown": "The income of A is 80% of B's income and the expenditure of A is 60% of B's expenditure. If the income of A is equal to 90% of B's expenditure, then by what percentage are the savings of A more than B's savings?",
+      "options": {
+        "A": "100%",
+        "B": "140%",
+        "C": "125%",
+        "D": "150%"
+      },
+      "answer": {
+        "option": "B",
+        "text": "140%"
+      },
+      "pdf_page": 24
+    },
+    {
+      "id": 206,
+      "section": "Percentage",
+      "question_markdown": "The monthly expenses of a person are 2 66 % 3 more than her monthly savings. If her monthly income increases by 44% and her monthly expenses increases by 60%, then there is an increase of Rs 1,040 in her monthly savings. What is the initial expenditure (in Rs)?",
+      "options": {
+        "A": "9,000",
+        "B": "12,000",
+        "C": "10,000",
+        "D": "13,000"
+      },
+      "answer": {
+        "option": "C",
+        "text": "10,000"
+      },
+      "pdf_page": 24
+    },
+    {
+      "id": 207,
+      "section": "Percentage",
+      "question_markdown": "70% of students in a class are girls and 70% of the girls chosen soccer as their favourite sport. If 98 girls have chosen soccer as their favourite sport, what is the total number of students in the class?",
+      "options": {
+        "A": "180",
+        "B": "225",
+        "C": "175",
+        "D": "200"
+      },
+      "answer": {
+        "option": "D",
+        "text": "200"
+      },
+      "pdf_page": 25
+    },
+    {
+      "id": 208,
+      "section": "Percentage",
+      "question_markdown": "A school organized a field trip for 100 students and 10 chaperones. Each student was given a snack pack containing items equal to 15% of the total number of students. Each chaperone received a snack pack with items equal to 25% of the total number of students. How many snack items were distributed in total?",
+      "options": {
+        "A": "1750",
+        "B": "2000",
+        "C": "2250",
+        "D": "2500"
+      },
+      "answer": {
+        "option": "A",
+        "text": "1750"
+      },
+      "pdf_page": 25
+    },
+    {
+      "id": 209,
+      "section": "Percentage",
+      "question_markdown": "Ravi initially had a certain number of chocolates, while Bhanu initially had 80% of the number of chocolates that Ravi initially had. Ravi gave 10% of his chocolates to his sister while Bhanu received from his uncle another 35% of the number of chocolates he initially had. If Bhanu finally had 54 chocolates, how many chocolates did Ravi give to his sister?",
+      "options": {
+        "A": "3",
+        "B": "6",
+        "C": "5",
+        "D": "4"
+      },
+      "answer": {
+        "option": "C",
+        "text": "5"
+      },
+      "pdf_page": 25
+    },
+    {
+      "id": 210,
+      "section": "Percentage",
+      "question_markdown": "The income of A is 45% more than the income of B and the income of C is 60% less than the sum of the incomes of A and B. The income of D is 20% more than that of C. If the difference between the incomes of B and D is Rs.13200, then the income (in Rs.) of C is:",
+      "options": {
+        "A": "75,000",
+        "B": "73,500",
+        "C": "72,500",
+        "D": "72,000"
+      },
+      "answer": {
+        "option": "B",
+        "text": "73,500"
+      },
+      "pdf_page": 25
+    },
+    {
+      "id": 211,
+      "section": "Percentage",
+      "question_markdown": "Chamanlal, Arshad and Jagjit Singh contested an election. All the votes polled were valid. Arshad got 35% of the total votes. For every 35 votes Chamanlal got 14 votes. The winner got 4950 more votes than the person who received the least number of votes. Find the total number of votes polled.",
+      "options": {
+        "A": "13378",
+        "B": "38000",
+        "C": "99000",
+        "D": "33000"
+      },
+      "answer": {
+        "option": "D",
+        "text": "33000"
+      },
+      "pdf_page": 25
+    },
+    {
+      "id": 212,
+      "section": "Percentage",
+      "question_markdown": "The total cost of 3 mangoes and 4 apples is ` 160. If the cost of a mango increases by 20% and that of an apple decreases by 20%, then the total cost of 5 mangoes and 7 apples is ` 260. What is the original total cost of 1 mango and 2 apples?",
+      "options": {
+        "A": "` 70",
+        "B": "` 75",
+        "C": "` 72",
+        "D": "` 65"
+      },
+      "answer": {
+        "option": "A",
+        "text": "` 70"
+      },
+      "pdf_page": 25
+    },
+    {
+      "id": 213,
+      "section": "Percentage",
+      "question_markdown": "At the beginning of day 1 of a month, Rajesh has 500 eggs. He sells 20% of the eggs by the end of the day and added b% of the eggs at the beginning of the next day and sold 20% of the eggs at the end of the next day. This pattern continued up to the end of the third day of the month when he is left with 1024 eggs. The value of b is equal to:",
+      "options": {
+        "A": "20",
+        "B": "10",
+        "C": "500",
+        "D": "100"
+      },
+      "answer": {
+        "option": "D",
+        "text": "100"
+      },
+      "pdf_page": 25
+    },
+    {
+      "id": 214,
+      "section": "Percentage",
+      "question_markdown": "Last year, Geeta's monthly salary was `12,000 and Seeta's monthly salary was `10,000. This year, Geeta's monthly salary is `14,400, while Seeta's monthly salary is `12,500. If the percentage increase in Seeta's monthly salary this year over her monthly salary last year is denoted by x%, and the percentage increase in Geeta's monthly salary this year over her monthly salary last year is denoted by y%, then what is the value of – y 100 y        x %?",
+      "options": {
+        "A": "24",
+        "B": "20",
+        "C": "22",
+        "D": "25"
+      },
+      "answer": {
+        "option": "D",
+        "text": "25"
+      },
+      "pdf_page": 26
+    }
+  ]
+}
