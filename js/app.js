@@ -1,6 +1,6 @@
 const SET_SIZE = 25;
 const STORAGE_PREFIX = 'ssc-maths-practice:v3:';
-const state = { chapters: [], chapter: null, set: [], score: null, answered: false };
+const state = { chapters: [], chapter: null, set: [], score: null, answered: false, answers: {} };
 const $ = id => document.getElementById(id);
 
 // GitHub Pages can host this project under /Maths-Practice/ (or another
@@ -32,6 +32,7 @@ function saveCurrentSet() {
   const p = getProgress();
   p.currentSetIds = state.set.map(q => q.id);
   p.currentSetAnswered = state.answered;
+  p.currentAnswers = state.answers;
   p.lastScore = state.score;
   saveProgress(p);
 }
@@ -45,6 +46,7 @@ function restoreCurrentSet() {
   state.set = restored;
   state.score = typeof p.lastScore === 'number' ? p.lastScore : null;
   state.answered = !!p.currentSetAnswered;
+  state.answers = (p.currentAnswers && typeof p.currentAnswers === 'object') ? p.currentAnswers : {};
   renderSet();
   return true;
 }
@@ -128,12 +130,14 @@ function pickSet() {
   state.set = shuffle([...pool]).slice(0, SET_SIZE);
   state.score = null;
   state.answered = false;
+  state.answers = {};
 
   state.set.forEach(q => used.add(q.id));
   const p = getProgress();
   p.usedIds = [...used];
   p.currentSetIds = state.set.map(q => q.id);
   p.currentSetAnswered = false;
+  p.currentAnswers = {};
   p.lastScore = null;
   saveProgress(p);
 
@@ -153,17 +157,17 @@ function renderSet() {
   $('empty').classList.add('hidden');
   $('quiz').classList.remove('hidden');
   $('setLabel').textContent = `${state.chapter.name} · ${state.set.length}-question set`;
-  $('answeredLabel').textContent = state.answered ? `${state.set.length} answered` : '0 answered';
+  updateAnsweredCount();
   $('result').classList.add('hidden');
 
   $('questionList').innerHTML = state.set.map((q, idx) => {
-    const opts = Object.entries(q.options || {}).map(([k,v]) =>
-      `<label class="option"><input type="radio" name="q${q.id}" value="${escapeHtml(k)}"><span><b>${escapeHtml(k)}.</b> ${md(v)}</span></label>`
-    ).join('');
-    return `<article class="qcard" data-q="${q.id}">
-      <div class="qtitle"><span class="num">${String(idx+1).padStart(2,'0')}</span><span>Question ${idx+1}</span><span class="source-id">#${q.id}</span></div>
+    const selected = state.answers[q.id];
+    return `<article class="qcard${selected ? ' answered' : ''}" data-q="${q.id}">
+      <div class="qtitle"><span class="num">${String(idx+1).padStart(2,'0')}</span><span>Question ${idx+1}</span><span class="answered-badge"><i data-lucide="check"></i> Answered</span><span class="source-id">#${q.id}</span></div>
       <div class="question">${md(q.question_markdown)}</div>
-      <div class="options">${opts}</div>
+      <div class="options">${Object.entries(q.options || {}).map(([k,v]) =>
+        `<label class="option${selected === k ? ' selected' : ''}"><input type="radio" name="q${q.id}" value="${escapeHtml(k)}"${selected === k ? ' checked' : ''}><span><b>${escapeHtml(k)}.</b> ${md(v)}</span></label>`
+      ).join('')}</div>
       <div class="explain hidden"></div>
     </article>`;
   }).join('');
@@ -172,6 +176,25 @@ function renderSet() {
   renderMath();
   refreshIcons();
   window.scrollTo({ top: 0, behavior: 'smooth' });
+}
+
+function updateAnsweredCount() {
+  const answered = state.set.filter(q => state.answers[q.id]).length;
+  $('answeredLabel').textContent = `${answered}/${state.set.length} answered`;
+  return answered;
+}
+
+function handleAnswerChange(event) {
+  const input = event.target.closest('input[type=\"radio\"]');
+  if (!input || state.answered) return;
+  const card = input.closest('.qcard');
+  if (!card) return;
+  const qId = card.dataset.q;
+  state.answers[qId] = input.value;
+  card.classList.add('answered');
+  card.querySelectorAll('.option').forEach(label => label.classList.toggle('selected', label.querySelector('input') === input));
+  updateAnsweredCount();
+  saveCurrentSet();
 }
 
 function renderMath() {
@@ -216,7 +239,12 @@ function check() {
   state.set.forEach(q => {
     const card = document.querySelector(`[data-q="${q.id}"]`);
     const chosen = card.querySelector(`input[name="q${q.id}"]:checked`);
-    if (chosen) { answered++; if (chosen.value === q.answer.option) score++; }
+    if (chosen) {
+      answered++;
+      state.answers[q.id] = chosen.value;
+      if (chosen.value === q.answer.option) score++;
+      card.classList.add('answered');
+    }
     revealCard(q, chosen);
     card.querySelectorAll('input').forEach(i => i.disabled = true);
   });
@@ -225,6 +253,7 @@ function check() {
   const p = getProgress();
   p.lastScore = score;
   p.currentSetAnswered = true;
+  p.currentAnswers = state.answers;
   saveProgress(p);
   $('answeredLabel').textContent = `${answered}/${state.set.length} answered`;
   $('result').classList.remove('hidden');
@@ -241,6 +270,7 @@ function resetProgress() {
   state.set = [];
   state.score = null;
   state.answered = false;
+  state.answers = {};
   $('quiz').classList.add('hidden');
   $('empty').classList.remove('hidden');
   $('empty').innerHTML = `<div class="empty-icon"><i data-lucide="sparkles"></i></div><h2>Ready for a fresh start</h2><p>All questions in ${escapeHtml(state.chapter.name)} are available again.</p>`;
@@ -248,21 +278,29 @@ function resetProgress() {
   refreshIcons();
 }
 
-$('startBtn').onclick = pickSet;
-$('submitBtn').onclick = check;
-$('resetBtn').onclick = pickSet;
-$('resetProgressBtn').onclick = resetProgress;
-$('chapterSelect').onchange = updateChapter;
-$('themeBtn').onclick = () => {
-  document.body.classList.toggle('dark');
-  localStorage.setItem('ssc-theme', document.body.classList.contains('dark') ? 'dark' : 'light');
-};
+function bindEvents() {
+  $('startBtn').onclick = pickSet;
+  $('submitBtn').onclick = check;
+  $('resetBtn').onclick = pickSet;
+  $('resetProgressBtn').onclick = resetProgress;
+  $('chapterSelect').onchange = updateChapter;
+  $('questionList').addEventListener('change', handleAnswerChange);
+  $('themeBtn').onclick = () => {
+    document.body.classList.toggle('dark');
+    localStorage.setItem('ssc-theme', document.body.classList.contains('dark') ? 'dark' : 'light');
+  };
+}
 
-if (localStorage.getItem('ssc-theme') === 'dark') document.body.classList.add('dark');
+function initTheme() {
+  if (localStorage.getItem('ssc-theme') === 'dark') document.body.classList.add('dark');
+}
 
-async function boot() {
-  const fallback = window.SSC_EMBEDDED_CHAPTERS || [];
+async function init() {
+  initTheme();
+  bindEvents();
+  refreshIcons();
   try {
+    const fallback = window.SSC_EMBEDDED_CHAPTERS || [];
     let manifest;
     try {
       manifest = await fetchJson('data/manifest.json');
@@ -279,12 +317,13 @@ async function boot() {
     if (!state.chapters.length) throw new Error('No chapters found');
     fillChapters();
     refreshIcons();
-  } catch (e) {
-    console.error('SSC Maths Practice boot error:', e);
-    $('empty').innerHTML = `<div class="empty-icon"><i data-lucide="triangle-alert"></i></div><h2>Could not load the chapter data</h2><p>The site loaded, but no chapter data was available. Try refreshing the page.</p><small>${escapeHtml(e.message)}</small>`;
+  } catch (err) {
+    console.error('SSC Maths Practice boot error:', err);
     $('empty').classList.remove('hidden');
+    $('empty').innerHTML = `<div class="empty-icon"><i data-lucide="triangle-alert"></i></div><h2>Could not load chapter data</h2><p>Refresh the page or check the GitHub Pages deployment.</p><small>${escapeHtml(err.message)}</small>`;
     refreshIcons();
   }
 }
 
-boot();
+if (document.readyState === 'loading') document.addEventListener('DOMContentLoaded', init);
+else init();
