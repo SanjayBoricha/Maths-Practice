@@ -1,6 +1,49 @@
 {
   "chapters": [
-    {"id": "percentage", "name": "Percentage", "file": "Percentage.json"},
-    {"id": "ratio", "name": "Ratio", "file": "Ratio.json"}
+    {
+      "id": "percentage",
+      "name": "Percentage",
+      "file": "Percentage.json"
+    },
+    {
+      "id": "ratio",
+      "name": "Ratio",
+      "file": "Ratio.json"
+    },
+    {
+      "id": "proportion",
+      "name": "Proportion",
+      "file": "Proportion.json"
+    },
+    {
+      "id": "age",
+      "name": "Questions Based on Age",
+      "file": "Age.json"
+    },
+    {
+      "id": "partnership",
+      "name": "Partnership",
+      "file": "Partnership.json"
+    },
+    {
+      "id": "mixture",
+      "name": "Mixture",
+      "file": "Mixture.json"
+    },
+    {
+      "id": "alligation",
+      "name": "Alligation",
+      "file": "Alligation.json"
+    },
+    {
+      "id": "simple-interest",
+      "name": "Simple Interest",
+      "file": "SimpleInterest.json"
+    },
+    {
+      "id": "si-installment",
+      "name": "SI Installment",
+      "file": "SI_Installment.json"
+    }
   ]
 }

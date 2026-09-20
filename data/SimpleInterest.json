@@ -1,0 +1,2457 @@
+{
+  "schema_version": 3,
+  "chapter_id": "simple-interest",
+  "chapter_name": "Simple Interest",
+  "source_file": "Simple Interest (ClassRoom Sheet).pdf",
+  "question_count": 153,
+  "questions": [
+    {
+      "id": 1,
+      "section": "Basic Formula",
+      "question_markdown": "Find the simple interest on `15,000 at the rate of 7% p.a. for 3 years.",
+      "options": {
+        "A": "`3,000",
+        "B": "`3,100",
+        "C": "`3,150",
+        "D": "`3,120"
+      },
+      "answer": {
+        "option": "C",
+        "text": "`3,150"
+      },
+      "pdf_page": 2
+    },
+    {
+      "id": 2,
+      "section": "Basic Formula",
+      "question_markdown": "Find the simple interest (in `) on `9,900 at 9% per annum in 3 years",
+      "options": {
+        "A": "2512",
+        "B": "2683",
+        "C": "2582",
+        "D": "2673"
+      },
+      "answer": {
+        "option": "D",
+        "text": "2673"
+      },
+      "pdf_page": 2
+    },
+    {
+      "id": 3,
+      "section": "Basic Formula",
+      "question_markdown": "The simple interest on a sum of `1,500 at 5% p.a. for 3 year is:",
+      "options": {
+        "A": "`180",
+        "B": "`195",
+        "C": "`192",
+        "D": "`225"
+      },
+      "answer": {
+        "option": "D",
+        "text": "`225"
+      },
+      "pdf_page": 2
+    },
+    {
+      "id": 4,
+      "section": "Basic Formula",
+      "question_markdown": "The simple interest on a certain sum of money is Rs.2275 at 13% per annum in 5 years. Find the sum of money.",
+      "options": {
+        "A": "Rs.4000",
+        "B": "Rs.4200",
+        "C": "Rs.3500",
+        "D": "Rs.5600"
+      },
+      "answer": {
+        "option": "C",
+        "text": "Rs.3500"
+      },
+      "pdf_page": 2
+    },
+    {
+      "id": 5,
+      "section": "Basic Formula",
+      "question_markdown": "A sum of simple interest at the rate of 5% per annum amount Rs.4160 in 6 years. Find the sum.",
+      "options": {
+        "A": "Rs.2800",
+        "B": "Rs.2900",
+        "C": "Rs.3200",
+        "D": "Rs.3100"
+      },
+      "answer": {
+        "option": "C",
+        "text": "Rs.3200"
+      },
+      "pdf_page": 2
+    },
+    {
+      "id": 6,
+      "section": "Basic Formula",
+      "question_markdown": "What sum of money (in `) will amount to `840 at 4% per annum simple interest in 3 years?",
+      "options": {
+        "A": "750",
+        "B": "700",
+        "C": "800",
+        "D": "7,000"
+      },
+      "answer": {
+        "option": "A",
+        "text": "750"
+      },
+      "pdf_page": 2
+    },
+    {
+      "id": 7,
+      "section": "Basic Formula",
+      "question_markdown": "What principal would amount to Rs.21,420 in 2 years at the rate of 9.5% p.a. simple interest?",
+      "options": {
+        "A": "Rs.11,273",
+        "B": "Rs.12,000",
+        "C": "Rs.18,000",
+        "D": "Rs.16,000"
+      },
+      "answer": {
+        "option": "C",
+        "text": "Rs.18,000"
+      },
+      "pdf_page": 2
+    },
+    {
+      "id": 8,
+      "section": "Basic Formula",
+      "question_markdown": "A man has invested Rs.65000 at a rate of 7 1/2% per annum simple interest for 6 years. Find the amount the he will receive after 6 years.",
+      "options": {
+        "A": "Rs.28750",
+        "B": "Rs.95750",
+        "C": "Rs.29250",
+        "D": "Rs.94250"
+      },
+      "answer": {
+        "option": "D",
+        "text": "Rs.94250"
+      },
+      "pdf_page": 2
+    },
+    {
+      "id": 9,
+      "section": "Basic Formula",
+      "question_markdown": "A person invests `54,500 at 12% per annum simple interest for 2 years. Find the amount (in `) he will receive after 2 years.",
+      "options": {
+        "A": "68,580",
+        "B": "13,080",
+        "C": "14,080",
+        "D": "67,580"
+      },
+      "answer": {
+        "option": "D",
+        "text": "67,580"
+      },
+      "pdf_page": 2
+    },
+    {
+      "id": 10,
+      "section": "Basic Formula",
+      "question_markdown": "A sum when invested at 12 1/2% simple interest per annum amounts to Rs.17500 after 2 years. What is the simple interest?",
+      "options": {
+        "A": "Rs.3450",
+        "B": "Rs.3700",
+        "C": "Rs.3500",
+        "D": "Rs.3650"
+      },
+      "answer": {
+        "option": "C",
+        "text": "Rs.3500"
+      },
+      "pdf_page": 2
+    },
+    {
+      "id": 11,
+      "section": "Basic Formula",
+      "question_markdown": "The simple interest on a certain sum of money at 8% per annum for 3 years is Rs.360 more than the simple interest on the same sum at 6% per annum for 3 years. Find the principal.",
+      "options": {
+        "A": "`4,800",
+        "B": "`6000",
+        "C": "`3,600",
+        "D": "`7,200"
+      },
+      "answer": {
+        "option": "B",
+        "text": "`6000"
+      },
+      "pdf_page": 3
+    },
+    {
+      "id": 12,
+      "section": "Basic Formula",
+      "question_markdown": "The difference between the simple interests on the principal of `500 at an interest rate of 5% per annum for 3 years and 4% per annum for 4 years is:",
+      "options": {
+        "A": "Rs.7.5",
+        "B": "Rs.5",
+        "C": "Rs.15",
+        "D": "Rs.10"
+      },
+      "answer": {
+        "option": "B",
+        "text": "Rs.5"
+      },
+      "pdf_page": 3
+    },
+    {
+      "id": 13,
+      "section": "Basic Formula",
+      "question_markdown": "The difference between simple interest on a certain sum at the annual rate of 11 percent for 8 years and 9 years is Rs.132. What is the sum?",
+      "options": {
+        "A": "Rs.1200",
+        "B": "Rs.1450",
+        "C": "Rs.1300",
+        "D": "Rs.1100"
+      },
+      "answer": {
+        "option": "A",
+        "text": "Rs.1200"
+      },
+      "pdf_page": 3
+    },
+    {
+      "id": 14,
+      "section": "Basic Formula",
+      "question_markdown": "The simple interest on a certain sum for 4 years at 14% per annum is `6,160 less than the simple interest on the same sum at the same rate for 8 years. Find the sum.",
+      "options": {
+        "A": "` 10,000",
+        "B": "` 9,000",
+        "C": "` 11,000",
+        "D": "` 12,000"
+      },
+      "answer": {
+        "option": "C",
+        "text": "` 11,000"
+      },
+      "pdf_page": 3
+    },
+    {
+      "id": 15,
+      "section": "Basic Formula",
+      "question_markdown": "The difference between the simple interest on a sum of money for 3 1/2 years at the rate of 12% per annum and simple interest on the same sum of money for 4 1/2 years at 10% per annum is `360. Find the sum (in `).",
+      "options": {
+        "A": "16,000",
+        "B": "12,000",
+        "C": "14,000",
+        "D": "10,000"
+      },
+      "answer": {
+        "option": "B",
+        "text": "12,000"
+      },
+      "pdf_page": 3
+    },
+    {
+      "id": 16,
+      "section": "Basic Formula",
+      "question_markdown": "If the simple interest on a certain sum of money for 20 months at the rate of 19.2% per annum exceeds the simple interest on the same sum for 15 months at the rate of 11.2% p.a. by `2,920, then what is the sum (in `, to the nearest hundreds)?",
+      "options": {
+        "A": "16,620",
+        "B": "12,660",
+        "C": "16,200",
+        "D": "16,660"
+      },
+      "answer": {
+        "option": "C",
+        "text": "16,200"
+      },
+      "pdf_page": 3
+    },
+    {
+      "id": 17,
+      "section": "Basic Formula",
+      "question_markdown": "If a sum of Rs.5,000 is taken at a simple rate of interest of 15% per annum for 3 years and another sum of Rs.8,000 is taken at a simple interest of 12% per annum for 4 years, the positive difference of the interests paid is:",
+      "options": {
+        "A": "Rs.1643",
+        "B": "Rs.1590",
+        "C": "Rs.1286",
+        "D": "Rs.1378"
+      },
+      "answer": {
+        "option": "B",
+        "text": "Rs.1590"
+      },
+      "pdf_page": 3
+    },
+    {
+      "id": 18,
+      "section": "Basic Formula",
+      "question_markdown": "A man invested a sum of Rs. 5,000 on simple interest for 5 years such that the rate of interest for the first 2 years is10% per annum, for the next 3 years it is 12% per annum How much interest (in Rs), will he earn at the end of 5 years?",
+      "options": {
+        "A": "2800",
+        "B": "2450",
+        "C": "3000",
+        "D": "3180"
+      },
+      "answer": {
+        "option": "A",
+        "text": "2800"
+      },
+      "pdf_page": 3
+    },
+    {
+      "id": 19,
+      "section": "Basic Formula",
+      "question_markdown": "How much simple interest will Rs.6,700 earn in 13 months at a 12% interest rate per annum?",
+      "options": {
+        "A": "Rs.871",
+        "B": "Rs.889",
+        "C": "Rs.821",
+        "D": "Rs.813"
+      },
+      "answer": {
+        "option": "A",
+        "text": "Rs.871"
+      },
+      "pdf_page": 4
+    },
+    {
+      "id": 20,
+      "section": "Basic Formula",
+      "question_markdown": "Find the simple interest on Rs.27,000 at 2 14 % 3 per annum for 8 months.",
+      "options": {
+        "A": "2600",
+        "B": "2630",
+        "C": "2610",
+        "D": "2640"
+      },
+      "answer": {
+        "option": "D",
+        "text": "2640"
+      },
+      "pdf_page": 4
+    },
+    {
+      "id": 21,
+      "section": "Basic Formula",
+      "question_markdown": "A sum of `12,000 amounts to `15,000 in 5 years at the rate of simple interest. What is the rate of interest per annum?",
+      "options": {
+        "A": "8%",
+        "B": "7%",
+        "C": "6%",
+        "D": "5%"
+      },
+      "answer": {
+        "option": "D",
+        "text": "5%"
+      },
+      "pdf_page": 4
+    },
+    {
+      "id": 22,
+      "section": "Basic Formula",
+      "question_markdown": "In how many years will a sum of Rs.2,500 invested at 16% simple interest become Rs.4,100?",
+      "options": {
+        "A": "3",
+        "B": "5",
+        "C": "4",
+        "D": "6"
+      },
+      "answer": {
+        "option": "C",
+        "text": "4"
+      },
+      "pdf_page": 4
+    },
+    {
+      "id": 23,
+      "section": "Basic Formula",
+      "question_markdown": "How many years will it take for Rs.8,400 to amount to Rs.11,928 at a simple interest rate of 7% per annum?",
+      "options": {
+        "A": "8",
+        "B": "5",
+        "C": "2",
+        "D": "6"
+      },
+      "answer": {
+        "option": "D",
+        "text": "6"
+      },
+      "pdf_page": 4
+    },
+    {
+      "id": 24,
+      "section": "Basic Formula",
+      "question_markdown": "In how much time will Rs.5,000 at 4% per annum simple interest produce the same interest as Rs.8,000 in 1 2 2 years at 8% per annum simple interest?",
+      "options": {
+        "A": "8 years",
+        "B": "5 years",
+        "C": "4 years",
+        "D": "2 years"
+      },
+      "answer": {
+        "option": "A",
+        "text": "8 years"
+      },
+      "pdf_page": 4
+    },
+    {
+      "id": 25,
+      "section": "Basic Formula",
+      "question_markdown": "Find the simple interest (in closest integer `) on `3,000 at 8% per annum rate of interest for the period from 14 February 2024 to 15 April",
+      "options": {
+        "A": "39",
+        "B": "40",
+        "C": "38",
+        "D": "41"
+      },
+      "answer": {
+        "option": "B",
+        "text": "40"
+      },
+      "pdf_page": 4
+    },
+    {
+      "id": 26,
+      "section": "Basic Formula",
+      "question_markdown": "Find the simple interest (in `) on `2,000 at 5.75% per annum rate of interest for the period from 15 February 2023 to 29 April",
+      "options": {
+        "A": "24",
+        "B": "21",
+        "C": "22",
+        "D": "23"
+      },
+      "answer": {
+        "option": "D",
+        "text": "23"
+      },
+      "pdf_page": 4
+    },
+    {
+      "id": 27,
+      "section": "Basic Formula",
+      "question_markdown": "Find the simple interest (in `) on `2000 at 6.5% per annum rate of interest for the period from 14 February 2023 to 28 April",
+      "options": {
+        "A": "24",
+        "B": "27",
+        "C": "26",
+        "D": "25"
+      },
+      "answer": {
+        "option": "C",
+        "text": "26"
+      },
+      "pdf_page": 4
+    },
+    {
+      "id": 28,
+      "section": "Basic Formula",
+      "question_markdown": "Archana took a loan of `78,000 from a bank on 24th January 2012 at 8 3/4% per annum simple interest and paid it back on 18th June 2012. Find the total amount paid by Archana. (Approximated to nearest integer)",
+      "options": {
+        "A": "`80,723",
+        "B": "`90,730",
+        "C": "`85,733",
+        "D": "`88,730"
+      },
+      "answer": {
+        "option": "A",
+        "text": "`80,723"
+      },
+      "pdf_page": 4
+    },
+    {
+      "id": 29,
+      "section": "Basic Formula",
+      "question_markdown": "If the simple interest on a certain sum of money is `7480 at the rate of 1 18/3% per annum for 4 years 3 months. Then find the principal? % 3 `",
+      "options": {
+        "A": "`8400",
+        "B": "`9600",
+        "C": "`7200",
+        "D": "`9000"
+      },
+      "answer": {
+        "option": "B",
+        "text": "`9600"
+      },
+      "pdf_page": 5
+    },
+    {
+      "id": 30,
+      "section": "Basic Formula",
+      "question_markdown": "If the simple interest at the same interest rate on Rs.500 for 4 years and Rs.700 for 2 years, combined together, is Rs.280, then what is the rate of interest?",
+      "options": {
+        "A": "3 9 % 17",
+        "B": "5 6 % 17",
+        "C": "4 8 % 17",
+        "D": "3 7 % 17"
+      },
+      "answer": {
+        "option": "C",
+        "text": "4 8 % 17"
+      },
+      "pdf_page": 5
+    },
+    {
+      "id": 31,
+      "section": "Basic Formula",
+      "question_markdown": "A person deposited Rs.500 for 3 years, Rs. 650 for 5 years, and Rs.1,250 for 7 years. He received a total simple interest of Rs.1,620. The rate of interest per annum is:",
+      "options": {
+        "A": "12%",
+        "B": "13%",
+        "C": "10.8%",
+        "D": "11%"
+      },
+      "answer": {
+        "option": "A",
+        "text": "12%"
+      },
+      "pdf_page": 5
+    },
+    {
+      "id": 32,
+      "section": "Basic Formula",
+      "question_markdown": "A sum of money becomes 8 7 of itself in 2 years at a certain rate of simple interest. The rate per annum is:",
+      "options": {
+        "A": "3 6 % 7",
+        "B": "1 8 % 7",
+        "C": "1 7 % 7",
+        "D": "3 7 % 7"
+      },
+      "answer": {
+        "option": "C",
+        "text": "1 7 % 7"
+      },
+      "pdf_page": 5
+    },
+    {
+      "id": 33,
+      "section": "Basic Formula",
+      "question_markdown": "A person borrowed some money on simple interest. After 3 years, he returned 4 3 of the money to the lender. What was the rate of interest?",
+      "options": {
+        "A": "2 11 % 9 p.a",
+        "B": "4 11 % 9 p.a",
+        "C": "3 11 % 9 p.a",
+        "D": "1 11 % 9 p.a"
+      },
+      "answer": {
+        "option": "D",
+        "text": "1 11 % 9 p.a"
+      },
+      "pdf_page": 5
+    },
+    {
+      "id": 34,
+      "section": "Basic Formula",
+      "question_markdown": "A person borrowed some money on simple interest. After 4 years, he returned 9 5 of the money to lender. What was the rate of interest?",
+      "options": {
+        "A": "20% p.a.",
+        "B": "18% p.a.",
+        "C": "17% p.a.",
+        "D": "19% p.a."
+      },
+      "answer": {
+        "option": "A",
+        "text": "20% p.a."
+      },
+      "pdf_page": 5
+    },
+    {
+      "id": 35,
+      "section": "Basic Formula",
+      "question_markdown": "A man took a loan of `32,400 at a certain rate of simple interest per annum. The rate of interest is one-fourth of the number of years for which the loan is taken. If he paid `11,664 as interest at the end of the loan period, the rate of interest was:",
+      "options": {
+        "A": "3%",
+        "B": "8%",
+        "C": "5%",
+        "D": "12%"
+      },
+      "answer": {
+        "option": "A",
+        "text": "3%"
+      },
+      "pdf_page": 5
+    },
+    {
+      "id": 36,
+      "section": "Basic Formula",
+      "question_markdown": "The simple interest on a certain sum is one- eighth of the sum when the number of years is equal to half of the rate percentage per annum. Find the simple interest (in Rs.) on Rs.15,000 at the same rate of simple interest for 8 years.",
+      "options": {
+        "A": "5800",
+        "B": "5000",
+        "C": "6000",
+        "D": "5250"
+      },
+      "answer": {
+        "option": "C",
+        "text": "6000"
+      },
+      "pdf_page": 6
+    },
+    {
+      "id": 37,
+      "section": "Basic Formula",
+      "question_markdown": "Simple interest on a certain sum is one-fourth of the sum and the interest rate per annum is four times the number of years. If the rate of interest increases by 2%, then how much will the simple interest (in Rs) be on Rs 3600, for 6 years.",
+      "options": {
+        "A": "2562",
+        "B": "2514",
+        "C": "2692",
+        "D": "2592"
+      },
+      "answer": {
+        "option": "D",
+        "text": "2592"
+      },
+      "pdf_page": 6
+    },
+    {
+      "id": 38,
+      "section": "Basic Formula",
+      "question_markdown": "A certain sum amounts to `12096 at 8% p.a. in 1 5 2 years at simple interest. What will be the simple interest on the same sum at 10% p.a. in 8 years.",
+      "options": {
+        "A": "` 6770",
+        "B": "` 6810",
+        "C": "` 6680",
+        "D": "` 6720"
+      },
+      "answer": {
+        "option": "D",
+        "text": "` 6720"
+      },
+      "pdf_page": 6
+    },
+    {
+      "id": 39,
+      "section": "Basic Formula",
+      "question_markdown": "A sum of ` 10,500 amounts to ` 13,825 in 4 3 5 years at a certain rate percent per annum simple interest. What will be the simple interest on the same sum for 5 years at double the earlier rate?",
+      "options": {
+        "A": "` 8,470",
+        "B": "` 8,750",
+        "C": "` 8,670",
+        "D": "` 8,560"
+      },
+      "answer": {
+        "option": "B",
+        "text": "` 8,750"
+      },
+      "pdf_page": 6
+    },
+    {
+      "id": 40,
+      "section": "Basic Formula",
+      "question_markdown": "A sum of Rs 8,400 amounts to Rs 11,046 at 8.75% p.a. simple interest in a certain time. What will be the simple interest (in Rs) on a sum of Rs 10,800 at the same rate for the same time?",
+      "options": {
+        "A": "3402",
+        "B": "3204",
+        "C": "3024",
+        "D": "3420"
+      },
+      "answer": {
+        "option": "A",
+        "text": "3402"
+      },
+      "pdf_page": 6
+    },
+    {
+      "id": 41,
+      "section": "Basic Formula",
+      "question_markdown": "A sum of ` 8400 amounts to ` 11,046 at 8.75% p.a. simple interest in a certain time. What is the simple interest on the sum of ` 9600 at the same rate for the same time?",
+      "options": {
+        "A": "` 2990",
+        "B": "` 3012",
+        "C": "` 2686",
+        "D": "` 3024"
+      },
+      "answer": {
+        "option": "D",
+        "text": "` 3024"
+      },
+      "pdf_page": 6
+    },
+    {
+      "id": 42,
+      "section": "Basic Formula",
+      "question_markdown": "If Rs.72 amounts to Rs.104.4 in 3 years, what will Rs.120 amount to in 5 years at the same rate percent per annum?",
+      "options": {
+        "A": "Rs. 450",
+        "B": "Rs. 330",
+        "C": "Rs. 210",
+        "D": "Rs. 215"
+      },
+      "answer": {
+        "option": "C",
+        "text": "Rs. 210"
+      },
+      "pdf_page": 6
+    },
+    {
+      "id": 43,
+      "section": "Basic Formula",
+      "question_markdown": "At simple interest a sum of Rs. 6400 becomes Rs. 8320 in 3 years. What amount will Rs. 7200 become in 5 years at the same rate ?",
+      "options": {
+        "A": "Rs.10200",
+        "B": "Rs.10600",
+        "C": "Rs.10800",
+        "D": "Rs.10400"
+      },
+      "answer": {
+        "option": "C",
+        "text": "Rs.10800"
+      },
+      "pdf_page": 6
+    },
+    {
+      "id": 44,
+      "section": "Basic Formula",
+      "question_markdown": "A bank charges simple interest for Rs.K at the rate of 1 2 r for n2 years. Another bank charges simple interest for Rs.L at the rate of 3 r for n3 years and gives the same interest. The ratio between K and L is: K , n2 r L n3 r",
+      "options": {
+        "A": "1 1 : r n",
+        "B": "rn:1",
+        "C": "r2 : n2",
+        "D": "a 1 2 r : 1 2 n"
+      },
+      "answer": {
+        "option": "B",
+        "text": "rn:1"
+      },
+      "pdf_page": 6
+    },
+    {
+      "id": 45,
+      "section": "Basic Formula",
+      "question_markdown": "Simple interest on a certain sum is one-fifth of the sum and the interest rate percent per annum is 5 times the number of years. If the rate of interest increases by 3%, then how much will the simple interest (in Rs.) be on Rs.5,600 for 6 years?",
+      "options": {
+        "A": "4668",
+        "B": "4168",
+        "C": "4268",
+        "D": "4368"
+      },
+      "answer": {
+        "option": "D",
+        "text": "4368"
+      },
+      "pdf_page": 7
+    },
+    {
+      "id": 46,
+      "section": "Basic Formula",
+      "question_markdown": "Simple interest on a certain sum is one-fourth of the sum and the interest rate percentage per annum is 4 times the number of years. If the rate of interest increases by 2%, then what will be the simple interest (in Rs.) on Rs. 5000 for 3 years?",
+      "options": {
+        "A": "300",
+        "B": "1500",
+        "C": "2000",
+        "D": "1800"
+      },
+      "answer": {
+        "option": "D",
+        "text": "1800"
+      },
+      "pdf_page": 7
+    },
+    {
+      "id": 47,
+      "section": "Basic Formula",
+      "question_markdown": "The simple interest on a certain sum is one- fifth of the sum and the interest rate percent per annum is 3.2 times the number of years. If the rate of interest increases by 4%, then the simple interest (in `) on `7,500 for 4 years is:",
+      "options": {
+        "A": "3,600",
+        "B": "3,000",
+        "C": "2,500",
+        "D": "5,100"
+      },
+      "answer": {
+        "option": "A",
+        "text": "3,600"
+      },
+      "pdf_page": 7
+    },
+    {
+      "id": 48,
+      "section": "Basic Formula",
+      "question_markdown": "A sum amounts Rs.3985.2 at 14% rate of simple interest after 3 2 5 years. What is the simple interest on same sum at 9% rate of interest after 16 months?",
+      "options": {
+        "A": "Rs. 272",
+        "B": "Rs. 324",
+        "C": "Rs. 300",
+        "D": "Rs. 298"
+      },
+      "answer": {
+        "option": "B",
+        "text": "Rs. 324"
+      },
+      "pdf_page": 7
+    },
+    {
+      "id": 49,
+      "section": "Basic Formula",
+      "question_markdown": "A sum amounts to Rs.4298.4 at 13.2% rate of simple interest after 7.5 years. What is the simple interest on same sum at 6.5 rate of interest after 2 years and 6 months?",
+      "options": {
+        "A": "Rs. 351",
+        "B": "Rs. 297",
+        "C": "Rs. 339",
+        "D": "Rs. 373"
+      },
+      "answer": {
+        "option": "A",
+        "text": "Rs. 351"
+      },
+      "pdf_page": 7
+    },
+    {
+      "id": 50,
+      "section": "Basic Formula",
+      "question_markdown": "A sum becomes Rs.11925 at 13% rate of simple interest in 2 1/2 years and becomes Rs.11200 at _____% rate of simple interest in 4 years. 2 1 ________",
+      "options": {
+        "A": "6 2/7%",
+        "B": "5 4/9%",
+        "C": "5 3/7%",
+        "D": "6 1/9%"
+      },
+      "answer": {
+        "option": "D",
+        "text": "6 1/9%"
+      },
+      "pdf_page": 7
+    },
+    {
+      "id": 51,
+      "section": "Basic Formula",
+      "question_markdown": "The Simple interest at the end of 3 years on a sum of Rs.2000 is Rs.300. What will be the simple interest on Rs.6000 for the same period at the same rate ?",
+      "options": {
+        "A": "Rs.600",
+        "B": "Rs.400",
+        "C": "Rs.900",
+        "D": "Rs.800"
+      },
+      "answer": {
+        "option": "C",
+        "text": "Rs.900"
+      },
+      "pdf_page": 7
+    },
+    {
+      "id": 52,
+      "section": "Basic Formula",
+      "question_markdown": "The Simple interest at the end of 5.1 years on a sum of Rs 4500 is Rs 175. What will be the simple interest on Rs 9000 for the same period at the same rate ?",
+      "options": {
+        "A": "Rs.650",
+        "B": "Rs.350",
+        "C": "Rs.950",
+        "D": "Rs.800"
+      },
+      "answer": {
+        "option": "B",
+        "text": "Rs.350"
+      },
+      "pdf_page": 7
+    },
+    {
+      "id": 53,
+      "section": "Basic Formula",
+      "question_markdown": "The Simple interest at the end of 3 years at certain rate per annum on a sum of Rs 500 is Rs 100 . What will be the simple interest on Rs 500 for the same period at the double rate ?",
+      "options": {
+        "A": "Rs.100",
+        "B": "Rs.300",
+        "C": "Rs.200",
+        "D": "Rs.50"
+      },
+      "answer": {
+        "option": "C",
+        "text": "Rs.200"
+      },
+      "pdf_page": 8
+    },
+    {
+      "id": 54,
+      "section": "Basic Formula",
+      "question_markdown": "The Simple interest in a certain time at 6.15% per annum on a sum of Rs.6000 is Rs.200 . What will be the simple interest on Rs.6000 for the same period at the triple rate ?",
+      "options": {
+        "A": "Rs.100",
+        "B": "Rs.600",
+        "C": "Rs.200",
+        "D": "Rs.500"
+      },
+      "answer": {
+        "option": "B",
+        "text": "Rs.600"
+      },
+      "pdf_page": 8
+    },
+    {
+      "id": 55,
+      "section": "Basic Formula",
+      "question_markdown": "At a fixed simple interest rate, the amount of Rs.500 becomes Rs.600 in 2 years. If the rate of interest is half, then what will be the amount of Rs.500 in 2 years",
+      "options": {
+        "A": "Rs.500",
+        "B": "Rs.520",
+        "C": "Rs.560",
+        "D": "Rs.550"
+      },
+      "answer": {
+        "option": "D",
+        "text": "Rs.550"
+      },
+      "pdf_page": 8
+    },
+    {
+      "id": 56,
+      "section": "Basic Formula",
+      "question_markdown": "The Simple interest at the end of 3 year at r% per annum on a sum of Rs.25000 is Rs.1000 . What will be the simple interest on the same sum for 6 year at the same rate ? r",
+      "options": {
+        "A": "Rs.1000",
+        "B": "Rs.6000",
+        "C": "Rs.2000",
+        "D": "Rs.5000"
+      },
+      "answer": {
+        "option": "C",
+        "text": "Rs.2000"
+      },
+      "pdf_page": 8
+    },
+    {
+      "id": 57,
+      "section": "Basic Formula",
+      "question_markdown": "The Simple interest at the end of 3.54 year at r% per annum on a sum of Rs.4000 is Rs.100. What will be the simple interest on the same sum for 7.08 year at the same rate ? r",
+      "options": {
+        "A": "Rs.100",
+        "B": "Rs.600",
+        "C": "Rs.200",
+        "D": "Rs.500"
+      },
+      "answer": {
+        "option": "C",
+        "text": "Rs.200"
+      },
+      "pdf_page": 8
+    },
+    {
+      "id": 58,
+      "section": "Basic Formula",
+      "question_markdown": "The Simple interest at the end of t year at r% per annum on a sum of Rs.P is Rs.100 . What will be the simple interest on the same sum for 3t year at the 2r% rate ? trP t r",
+      "options": {
+        "A": "Rs.100",
+        "B": "Rs.600",
+        "C": "Rs.200",
+        "D": "Rs.500"
+      },
+      "answer": {
+        "option": "B",
+        "text": "Rs.600"
+      },
+      "pdf_page": 8
+    },
+    {
+      "id": 59,
+      "section": "Basic Formula",
+      "question_markdown": "The Simple interest at the end of t year at r% per annum on a sum of Rs.P is Rs.60 . What will be the simple interest on the same sum for 5t year at the r/3% rate ? trP t r",
+      "options": {
+        "A": "Rs.100",
+        "B": "Rs.600",
+        "C": "Rs.200",
+        "D": "Rs.500"
+      },
+      "answer": {
+        "option": "A",
+        "text": "Rs.100"
+      },
+      "pdf_page": 8
+    },
+    {
+      "id": 60,
+      "section": "Basic Formula",
+      "question_markdown": "The Simple interest at the end of t year at r% per annum on a sum of Rs.P is Rs.80 . What will be the simple interest on double the sum for t/4 years at the 3r% rate ? trP t 3r%",
+      "options": {
+        "A": "Rs.160",
+        "B": "Rs.480",
+        "C": "Rs.120",
+        "D": "Rs.320"
+      },
+      "answer": {
+        "option": "C",
+        "text": "Rs.120"
+      },
+      "pdf_page": 8
+    },
+    {
+      "id": 61,
+      "section": "Basic Formula",
+      "question_markdown": "The Simple interest at the end of 3t year at r% per annum on a sum of Rs.2P is Rs.100. What will be the simple interest on the 3P for 5t years at the 3r% rate ? Pr r",
+      "options": {
+        "A": "Rs.160",
+        "B": "Rs.480",
+        "C": "Rs.120",
+        "D": "N.O.T"
+      },
+      "answer": {
+        "option": "D",
+        "text": "N.O.T"
+      },
+      "pdf_page": 8
+    },
+    {
+      "id": 62,
+      "section": "Basic Formula",
+      "question_markdown": "In how many years will the simple interest on a sum of money be equal to the principal at rate of 12.5 % p.a.?",
+      "options": {
+        "A": "6",
+        "B": "8",
+        "C": "2",
+        "D": "10"
+      },
+      "answer": {
+        "option": "B",
+        "text": "8"
+      },
+      "pdf_page": 8
+    },
+    {
+      "id": 63,
+      "section": "Basic Formula",
+      "question_markdown": "In how many years will the simple interest on a sum of money be equal to the double of the principal at rate of 12.5 % p.a.?",
+      "options": {
+        "A": "4",
+        "B": "8",
+        "C": "16",
+        "D": "10"
+      },
+      "answer": {
+        "option": "C",
+        "text": "16"
+      },
+      "pdf_page": 8
+    },
+    {
+      "id": 64,
+      "section": "Basic Formula",
+      "question_markdown": "In how many years will the simple interest on a sum of money be equal to the 5 time of principal at rate of 25 % p.a.?",
+      "options": {
+        "A": "16",
+        "B": "8",
+        "C": "20",
+        "D": "10"
+      },
+      "answer": {
+        "option": "C",
+        "text": "20"
+      },
+      "pdf_page": 9
+    },
+    {
+      "id": 65,
+      "section": "Basic Formula",
+      "question_markdown": "If rate of interest increased by 14.28% and time decreased from 4.5 years to 2.5 years then simple interest decreased by 920. Find the decreased S.I.",
+      "options": {
+        "A": "Rs.1600",
+        "B": "Rs.1800",
+        "C": "Rs.1840",
+        "D": "Rs.1660"
+      },
+      "answer": {
+        "option": "A",
+        "text": "Rs.1600"
+      },
+      "pdf_page": 9
+    },
+    {
+      "id": 66,
+      "section": "Basic Formula",
+      "question_markdown": "A sum of Rs.7700 amounts to Rs.9478 at (11.75% p.a. simple interest in certain time. What is the simple interest on the sum of Rs.9,900 at the same rate for the same time?",
+      "options": {
+        "A": "Rs.2286",
+        "B": "Rs.2686",
+        "C": "Rs.2296",
+        "D": "Rs.2266"
+      },
+      "answer": {
+        "option": "A",
+        "text": "Rs.2286"
+      },
+      "pdf_page": 9
+    },
+    {
+      "id": 67,
+      "section": "Basic Formula",
+      "question_markdown": "A sum of Rs.8,400 amounts to Rs.11,046 at 8.75% p.a. simple interest in certain time. What is the simple interest on the sum of Rs.9,600 at the same rate for the same time?",
+      "options": {
+        "A": "Rs.3024",
+        "B": "Rs.2686",
+        "C": "Rs.3012",
+        "D": "Rs.2990"
+      },
+      "answer": {
+        "option": "A",
+        "text": "Rs.3024"
+      },
+      "pdf_page": 9
+    },
+    {
+      "id": 68,
+      "section": "Basic Formula",
+      "question_markdown": "Veeru invested Rs.10000 at 5% simple annual interest, and exactly after two years, Joy invested Rs.8000 at 10% simple annual interest. How many years after Veeru's investment, will their balances, i.e., principal plus accumulated interest, be equal?",
+      "options": {
+        "A": "9",
+        "B": "10",
+        "C": "12",
+        "D": "15"
+      },
+      "answer": {
+        "option": "C",
+        "text": "12"
+      },
+      "pdf_page": 9
+    },
+    {
+      "id": 69,
+      "section": "Concept of Times",
+      "question_markdown": "An amount becomes double in 7 years on simple interest. The amount would be four times in ____ years on the same rate of simple interest.",
+      "options": {
+        "A": "14",
+        "B": "28",
+        "C": "21",
+        "D": "18"
+      },
+      "answer": {
+        "option": "C",
+        "text": "21"
+      },
+      "pdf_page": 9
+    },
+    {
+      "id": 70,
+      "section": "Concept of Times",
+      "question_markdown": "A sum doubles in six years at simple interest. In how many years will the sum become ten times the original sum?",
+      "options": {
+        "A": "27",
+        "B": "54",
+        "C": "45",
+        "D": "36"
+      },
+      "answer": {
+        "option": "B",
+        "text": "54"
+      },
+      "pdf_page": 9
+    },
+    {
+      "id": 71,
+      "section": "Concept of Times",
+      "question_markdown": "A sum becomes 2.5 times of itself in 5 years under simple interest. In how many years will it become 5 times itself at the same rate?",
+      "options": {
+        "A": "12 2/3 years",
+        "B": "13 1/3 years",
+        "C": "14 2/3 years",
+        "D": "11 1/3 years"
+      },
+      "answer": {
+        "option": "B",
+        "text": "13 1/3 years"
+      },
+      "pdf_page": 9
+    },
+    {
+      "id": 72,
+      "section": "Concept of Times",
+      "question_markdown": "A certain sum of money becomes three times of itself in 20 years at simple interest. In how many years does it become double of itself at the same rate of simple interest?",
+      "options": {
+        "A": "8 years",
+        "B": "10 years",
+        "C": "12 years",
+        "D": "14 years"
+      },
+      "answer": {
+        "option": "B",
+        "text": "10 years"
+      },
+      "pdf_page": 9
+    },
+    {
+      "id": 73,
+      "section": "Concept of Times",
+      "question_markdown": "A certain sum of money becomes 4 times in 12 years when invested at simple interest. In how many years will it become 10 times of itself at the same rate?",
+      "options": {
+        "A": "60",
+        "B": "48",
+        "C": "24",
+        "D": "36"
+      },
+      "answer": {
+        "option": "D",
+        "text": "36"
+      },
+      "pdf_page": 9
+    },
+    {
+      "id": 74,
+      "section": "Concept of Times",
+      "question_markdown": "What is that rate of simple interest at which a sum of money becomes three times of itself in 36 years?",
+      "options": {
+        "A": "7.28 percent",
+        "B": "6.86 percent",
+        "C": "5.55 percent",
+        "D": "6.28 percent"
+      },
+      "answer": {
+        "option": "C",
+        "text": "5.55 percent"
+      },
+      "pdf_page": 10
+    },
+    {
+      "id": 75,
+      "section": "Concept of Times",
+      "question_markdown": "A certain sum of money becomes seven times itself when invested at a certain rate of simple interest, in 14 years. How much time (in years, rounded off to 2 decimal places) will it take to become 18 times itself at the same rate?",
+      "options": {
+        "A": "27.33",
+        "B": "39.67",
+        "C": "42.78",
+        "D": "35.5"
+      },
+      "answer": {
+        "option": "B",
+        "text": "39.67"
+      },
+      "pdf_page": 10
+    },
+    {
+      "id": 76,
+      "section": "Concept of Times",
+      "question_markdown": "A sum of money becomes five times its original value in 15 years when invested at a certain simple interest rate. If the sum was invested twice the time at the same rate of interest, what would be the final amount?",
+      "options": {
+        "A": "The money becomes 7 times its original value/",
+        "B": "The money becomes 9 times its original value/",
+        "C": "The money becomes 6 times its original value/",
+        "D": "The money becomes 8 times its original value/"
+      },
+      "answer": {
+        "option": "B",
+        "text": "The money becomes 9 times its original value/"
+      },
+      "pdf_page": 10
+    },
+    {
+      "id": 77,
+      "section": "Concept of Times",
+      "question_markdown": "If a sum of money at a certain rate of simple interest per year doubles in 5 years and at a different rate of simple interest per year becomes three times in 12 years, the difference in the two rates of simple interest per years is:",
+      "options": {
+        "A": "2%",
+        "B": "3%",
+        "C": "1 3 % 3",
+        "D": "1 4 % 3"
+      },
+      "answer": {
+        "option": "C",
+        "text": "1 3 % 3"
+      },
+      "pdf_page": 10
+    },
+    {
+      "id": 78,
+      "section": "Ratio of Principal & Amount",
+      "question_markdown": "After certain time ratio of principle and amount is 5 : 6. After 8 years their ratio become 1 : 2. Find rate of interest.",
+      "options": {
+        "A": "15%",
+        "B": "10%",
+        "C": "20%",
+        "D": "12%"
+      },
+      "answer": {
+        "option": "B",
+        "text": "10%"
+      },
+      "pdf_page": 10
+    },
+    {
+      "id": 79,
+      "section": "Ratio of Principal & Amount",
+      "question_markdown": "After certain time ratio of principle and amount is 5 : 6. After 6 years their ratio become 2 : 3. Find rate of interest.",
+      "options": {
+        "A": "10%",
+        "B": "5%",
+        "C": "15%",
+        "D": "20%"
+      },
+      "answer": {
+        "option": "B",
+        "text": "5%"
+      },
+      "pdf_page": 10
+    },
+    {
+      "id": 80,
+      "section": "Ratio of Principal & Amount",
+      "question_markdown": "After certain time ratio of principle and amount is 4 : 5. After 3 years their ratio become 5 : 7. Find rate of interest.",
+      "options": {
+        "A": "5%",
+        "B": "8%",
+        "C": "10%",
+        "D": "12%"
+      },
+      "answer": {
+        "option": "A",
+        "text": "5%"
+      },
+      "pdf_page": 10
+    },
+    {
+      "id": 81,
+      "section": "Ratio of Principal & Amount",
+      "question_markdown": "If the ratio of principal and amount in current year at simple interest is 9:17 and after 27.5 more years this ratio will become 15:43. Find the rate of simple interest?",
+      "options": {
+        "A": "5 3/9%",
+        "B": "4 4 % 9",
+        "C": "1 3 % 3",
+        "D": "3%"
+      },
+      "answer": {
+        "option": "A",
+        "text": "5 3/9%"
+      },
+      "pdf_page": 10
+    },
+    {
+      "id": 82,
+      "section": "Rate is x% Higher or Lower",
+      "question_markdown": "A person invest a certain sum of money at a certain rate of interest for 4 years. If the rate of interest was 5% less, then he got `400 less. find the sum. `",
+      "options": {
+        "A": "` 4000",
+        "B": "` 2000",
+        "C": "` 1000",
+        "D": "` 3000"
+      },
+      "answer": {
+        "option": "B",
+        "text": "` 2000"
+      },
+      "pdf_page": 10
+    },
+    {
+      "id": 83,
+      "section": "Rate is x% Higher or Lower",
+      "question_markdown": "A certain sum of money is given at a certain rate of simple interest for 6 years. Had it been given at 7% higher rate, it would have fetched Rs.1,512 more. Find the sum (in ?).",
+      "options": {
+        "A": "Rs.3,200",
+        "B": "Rs.3,600",
+        "C": "Rs.3,100",
+        "D": "Rs.4,200"
+      },
+      "answer": {
+        "option": "B",
+        "text": "Rs.3,600"
+      },
+      "pdf_page": 11
+    },
+    {
+      "id": 84,
+      "section": "Rate is x% Higher or Lower",
+      "question_markdown": "An amount of P was put at a certain rate for 4 years. If it had been put at a 6% higher rate for the same period, it would have fetched `600 more interest. What would be the value of 2.5 P?",
+      "options": {
+        "A": "`3,750",
+        "B": "`6,250",
+        "C": "`4,850",
+        "D": "`2,500"
+      },
+      "answer": {
+        "option": "B",
+        "text": "`6,250"
+      },
+      "pdf_page": 11
+    },
+    {
+      "id": 85,
+      "section": "Rate is x% Higher or Lower",
+      "question_markdown": "If the annual rate of simple interest increase from 11% to 17 1/2% , a person's yearly income increase by 1,071.20. The principal amount invested (in `) is",
+      "options": {
+        "A": "` 17,250",
+        "B": "` 19,120",
+        "C": "` 10,710",
+        "D": "` 16,480"
+      },
+      "answer": {
+        "option": "D",
+        "text": "` 16,480"
+      },
+      "pdf_page": 11
+    },
+    {
+      "id": 86,
+      "section": "Rate is x% Higher or Lower",
+      "question_markdown": "If the annual rate of simple interest increase from 11% to 17 1/2% , a person's yearly income increase by 1,071.20. The simple interest (in `) on the sum at 10% for 5 years is",
+      "options": {
+        "A": "` 16,480",
+        "B": "` 9,120",
+        "C": "` 8,240",
+        "D": "` 7,250"
+      },
+      "answer": {
+        "option": "C",
+        "text": "` 8,240"
+      },
+      "pdf_page": 11
+    },
+    {
+      "id": 87,
+      "section": "Rate is x% Higher or Lower",
+      "question_markdown": "` 8800 becomes `12000 at a certain rate of interest in 4 years. If rate of interest would be 3% more, then find the amount at the end of 7 years. `",
+      "options": {
+        "A": "` 14,120",
+        "B": "` 15,456",
+        "C": "` 16,248",
+        "D": "` 17,424"
+      },
+      "answer": {
+        "option": "C",
+        "text": "` 16,248"
+      },
+      "pdf_page": 11
+    },
+    {
+      "id": 88,
+      "section": "Rate is x% Higher or Lower",
+      "question_markdown": "`1120 becomes ` 1792 at a certain rate of simple interest in 8 years. If rate of interest would be 4 % less, then find the amount at the end of 10 years. ``",
+      "options": {
+        "A": "` 1512",
+        "B": "` 1601.60",
+        "C": "` 1572",
+        "D": "` 1448"
+      },
+      "answer": {
+        "option": "A",
+        "text": "` 1512"
+      },
+      "pdf_page": 11
+    },
+    {
+      "id": 89,
+      "section": "Rate is x% Higher or Lower",
+      "question_markdown": "At the rate of 8% the amount invested earns a simple interest of ` 240 after 3 years. If the rate of interest been 5% more, then how much more interest would it have earned?",
+      "options": {
+        "A": "` 105",
+        "B": "` 180",
+        "C": "` 150",
+        "D": "` 135"
+      },
+      "answer": {
+        "option": "C",
+        "text": "` 150"
+      },
+      "pdf_page": 11
+    },
+    {
+      "id": 90,
+      "section": "Rate is x% Higher or Lower",
+      "question_markdown": "The rate of simple interest per annum of bank being increased from 10.5% to 18% and time duration is also increased from 4.5 years to 7 years. The total simple interest was increased by ` 1250. Find the increased simple interest. `",
+      "options": {
+        "A": "` 1600",
+        "B": "` 1250",
+        "C": "` 2000",
+        "D": "` 2400"
+      },
+      "answer": {
+        "option": "C",
+        "text": "` 2000"
+      },
+      "pdf_page": 11
+    },
+    {
+      "id": 91,
+      "section": "Munni Method",
+      "question_markdown": "A certain sum of money amounts to Rs.1,860 in 2 years and to Rs.2,130 in 1 3 2 years at simple interest. Find the sum and the rate of interest, respectively.",
+      "options": {
+        "A": "Rs.1,500, 12%",
+        "B": "Rs.1,200, 10%",
+        "C": "Rs.1,500, 15%",
+        "D": "Rs.1,200, 12%"
+      },
+      "answer": {
+        "option": "A",
+        "text": "Rs.1,500, 12%"
+      },
+      "pdf_page": 11
+    },
+    {
+      "id": 92,
+      "section": "Munni Method",
+      "question_markdown": "A certain amount grows to Rs.6400 in 2 years and Rs.7040 in 3 years. Determine the interest rate.",
+      "options": {
+        "A": "12.5%",
+        "B": "9%",
+        "C": "8%",
+        "D": "11%"
+      },
+      "answer": {
+        "option": "A",
+        "text": "12.5%"
+      },
+      "pdf_page": 12
+    },
+    {
+      "id": 93,
+      "section": "Munni Method",
+      "question_markdown": "If a sum of money becomes Rs 6,000 in 3 years and Rs 10,500 in 7 years and 6 months at the same rate of simple interest, then what is the rate of interest?",
+      "options": {
+        "A": "1 33/3%",
+        "B": "1 25/2%",
+        "C": "2 45/3%",
+        "D": "1 66/3%"
+      },
+      "answer": {
+        "option": "A",
+        "text": "1 33/3%"
+      },
+      "pdf_page": 12
+    },
+    {
+      "id": 94,
+      "section": "Munni Method",
+      "question_markdown": "A sum of money lent at simple interest amounts to Rs.9,920 after 2 years and to Rs 12,800 after 5 years. Find the rate of interest per annum.",
+      "options": {
+        "A": "12%",
+        "B": "6.57%",
+        "C": "18%",
+        "D": "9.68%"
+      },
+      "answer": {
+        "option": "A",
+        "text": "12%"
+      },
+      "pdf_page": 12
+    },
+    {
+      "id": 95,
+      "section": "Munni Method",
+      "question_markdown": "A sum of money at a fixed rate of simple interest amounts to `1,630 in 3 years and to `1,708 in 4 years. Find the sum (in `).",
+      "options": {
+        "A": "1132",
+        "B": "1296",
+        "C": "1396",
+        "D": "1448"
+      },
+      "answer": {
+        "option": "C",
+        "text": "1396"
+      },
+      "pdf_page": 12
+    },
+    {
+      "id": 96,
+      "section": "Munni Method",
+      "question_markdown": "A sum amounts to Rs.7,656 in 4 years and to Rs.8,120 in 5 years at a certain simple interest rate per cent per annum. The rate of interest is:",
+      "options": {
+        "A": "4%",
+        "B": "3%",
+        "C": "7%",
+        "D": "8%"
+      },
+      "answer": {
+        "option": "D",
+        "text": "8%"
+      },
+      "pdf_page": 12
+    },
+    {
+      "id": 97,
+      "section": "Munni Method",
+      "question_markdown": "A sum of money invested at a certain rate of simple interest per annum amounts to Rs.14,522 in seven years and to Rs.18,906 in eleven years. Find the sum invested (in Rs.).",
+      "options": {
+        "A": "6850",
+        "B": "6900",
+        "C": "6800",
+        "D": "6750"
+      },
+      "answer": {
+        "option": "A",
+        "text": "6850"
+      },
+      "pdf_page": 12
+    },
+    {
+      "id": 98,
+      "section": "Munni Method",
+      "question_markdown": "A sum at a certain rate of simple interest becomes Rs. 14880 after 3 years and Rs, 16800 after 5 years. Find the simple interest on the same sum at 10% per annum for 4 years (in Rs.)",
+      "options": {
+        "A": "4740",
+        "B": "4800",
+        "C": "4860",
+        "D": "5184"
+      },
+      "answer": {
+        "option": "B",
+        "text": "4800"
+      },
+      "pdf_page": 12
+    },
+    {
+      "id": 99,
+      "section": "Munni Method",
+      "question_markdown": "A certain sum amounts to Rs 4,600 after 5 years and to Rs 6,000 after 8 years at the same rate of simple interest per annum. What will be the simple interest on a sum of Rs.8,500 for 1 6 2 years at the same rate?",
+      "options": {
+        "A": "Rs 11,375",
+        "B": "Rs 11,460",
+        "C": "Rs 10,215",
+        "D": "Rs 10,515"
+      },
+      "answer": {
+        "option": "A",
+        "text": "Rs 11,375"
+      },
+      "pdf_page": 12
+    },
+    {
+      "id": 100,
+      "section": "Question Based on Alligation",
+      "question_markdown": "Kiran lent Rs.4,000 to two persons such that one part of it at the rate of 8% per annum and the remaining part at the rate of 10% per annum. He got an annual simple interest of Rs.352. Then the sum lent at 10% is:",
+      "options": {
+        "A": "Rs.1,800",
+        "B": "Rs.2,200",
+        "C": "Rs.2,400",
+        "D": "Rs.1,600"
+      },
+      "answer": {
+        "option": "D",
+        "text": "Rs.1,600"
+      },
+      "pdf_page": 12
+    },
+    {
+      "id": 101,
+      "section": "Question Based on Alligation",
+      "question_markdown": "A man has Rs.15,000. He lends a part of it to X for 3 years at 10% simple interest and the remaining to Y for 3 years at 12% simple interest. If the total interest received from both X and Y after 3 years is Rs.4,950, find the amount lent to X.",
+      "options": {
+        "A": "Rs.7,000",
+        "B": "Rs.7,500",
+        "C": "Rs.8,000",
+        "D": "Rs.8,500"
+      },
+      "answer": {
+        "option": "B",
+        "text": "Rs.7,500"
+      },
+      "pdf_page": 13
+    },
+    {
+      "id": 102,
+      "section": "Question Based on Alligation",
+      "question_markdown": "Rajesh invested `10,000 by dividing it into two different investment schemes, A and B, at simple interest rates of 8% and 10%, respectively. If the total interest earned in 2 years is `1,680, the amount invested in scheme A is:",
+      "options": {
+        "A": "`4,000",
+        "B": "`2,000",
+        "C": "`6,000",
+        "D": "`8,000"
+      },
+      "answer": {
+        "option": "D",
+        "text": "`8,000"
+      },
+      "pdf_page": 13
+    },
+    {
+      "id": 103,
+      "section": "Question Based on Alligation",
+      "question_markdown": "A man invests a total sum of Rs.10,000 in a company. A part of the sum was invested at 10% simple interest per annum and the remain- ing part at 15% simple interest per annum. If the total interest accrued to him in two years equals Rs.2,400, the sum invested at 15% simple interest per annum is:",
+      "options": {
+        "A": "Rs.8,000",
+        "B": "Rs.4,000",
+        "C": "Rs.6,000",
+        "D": "Rs.5,000"
+      },
+      "answer": {
+        "option": "B",
+        "text": "Rs.4,000"
+      },
+      "pdf_page": 13
+    },
+    {
+      "id": 104,
+      "section": "Question Based on Alligation",
+      "question_markdown": "A sum of ` 15,600 is invested partly at 7% per annum and the remaining at 9% per annum simple interest. If the total interest at the end of 3 years is ` 3738, how much money was invested at 7% per annum? `",
+      "options": {
+        "A": "` 7800",
+        "B": "` 7900",
+        "C": "` 7600",
+        "D": "` 7700"
+      },
+      "answer": {
+        "option": "B",
+        "text": "` 7900"
+      },
+      "pdf_page": 13
+    },
+    {
+      "id": 105,
+      "section": "Question Based on Alligation",
+      "question_markdown": "A man has ` 10,000. He lent a part of it at 15% simple interest and the remaining at 10% simple interest. The total interest he received after 5 years amount to ` 6,500. The difference between the parts of the amounts he lent is",
+      "options": {
+        "A": "` 2,000",
+        "B": "` 2,500",
+        "C": "` 1,500",
+        "D": "` 1,750"
+      },
+      "answer": {
+        "option": "A",
+        "text": "` 2,000"
+      },
+      "pdf_page": 13
+    },
+    {
+      "id": 106,
+      "section": "Question Based on Alligation",
+      "question_markdown": "A man deposited `1850 in a bank at 7% per annum and `2150 in another bank at 9% per annum. Find the rate of interest for the whole sum: `",
+      "options": {
+        "A": "8.133%",
+        "B": "8.075%",
+        "C": "8.25%",
+        "D": "8.375%"
+      },
+      "answer": {
+        "option": "B",
+        "text": "8.075%"
+      },
+      "pdf_page": 13
+    },
+    {
+      "id": 107,
+      "section": "Concept of Total SI",
+      "question_markdown": "Rahul borrowed a sum of money at simple interest of 5% per annum for the first 3 years, 7% per annum for the next 5 years, and 9% per annum for the period beyond 8 years. If he pays a total of Rs.6800 as interest only at the end of 10 years, how much money did he borrow?",
+      "options": {
+        "A": "Rs.8000",
+        "B": "Rs.9000",
+        "C": "Rs.10000",
+        "D": "Rs.12000"
+      },
+      "answer": {
+        "option": "C",
+        "text": "Rs.10000"
+      },
+      "pdf_page": 13
+    },
+    {
+      "id": 108,
+      "section": "Concept of Total SI",
+      "question_markdown": "Ravi borrowed some money at the rate of 5% per anuum for the first three years ,8% per annum for the next two years, and 10% per annum for the period beyond 5 years. If he paid a total simple intrest of Rs.12,750 at the end of 7 years, then how much money did he borrow?",
+      "options": {
+        "A": "Rs.25,000",
+        "B": "Rs.26000",
+        "C": "Rs.27000",
+        "D": "Rs.24,000"
+      },
+      "answer": {
+        "option": "A",
+        "text": "Rs.25,000"
+      },
+      "pdf_page": 13
+    },
+    {
+      "id": 109,
+      "section": "Concept of Total SI",
+      "question_markdown": "A person borrowed some money at the rate of 8% per annum for the first two years, at the rate of 11% per annum for the next three years, and at the rate of 16% per annum for the period beyond five years. If he pays a total interest of Rs.21,400 at the end of nine years, how much money did he borrow (round to the nearest unit) ?",
+      "options": {
+        "A": "Rs.11,938",
+        "B": "Rs.18,738",
+        "C": "Rs.938,15",
+        "D": "Rs.18,938"
+      },
+      "answer": {
+        "option": "D",
+        "text": "Rs.18,938"
+      },
+      "pdf_page": 14
+    },
+    {
+      "id": 110,
+      "section": "Concept of Total SI",
+      "question_markdown": "The rate of interest for the first 2 years is 6% p.a. for next 3 years is 10% p.a. and for the period beyond 5 years is 12% pa.a If a person gets `12,771 as simple interest after 7 years, then what money did he invest?",
+      "options": {
+        "A": "` 19,450",
+        "B": "` 19,350",
+        "C": "` 19,300",
+        "D": "` 20,000"
+      },
+      "answer": {
+        "option": "B",
+        "text": "` 19,350"
+      },
+      "pdf_page": 14
+    },
+    {
+      "id": 111,
+      "section": "Concept of Total SI",
+      "question_markdown": "The rate of simple interest for first two years is 8% p.a., for the next 4 years, it is 10% p.a. and for the period beyond 6 years, it is 12% p.a. If a person gets Rs.18358.60 as simple interest after 9 years, then how much money (in Rs) did he invest?",
+      "options": {
+        "A": "21075",
+        "B": "20087",
+        "C": "19674",
+        "D": "19955"
+      },
+      "answer": {
+        "option": "D",
+        "text": "19955"
+      },
+      "pdf_page": 14
+    },
+    {
+      "id": 112,
+      "section": "Concept of Total SI",
+      "question_markdown": "A sum of money earns a simple interest at 7.25% per annum for the first eight years, at 8.5% for the next six years, and at 6.5% for the final four years. If the total interest earned during these eighteen years was `35,100, what was the original sum invested (in `)?",
+      "options": {
+        "A": "25,800",
+        "B": "25,500",
+        "C": "26,400",
+        "D": "26,000"
+      },
+      "answer": {
+        "option": "D",
+        "text": "26,000"
+      },
+      "pdf_page": 14
+    },
+    {
+      "id": 113,
+      "section": "Concept of Total SI",
+      "question_markdown": "A person borrowed `1,200 at 8% p.a. and `1,800 at 10% p.a. as simple interest for the same period. He has to pay `1,380 in all as interest. Find the time period?",
+      "options": {
+        "A": "4 years",
+        "B": "10 years",
+        "C": "6 years",
+        "D": "5 years"
+      },
+      "answer": {
+        "option": "D",
+        "text": "5 years"
+      },
+      "pdf_page": 14
+    },
+    {
+      "id": 114,
+      "section": "Concept of Total SI",
+      "question_markdown": "A person deposits `500 for 2 years, `600 for 5 years and `1000 for 6 years at the same rate of simple interest. If he earns a simple interest of ` 1000, then what is the rate of interest per year?",
+      "options": {
+        "A": "15%",
+        "B": "5%",
+        "C": "10%",
+        "D": "20%"
+      },
+      "answer": {
+        "option": "C",
+        "text": "10%"
+      },
+      "pdf_page": 14
+    },
+    {
+      "id": 115,
+      "section": "Concept of Total SI",
+      "question_markdown": "Ramesh has Rs.18,000. He deposited Rs.7,000 in a bank at the rate of 5% per annum and Rs.6,000 in other bank at the rate of 6% per annum simple interest. If he received Rs.1,160 as simple interest at the end of one year, then the rate of interest per annum on rest of the capital is equal to:",
+      "options": {
+        "A": "10%",
+        "B": "11%",
+        "C": "9%",
+        "D": "8%"
+      },
+      "answer": {
+        "option": "C",
+        "text": "9%"
+      },
+      "pdf_page": 14
+    },
+    {
+      "id": 116,
+      "section": "Concept of Total SI",
+      "question_markdown": "A sum of ` 10000 is invested in three schemes of simple interest. The annual interest rates are respectively, 4%, 6% and 10%. `4000 were invested in the first scheme. If the total interest earned after five years is ` 2800, then how much money was invested in the third scheme?",
+      "options": {
+        "A": "` 1500",
+        "B": "` 5000",
+        "C": "` 1000",
+        "D": "` 3000"
+      },
+      "answer": {
+        "option": "C",
+        "text": "` 1000"
+      },
+      "pdf_page": 14
+    },
+    {
+      "id": 117,
+      "section": "Concept of Total SI",
+      "question_markdown": "Sarah invested amounts in three different schemes M, N, and O at simple interest rates of 10% p.a., 12% p.a., and 15% p.a. respectively. If the total interest accrued in one year was `2282 and the amount invested in Scheme O was 180% of the amount invested in Scheme M and 250% of the amount invested in Scheme N, what was the amount invested in Scheme N?",
+      "options": {
+        "A": "`3000",
+        "B": "`3200",
+        "C": "`3600",
+        "D": "`4000"
+      },
+      "answer": {
+        "option": "C",
+        "text": "`3600"
+      },
+      "pdf_page": 15
+    },
+    {
+      "id": 118,
+      "section": "Question Based on Concept of Average",
+      "question_markdown": "A person lends 40% of his sum of money at 15% per annum, 50% of rest at 10% per annum and the rest at 18% per annum rate of interest, if the interest is calculated on the whole sum then what would be the annual rate of interest?",
+      "options": {
+        "A": "13.4%",
+        "B": "14.33%",
+        "C": "14.4%",
+        "D": "13.33%"
+      },
+      "answer": {
+        "option": "C",
+        "text": "14.4%"
+      },
+      "pdf_page": 15
+    },
+    {
+      "id": 119,
+      "section": "Question Based on Concept of Average",
+      "question_markdown": "A person invested five-twelfth of total principal at 9% per annum, 2 9 part at 11% per annum and remaining part at 16% per annum simple interest. If the total simple interest in one year is ` 38790. Find the total investment. 5 12 9 `",
+      "options": {
+        "A": "` 324000",
+        "B": "` 288000",
+        "C": "` 360000",
+        "D": "` 252000"
+      },
+      "answer": {
+        "option": "A",
+        "text": "` 324000"
+      },
+      "pdf_page": 15
+    },
+    {
+      "id": 120,
+      "section": "Question Based on Concept of Average",
+      "question_markdown": "1 6 of a certain sum is lent at 36 percent rate of interest. 1 5 of the remaining sum is lent at 42 percent rate of interest. The remaining sum is lent at 18 percent rate of interest. If the simple interest received on the total sum for 3 years is `1725, then what is the sum?",
+      "options": {
+        "A": "`2100",
+        "B": "`2400",
+        "C": "`2300",
+        "D": "`2200"
+      },
+      "answer": {
+        "option": "C",
+        "text": "`2300"
+      },
+      "pdf_page": 15
+    },
+    {
+      "id": 121,
+      "section": "Question Based on Concept of Average",
+      "question_markdown": "Sudeep invested 1 8 of a certain sum at 5% p.a. for two years and 3 5 of the sum at 6% p.a. for two years and the remaining at 10% p.a. for two years. If the total interest received is ` 1,674, then the total sum invested is: 8 5 `",
+      "options": {
+        "A": "` 10,500",
+        "B": "` 12,500",
+        "C": "` 12,000",
+        "D": "` 13,000"
+      },
+      "answer": {
+        "option": "C",
+        "text": "` 12,000"
+      },
+      "pdf_page": 15
+    },
+    {
+      "id": 122,
+      "section": "Question Based on Concept of Average",
+      "question_markdown": "A person invested one-fourth of the sum of ` 25,000 at a certain rate of simple interest and the rest at 4% p.a. higher rate. If the total interest received for 2 years is ` 4,125. What is the rate at which the second sum was invested?",
+      "options": {
+        "A": "9.5%",
+        "B": "9.25%",
+        "C": "9.255%",
+        "D": "7.5%"
+      },
+      "answer": {
+        "option": "B",
+        "text": "9.25%"
+      },
+      "pdf_page": 15
+    },
+    {
+      "id": 123,
+      "section": "Question Based on Concept of Average",
+      "question_markdown": "Mr. Pinto invests one-fifth of his capital at 6%, one-third at 10% and the remaining at 1%, each rate being simple interest per annum. Then, the minimum number of years required for the cumulative interest income from these investments to equal or exceed his initial capital is.",
+      "options": {
+        "A": "20",
+        "B": "30",
+        "C": "15",
+        "D": "24"
+      },
+      "answer": {
+        "option": "A",
+        "text": "20"
+      },
+      "pdf_page": 16
+    },
+    {
+      "id": 124,
+      "section": "Concept of Equal SI",
+      "question_markdown": "A person invested a total of ` 9,000 in three parts at 3%, 4% and 6% per annum on simple interest. At the end of a year, he received equal interest in all three cases. The amount invested at 6% is",
+      "options": {
+        "A": "` 2,000",
+        "B": "` 3,000",
+        "C": "` 4,000",
+        "D": "` 5,000"
+      },
+      "answer": {
+        "option": "A",
+        "text": "` 2,000"
+      },
+      "pdf_page": 16
+    },
+    {
+      "id": 125,
+      "section": "Concept of Equal SI",
+      "question_markdown": "A person invested a total sum of Rs.2200 in three different schemes of simple interest at 4%, 5%, and 10% per annum. At the end of one year, he got the same interest from all three schemes. What was the amount (in Rs.) invested at 5%?",
+      "options": {
+        "A": "Rs.1000",
+        "B": "Rs.800",
+        "C": "Rs.600",
+        "D": "Rs.400"
+      },
+      "answer": {
+        "option": "B",
+        "text": "Rs.800"
+      },
+      "pdf_page": 16
+    },
+    {
+      "id": 126,
+      "section": "Concept of Equal SI",
+      "question_markdown": "` 8680 distributed among three friends. If they pay equal interest after 5 years, 10 years and 20 years respectively at the rate of 12% per annum simple interest, then how much money each get? `",
+      "options": {
+        "A": "4960, 2480, 1240",
+        "B": "5000, 2500, 1180",
+        "C": "4850, 2315, 1515",
+        "D": "4000, 3000, 1680"
+      },
+      "answer": {
+        "option": "A",
+        "text": "4960, 2480, 1240"
+      },
+      "pdf_page": 16
+    },
+    {
+      "id": 127,
+      "section": "Concept of Equal SI",
+      "question_markdown": "A sum of Rs.5,000 is divided into two parts such that the simple interest on the first part for 1 4 5 years at 2 6/3% p.a. is double the simple interest on the second part for 3 2 4 years at 4% p.a. The ratio of the second part to the first part is: Rs.5,000",
+      "options": {
+        "A": "11 : 14",
+        "B": "11 : 13",
+        "C": "14 : 11",
+        "D": "13 : 11"
+      },
+      "answer": {
+        "option": "C",
+        "text": "14 : 11"
+      },
+      "pdf_page": 16
+    },
+    {
+      "id": 128,
+      "section": "Concept of Equal SI",
+      "question_markdown": "Sapna invested `20,900 on simple interest, partly at 10% per annum and partly at 9% per annum. If she earns equal interests from the two investments after 5 years, then find the sum invested at 10% per annum (in `).",
+      "options": {
+        "A": "9,902",
+        "B": "9,903",
+        "C": "9,900",
+        "D": "9,899"
+      },
+      "answer": {
+        "option": "C",
+        "text": "9,900"
+      },
+      "pdf_page": 16
+    },
+    {
+      "id": 129,
+      "section": "Concept of Equal SI",
+      "question_markdown": "A sum of Rs.50,250 is divided into two parts such that the simple interest on the first part for 1 7 2 years at 8 3 % p.a. is 5 2 times the simple interest on the second part for 5 4 years at 8% p.a. What is the difference (in Rs.) between the two parts? Rs.50,250",
+      "options": {
+        "A": "10,275",
+        "B": "12,750",
+        "C": "12,570",
+        "D": "15,270"
+      },
+      "answer": {
+        "option": "B",
+        "text": "12,750"
+      },
+      "pdf_page": 16
+    },
+    {
+      "id": 130,
+      "section": "Concept of Equal SI",
+      "question_markdown": "A sum of ` 5,000 is divided into two parts such that the simple interest on the first part for 1 4 5 years at 2 6/3% p.a. is double the simple interest on the second part for 3 4 years at 4% p.a. What is the difference between the two parts?",
+      "options": {
+        "A": "` 680",
+        "B": "` 600",
+        "C": "` 560",
+        "D": "` 620"
+      },
+      "answer": {
+        "option": "B",
+        "text": "` 600"
+      },
+      "pdf_page": 17
+    },
+    {
+      "id": 131,
+      "section": "Concept of Equal Amount",
+      "question_markdown": "If the amount obtained by A by investing Rs 9,100 for three years at a rate of 10% p.a. on simple interest is equal to the amount obtained by B by investing a certain sum of money for five years at a rate of 8% p.a. on simple interest, then 90% of the sum invested by B (in Rs) is:",
+      "options": {
+        "A": "7,800",
+        "B": "7,605",
+        "C": "8,540",
+        "D": "8,450"
+      },
+      "answer": {
+        "option": "B",
+        "text": "7,605"
+      },
+      "pdf_page": 17
+    },
+    {
+      "id": 132,
+      "section": "Concept of Equal Amount",
+      "question_markdown": "`21750 is invested by a person in the bank account of his two sons whose ages are 9 years and 13 years in such a way that they will get equal amount at an age of 21 years at the rate of 4.5% per annum. Find the share of younger child. `",
+      "options": {
+        "A": "` 10,200",
+        "B": "` 11,550",
+        "C": "` 9,900",
+        "D": "` 11,475"
+      },
+      "answer": {
+        "option": "A",
+        "text": "` 10,200"
+      },
+      "pdf_page": 17
+    },
+    {
+      "id": 133,
+      "section": "Concept of Equal Amount",
+      "question_markdown": "A sum of Rs.23,790 is divided into three parts and given on loan at 5% simple interest to A, B and C for 2, 3 and 4 years respectively. If the amounts of all three are equal after their respective periods of loan, then A received a loan of : `",
+      "options": {
+        "A": "` 9,150",
+        "B": "` 8,280",
+        "C": "` 8,250",
+        "D": "` 8,400"
+      },
+      "answer": {
+        "option": "B",
+        "text": "` 8,280"
+      },
+      "pdf_page": 17
+    },
+    {
+      "id": 134,
+      "section": "Miscellaneous Questions",
+      "question_markdown": "A person deposited certain money at the starting of each year, if rate of interest is 13% per annum. At the end of 3rd year, the total amount is `24948. Then find how much money he deposited each year. `",
+      "options": {
+        "A": "` 6400",
+        "B": "` 6600",
+        "C": "` 6200",
+        "D": "` 6300"
+      },
+      "answer": {
+        "option": "B",
+        "text": "` 6600"
+      },
+      "pdf_page": 17
+    },
+    {
+      "id": 135,
+      "section": "Miscellaneous Questions",
+      "question_markdown": "An amount of `12,000 was borrowed at a certain rate of simple interest. After four months, `6,000 more was borrowed and rate of interest on the total principal was doubled than that of the previous rate. At the end of the year, 2800 was paid as the interest. find the rate that was applicable in the initial.",
+      "options": {
+        "A": "14%",
+        "B": "16%",
+        "C": "12%",
+        "D": "10%"
+      },
+      "answer": {
+        "option": "D",
+        "text": "10%"
+      },
+      "pdf_page": 17
+    },
+    {
+      "id": 136,
+      "section": "Miscellaneous Questions",
+      "question_markdown": "A man take a loan of some amount at some rate of simple interest. After three years, the loan amount is doubled and the rate of interest is decreased by 2%. After further 5 years, if the total interest paid on the whole is the `13,600, which is equal to the same when the first amount was taken for 1 11 3 years, then the loan taken initially is",
+      "options": {
+        "A": "` 13,600",
+        "B": "` 12,500",
+        "C": "` 10,000",
+        "D": "` 12,000"
+      },
+      "answer": {
+        "option": "C",
+        "text": "` 10,000"
+      },
+      "pdf_page": 18
+    },
+    {
+      "id": 137,
+      "section": "Miscellaneous Questions",
+      "question_markdown": "A certain amount is lent at x% p.a. simple interest for 3 years. Instead, if the amount was lent at 3x% p.a. simple interest for 'y' more years, then the simple interest would have been seven times the earlier interest. What is the value of y? x% 'y' 3x% y",
+      "options": {
+        "A": "3",
+        "B": "4",
+        "C": "5",
+        "D": "6"
+      },
+      "answer": {
+        "option": "B",
+        "text": "4"
+      },
+      "pdf_page": 18
+    },
+    {
+      "id": 138,
+      "section": "Miscellaneous Questions",
+      "question_markdown": "A money-lender claims he lends money at a simple interest at rate of 8% per annum. But he cleverly includes the interest amount in the pricipal when he calculates it every six months. The effective rate of interest becomes:",
+      "options": {
+        "A": "8.16%",
+        "B": "8.2%",
+        "C": "8.8%",
+        "D": "8.25%"
+      },
+      "answer": {
+        "option": "A",
+        "text": "8.16%"
+      },
+      "pdf_page": 18
+    },
+    {
+      "id": 139,
+      "section": "Miscellaneous Questions",
+      "question_markdown": "The simple interest on Rs.800 for 6 years at 5.5% per annum is equal to the simple interest on Rs.600 at 4% per annum for a certain period of time. The period of time is:",
+      "options": {
+        "A": "11 years",
+        "B": "9 years",
+        "C": "12 years",
+        "D": "10 years"
+      },
+      "answer": {
+        "option": "A",
+        "text": "11 years"
+      },
+      "pdf_page": 18
+    },
+    {
+      "id": 140,
+      "section": "Miscellaneous Questions",
+      "question_markdown": "On simple interest, a certain sum becomes Rs. 59,200 in 6 years and Rs. 72,000 in 10 years. If the rate of interest had been. 2% more, then in how many years would the sum have become Rs. 76,000? Rs. Rs. Rs.",
+      "options": {
+        "A": "10",
+        "B": "9",
+        "C": "8",
+        "D": "7"
+      },
+      "answer": {
+        "option": "B",
+        "text": "9"
+      },
+      "pdf_page": 18
+    },
+    {
+      "id": 141,
+      "section": "Miscellaneous Questions",
+      "question_markdown": "A certain sum on simple interest becomes Rs. 49,600 in 3 years and Rs. 56,000 in 5 years. If the rate of interest had been 2% more, then in how many years would the sum have doubled? Rs. Rs.",
+      "options": {
+        "A": "10",
+        "B": "8",
+        "C": "12",
+        "D": "20"
+      },
+      "answer": {
+        "option": "A",
+        "text": "10"
+      },
+      "pdf_page": 18
+    },
+    {
+      "id": 142,
+      "section": "Miscellaneous Questions",
+      "question_markdown": "Two equal sums were lent on simple interest at 6% and 10% per annum respectively. The first sum was recovered two years later than the second sum and the amount in each case was Rs.1105. What was the sum (in Rs) lent in each scheme?",
+      "options": {
+        "A": "900",
+        "B": "850",
+        "C": "936",
+        "D": "891"
+      },
+      "answer": {
+        "option": "B",
+        "text": "850"
+      },
+      "pdf_page": 18
+    },
+    {
+      "id": 143,
+      "section": "Miscellaneous Questions",
+      "question_markdown": "A sum of money was lent in two parts in the ratio 4 : 5 for 4 years and 5 years respectively, both at the rate of 8% per annum simple interest. If the difference between the interests earned from the two parts is Rs 4680, then what was the total sum lent (in Rs ) ?",
+      "options": {
+        "A": "58,500",
+        "B": "46,800",
+        "C": "65,000",
+        "D": "42,120"
+      },
+      "answer": {
+        "option": "A",
+        "text": "58,500"
+      },
+      "pdf_page": 19
+    },
+    {
+      "id": 144,
+      "section": "Miscellaneous Questions",
+      "question_markdown": "If `32,000 is invested at a simple interest rate of 5% per annum and the interest is added to the principal after 10 years. then in how many total years will it amount to `64,000 at the same rate of interest?",
+      "options": {
+        "A": "2 18 3 years",
+        "B": "1 16 3 years",
+        "C": "2 16 3 years",
+        "D": "1 18 3 years"
+      },
+      "answer": {
+        "option": "C",
+        "text": "2 16 3 years"
+      },
+      "pdf_page": 19
+    },
+    {
+      "id": 145,
+      "section": "Miscellaneous Questions",
+      "question_markdown": "In 't' years, the simple interest earned on a cer- tain amount at the rate of 10% per annum is 5 8 th of the principle amount. If the rate of interest is made three-fourth of 10% and the simple interest remains the same, which of the following statement is true about the changed value of time? 't'",
+      "options": {
+        "A": "It remains the same as 't'.",
+        "B": "It becomes three-fourth of the time 't'.",
+        "C": "It increases to 1 8 3 years.",
+        "D": "It decreases to 1 5 2 years."
+      },
+      "answer": {
+        "option": "C",
+        "text": "It increases to 1 8 3 years."
+      },
+      "pdf_page": 19
+    },
+    {
+      "id": 146,
+      "section": "Miscellaneous Questions",
+      "question_markdown": "A borrows `20,000 from B and C. B lends him a certain sum of money at 25% simple interest per annum, while C lends him the remaining sum of money at 21% simple interest per annum. The total interest paid by A in one year is `4,500. The sum (in `) borrowed from B is: ABCB",
+      "options": {
+        "A": "12,500",
+        "B": "6,000",
+        "C": "9,000",
+        "D": "7,500"
+      },
+      "answer": {
+        "option": "D",
+        "text": "7,500"
+      },
+      "pdf_page": 19
+    },
+    {
+      "id": 147,
+      "section": "Miscellaneous Questions",
+      "question_markdown": "S borrowed some amount from R and promised to pay him 8% interest. Then S invested the borrowed amount in a scheme, upon which he earned a profit of 5% after paying R, the principal amount with interest. How much percentage R would have gained, if he would have invested in the scheme directly?",
+      "options": {
+        "A": "13.4%",
+        "B": "13%",
+        "C": "14.4%",
+        "D": "14%"
+      },
+      "answer": {
+        "option": "B",
+        "text": "13%"
+      },
+      "pdf_page": 19
+    },
+    {
+      "id": 148,
+      "section": "Miscellaneous Questions",
+      "question_markdown": "Mohan borrows a sum of Rs.4,22,092 at the rate of 20% per annum simple interest. At the end of the first year, he repays Rs.21,679 towards return of principal amount borrowed. If Mohan clears all pending dues at the end of the second year, including interest payment that accrued during the first year, how much does he pay (in Rs.) at the end of the second year?",
+      "options": {
+        "A": "5,56,367",
+        "B": "5,58,380",
+        "C": "5,61,347",
+        "D": "5,64,914"
+      },
+      "answer": {
+        "option": "D",
+        "text": "5,64,914"
+      },
+      "pdf_page": 19
+    },
+    {
+      "id": 149,
+      "section": "Miscellaneous Questions",
+      "question_markdown": "Sohan borrows a sum of Rs.1,41,545 at the rate of 11% per annum simple interest. At the end of the first year, he repays Rs.25,490 towards return of principal amount borrowed. If Sohan clears all pending dues at the end of the second year, including interest payment that accrued during the first year, how much does he pay (in Rs.) at the end of the second year?",
+      "options": {
+        "A": "1,44,391",
+        "B": "1,36,453",
+        "C": "1,41,222",
+        "D": "1,37,407"
+      },
+      "answer": {
+        "option": "A",
+        "text": "1,44,391"
+      },
+      "pdf_page": 20
+    },
+    {
+      "id": 150,
+      "section": "Miscellaneous Questions",
+      "question_markdown": "Mr. Ram invests an amount of Rs. 12200 at the rate of 2% per annum for 4 years to obtain a simple interest. Later he invests the principal amount as well as the amount obtained as simple interest for another 4 years at the same rate of interest. What amount of simple interest will he get at the end of the last 4 years?",
+      "options": {
+        "A": "Rs. 1054.00",
+        "B": "Rs. 1056.07",
+        "C": "Rs. 1054.08",
+        "D": "Rs. 1055.08"
+      },
+      "answer": {
+        "option": "C",
+        "text": "Rs. 1054.08"
+      },
+      "pdf_page": 20
+    },
+    {
+      "id": 151,
+      "section": "Miscellaneous Questions",
+      "question_markdown": "A person invested some amount at the rate of 12% per annum simple interest and another amount at the rate of 10% per annum simple interest. He received yearly interest of Rs.125 from both the investments. But if he had interchanged the amounts invested, he would have received Rs.3 more as interest. How much did he invest at 10% per annum simple interest originally?",
+      "options": {
+        "A": "Rs.600",
+        "B": "Rs.500",
+        "C": "Rs.700",
+        "D": "Rs.650"
+      },
+      "answer": {
+        "option": "D",
+        "text": "Rs.650"
+      },
+      "pdf_page": 20
+    },
+    {
+      "id": 152,
+      "section": "Miscellaneous Questions",
+      "question_markdown": "Aman needed `30,000 for a start-up and split the sum between two private lenders under simple-interest terms: ` Lender A charges 9% p.a. (simple interest) Lender B charges 6% p.a. (simple interest) Aman kept both loans exactly 4 years and then made a single lump-sum payment that settled only the accumulated interest, which came to `9,600. After preparing his books of account, Aman discovered that he interchanged the principal amounts taken from the two lenders, his four-year interest outgo would have been `1,200 less than what he actually paid. How much of the original `30,000 did Aman borrow at 9% p.a. from Lender A?",
+      "options": {
+        "A": "`10,000",
+        "B": "`8,000",
+        "C": "`7,000",
+        "D": "`20,000"
+      },
+      "answer": {
+        "option": "D",
+        "text": "`20,000"
+      },
+      "pdf_page": 20
+    },
+    {
+      "id": 153,
+      "section": "Miscellaneous Questions",
+      "question_markdown": "Consider the following statements ragarding simple interest: 1. The simple interest on `8000 for 3 years at 5% per annum is `1200. 2. If a sum of money doubles in 10 years at simple interest, then it will become 1.5 times in 6 years. 3. The simple interest rate required for an amount to become 2.5 times in 5 years is 30%. Of these statements, which are correct?",
+      "options": {
+        "A": "Only 1 is correct",
+        "B": "1 and 2 are correct",
+        "C": "1 and 3 are correct",
+        "D": "All 1, 2 and 3 are correct"
+      },
+      "answer": {
+        "option": "C",
+        "text": "1 and 3 are correct"
+      },
+      "pdf_page": 21
+    }
+  ]
+}

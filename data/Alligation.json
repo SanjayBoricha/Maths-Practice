@@ -1,0 +1,809 @@
+{
+  "schema_version": 3,
+  "chapter_id": "alligation",
+  "chapter_name": "Alligation",
+  "source_file": "Alligation (ClassRoom Sheet).pdf",
+  "question_count": 50,
+  "questions": [
+    {
+      "id": 1,
+      "section": "Type 1",
+      "question_markdown": "Population of a town is 1,20,000 . If number of male increases by 7% and females increases by 10%, then the population of town would increase by 9.5%. Find the difference between male to female population living in that town?",
+      "options": {
+        "A": "25000",
+        "B": "80000",
+        "C": "24000",
+        "D": "10800"
+      },
+      "answer": {
+        "option": "B",
+        "text": "80000"
+      },
+      "pdf_page": 2
+    },
+    {
+      "id": 2,
+      "section": "Type 1",
+      "question_markdown": "Population of town is 15,000. If number of male decreases by 10% and number of female increases by 5% then the population of town would increase by 600. Find the number of male in the town.",
+      "options": {
+        "A": "1500",
+        "B": "1000",
+        "C": "1400",
+        "D": "1080"
+      },
+      "answer": {
+        "option": "B",
+        "text": "1000"
+      },
+      "pdf_page": 2
+    },
+    {
+      "id": 3,
+      "section": "Type 1",
+      "question_markdown": "The proportion of Suresh's spending to saving is 3 : 1. His salary rises by 25%. What percentage of his expenditure will increase if his saving grows by 10%?",
+      "options": {
+        "A": "40%",
+        "B": "20%",
+        "C": "10%",
+        "D": "30%"
+      },
+      "answer": {
+        "option": "D",
+        "text": "30%"
+      },
+      "pdf_page": 2
+    },
+    {
+      "id": 4,
+      "section": "Type 1",
+      "question_markdown": "A womam spends 2 3 of her income. If her income increase by 18% and the expenditure increase by 24%, then the percentage increase in her saving will be:",
+      "options": {
+        "A": "6%",
+        "B": "3%",
+        "C": "5%",
+        "D": "4%"
+      },
+      "answer": {
+        "option": "A",
+        "text": "6%"
+      },
+      "pdf_page": 2
+    },
+    {
+      "id": 5,
+      "section": "Type 1",
+      "question_markdown": "A spends 65% of his income. His income has increased by 20.1% and his expenditure has increased by 25%. His savings",
+      "options": {
+        "A": "increase by 11%",
+        "B": "increase by 5%",
+        "C": "Decrease by 5%",
+        "D": "Decrease by 11%"
+      },
+      "answer": {
+        "option": "A",
+        "text": "increase by 11%"
+      },
+      "pdf_page": 2
+    },
+    {
+      "id": 6,
+      "section": "Type 1",
+      "question_markdown": "Monika spends 72% of her income. If her income increase by 20% and savings increase by 15%, then her expenditure increase by (correct to 1 decimal place)",
+      "options": {
+        "A": "20.8%",
+        "B": "20.2%",
+        "C": "21.9%",
+        "D": "19.8%"
+      },
+      "answer": {
+        "option": "C",
+        "text": "21.9%"
+      },
+      "pdf_page": 2
+    },
+    {
+      "id": 7,
+      "section": "Type 2",
+      "question_markdown": "In what ratio should coffee powder costing `2500/kg be mixed with coffee powder costing ` 1500/kg so that the cost of the mixture is `2250/kg? `",
+      "options": {
+        "A": "1 : 4",
+        "B": "4 : 1",
+        "C": "3 : 1",
+        "D": "1 : 3"
+      },
+      "answer": {
+        "option": "C",
+        "text": "3 : 1"
+      },
+      "pdf_page": 2
+    },
+    {
+      "id": 8,
+      "section": "Type 2",
+      "question_markdown": "How much rice of Rs.4 per kg should be mixed to 15 kg of rice of Rs.10 per kg, so as to make a mixture worth Rs.6.50 per kg?",
+      "options": {
+        "A": "15 kg",
+        "B": "21 kg",
+        "C": "30 kg",
+        "D": "40 kg"
+      },
+      "answer": {
+        "option": "B",
+        "text": "21 kg"
+      },
+      "pdf_page": 2
+    },
+    {
+      "id": 9,
+      "section": "Type 2",
+      "question_markdown": "A shopkeeper earns 10% on an investment but loses 20% on another investment. If the ratio of the two investments is 2 : 3, then the combined loss percentage is:",
+      "options": {
+        "A": "5.5%",
+        "B": "7%",
+        "C": "6%",
+        "D": "8%"
+      },
+      "answer": {
+        "option": "D",
+        "text": "8%"
+      },
+      "pdf_page": 3
+    },
+    {
+      "id": 10,
+      "section": "Type 2",
+      "question_markdown": "In what ratio must the two types of tea at Rs.180/kg and Rs.280/kg respectively be mixed so that the obtained mixture sold at 320/kg earns a profit of 20% ?",
+      "options": {
+        "A": "3 : 13",
+        "B": "4 : 13",
+        "C": "1 : 14",
+        "D": "2 : 13"
+      },
+      "answer": {
+        "option": "D",
+        "text": "2 : 13"
+      },
+      "pdf_page": 3
+    },
+    {
+      "id": 11,
+      "section": "Type 2",
+      "question_markdown": "How many kg of salt at Rs.42 per kg must a man mix with 25 kg of salt at Rs.24 per kg, so that he may, on selling the mixture at Rs.40 per kg, gain 25% on the outlay?",
+      "options": {
+        "A": "15",
+        "B": "20",
+        "C": "25",
+        "D": "30"
+      },
+      "answer": {
+        "option": "B",
+        "text": "20"
+      },
+      "pdf_page": 3
+    },
+    {
+      "id": 12,
+      "section": "Type 2",
+      "question_markdown": "A trader bought 640 kg of rice. He sold a part of the rice at 20% profit and the rest at 5% loss. He earned a profit of 15% in the entire transaction. What is the ratio of the quantity of rice that he sold at a loss of 5% to that of the quantity that he sold at a profit of 20%?",
+      "options": {
+        "A": "1 : 3",
+        "B": "4 : 1",
+        "C": "1 : 4",
+        "D": "3 : 1"
+      },
+      "answer": {
+        "option": "C",
+        "text": "1 : 4"
+      },
+      "pdf_page": 3
+    },
+    {
+      "id": 13,
+      "section": "Type 2",
+      "question_markdown": "Arvind has 650 kg of wheat. A part of which he sells at 9% profit and the rest at 19% profit to get 15% profit on the whole. What is the quantity (in kg) of wheat sold by Arvind at 9% profit?",
+      "options": {
+        "A": "260 kg",
+        "B": "390 kg",
+        "C": "195 kg",
+        "D": "455 kg"
+      },
+      "answer": {
+        "option": "A",
+        "text": "260 kg"
+      },
+      "pdf_page": 3
+    },
+    {
+      "id": 14,
+      "section": "Type 2",
+      "question_markdown": "Ramendra purchased some watermelons for `1,500. He sold one-fourth of them at a loss of 12%. At what gain percentage should the remaining watermelons be sold so as to gain 25% on the whole transaction (correct to two decimal places)?",
+      "options": {
+        "A": "37.33%",
+        "B": "33.73%",
+        "C": "37.65%",
+        "D": "33.43%"
+      },
+      "answer": {
+        "option": "A",
+        "text": "37.33%"
+      },
+      "pdf_page": 3
+    },
+    {
+      "id": 15,
+      "section": "Type 2",
+      "question_markdown": "A student bought 10 pencils and 8 pens at ` 150 . He sells pencil at 4% profit and pen at 7% profit. Overall he gains ` 9. Find the cost price of each pencil and pen. `",
+      "options": {
+        "A": "3, 6",
+        "B": "5, 10.5",
+        "C": "5, 12.5",
+        "D": "3, 6 TYPE - 3"
+      },
+      "answer": {
+        "option": "C",
+        "text": "5, 12.5"
+      },
+      "pdf_page": 3
+    },
+    {
+      "id": 16,
+      "section": "Type 3",
+      "question_markdown": "A seller sells 2 watches at 8% and 15% discount each. Total marked price of both the items are ` 2100 . Find the difference between marked price of both items, if total discount is of 12%. `",
+      "options": {
+        "A": "360",
+        "B": "300",
+        "C": "500",
+        "D": "200"
+      },
+      "answer": {
+        "option": "B",
+        "text": "300"
+      },
+      "pdf_page": 3
+    },
+    {
+      "id": 17,
+      "section": "Type 4",
+      "question_markdown": "A total of Rs.2,00,000 is divided into two parts for investing in different banks on simple interest. One yields 4% p.a. while the other yields 6% p.a. If the total interest at the end of one year is equivalent to 4.7% p.a. on the whole amount, the amount (in Rs.) invested in each bank is ________, respectively. ________",
+      "options": {
+        "A": "1,30,000 and 70,000",
+        "B": "1,45,000 and 55,000",
+        "C": "1,20,000 and 80,000",
+        "D": "1,60,000 and 40,000"
+      },
+      "answer": {
+        "option": "A",
+        "text": "1,30,000 and 70,000"
+      },
+      "pdf_page": 4
+    },
+    {
+      "id": 18,
+      "section": "Type 4",
+      "question_markdown": "Harish is having ` 40,000 . He deposited it in 2 banks. Interest given by 1st bank is 9.5% per annum and that of 2nd bank is 5.5% per annum. If at the end of a year Harish got ` 3200 as simple interest. Then find the difference of the balance amount deposited in both banks? `",
+      "options": {
+        "A": "` 36000",
+        "B": "` 30000",
+        "C": "` 10000",
+        "D": "` 20000"
+      },
+      "answer": {
+        "option": "C",
+        "text": "` 10000"
+      },
+      "pdf_page": 4
+    },
+    {
+      "id": 19,
+      "section": "Type 4",
+      "question_markdown": "Kiran lent Rs.4,000 to two persons such that one part of it at the rate of 8% per annum and the remaining part at the rate of 10% per annum. He got an annual simple interest of Rs.352. Then the sum lent at 10% is:",
+      "options": {
+        "A": "Rs.1,800",
+        "B": "Rs.2,200",
+        "C": "Rs.2,400",
+        "D": "Rs.1,600 TYPE - 5"
+      },
+      "answer": {
+        "option": "D",
+        "text": "Rs.1,600 TYPE - 5"
+      },
+      "pdf_page": 4
+    },
+    {
+      "id": 20,
+      "section": "Type 5",
+      "question_markdown": "The average marks of two classes M and N are 25 and 40 respectively and the overall average is 30. The ratio of the students of classes M and N is",
+      "options": {
+        "A": "2 : 1",
+        "B": "5 : 6",
+        "C": "1 : 2",
+        "D": "5 : 3"
+      },
+      "answer": {
+        "option": "A",
+        "text": "2 : 1"
+      },
+      "pdf_page": 4
+    },
+    {
+      "id": 21,
+      "section": "Type 5",
+      "question_markdown": "The average score of a batsman in 20 matches is 15 and in 25 other matches is 24. Find the average score in all the 45 matches.",
+      "options": {
+        "A": "21",
+        "B": "20",
+        "C": "19.5",
+        "D": "22"
+      },
+      "answer": {
+        "option": "B",
+        "text": "20"
+      },
+      "pdf_page": 4
+    },
+    {
+      "id": 22,
+      "section": "Type 5",
+      "question_markdown": "In a class, there are 60 students. The average weight of the entire class is 42 kg. If there are 36 boys in the class and the average weight of all the boys is 50 kg, then what is the average weight (in kg) of all the girls?",
+      "options": {
+        "A": "30",
+        "B": "32",
+        "C": "36",
+        "D": "34"
+      },
+      "answer": {
+        "option": "A",
+        "text": "30"
+      },
+      "pdf_page": 4
+    },
+    {
+      "id": 23,
+      "section": "Type 5",
+      "question_markdown": "In a company with 600 employees, the average age of male employees is 42 years and that of female employees is 41 years. If the average age of all the employees in the company is 41 years and 9 months, then the number of female employees is",
+      "options": {
+        "A": "150",
+        "B": "250",
+        "C": "450",
+        "D": "350"
+      },
+      "answer": {
+        "option": "A",
+        "text": "150"
+      },
+      "pdf_page": 4
+    },
+    {
+      "id": 24,
+      "section": "Type 5",
+      "question_markdown": "The average age of 120 students in a group is 13.56 years, 35% of the number of students are girls and the rest are boys. If the ratio of the average age of boys and girls is 6 : 5, then what is the average age (in years) of the girls?",
+      "options": {
+        "A": "12",
+        "B": "11.6",
+        "C": "10",
+        "D": "14.4"
+      },
+      "answer": {
+        "option": "A",
+        "text": "12"
+      },
+      "pdf_page": 4
+    },
+    {
+      "id": 25,
+      "section": "Type 5",
+      "question_markdown": "In a class of 80 students, 60% participate in games and the rest do not. The average weight of the former group is 5% more than that of the latter. If the average weight of all the students is 1 512 kg, then what is the average weight (in kg) of the former group?",
+      "options": {
+        "A": "57.6",
+        "B": "54.5",
+        "C": "60",
+        "D": "52.5"
+      },
+      "answer": {
+        "option": "D",
+        "text": "52.5"
+      },
+      "pdf_page": 5
+    },
+    {
+      "id": 26,
+      "section": "Type 5",
+      "question_markdown": "In a class of 80 students, the ratio of the urban to the rural is 5 : 3. In a test, the average score of the rural students is 40% more than that of the urban students. If the average score of all the students is 69, then what is the average score of the rural students?",
+      "options": {
+        "A": "80",
+        "B": "76",
+        "C": "92",
+        "D": "84"
+      },
+      "answer": {
+        "option": "D",
+        "text": "84"
+      },
+      "pdf_page": 5
+    },
+    {
+      "id": 27,
+      "section": "Type 5",
+      "question_markdown": "The average score in Mathematics of 90 students of section A and B of class IX was 63. The number of students in A were 10 more than those in B. The average score of students in A was 30% more than that of students in B. The average score of students in B is : IXAB",
+      "options": {
+        "A": "60",
+        "B": "54",
+        "C": "50",
+        "D": "56"
+      },
+      "answer": {
+        "option": "B",
+        "text": "54"
+      },
+      "pdf_page": 5
+    },
+    {
+      "id": 28,
+      "section": "Type 5",
+      "question_markdown": "There are 96 students in a class, out of which the number of girls is 40% more than that of the boys. the average score in mathematics of the boys is 40% more than the average score of girls. If the average score in mathematics of all the students is 63, then what is the average score of the girls in mathematics?",
+      "options": {
+        "A": "51",
+        "B": "54",
+        "C": "55",
+        "D": "57"
+      },
+      "answer": {
+        "option": "B",
+        "text": "54"
+      },
+      "pdf_page": 5
+    },
+    {
+      "id": 29,
+      "section": "Type 6",
+      "question_markdown": "A person went from Delhi to Agra. He covered some distance by bus and remaining distance by train. He covered complete distance which is 360 km in 6 hours. Average speed of bus is 48 km/h and average speed of train is 120 km/h. Find distance covered by train.",
+      "options": {
+        "A": "120",
+        "B": "240",
+        "C": "360",
+        "D": "180"
+      },
+      "answer": {
+        "option": "A",
+        "text": "120"
+      },
+      "pdf_page": 5
+    },
+    {
+      "id": 30,
+      "section": "Type 6",
+      "question_markdown": "A man covered a distance of 60 km in 5 hour partly by train at 15 km/h and partly by foot at 10km/h. The distance covered by train is.",
+      "options": {
+        "A": "45 km",
+        "B": "30 km",
+        "C": "20 km",
+        "D": "40 km"
+      },
+      "answer": {
+        "option": "B",
+        "text": "30 km"
+      },
+      "pdf_page": 5
+    },
+    {
+      "id": 31,
+      "section": "Type 6",
+      "question_markdown": "A person travels 255 km in 7 hours in two stages. In the first part of journey, he travels by bus at the speed of 30km\\h. In the second part of journey, he travels by train at the speed of 45km\\h. How much distance he travel by bus?",
+      "options": {
+        "A": "135 km",
+        "B": "145 km",
+        "C": "120 km",
+        "D": "125 km"
+      },
+      "answer": {
+        "option": "C",
+        "text": "120 km"
+      },
+      "pdf_page": 5
+    },
+    {
+      "id": 32,
+      "section": "Type 6",
+      "question_markdown": "A man drives his car at a speed of 50 km/hr for 2 hours and then decides to slow down to 40 km/hr till the end of the journey. If his average speed for the journey was 44 km/hr, then for how much time he drives his car at speed 40 km/hr?",
+      "options": {
+        "A": "2 hours",
+        "B": "1 hour",
+        "C": "3 hours",
+        "D": "4 hours"
+      },
+      "answer": {
+        "option": "C",
+        "text": "3 hours"
+      },
+      "pdf_page": 5
+    },
+    {
+      "id": 33,
+      "section": "Type 7",
+      "question_markdown": "Rewa has some hens and some goats. If the total number of animal heads is 100 and the total number of animal feet is 348, then what is the total number of goats with Rewa?",
+      "options": {
+        "A": "76",
+        "B": "74",
+        "C": "55",
+        "D": "80"
+      },
+      "answer": {
+        "option": "B",
+        "text": "74"
+      },
+      "pdf_page": 6
+    },
+    {
+      "id": 34,
+      "section": "Type 7",
+      "question_markdown": "In a zoo there are some pigeons and some rabbits. If their heads are counted these are 300 and if their legs are counted these are 750. Find the number of pigeons in the zoo.",
+      "options": {
+        "A": "215",
+        "B": "220",
+        "C": "225",
+        "D": "230"
+      },
+      "answer": {
+        "option": "C",
+        "text": "225"
+      },
+      "pdf_page": 6
+    },
+    {
+      "id": 35,
+      "section": "Type 7",
+      "question_markdown": "In a parking there are some two wheelers & rest are four wheelers. If wheels are counted, there are total 520 wheels but the in charge of the parking told that there are only 175 vehicles. Find the number of two wheelers?",
+      "options": {
+        "A": "108",
+        "B": "95",
+        "C": "72",
+        "D": "90"
+      },
+      "answer": {
+        "option": "D",
+        "text": "90"
+      },
+      "pdf_page": 6
+    },
+    {
+      "id": 36,
+      "section": "Type 7",
+      "question_markdown": "In an objective exam of 100 questions, 4 marks are allotted for every correct answer and 1 mark is deducted for every wrong answer. After attempting all the 100 questions, a student got the total of 270 marks, Find the number of questions that he attempted wrong.",
+      "options": {
+        "A": "74",
+        "B": "46",
+        "C": "26",
+        "D": "None of these"
+      },
+      "answer": {
+        "option": "C",
+        "text": "26"
+      },
+      "pdf_page": 6
+    },
+    {
+      "id": 37,
+      "section": "Type 7",
+      "question_markdown": "There are 2 types coins in a box 25p and 50p. The total money in box is ‘ 42 and the total number of coins is 120. Find the number of 25p coins. `",
+      "options": {
+        "A": "72",
+        "B": "48",
+        "C": "52",
+        "D": "60"
+      },
+      "answer": {
+        "option": "A",
+        "text": "72"
+      },
+      "pdf_page": 6
+    },
+    {
+      "id": 38,
+      "section": "Type 7",
+      "question_markdown": "The income of A is 50% more than that of B. If the income of A is increased by 40% and the income of B is increased by 90%, then the percentage increase in their combined income will be",
+      "options": {
+        "A": "64",
+        "B": "55",
+        "C": "60",
+        "D": "70"
+      },
+      "answer": {
+        "option": "C",
+        "text": "60"
+      },
+      "pdf_page": 6
+    },
+    {
+      "id": 39,
+      "section": "Type 7",
+      "question_markdown": "A company has undergraduate and graduate employee. The average salary of each graduate employee is `16550 and undergraduate employee is `11950, average salary of workers in company is `14750 if there are total 575 worker in company then find out total number of graduate employee in company? `",
+      "options": {
+        "A": "280",
+        "B": "350",
+        "C": "301",
+        "D": "322"
+      },
+      "answer": {
+        "option": "B",
+        "text": "350"
+      },
+      "pdf_page": 6
+    },
+    {
+      "id": 40,
+      "section": "Type 7",
+      "question_markdown": "A dishonest milkman buy some milk at `10 per liter and mixed 5 liter water to this milk and then sold it at Rs.12/liter and gains 30% profit. Find the quantity of milk that he bought.",
+      "options": {
+        "A": "54",
+        "B": "50",
+        "C": "60",
+        "D": "64"
+      },
+      "answer": {
+        "option": "C",
+        "text": "60"
+      },
+      "pdf_page": 6
+    },
+    {
+      "id": 41,
+      "section": "Type 7",
+      "question_markdown": "A dishonest milkman buy 121 liter milk at Rs.10 per liter and mixed some water to this milk and then sold it at Rs.11/liter and gains 20% profit. Find the quantity of water that he mixed.",
+      "options": {
+        "A": "17 liter",
+        "B": "11 liter",
+        "C": "13 liter",
+        "D": "10 liter"
+      },
+      "answer": {
+        "option": "B",
+        "text": "11 liter"
+      },
+      "pdf_page": 7
+    },
+    {
+      "id": 42,
+      "section": "Type 7",
+      "question_markdown": "Two types of sugar worth `42 per kg and `46 per kg are mixed together with a 3rd variety of sugar in the ratio 3 : 3 : 9. If the mixture is worth `47 per kg ,then the price of 3rd variety sugar per kg? `` `",
+      "options": {
+        "A": "45",
+        "B": "49",
+        "C": "44",
+        "D": "50"
+      },
+      "answer": {
+        "option": "B",
+        "text": "49"
+      },
+      "pdf_page": 7
+    },
+    {
+      "id": 43,
+      "section": "Type 7",
+      "question_markdown": "A shopkeeper sells three items X, Y and Z and incurs a profit of 16%, 19% and 28% respectively. The overall profit % selling X and Y items is 17% and that of Y and Z items is 22.25%. Find the overall profit % on selling the three items?",
+      "options": {
+        "A": "18.74%",
+        "B": "16.24%",
+        "C": "20.25%",
+        "D": "13.24%"
+      },
+      "answer": {
+        "option": "A",
+        "text": "18.74%"
+      },
+      "pdf_page": 7
+    },
+    {
+      "id": 44,
+      "section": "Type 7",
+      "question_markdown": "A shopkeeper sells 3 items X, Y and Z incurs a loss of 21%, 19% and 3% respectively. The overall loss % on selling X and Y items is 20.66% and that of Y and Z items is 11%. Find the overall loss% on selling three items?",
+      "options": {
+        "A": "13.12%",
+        "B": "16.16%",
+        "C": "18.14%",
+        "D": "19.27%"
+      },
+      "answer": {
+        "option": "C",
+        "text": "18.14%"
+      },
+      "pdf_page": 7
+    },
+    {
+      "id": 45,
+      "section": "Type 7",
+      "question_markdown": "Three maths classes: X, Y and Z, take an algebra test. The average score of class X is 83. The average score of class Y is 76. The average score of class Z is 85. The average score of class X and Y is 79 and average score of class Y and Z is 81. What is the average score of classes X, Y, Z? X, Y Z, Z X YY Z",
+      "options": {
+        "A": "80",
+        "B": "84.5",
+        "C": "81.5",
+        "D": "85"
+      },
+      "answer": {
+        "option": "C",
+        "text": "81.5"
+      },
+      "pdf_page": 7
+    },
+    {
+      "id": 46,
+      "section": "Type 7",
+      "question_markdown": "A person standing on the platform felt that the train coming from east crossed it in 29 sec and the train coming from the west crossed it in 45 sec. If these train takes 34 sec to cross each other, find the ratio of their speeds.",
+      "options": {
+        "A": "4 : 5",
+        "B": "11 : 5",
+        "C": "13 : 11",
+        "D": "1 : 2"
+      },
+      "answer": {
+        "option": "B",
+        "text": "11 : 5"
+      },
+      "pdf_page": 7
+    },
+    {
+      "id": 47,
+      "section": "Type 7",
+      "question_markdown": "A labourer was appointed by a contractor on the condition he would be paid Rs.75 for each day of his work but would be fined at the rate of Rs. 15 per day for his absent. After 20 days the contractor paid the laborer Rs.1140. the number of days the laborer absented from work was?",
+      "options": {
+        "A": "3 days",
+        "B": "5 days",
+        "C": "4 days",
+        "D": "2 days"
+      },
+      "answer": {
+        "option": "C",
+        "text": "4 days"
+      },
+      "pdf_page": 7
+    },
+    {
+      "id": 48,
+      "section": "Type 7",
+      "question_markdown": "A class consists of 20 boys and 30 girls. In the mid-semester examination, the average score of the girls was five higher than that of the boys. In the final exam, however, the average score of the girls dropped by 3 while the average score of the entire class increased by 2. The increment in the average score of the boys is-",
+      "options": {
+        "A": "9.5",
+        "B": "8",
+        "C": "10.5",
+        "D": "12.2"
+      },
+      "answer": {
+        "option": "A",
+        "text": "9.5"
+      },
+      "pdf_page": 7
+    },
+    {
+      "id": 49,
+      "section": "Type 7",
+      "question_markdown": "On a voter list of 2,000 people, 75% voted for the proposal. The number of voters increased by 50%, and the proposal must be passed by a four-fifths majority. What percentage of the new voters must vote for the proposal to pass?",
+      "options": {
+        "A": "80",
+        "B": "85",
+        "C": "90",
+        "D": "75"
+      },
+      "answer": {
+        "option": "C",
+        "text": "90"
+      },
+      "pdf_page": 8
+    },
+    {
+      "id": 50,
+      "section": "Type 7",
+      "question_markdown": "450 toys are divided into 3 types A, B & C. All three types of toys are sold at the profit of 9%, 10% and 12% respectively. Overall profit from type A and B is 9 3/7% Overall profit from all three types is 10%. Find the number of toys kept in category C.",
+      "options": {
+        "A": "200",
+        "B": "150",
+        "C": "100",
+        "D": "250"
+      },
+      "answer": {
+        "option": "C",
+        "text": "100"
+      },
+      "pdf_page": 8
+    }
+  ]
+}

@@ -1,0 +1,1001 @@
+{
+  "schema_version": 3,
+  "chapter_id": "partnership",
+  "chapter_name": "Partnership",
+  "source_file": "Partnership (ClassRoom Sheet).pdf",
+  "question_count": 62,
+  "questions": [
+    {
+      "id": 1,
+      "section": "Type 1 — Basic Questions",
+      "question_markdown": "Two partners Deepa and Ziya start a business by investing `50,000 and `40,000 respectively. What will be the ratio of their profits at the end of the year ? `",
+      "options": {
+        "A": "5 : 4",
+        "B": "3 : 6",
+        "C": "4 : 5",
+        "D": "6 : 3"
+      },
+      "answer": {
+        "option": "A",
+        "text": "5 : 4"
+      },
+      "pdf_page": 2
+    },
+    {
+      "id": 2,
+      "section": "Type 1 — Basic Questions",
+      "question_markdown": "Raju and Sanju started a business by investing `36,000 and `63,000.Find the share of each out of the annual profit of `5500. `` `",
+      "options": {
+        "A": "2000, 3500",
+        "B": "2500,3500",
+        "C": "3500, 2500",
+        "D": "None of these"
+      },
+      "answer": {
+        "option": "A",
+        "text": "2000, 3500"
+      },
+      "pdf_page": 2
+    },
+    {
+      "id": 3,
+      "section": "Type 1 — Basic Questions",
+      "question_markdown": "A and B start a business jointly. The investment made by A is equal to seven times the investment made by B. Find A's share (in `) in the annual profit of `2,75,000 is. A B A",
+      "options": {
+        "A": "2,41,225",
+        "B": "2,40,625",
+        "C": "2,42,365",
+        "D": "2,45,625"
+      },
+      "answer": {
+        "option": "B",
+        "text": "2,40,625"
+      },
+      "pdf_page": 2
+    },
+    {
+      "id": 4,
+      "section": "Type 1 — Basic Questions",
+      "question_markdown": "X, Y and Z invested `4,000, `6000 and `8,000 respectively in a business. They invested the money for 3, 2 and 4 years respectively. If the total profit is `56,000 then what is the share of Y in the profit? X, Y Z `4,000, `6000",
+      "options": {
+        "A": "`18,000",
+        "B": "`12,000",
+        "C": "`15,000",
+        "D": "`9,000"
+      },
+      "answer": {
+        "option": "B",
+        "text": "`12,000"
+      },
+      "pdf_page": 2
+    },
+    {
+      "id": 5,
+      "section": "Type 1 — Basic Questions",
+      "question_markdown": "A, B and C start a business. A invests 1 33/3% of the total capital, B invests 33 3 % of the remaining capital and C invests the rest. If the total profit at the end of the year is `4,050, then how much more is C's profit than B's profit.",
+      "options": {
+        "A": "`675",
+        "B": "`700",
+        "C": "`520",
+        "D": "`900"
+      },
+      "answer": {
+        "option": "D",
+        "text": "`900"
+      },
+      "pdf_page": 2
+    },
+    {
+      "id": 6,
+      "section": "Type 1 — Basic Questions",
+      "question_markdown": "Anubhav and Gaurav start a business. Anubhav invests `55,000 more than Gaurav for 2 months and Gaurav invests for 5 months. Anubhav's share is `1,431 more than that of Gaurav, out of a total profit of `7,155. Find the capital contributed by Anubhav.",
+      "options": {
+        "A": "`90,000",
+        "B": "`75,000",
+        "C": "`80,000",
+        "D": "`70,000"
+      },
+      "answer": {
+        "option": "B",
+        "text": "`75,000"
+      },
+      "pdf_page": 2
+    },
+    {
+      "id": 7,
+      "section": "Type 1 — Basic Questions",
+      "question_markdown": "A, B and C invested money in a business such that 2 times A's share, 4 times B's share and 6 times C's share are all equal. If they earned `44,000, find the share of A.",
+      "options": {
+        "A": "`22,000",
+        "B": "`12,000",
+        "C": "`24,000",
+        "D": "`20,000"
+      },
+      "answer": {
+        "option": "C",
+        "text": "`24,000"
+      },
+      "pdf_page": 2
+    },
+    {
+      "id": 8,
+      "section": "Type 1 — Basic Questions",
+      "question_markdown": "The ratio of investment by A to that by B in a business is 14 : 15 and the ratio of their respective profits at the end of a year is 2 : 5. If A invested the money for 3 months, then for how much time (in month) B invested his money?",
+      "options": {
+        "A": "7",
+        "B": "6",
+        "C": "5",
+        "D": "9"
+      },
+      "answer": {
+        "option": "A",
+        "text": "7"
+      },
+      "pdf_page": 2
+    },
+    {
+      "id": 9,
+      "section": "Type 1 — Basic Questions",
+      "question_markdown": "Nikhil and Neha invested capital in the ratio 5 : 4. The time Neha invested her money for was one year' more than that invested by Nikhil. The ratio of their profits is in the ratio 6 : 5. Find the time Neha invested the money for.",
+      "options": {
+        "A": "26 years",
+        "B": "23 years",
+        "C": "24 years",
+        "D": "25 years"
+      },
+      "answer": {
+        "option": "D",
+        "text": "25 years"
+      },
+      "pdf_page": 3
+    },
+    {
+      "id": 10,
+      "section": "Type 1 — Basic Questions",
+      "question_markdown": "A, B and C invest ` 40000, ` 45,000 and ` 60,000 respectively in a business. They invest for 5, 4 and 3 months respectively. How many percent of the total profit will be received by C? A, BC` ``",
+      "options": {
+        "A": "32%",
+        "B": "36%",
+        "C": "40%",
+        "D": "27%"
+      },
+      "answer": {
+        "option": "A",
+        "text": "32%"
+      },
+      "pdf_page": 3
+    },
+    {
+      "id": 11,
+      "section": "Type 1 — Basic Questions",
+      "question_markdown": "A, B and C invested capitals in the ratio 3 : 4 : 8. At the end of the business period, they received profits in the ratio 2 : 3 : 5. What is the ratio of their time invested?",
+      "options": {
+        "A": "16 : 18 : 15",
+        "B": "13 : 18 : 15",
+        "C": "16 : 21 : 18",
+        "D": "15 : 16 : 13"
+      },
+      "answer": {
+        "option": "A",
+        "text": "16 : 18 : 15"
+      },
+      "pdf_page": 3
+    },
+    {
+      "id": 12,
+      "section": "Type 1 — Basic Questions",
+      "question_markdown": "A, B and C invested capital in ratio 5 : 7 : 4, then time of their investment being in the ratio x : y : z. If their profits are in the ratio 45 : 42 : 28, then x : y : z = ? A, BC5 : 7 : 4 x : y : z x : y : z",
+      "options": {
+        "A": "9 : 6 : 7",
+        "B": "6 : 7 : 9",
+        "C": "9 : 4 : 7",
+        "D": "7 : 9 : 4"
+      },
+      "answer": {
+        "option": "A",
+        "text": "9 : 6 : 7"
+      },
+      "pdf_page": 3
+    },
+    {
+      "id": 13,
+      "section": "Type 1 — Basic Questions",
+      "question_markdown": "Three partners shared the profit in a business in the ratio 8 : 7 : 5. They invested their capitals for 7 months, 8 months and 14 months respectively. What was the ratio of their capitals?",
+      "options": {
+        "A": "49 : 64 : 20",
+        "B": "20 : 64 : 49",
+        "C": "64 : 49 : 20",
+        "D": "20 : 49 : 64"
+      },
+      "answer": {
+        "option": "C",
+        "text": "64 : 49 : 20"
+      },
+      "pdf_page": 3
+    },
+    {
+      "id": 14,
+      "section": "Type 1 — Basic Questions",
+      "question_markdown": "A, B and C invested their capitals in the ratio of 2 : 3 : 5. The ratio of months for which A, B and C invested is 4 : 2 : 3. If C gets a share of profit which is ` 1,47,000 more than that of A, then B’s share of profit is:",
+      "options": {
+        "A": "` 1,26,000",
+        "B": "` 1,68,000",
+        "C": "` 1,05,000",
+        "D": "` 1,89,000"
+      },
+      "answer": {
+        "option": "A",
+        "text": "` 1,26,000"
+      },
+      "pdf_page": 3
+    },
+    {
+      "id": 15,
+      "section": "Type 1 — Basic Questions",
+      "question_markdown": "Four milkmen rented a pasture. A grazed 24 cows for 3 months, B-10 cows for 5 months, C- 35 cows for 4 months and D-21 cows for 3 months. If A’s share of rent is ` 720, find the total rent of the field ?",
+      "options": {
+        "A": "` 1,400",
+        "B": "` 1,900",
+        "C": "` 3,250",
+        "D": "` 3,000"
+      },
+      "answer": {
+        "option": "C",
+        "text": "` 3,250"
+      },
+      "pdf_page": 3
+    },
+    {
+      "id": 16,
+      "section": "Type 1 — Basic Questions",
+      "question_markdown": "Ratio of the capital amount of A, B and C respectively is 4 2 5 : 3 8 and ratio of their time investment is respectively 10 : 9 : 4. The profit amount of A is how much percent more than C?",
+      "options": {
+        "A": "160%",
+        "B": "220%",
+        "C": "70%",
+        "D": "95%"
+      },
+      "answer": {
+        "option": "B",
+        "text": "220%"
+      },
+      "pdf_page": 3
+    },
+    {
+      "id": 17,
+      "section": "Type 1 — Basic Questions",
+      "question_markdown": "In a partnership, X invests th 1 6 of the capital for th of the time, Y invests rd 3 of the capital for rd time and Z invests the remaining capital for the whole time. If the profit earned at the end of the year is ` 23,000, what will be the share of Y?",
+      "options": {
+        "A": "`5,000",
+        "B": "`4,000",
+        "C": "`5,500",
+        "D": "`6,000"
+      },
+      "answer": {
+        "option": "B",
+        "text": "`4,000"
+      },
+      "pdf_page": 4
+    },
+    {
+      "id": 18,
+      "section": "Type 1 — Basic Questions",
+      "question_markdown": "A, B and C are partners in a business. A whose money has been used for 4 months claims 1 8 of profit, B whose money has been used for 6 months, claims 3 of the profit. C had invested `1560 for 8 months. What is the difference between investment of A and B.",
+      "options": {
+        "A": "` 720",
+        "B": "` 560",
+        "C": "` 420",
+        "D": "` 500"
+      },
+      "answer": {
+        "option": "B",
+        "text": "` 560"
+      },
+      "pdf_page": 4
+    },
+    {
+      "id": 19,
+      "section": "Type 1 — Basic Questions",
+      "question_markdown": "A, B and C all together invest ` 48,000. Ratio of their time investment is 99 : 77 : 84 and ratio of their profit amount is respectively 3 : 2 : 4. Find the investment amount of A? A, BC`",
+      "options": {
+        "A": "` 13,000",
+        "B": "` 15,000",
+        "C": "` 14,000",
+        "D": "` 15,500"
+      },
+      "answer": {
+        "option": "C",
+        "text": "` 14,000"
+      },
+      "pdf_page": 4
+    },
+    {
+      "id": 20,
+      "section": "Type 1 — Basic Questions",
+      "question_markdown": "` 15,000 was invested by A and B together to start a small business. They got a profit of `2,000 at the end of the year. B took his profit share of ` 600. How much did A invest?",
+      "options": {
+        "A": "` 9,000",
+        "B": "` 2,000",
+        "C": "` 10,500",
+        "D": "` 10,000"
+      },
+      "answer": {
+        "option": "C",
+        "text": "` 10,500"
+      },
+      "pdf_page": 4
+    },
+    {
+      "id": 21,
+      "section": "Type 1 — Basic Questions",
+      "question_markdown": "A, B and C entered into a partnership. A invested ` 2560 and B ` 2000. At the end of the year. they gained ` 1105, out of which A got ` 320. C’s capital was",
+      "options": {
+        "A": "` 4,280",
+        "B": "` 2,840",
+        "C": "` 4,820",
+        "D": "` 4,028"
+      },
+      "answer": {
+        "option": "A",
+        "text": "` 4,280"
+      },
+      "pdf_page": 4
+    },
+    {
+      "id": 22,
+      "section": "Type 1 — Basic Questions",
+      "question_markdown": "A, B and C started a business. Thrice the investment of A is equal to twice the investment of B and also equal to four times the investment of C. If C’s share out of the total profit is ` 4,863, then the share of A in the profit is:",
+      "options": {
+        "A": "` 7,272",
+        "B": "` 6,484",
+        "C": "` 9,726",
+        "D": "` 8,105"
+      },
+      "answer": {
+        "option": "B",
+        "text": "` 6,484"
+      },
+      "pdf_page": 4
+    },
+    {
+      "id": 23,
+      "section": "Type 1 — Basic Questions",
+      "question_markdown": "Three partners A, B and C start a business. Twice of A’s capital is equal to three times of B’s capital is equal to four times of C’s capital. Out of total profit of ` 19,500 at the end of the year, B’s share is ?",
+      "options": {
+        "A": "` 7,000",
+        "B": "` 6,000",
+        "C": "` 9,000",
+        "D": "` 9,700"
+      },
+      "answer": {
+        "option": "B",
+        "text": "` 6,000"
+      },
+      "pdf_page": 4
+    },
+    {
+      "id": 24,
+      "section": "Type 1 — Basic Questions",
+      "question_markdown": "A, B, C subscribe a sum of ` 75,500 for a business. A subscribes ` 3,500 more than B, and B subscribes ` 4,500 more than C. Out of a total profit of ` 45,300 how much (in `) does A receive? A, BC` A, B`B, C",
+      "options": {
+        "A": "` 12,600",
+        "B": "` 15,000",
+        "C": "` 17,400",
+        "D": "` 14,700"
+      },
+      "answer": {
+        "option": "C",
+        "text": "` 17,400"
+      },
+      "pdf_page": 4
+    },
+    {
+      "id": 25,
+      "section": "Type 1 — Basic Questions",
+      "question_markdown": "Two friends A and B started a business by investing `1,50,000 and `2,50,000, respectively. They agreed to distribute their earnings in the same ratio of their investments. After an year, the profit earned was `6,00,000. Each of them added `50,000 to their respective profits and invested in a different project. If this project gave an yield of `4,20,000, then A’s share in theprofit is:",
+      "options": {
+        "A": "1,97,000",
+        "B": "2,35,000",
+        "C": "1,65,000",
+        "D": "1,84,000"
+      },
+      "answer": {
+        "option": "C",
+        "text": "1,65,000"
+      },
+      "pdf_page": 5
+    },
+    {
+      "id": 26,
+      "section": "Type 2",
+      "question_markdown": "Kapil starts some business with ` 50000 . After 3 months Monu joins him with ` 70000 . At the end of the year. In what ratio should they share the profit ? `",
+      "options": {
+        "A": "1 : 3",
+        "B": "1 : 5",
+        "C": "3 : 2",
+        "D": "20 : 21"
+      },
+      "answer": {
+        "option": "D",
+        "text": "20 : 21"
+      },
+      "pdf_page": 5
+    },
+    {
+      "id": 27,
+      "section": "Type 2",
+      "question_markdown": "A starts a business with Rs. 75,000 and B joins the business 5 months later with an investment of Rs. 80,000. After 1 year, they earn a profit of Rs. 4,08,800. Find the share of A and B (in Rs.).",
+      "options": {
+        "A": "2,52,000 and 1,56,800",
+        "B": "2,50,000 and 1,58,800",
+        "C": "2,48,000 and 1,60,800",
+        "D": "2,49,500 and 1,59,300"
+      },
+      "answer": {
+        "option": "A",
+        "text": "2,52,000 and 1,56,800"
+      },
+      "pdf_page": 5
+    },
+    {
+      "id": 28,
+      "section": "Type 2",
+      "question_markdown": "Rahul and Raman started a business by investing Rs.16000 and Rs.12000 respectively. After 4 months, Rahul left the business and Mohan joined the business by investing Rs.20000. At the end of the year, there was a profit of Rs.46000. What will be the share of Mohan in the profit?",
+      "options": {
+        "A": "Rs.28700",
+        "B": "Rs.20000",
+        "C": "Rs.36800",
+        "D": "Rs.23400"
+      },
+      "answer": {
+        "option": "B",
+        "text": "Rs.20000"
+      },
+      "pdf_page": 5
+    },
+    {
+      "id": 29,
+      "section": "Type 2",
+      "question_markdown": "P invested ` 4000 for one year. Q joined him with an investment of ` 6000 after a few months. If at the end of one year the profits of P and Q is 4 : 3, then Q joined after how many months? P ` 4000 P Q 4 : 3 Q",
+      "options": {
+        "A": "4 months",
+        "B": "3 months",
+        "C": "8 months",
+        "D": "6 months"
+      },
+      "answer": {
+        "option": "D",
+        "text": "6 months"
+      },
+      "pdf_page": 5
+    },
+    {
+      "id": 30,
+      "section": "Type 2",
+      "question_markdown": "A started a business with a capital of ` 54000 and admitted B and C after 4 months and 6 months respectively. At the end of the year, the profit was divided in the ratio 1 : 4 : 5. What is the difference between the capitals invested by B and C?",
+      "options": {
+        "A": "` 1,08,000",
+        "B": "` 1,62,000",
+        "C": "` 2,16,000",
+        "D": "` 3,24,000"
+      },
+      "answer": {
+        "option": "C",
+        "text": "` 2,16,000"
+      },
+      "pdf_page": 5
+    },
+    {
+      "id": 31,
+      "section": "Type 2",
+      "question_markdown": "X, Y and Z enter into a partnership. X invests some money at the beginning. Y Invests thrice the amount of X after 4 months and Z invest double the amount of Y after 9 months from the beginning. If the annual gain be Rs.450000, then what is the share of Y?",
+      "options": {
+        "A": "Rs.200000",
+        "B": "Rs.150000",
+        "C": "Rs.100000",
+        "D": "Rs.300000"
+      },
+      "answer": {
+        "option": "A",
+        "text": "Rs.200000"
+      },
+      "pdf_page": 5
+    },
+    {
+      "id": 32,
+      "section": "Type 2",
+      "question_markdown": "Kapil initiated a business with an investment of `30,00,000 in April 2022. After six months, his friend Kunal joined him with an investment of `25,00,000. In February 2023, Kapil's Ex- Class fellow Saloni also invested an amount equal to the total investment made by the earlier two partners. In what ratio the profit earned after 3 years from the date on which Kapil initiated the business, will be distributed?",
+      "options": {
+        "A": "332 : 200 : 50",
+        "B": "108 : 75 : 143",
+        "C": "432 : 300 : 55",
+        "D": "432 : 400 : 55"
+      },
+      "answer": {
+        "option": "B",
+        "text": "108 : 75 : 143"
+      },
+      "pdf_page": 6
+    },
+    {
+      "id": 33,
+      "section": "Type 2",
+      "question_markdown": "A, B and C started a business with initial investments of `20000, `25000 and `10000, respectively. After 5 months from start, A invested `4000 more. After 6 months from start, C invested `8000 more. After 4 months from start, B withdrew `8000. At the end of the year, they will receive a profit of `‘x’. In what ratio they will share the profits? 'x'",
+      "options": {
+        "A": "59 : 68 : 42",
+        "B": "71 : 59 : 42",
+        "C": "67 : 59 : 42",
+        "D": "71 : 57 : 42"
+      },
+      "answer": {
+        "option": "C",
+        "text": "67 : 59 : 42"
+      },
+      "pdf_page": 6
+    },
+    {
+      "id": 34,
+      "section": "Type 2",
+      "question_markdown": "A started a business by investing `1,12,000. After 2 months, B invested `80,000 and joined the business, and after 2 months C invested `72,000 and joined the business. After 10 months from the start of the business, B withdrew `8,000 and C also withdrew `8,000. If B received `9,800 as his share of the profit at the end of the year, what was the total profit?",
+      "options": {
+        "A": "`33,600",
+        "B": "`32,400",
+        "C": "`35,800",
+        "D": "`30,800"
+      },
+      "answer": {
+        "option": "A",
+        "text": "`33,600"
+      },
+      "pdf_page": 6
+    },
+    {
+      "id": 35,
+      "section": "Type 2",
+      "question_markdown": "A and B enter into a partnership with `25,000 and `50,000, respectively, in a company for a year. After 7 months, C gets into a partnership with them with `30,000 and A withdraws his contribution after 9 months. What would be C's share in the profit, assuming a total profit of `3,900 at the end of the year?",
+      "options": {
+        "A": "Rs.1,200",
+        "B": "Rs.800",
+        "C": "Rs.600",
+        "D": "Rs.1,000"
+      },
+      "answer": {
+        "option": "C",
+        "text": "Rs.600"
+      },
+      "pdf_page": 6
+    },
+    {
+      "id": 36,
+      "section": "Type 3",
+      "question_markdown": "Suresh, Dinesh and Ramesh became partners in a business by investing money in the ratio of 3 : 6 : 8. If their investments is increased by 5%, 15% and 20%, respectively, then what will be the ratio of their profits for one year?",
+      "options": {
+        "A": "7 : 46 : 64",
+        "B": "19 : 46 : 64",
+        "C": "21 : 46 : 64",
+        "D": "35 : 46 : 64"
+      },
+      "answer": {
+        "option": "C",
+        "text": "21 : 46 : 64"
+      },
+      "pdf_page": 6
+    },
+    {
+      "id": 37,
+      "section": "Type 3",
+      "question_markdown": "X and Y enter into a partnership with capital in ratio 3 : 5. After 5 months X adds 50% of his capital, while Y withdraws 60% of his capital. What is share (in ` Lakhs) of X in the annual profit of ` 6.84 lakhs?",
+      "options": {
+        "A": "3.72",
+        "B": "4.2",
+        "C": "3.6",
+        "D": "3.12"
+      },
+      "answer": {
+        "option": "A",
+        "text": "3.72"
+      },
+      "pdf_page": 6
+    },
+    {
+      "id": 38,
+      "section": "Type 3",
+      "question_markdown": "A and B enter into a partnership with capital in the ratio 5 : 6. After 4 months, A withdraws 1 5 of his capital, while B increases his capital by 33 % 3 . What is the share (in ` Lakhs) of B in the annual profit of ` 6.3 Lakhs?",
+      "options": {
+        "A": "2.34",
+        "B": "2.61",
+        "C": "3.69",
+        "D": "3.96"
+      },
+      "answer": {
+        "option": "D",
+        "text": "3.96"
+      },
+      "pdf_page": 7
+    },
+    {
+      "id": 39,
+      "section": "Type 3",
+      "question_markdown": "A, B and C start a business each investing `25,000. After 5 months A withdrew ` 6,000, B withdrew `7000, and C invested `8000 more. At the end of the year, there is a profit of `86,500. Find the difference between the share of A & B. A,BC` A`B",
+      "options": {
+        "A": "` 900",
+        "B": "` 12,500",
+        "C": "` 700",
+        "D": "` 8,600"
+      },
+      "answer": {
+        "option": "C",
+        "text": "` 700"
+      },
+      "pdf_page": 7
+    },
+    {
+      "id": 40,
+      "section": "Type 3",
+      "question_markdown": "A and B entered into a partnership (at the beginning of the year) by investing their capitals in the ratio 2 3 : 9 . After 4 months, A reduced his capital by 25% and B increased his capital by 25%. What was B's share (in ` lakhs) in the annual profit of ` 57.2 lakhs? A B",
+      "options": {
+        "A": "23.5",
+        "B": "29.4",
+        "C": "25.2",
+        "D": "27.4"
+      },
+      "answer": {
+        "option": "A",
+        "text": "23.5"
+      },
+      "pdf_page": 7
+    },
+    {
+      "id": 41,
+      "section": "Type 3",
+      "question_markdown": "Mohit and Ravi started a business with their capitals in the ratio 2 1 : 15 6 . After 4 month, Mohit increased his capital by 25% and Ravi reduced his capital by one-fifth. At the end of a year, if Ravi share in the annual profit was ` 20.8 lakhs, then what was the annual profit (in ` lakhs)?",
+      "options": {
+        "A": "41.6",
+        "B": "31.2",
+        "C": "43.2",
+        "D": "44.8"
+      },
+      "answer": {
+        "option": "C",
+        "text": "43.2"
+      },
+      "pdf_page": 7
+    },
+    {
+      "id": 42,
+      "section": "Type 3",
+      "question_markdown": "A and B start a business and invest ` 10,000 and ` 15,000 respectively. After 3 months, A invests ` 2,000 more but B withdraw ` 5,000. After its 3 months, C joins the business with a capital ` 18,000. If the total profit is ` 38,100, after one year then find C's profit? B, `C, `",
+      "options": {
+        "A": "` 9,800",
+        "B": "` 10,800",
+        "C": "` 11,000",
+        "D": "` 12,000"
+      },
+      "answer": {
+        "option": "B",
+        "text": "` 10,800"
+      },
+      "pdf_page": 7
+    },
+    {
+      "id": 43,
+      "section": "Type 3",
+      "question_markdown": "Ajay and Vijay started a business and investe ` 4,500 and ` 3,000 respectively. After 9 months each of the decrease their capital to 30% and Satyam joins the business with ` 2,000. If after 1 2 years, the total profit was `16,450, then the share of Ajay and Vijay will be : `` `",
+      "options": {
+        "A": "` 13,650",
+        "B": "` 14,550",
+        "C": "` 12,750",
+        "D": "` 11,750"
+      },
+      "answer": {
+        "option": "A",
+        "text": "` 13,650"
+      },
+      "pdf_page": 7
+    },
+    {
+      "id": 44,
+      "section": "Type 3",
+      "question_markdown": "A, B and C invest in the ratio 5 : 7 : 6. After 1 year, they increase their investment respectively 26%, 20%, 15%. What will be the ratio of their profit after 2 year?",
+      "options": {
+        "A": "7 : 6 : 9",
+        "B": "71 : 53 : 63",
+        "C": "112 : 117 : 105",
+        "D": "113 : 154 : 129"
+      },
+      "answer": {
+        "option": "D",
+        "text": "113 : 154 : 129"
+      },
+      "pdf_page": 7
+    },
+    {
+      "id": 45,
+      "section": "Type 4",
+      "question_markdown": "A and B invest in a business in the ratio 3 : 2. If 5% of the total profit goes to charity and A's share is Rs.855, the total profit is: IARI ASISSTANT MAINS",
+      "options": {
+        "A": "1500",
+        "B": "1400",
+        "C": "1565",
+        "D": "1475"
+      },
+      "answer": {
+        "option": "A",
+        "text": "1500"
+      },
+      "pdf_page": 8
+    },
+    {
+      "id": 46,
+      "section": "Type 4",
+      "question_markdown": "A and B together start a business and invest in the ratio of 5 : 4 respectively. They deposit 10% of the total profit in a trust and distribute the rest amount according to their investment. If B's share is ` 1,200, then the total profit will be ?",
+      "options": {
+        "A": "` 4,200",
+        "B": "` 3,600",
+        "C": "` 3,200",
+        "D": "` 3,000"
+      },
+      "answer": {
+        "option": "D",
+        "text": "` 3,000"
+      },
+      "pdf_page": 8
+    },
+    {
+      "id": 47,
+      "section": "Type 4",
+      "question_markdown": "Three partners decided to start a business. They decided to donate 10% of the profit to a charity organisation and then the remaining profit would be shared among first, second and third partner in the ratio 1 : 2 : 2. The total profit received was `1,80,000. Find the share of the first partner.",
+      "options": {
+        "A": "`31,800",
+        "B": "`29,600",
+        "C": "`33,200",
+        "D": "`32,400"
+      },
+      "answer": {
+        "option": "D",
+        "text": "`32,400"
+      },
+      "pdf_page": 8
+    },
+    {
+      "id": 48,
+      "section": "Type 4",
+      "question_markdown": "The investments made by Ayan and Prince are in the ratio 3 : 2. if 5% of total profit is donated and Ayan get ` 8,550 as his share of profit, then what is the amount of total profit? `",
+      "options": {
+        "A": "` 14,000",
+        "B": "` 15,000",
+        "C": "` 11,050",
+        "D": "` 12,020"
+      },
+      "answer": {
+        "option": "B",
+        "text": "` 15,000"
+      },
+      "pdf_page": 8
+    },
+    {
+      "id": 49,
+      "section": "Type 4",
+      "question_markdown": "Three people, A, B and C, invest in a business in the ratio 2 : 3 : 5. It was decided that 9% of the profits will go to charity. If the total profit was `2,50,000, then find the share of C in the profit (in `). A, BC,2",
+      "options": {
+        "A": "1,26,950",
+        "B": "1,11,650",
+        "C": "1,21,850",
+        "D": "1,13,750"
+      },
+      "answer": {
+        "option": "D",
+        "text": "1,13,750"
+      },
+      "pdf_page": 8
+    },
+    {
+      "id": 50,
+      "section": "Type 5",
+      "question_markdown": "A & B invest ` 30,000 & ` 20,000 and distribute 80% of total profit equally among them. Rest profit distribute according to investment ratio. The difference between the share of A & B is 4000. Find the total profit and find the share of A & B?",
+      "options": {
+        "A": "` 8000, ` 42000, ` 38000",
+        "B": "` 100000, ` 52000, ` 48000",
+        "C": "` 9000, ` 52000, ` 38000",
+        "D": "` 12000, ` 62000, ` 58000"
+      },
+      "answer": {
+        "option": "B",
+        "text": "` 100000, ` 52000, ` 48000"
+      },
+      "pdf_page": 8
+    },
+    {
+      "id": 51,
+      "section": "Type 5",
+      "question_markdown": "A & B start a business in partnership and invest ` 40,000 & ` 60,000. 60% of total profit is distributed among them equally and the rest profit distributed between them according to their investment ratio. The difference between their profit is ` 6,000. find the total profit amount? `` `",
+      "options": {
+        "A": "` 52,000",
+        "B": "` 60,000",
+        "C": "` 62,000",
+        "D": "` 75,000"
+      },
+      "answer": {
+        "option": "D",
+        "text": "` 75,000"
+      },
+      "pdf_page": 8
+    },
+    {
+      "id": 52,
+      "section": "Type 5",
+      "question_markdown": "Two brother Yasir and Ankur invested ` 50,000, and ` 70,000 respectively in a business and agreed that 70% of the profit should be divided equally between them and the remaining profit in the ratio of investment. If Ankur gets ` 90 more than Yasir. Find the total profit made in the business. `` `",
+      "options": {
+        "A": "` 1200",
+        "B": "` 1400",
+        "C": "` 1600",
+        "D": "` 1800"
+      },
+      "answer": {
+        "option": "D",
+        "text": "` 1800"
+      },
+      "pdf_page": 9
+    },
+    {
+      "id": 53,
+      "section": "Type 6",
+      "question_markdown": "A and B entered into a partnership by investing their capitals in the ratio 1 5 : 4 12 A received 4% of the annual profit for providing services to the business and the remaining annual profit is divided between them in proportion to their investments. If B's share in the annual profit is `30 lakhs. then what is A's share (in ` lakhs)? 12 4% B30A",
+      "options": {
+        "A": "20",
+        "B": "24",
+        "C": "18",
+        "D": "22"
+      },
+      "answer": {
+        "option": "A",
+        "text": "20"
+      },
+      "pdf_page": 9
+    },
+    {
+      "id": 54,
+      "section": "Type 6",
+      "question_markdown": "A, B and C are three partners. A receives 9 10 of the profit and B and C share the remaining profit equally. A's income is increased by ` 270 when the profit rises from 12% to 15%. Find the capitals invested by B and C. A, BCA9",
+      "options": {
+        "A": "` 5000",
+        "B": "` 1000",
+        "C": "` 500",
+        "D": "` 1500"
+      },
+      "answer": {
+        "option": "B",
+        "text": "` 1000"
+      },
+      "pdf_page": 9
+    },
+    {
+      "id": 55,
+      "section": "Type 6",
+      "question_markdown": "Ankit, Ashish and Ayan together started a business. Ankit invested ` 6,500 for 6 months, Ashish invested ` 8,400 for 5 months and Ayan invested ` 10,000 for 3 months. Ankit is working member for which he gets 5% of total profit extra. If the total gain is ` 7,400, then Ayan's share is : `",
+      "options": {
+        "A": "` 1900",
+        "B": "` 2100",
+        "C": "` 3200",
+        "D": "Date incomplete"
+      },
+      "answer": {
+        "option": "A",
+        "text": "` 1900"
+      },
+      "pdf_page": 9
+    },
+    {
+      "id": 56,
+      "section": "Type 6",
+      "question_markdown": "Bhagat, Harish and Rohit started a business by investing ` 24,000, ` 32,000 and ` 18,000 respectively. Bhagat and Harish are active partners and get 7% and 19% of total profit and remaining profit is to be distributed among them in the ratio of their investment. If Rohit got total ` 144000 as a profit, what was the total amount of profit? ` ``",
+      "options": {
+        "A": "` 4,70,000",
+        "B": "` 8,00,000",
+        "C": "` 3,45,000",
+        "D": "` 1,57,000"
+      },
+      "answer": {
+        "option": "B",
+        "text": "` 8,00,000"
+      },
+      "pdf_page": 9
+    },
+    {
+      "id": 57,
+      "section": "Type 6",
+      "question_markdown": "A and B start a business investing ` 20000 and ` 8000 respectively. According to the convenant, B gets ` 200 per month for maintenance and both get interest at the rate of 5% per annum on their capital. Remaining profit will be distributed according to their investment. If the annual profit is ` 8000, then find the share of each person? `",
+      "options": {
+        "A": "` 4000, ` 4000",
+        "B": "` 4000, ` 3000",
+        "C": "` 2000, ` 2500",
+        "D": "` 2500, ` 2000"
+      },
+      "answer": {
+        "option": "A",
+        "text": "` 4000, ` 4000"
+      },
+      "pdf_page": 9
+    },
+    {
+      "id": 58,
+      "section": "Type 7",
+      "question_markdown": "A and B invest respectively `20000 and `30000 and start a business in partnership. A got ` 500 per month for a supervision. A and B both received premium on their investment 10% p.a. and the rest profit is distributed among them according to their investment. If total profit is ` 71000, at the end of year. Then find the profit of A.",
+      "options": {
+        "A": "` 46000",
+        "B": "` 45000",
+        "C": "` 48000",
+        "D": "` 32000"
+      },
+      "answer": {
+        "option": "D",
+        "text": "` 32000"
+      },
+      "pdf_page": 10
+    },
+    {
+      "id": 59,
+      "section": "Type 7",
+      "question_markdown": "A and B invest respectively `80,000 and `60,000 to start a business into partnership. B got ` 250 per month for a supervision. A and B both receive the premium at the rate of 10% p.a. and the rest profit distribute between them according to their investment. If total profit distributed between them is ` 20500, then find the total profit amount received by B?",
+      "options": {
+        "A": "` 10,500",
+        "B": "` 10,700",
+        "C": "` 9900",
+        "D": "` 9600"
+      },
+      "answer": {
+        "option": "A",
+        "text": "` 10,500"
+      },
+      "pdf_page": 10
+    },
+    {
+      "id": 60,
+      "section": "Type 7",
+      "question_markdown": "X contributes ` 1500 and Y, `900 in a business. X is a sleeping partner and Y gets 10% of the profit for management and the rest of the profit is divided in the proportion of their capital. If total profit is ` 800, what is the share of Y? X Y`` `",
+      "options": {
+        "A": "` 375",
+        "B": "` 360",
+        "C": "` 350",
+        "D": "` 450"
+      },
+      "answer": {
+        "option": "C",
+        "text": "` 350"
+      },
+      "pdf_page": 10
+    },
+    {
+      "id": 61,
+      "section": "Type 7",
+      "question_markdown": "Anil is an active and Vimal is a sleeping partner in a business. Anil invests ` 12000 and Vimal, invests ` 20000. Anil receives 10% profit for managing, the rest being divided in proportion to their capitals. Out of the total profit of `9000, the money received by Anil is : `` `",
+      "options": {
+        "A": "` 4500",
+        "B": "` 4800",
+        "C": "` 4600",
+        "D": "` 3937.5"
+      },
+      "answer": {
+        "option": "D",
+        "text": "` 3937.5"
+      },
+      "pdf_page": 10
+    },
+    {
+      "id": 62,
+      "section": "Type 7",
+      "question_markdown": "A, B, C invest in a business in the ratio 4 : 5 : 7. C is a sleeping partner, so his share of profits will be half of what it would have been if he were a working partner. If they make ` 36,000 profit of which 25% is reinvested in the business, how much does B get (in `)? `",
+      "options": {
+        "A": "7560",
+        "B": "10,800",
+        "C": "8540",
+        "D": "9200"
+      },
+      "answer": {
+        "option": "B",
+        "text": "10,800"
+      },
+      "pdf_page": 10
+    }
+  ]
+}

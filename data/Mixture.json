@@ -1,0 +1,1129 @@
+{
+  "schema_version": 3,
+  "chapter_id": "mixture",
+  "chapter_name": "Mixture",
+  "source_file": "Mixture (ClassRoom Sheet).pdf",
+  "question_count": 70,
+  "questions": [
+    {
+      "id": 1,
+      "section": "Type 1 — Basic Questions",
+      "question_markdown": "A canister holds 36 litres of mixture of milk and water in the ratio 3 : 1. 15 litres of milk is added to the canister. The new ratio of the mixture is",
+      "options": {
+        "A": "12 : 5",
+        "B": "14 : 3",
+        "C": "7 : 4",
+        "D": "9 : 4"
+      },
+      "answer": {
+        "option": "B",
+        "text": "14 : 3"
+      },
+      "pdf_page": 2
+    },
+    {
+      "id": 2,
+      "section": "Type 1 — Basic Questions",
+      "question_markdown": "In a mixture of 25 litres, the ratio of acid to water is 4 : 1. Another 3 litres of water is added to the mixture. The ratio of acid to water in the new mixture is",
+      "options": {
+        "A": "5 : 2",
+        "B": "2 : 5",
+        "C": "3 : 5",
+        "D": "5 : 3"
+      },
+      "answer": {
+        "option": "A",
+        "text": "5 : 2"
+      },
+      "pdf_page": 2
+    },
+    {
+      "id": 3,
+      "section": "Type 1 — Basic Questions",
+      "question_markdown": "There is a 32L mixture of milk and water. The ratio of milk and water in this mixture is 5 : 3. How many litres of water should be added to this mixture so that the resultant mixture has 50% water in it?",
+      "options": {
+        "A": "8",
+        "B": "6",
+        "C": "5",
+        "D": "4"
+      },
+      "answer": {
+        "option": "A",
+        "text": "8"
+      },
+      "pdf_page": 2
+    },
+    {
+      "id": 4,
+      "section": "Type 1 — Basic Questions",
+      "question_markdown": "A mixture contains alcohol and water in the ratio of 12 : 5. On adding 14 liters of water, the ratio of alcohol to water becomes 4 : 3. The quantity of alcohol in the mixture is:",
+      "options": {
+        "A": "18 L/",
+        "B": "28 L/",
+        "C": "30 L/",
+        "D": "42 L/"
+      },
+      "answer": {
+        "option": "D",
+        "text": "42 L/"
+      },
+      "pdf_page": 2
+    },
+    {
+      "id": 5,
+      "section": "Type 1 — Basic Questions",
+      "question_markdown": "An alloy contains copper, zinc and nickel in the ratio of 5 : 3 : 2. The quantity of nickel (in kg) that must be added to 100 kg of this alloy to have the new ratio 5 : 3 : 3 is",
+      "options": {
+        "A": "8",
+        "B": "10",
+        "C": "12",
+        "D": "15"
+      },
+      "answer": {
+        "option": "B",
+        "text": "10"
+      },
+      "pdf_page": 2
+    },
+    {
+      "id": 6,
+      "section": "Type 1 — Basic Questions",
+      "question_markdown": "A mixture is composed of 11 parts of pure milk and 2 parts of water. If 35 litres of water were added to the mixture then the new mixture will contain twice as much pure milk as water, then how many litres of pure milk does the original mixture contain?",
+      "options": {
+        "A": "110",
+        "B": "55",
+        "C": "220",
+        "D": "70"
+      },
+      "answer": {
+        "option": "A",
+        "text": "110"
+      },
+      "pdf_page": 2
+    },
+    {
+      "id": 7,
+      "section": "Type 1 — Basic Questions",
+      "question_markdown": "A mixture of acid and water contains 20 percent acid. When 10 litres of water is added to the mixture, then the percentage of acid becomes 15 percent. What is the original quantity of mixture?",
+      "options": {
+        "A": "25 litres",
+        "B": "40 litres",
+        "C": "35 litres",
+        "D": "30 litres"
+      },
+      "answer": {
+        "option": "D",
+        "text": "30 litres"
+      },
+      "pdf_page": 2
+    },
+    {
+      "id": 8,
+      "section": "Type 1 — Basic Questions",
+      "question_markdown": "A vessel contains 18 litres mixture of milk and water in the ratio 5: 1. If 3 litres of milk is added to the vessel, then how much water (in litres) should be added to the vessel to have milk and water in the ratio 9: 2?",
+      "options": {
+        "A": "2",
+        "B": "1.5",
+        "C": "0.5",
+        "D": "1"
+      },
+      "answer": {
+        "option": "D",
+        "text": "1"
+      },
+      "pdf_page": 2
+    },
+    {
+      "id": 9,
+      "section": "Type 1 — Basic Questions",
+      "question_markdown": "A beaker contains acid and water in the ratio 1 : x. When 50 ml of water is mixed in 300 ml of the mixture the ratio of acid to water becomes 2 : 5. What is the value of x? x x",
+      "options": {
+        "A": "2",
+        "B": "1",
+        "C": "3",
+        "D": "4"
+      },
+      "answer": {
+        "option": "A",
+        "text": "2"
+      },
+      "pdf_page": 3
+    },
+    {
+      "id": 10,
+      "section": "Type 1 — Basic Questions",
+      "question_markdown": "A jar contains a blend of a fruit juice and water in the ratio 5 : x. When 1 litre of water is added to 4 litres of the blend the ratio of fruit juice to water becomes 1 : 1. What is the value of x? 5 : x x",
+      "options": {
+        "A": "3",
+        "B": "1",
+        "C": "2",
+        "D": "4"
+      },
+      "answer": {
+        "option": "A",
+        "text": "3"
+      },
+      "pdf_page": 3
+    },
+    {
+      "id": 11,
+      "section": "Type 1 — Basic Questions",
+      "question_markdown": "A mixture contains liquids A and B in the ratio 2 : 5 respectively. When 52 liters of liquid A and 13 liters of liquid B were added to the mixture, the ratio of liquid A and liquid B became 5 : 6 respectively. Which among the following statements is/are true? Initial quantity of mixture is 133 liters. II. Final quantity of liquid A is 90 liters.",
+      "options": {
+        "A": "Both I and II",
+        "B": "Only I",
+        "C": "Neither I nor II",
+        "D": "Only II"
+      },
+      "answer": {
+        "option": "A",
+        "text": "Both I and II"
+      },
+      "pdf_page": 3
+    },
+    {
+      "id": 12,
+      "section": "Type 1 — Basic Questions",
+      "question_markdown": "Respective ratio of liquid A and B in a mixture is 4 : 9. When 18 litres liquid B and 6 litres liquid A is taken out from the mixture, then ratio of liquid A and B becomes 7 : 15 respectively. Find the initial quantity of liquid A.",
+      "options": {
+        "A": "44 litres",
+        "B": "48 litres",
+        "C": "40 litres",
+        "D": "52 litres ( )"
+      },
+      "answer": {
+        "option": "B",
+        "text": "48 litres"
+      },
+      "pdf_page": 3
+    },
+    {
+      "id": 13,
+      "section": "Type 2 — Replacement Part-01",
+      "question_markdown": "A vessel full of pure acid contains 10 litres of it, of which 2 litres are withdrawn. Then the vessel is filled with water. Next 2 litres of the mixture are withdrawn, and again the vessel is filled up with water. The ratio of the acid left in the vessel with that of the original quantity is",
+      "options": {
+        "A": "1 : 5",
+        "B": "4 : 5",
+        "C": "4 : 25",
+        "D": "16 : 25"
+      },
+      "answer": {
+        "option": "D",
+        "text": "16 : 25"
+      },
+      "pdf_page": 3
+    },
+    {
+      "id": 14,
+      "section": "Type 2 — Replacement Part-01",
+      "question_markdown": "A vessel contains 20 litres of acid. 5 litres of acid is taken out of the vessel and replaced by the same quantity of water. Next 5 litres of the mixture are withdrawn, and again the vessel is filled with the same quantity of water. The ratio of acid left in the vessel with the quantity of acid initially in the vessel is",
+      "options": {
+        "A": "4 : 5",
+        "B": "4 : 25",
+        "C": "16 : 25",
+        "D": "9 : 16"
+      },
+      "answer": {
+        "option": "D",
+        "text": "9 : 16"
+      },
+      "pdf_page": 3
+    },
+    {
+      "id": 15,
+      "section": "Type 2 — Replacement Part-01",
+      "question_markdown": "A vessel is full of 90 ltr milk, 18 ltr milk is taken out and replaced by water and again this process is repeated 2 times, the amount of milk left after the 3rd replacement is?",
+      "options": {
+        "A": "11.52 ltr",
+        "B": "46.08 ltr",
+        "C": "23.04 ltr",
+        "D": "69.12 ltr"
+      },
+      "answer": {
+        "option": "B",
+        "text": "46.08 ltr"
+      },
+      "pdf_page": 3
+    },
+    {
+      "id": 16,
+      "section": "Type 2 — Replacement Part-01",
+      "question_markdown": "A milk container contains 100 litre of milk. 10 litres of milk is taken out from it and 10 litres of water is added. This process is repeated 3 times. find the quantity of milk left in the container at the end?",
+      "options": {
+        "A": "72.9 litres",
+        "B": "70.9 litres",
+        "C": "74.8 litres",
+        "D": "68.2 litres"
+      },
+      "answer": {
+        "option": "A",
+        "text": "72.9 litres"
+      },
+      "pdf_page": 3
+    },
+    {
+      "id": 17,
+      "section": "Type 2 — Replacement Part-01",
+      "question_markdown": "A solution consists of 50 litres of pure milk. 10 litres of milk is replaced with equal quantity of water. Again 10 litres of the mixture is substituted by 10 litres of water and this operation is repeated one more time. Find the quantity of milk in the final solution.",
+      "options": {
+        "A": "25 litres",
+        "B": "25.6 litres",
+        "C": "25.4 litres",
+        "D": "25.2 litres"
+      },
+      "answer": {
+        "option": "B",
+        "text": "25.6 litres"
+      },
+      "pdf_page": 4
+    },
+    {
+      "id": 18,
+      "section": "Type 2 — Replacement Part-01",
+      "question_markdown": "The ratio of milk and water in a 200 litre container is 4 : 1. 10 litre of mixture is taken out from it and 10 litre of water is added. This process is repeated 3 times. Find the quantity of milk left in the end?",
+      "options": {
+        "A": "144.4",
+        "B": "137.18",
+        "C": "149.4",
+        "D": "152.4"
+      },
+      "answer": {
+        "option": "B",
+        "text": "137.18"
+      },
+      "pdf_page": 4
+    },
+    {
+      "id": 19,
+      "section": "Type 2 — Replacement Part-01",
+      "question_markdown": "A 200 litre container contains 150 litres of milk and 50 litres of water. 10 litres of mixture is taken out and 10 litre of water is added. The second time 20 litre of mixture taken out and 20 litre of water is added and third time 50 litre of mixture is taken out and 50 litre of water is added. Find the quantity of milk left in the end?",
+      "options": {
+        "A": "96.18",
+        "B": "94.12",
+        "C": "96.62",
+        "D": "94.18"
+      },
+      "answer": {
+        "option": "A",
+        "text": "96.18"
+      },
+      "pdf_page": 4
+    },
+    {
+      "id": 20,
+      "section": "Type 2 — Replacement Part-01",
+      "question_markdown": "The ratio of milk to water in a 100 litres mixture is 2 : 3. 10 litres of this mixture is withdrawn and replaced with milk. This process is repeated 2 more times. What is the percentage of milk in final mixture?",
+      "options": {
+        "A": "56.26 percent",
+        "B": "58.21 percent",
+        "C": "51.24 percent",
+        "D": "54.27 percent"
+      },
+      "answer": {
+        "option": "A",
+        "text": "56.26 percent"
+      },
+      "pdf_page": 4
+    },
+    {
+      "id": 21,
+      "section": "Type 2 — Replacement Part-01",
+      "question_markdown": "The ratio of milk and water in a 100 litre container is 1 : 4. 10 litre of mixture is taken out from it and 10 litre of milk is added. This process is repeated 2 time. Find the quantity of milk left in the end? (in",
+      "options": {
+        "A": "36.4",
+        "B": "35.2",
+        "C": "35.0",
+        "D": "37.5"
+      },
+      "answer": {
+        "option": "B",
+        "text": "35.2"
+      },
+      "pdf_page": 4
+    },
+    {
+      "id": 22,
+      "section": "Type 2 — Replacement Part-01",
+      "question_markdown": "8 litres are taken out from a vessel full of mango juice and filled with water. This process is repeated three more times. The ratio of the quantity of mango juice left in the vessel to the total solution is 16 : 81. How much mango juice was there in the vessel initially?",
+      "options": {
+        "A": "25 Litre",
+        "B": "36 Litre",
+        "C": "30 Litre",
+        "D": "24 Litre"
+      },
+      "answer": {
+        "option": "D",
+        "text": "24 Litre"
+      },
+      "pdf_page": 4
+    },
+    {
+      "id": 23,
+      "section": "Type 2 — Replacement Part-01",
+      "question_markdown": "A vessel contains some milk. 6 litre of the milk was taken out of the vessel and replaced with 6 litre of water and again 6 litre of mixture was taken out and was replaced with water. Now the ratio of milk to water become 100 : 69. Find the initial quantity of milk in the vessel.",
+      "options": {
+        "A": "28 litre",
+        "B": "26 litre",
+        "C": "36 litre",
+        "D": "46 litre"
+      },
+      "answer": {
+        "option": "B",
+        "text": "26 litre"
+      },
+      "pdf_page": 4
+    },
+    {
+      "id": 24,
+      "section": "Type 2 — Replacement Part-01",
+      "question_markdown": "A vessel is full of ethanol. 12L of ethanol is taken out & replaced by water. This process is repeated further two times. Find the initial amount of ethanol in the vessel. If at the end the ratio of water and ethanol becomes 91 : 125?",
+      "options": {
+        "A": "91 L",
+        "B": "28 L",
+        "C": "125 L",
+        "D": "72 L TYPE - 3 ( )"
+      },
+      "answer": {
+        "option": "D",
+        "text": "72 L TYPE - 3 ( )"
+      },
+      "pdf_page": 4
+    },
+    {
+      "id": 25,
+      "section": "Type 3 — Replacement Part-02",
+      "question_markdown": "The ratio of glycerine and water in a mixture is 3 : 1, how much portion of the mixture should be removed and how much water should be replaced so that the ratio of glycerine and water becomes 1 : 1?",
+      "options": {
+        "A": "3 4",
+        "B": "1 3",
+        "C": "1 2",
+        "D": "2 3"
+      },
+      "answer": {
+        "option": "B",
+        "text": "1 3"
+      },
+      "pdf_page": 5
+    },
+    {
+      "id": 26,
+      "section": "Type 3 — Replacement Part-02",
+      "question_markdown": "The ratio of milk and water in a mixture is 2 : 1. How much part of the mixture should be replaced by water so that ratio of milk and water is 5 : 3?",
+      "options": {
+        "A": "1 14",
+        "B": "1 6",
+        "C": "1 8",
+        "D": "1 16"
+      },
+      "answer": {
+        "option": "D",
+        "text": "1 16"
+      },
+      "pdf_page": 5
+    },
+    {
+      "id": 27,
+      "section": "Type 3 — Replacement Part-02",
+      "question_markdown": "A beaker is filled with a liquid, 3 parts of which are water and 7 parts some medicine. What part of the mixture should be replaced with water so that the resultant mixture has water and medicine in a ratio1:1?",
+      "options": {
+        "A": "2 7",
+        "B": "1 7",
+        "C": "2 5",
+        "D": "1 5"
+      },
+      "answer": {
+        "option": "A",
+        "text": "2 7"
+      },
+      "pdf_page": 5
+    },
+    {
+      "id": 28,
+      "section": "Type 3 — Replacement Part-02",
+      "question_markdown": "A vessel contained a solution of acid and water, in which water was 64%. Four litres of the solution was taken out of the vessel and the same quantity of water was added. If the resulting solution contains 30% acid, the quantity (in litres) of the water in the solution, at the beginning in the vessel, was:",
+      "options": {
+        "A": "11.36",
+        "B": "15.36",
+        "C": "8.64",
+        "D": "12.64"
+      },
+      "answer": {
+        "option": "B",
+        "text": "15.36"
+      },
+      "pdf_page": 5
+    },
+    {
+      "id": 29,
+      "section": "Type 3 — Replacement Part-02",
+      "question_markdown": "A bucket contains liquid A and B in the ratio of 15 : 16. 124 litres of the mixture is taken out and filled with 124 litres of B. Now the ratio becomes 9 : 10. What was the quantity of B initially?",
+      "options": {
+        "A": "3140",
+        "B": "2940",
+        "C": "3040",
+        "D": "3240"
+      },
+      "answer": {
+        "option": "C",
+        "text": "3040"
+      },
+      "pdf_page": 5
+    },
+    {
+      "id": 30,
+      "section": "Type 3 — Replacement Part-02",
+      "question_markdown": "A vessel contains two liquids, X and Y, in the ratio of 5 : 3. When 8 litres of the mixture are taken out, and the container is filled with liquid Y, the ratio of X and Y becomes 2 : 3. How many litres of liquid X was there in the vessel initially?",
+      "options": {
+        "A": "3 26 4",
+        "B": "10",
+        "C": "1 16 2",
+        "D": "8 13 9 TYPE - 4 ( ) Concept of Mixing Different Mixtures to form a Single"
+      },
+      "answer": {
+        "option": "D",
+        "text": "8 13 9 TYPE - 4 ( ) Concept of Mixing Different Mixtures to form a Single"
+      },
+      "pdf_page": 5
+    },
+    {
+      "id": 31,
+      "section": "Type 4 — Ratio Method",
+      "question_markdown": "Two containers of equal capacity are full of mixture of milk and water. In the first, the ratio of milk to water is 3 : 7 and in the second it is 7 : 9. Now both the mixtures are mixed in a bigger container. What is the resulting ratio of milk to water?",
+      "options": {
+        "A": "59 : 101",
+        "B": "57 : 107",
+        "C": "61 : 97",
+        "D": "58 : 103"
+      },
+      "answer": {
+        "option": "A",
+        "text": "59 : 101"
+      },
+      "pdf_page": 5
+    },
+    {
+      "id": 32,
+      "section": "Type 4 — Ratio Method",
+      "question_markdown": "The compositions of two mixtures A and B are as follows: The ratio of copper and tin in mixture A is 1 : 2. The ratio of copper and tin in mixture B is 1 : 3. If mixture C is made by using equal quantities of mixture A and B, then find the ratio of copper and tin in mixture C.",
+      "options": {
+        "A": "2 : 5",
+        "B": "7 : 17",
+        "C": "7 : 12",
+        "D": "1 : 5"
+      },
+      "answer": {
+        "option": "B",
+        "text": "7 : 17"
+      },
+      "pdf_page": 5
+    },
+    {
+      "id": 33,
+      "section": "Type 4 — Ratio Method",
+      "question_markdown": "X and Y are two alloys of copper (Cu) and zinc (Zn). Alloy X is prepared by mixing Cu and Zn in the ratio 5 : 4, and alloy Y is prepared by mixing Cu and Zn in the ratio 5 : 13 respectively. If equal quantities of alloys X and Y are melted to form a third alloy Z, then what is the ratio of Cu to Zn in Z? XY(Cu)(Zn) XCu Zn5 : 4 YCu Zn5 : 13 Z ZCu Zn UPSC CDS-II",
+      "options": {
+        "A": "5 : 8",
+        "B": "5 : 7",
+        "C": "6 : 7",
+        "D": "7 : 8"
+      },
+      "answer": {
+        "option": "B",
+        "text": "5 : 7"
+      },
+      "pdf_page": 6
+    },
+    {
+      "id": 34,
+      "section": "Type 4 — Ratio Method",
+      "question_markdown": "One cup has juice and water in the ratio 5 : 2, while another cup of the same capacity has them in the ratio 7: 4, respectively. If contents of both the cups (when full) are poured in a vessel, then what will be the final ratio of water to juice in the vessel?",
+      "options": {
+        "A": "52 : 25",
+        "B": "25 : 26",
+        "C": "26 : 25",
+        "D": "25 : 52"
+      },
+      "answer": {
+        "option": "D",
+        "text": "25 : 52"
+      },
+      "pdf_page": 6
+    },
+    {
+      "id": 35,
+      "section": "Type 4 — Ratio Method",
+      "question_markdown": "In vessels X and Y, the ratios of acid and water are 3 : 7 and 1 : 3, respectively. The contents of X and Y are mixed in the ratio of 1 : 2 to get a solution in which acid and water are in the ratio a : b. What is the value of – b a b a  ? X Y X Y a : b – b a b a ",
+      "options": {
+        "A": "15 7",
+        "B": "11 7",
+        "C": "13 7",
+        "D": "12 7"
+      },
+      "answer": {
+        "option": "A",
+        "text": "15 7"
+      },
+      "pdf_page": 6
+    },
+    {
+      "id": 36,
+      "section": "Type 4 — Ratio Method",
+      "question_markdown": "Alloy A contains metals x and y only in the ratio 5 : 2, while alloy B contains them in the ratio 3 : 4 Alloy C is prepared by mixing alloys A and B in the ratio 4 : 5. The percentage of x in alloy C is: A x y A B C C x",
+      "options": {
+        "A": "2 55 9",
+        "B": "1 55 9",
+        "C": "4 55 9",
+        "D": "5 55 9"
+      },
+      "answer": {
+        "option": "D",
+        "text": "5 55 9"
+      },
+      "pdf_page": 6
+    },
+    {
+      "id": 37,
+      "section": "Type 4 — Ratio Method",
+      "question_markdown": "Mixture A contains chocolate and milk in the ratio 4:3 and mixture B contains chocolate and milk in the ratio 5 : 2. A and B are taken in the ratio 5:6 and mixed to form a new mixture. The percentage of chocolate in the new mixture is closest to:",
+      "options": {
+        "A": "35%",
+        "B": "69%",
+        "C": "31%",
+        "D": "65%"
+      },
+      "answer": {
+        "option": "D",
+        "text": "65%"
+      },
+      "pdf_page": 6
+    },
+    {
+      "id": 38,
+      "section": "Type 4 — Ratio Method",
+      "question_markdown": "The proportion of acid and water in three samples is 2 : 1, 3 : 2 and 5 : 3. A mixture containing equal quantities of all three samples is made. The ratio of water and acid in the mixture is:",
+      "options": {
+        "A": "120 : 133",
+        "B": "227 : 133",
+        "C": "227 : 120",
+        "D": "133 : 227"
+      },
+      "answer": {
+        "option": "D",
+        "text": "133 : 227"
+      },
+      "pdf_page": 6
+    },
+    {
+      "id": 39,
+      "section": "Type 4 — Ratio Method",
+      "question_markdown": "Three utensils contain equal quantity of mixtures of milk and water in the ratio 6 : 1, 5 : 2 and 3 : 1 respectively. If all the solutions are mixed together, the ratio of milk and water in the final mixture is",
+      "options": {
+        "A": "65 : 28",
+        "B": "65 : 19",
+        "C": "19 : 65",
+        "D": "19 : 28"
+      },
+      "answer": {
+        "option": "B",
+        "text": "65 : 19"
+      },
+      "pdf_page": 6
+    },
+    {
+      "id": 40,
+      "section": "Type 4 — Ratio Method",
+      "question_markdown": "Three containers have their volumes in the ratio 3 : 4 : 5. They are full of mixtures of milk and water. The mixtures contain milk and water in the ratio of (4 : 1), (3:1) and (5 : 2) respectively. The contents of all these three containers are poured into a fourth container. The ratio of milk and water in the fourth container is",
+      "options": {
+        "A": "4 : 1",
+        "B": "151 : 48",
+        "C": "157 : 53",
+        "D": "5 : 2"
+      },
+      "answer": {
+        "option": "C",
+        "text": "157 : 53"
+      },
+      "pdf_page": 7
+    },
+    {
+      "id": 41,
+      "section": "Type 4 — Ratio Method",
+      "question_markdown": "There are three bottles of mixture of syrup and water of ratios 2 : 3, 3 : 4 and 7 : 5. 10 litres of the first and 21 litres of the second bottles are taken. How much quantity from third bottle is to be taken so that final mixture from three bottles will be of ratios",
+      "options": {
+        "A": "25 litres",
+        "B": "20 litres",
+        "C": "35 litres",
+        "D": "30 litres"
+      },
+      "answer": {
+        "option": "D",
+        "text": "30 litres"
+      },
+      "pdf_page": 7
+    },
+    {
+      "id": 42,
+      "section": "Type 4 — Ratio Method",
+      "question_markdown": "There are four bottles of mixture of milk and water of ratios 2 : 3, 3 : 4, 1 : 2, 5 : 4. 2 litre of the first, 3 litre of the second and 4 litre of the third bottles are taken. How much quantity from fourth bottle is to be taken so that final mixture from four bottles will be of ratios",
+      "options": {
+        "A": "1.16 litre",
+        "B": "1.26 litre",
+        "C": "1 litre",
+        "D": "2 litre"
+      },
+      "answer": {
+        "option": "A",
+        "text": "1.16 litre"
+      },
+      "pdf_page": 7
+    },
+    {
+      "id": 43,
+      "section": "Type 4 — Ratio Method",
+      "question_markdown": "In a mixture of three varieties of tea, the ratio of their weights is 4 : 5 : 8. If 5 kg tea of the first variety, 10 kg tea of the second variety and some quantity of tea of the third variety are added to the mixture, the ratio of the weights of three varieties of tea becomes as 5 : 7 : 9. In the final mixture, the quantity (in kg) of the third variety of tea was.",
+      "options": {
+        "A": "42",
+        "B": "45",
+        "C": "48",
+        "D": "40"
+      },
+      "answer": {
+        "option": "B",
+        "text": "45"
+      },
+      "pdf_page": 7
+    },
+    {
+      "id": 44,
+      "section": "Type 4 — Ratio Method",
+      "question_markdown": "The ratios of alcohol to water in solutions A and B are 3 : 5 and 9 : 7, respectively. A and B are mixed in the ratio 5 : 8. In 520 ml of the resulting solution, how much water (in ml) should be mixed so as to obtain a solution in which the ratio of alcohol to water is 3 : 4? A B 3 : 5 9 : 7 A B5 : 8 520 ml(ml ) 3 : 4 ICAR ASSISTANT 29/07/2022 (Shift-",
+      "options": {
+        "A": "85",
+        "B": "75",
+        "C": "80",
+        "D": "90"
+      },
+      "answer": {
+        "option": "B",
+        "text": "75"
+      },
+      "pdf_page": 7
+    },
+    {
+      "id": 45,
+      "section": "Type 4 — Ratio Method",
+      "question_markdown": "The ratio of acid and water in solution A is 5 : 4 and 7 : 11 in solution B. 10 litres of A is mixed with 8 litres of B. In 324 ml of the resulting solution, how much water (in ml) should be added to get a solution containing 1 33 % 3 acid? 324 mL (mL ) ICAR ASSISTANT 29/07/2022 (Shift-",
+      "options": {
+        "A": "144",
+        "B": "154",
+        "C": "136",
+        "D": "150 TYPE - 5 ( ) Concept of Mixing Different Mixtures to form a Single"
+      },
+      "answer": {
+        "option": "A",
+        "text": "144"
+      },
+      "pdf_page": 7
+    },
+    {
+      "id": 46,
+      "section": "Type 5 — Alligation Method",
+      "question_markdown": "The ratio of acid and water in two containers is 3 : 4 and 3 : 5 respectively. In what ratio should they be mixed so that the ratio becomes",
+      "options": {
+        "A": "2 : 1",
+        "B": "1 : 2",
+        "C": "3 : 2",
+        "D": "2 : 3"
+      },
+      "answer": {
+        "option": "B",
+        "text": "1 : 2"
+      },
+      "pdf_page": 7
+    },
+    {
+      "id": 47,
+      "section": "Type 5 — Alligation Method",
+      "question_markdown": "Alloys A and B contain copper and zinc in the ratio 7 : 8 and 4 : 1, respectively. In what ratio should A and B be mixed to obtain a new alloy C containing copper and zinc in the ratio 2 : 1 ?",
+      "options": {
+        "A": "2 : 3",
+        "B": "5 : 6",
+        "C": "4 : 5",
+        "D": "3 : 4"
+      },
+      "answer": {
+        "option": "A",
+        "text": "2 : 3"
+      },
+      "pdf_page": 8
+    },
+    {
+      "id": 48,
+      "section": "Type 5 — Alligation Method",
+      "question_markdown": "An alloy contains a mixture of two metals X and Y in the ratio of 2 : 3. The second alloy contains a mixture of the same metals, X and Y, in the ratio 7 : 3. In what ratio should the first and the second alloys be mixed so as to make a new alloy containing 50% of metal X? X Y X Y",
+      "options": {
+        "A": "3 : 4",
+        "B": "3 : 1",
+        "C": "5 : 6",
+        "D": "2 : 1"
+      },
+      "answer": {
+        "option": "D",
+        "text": "2 : 1"
+      },
+      "pdf_page": 8
+    },
+    {
+      "id": 49,
+      "section": "Type 5 — Alligation Method",
+      "question_markdown": "A solution of 40% water is mixed with a solution of 30% water in the ratio of 4 : 5. So what % of solution will be formed?",
+      "options": {
+        "A": "310 % 9",
+        "B": "310 % 8",
+        "C": "301 % 8",
+        "D": "300 % 9"
+      },
+      "answer": {
+        "option": "A",
+        "text": "310 % 9"
+      },
+      "pdf_page": 8
+    },
+    {
+      "id": 50,
+      "section": "Type 5 — Alligation Method",
+      "question_markdown": "A chemistry laboratory requests for a 25% solution of ferrous sulphate. A supplier has 40 millilitres of 20% solution. How many millilitres of 40% solution should be added to make it a 25% solution (correct to two decimal places)?",
+      "options": {
+        "A": "14.30",
+        "B": "15.20",
+        "C": "16.40",
+        "D": "13.33"
+      },
+      "answer": {
+        "option": "D",
+        "text": "13.33"
+      },
+      "pdf_page": 8
+    },
+    {
+      "id": 51,
+      "section": "Type 5 — Alligation Method",
+      "question_markdown": "A solution of 45% alcohol is mixed with a solution of 60% alcohol in the ratio of 2 : 3. In what ratio should the resultant solution be mixed with a 72% alcohol solution to get a 66% alcohol solution?",
+      "options": {
+        "A": "4 : 7",
+        "B": "1 : 3",
+        "C": "1 : 2",
+        "D": "2 : 3"
+      },
+      "answer": {
+        "option": "C",
+        "text": "1 : 2"
+      },
+      "pdf_page": 8
+    },
+    {
+      "id": 52,
+      "section": "Type 5 — Alligation Method",
+      "question_markdown": "A solutions of 70% alcohol is mixed with a solution of 80% alcohol in the ratio of 2 : 3. In what ratio should the resultant solution be mixed with a 90% alcohol solution to get a 80% alcohol solution?",
+      "options": {
+        "A": "5 : 2",
+        "B": "3 : 2",
+        "C": "2 : 5",
+        "D": "4 : 5"
+      },
+      "answer": {
+        "option": "A",
+        "text": "5 : 2"
+      },
+      "pdf_page": 8
+    },
+    {
+      "id": 53,
+      "section": "Type 5 — Alligation Method",
+      "question_markdown": "If 49 litres of a milk solution has 63% milk in it, then how much milk should be added to make the concentration of milk 70% in the solution?",
+      "options": {
+        "A": "13 11 Litres 30",
+        "B": "7 14 Litres 30",
+        "C": "11 12 Litres 30",
+        "D": "1 13 Litres 30"
+      },
+      "answer": {
+        "option": "A",
+        "text": "13 11 Litres 30"
+      },
+      "pdf_page": 8
+    },
+    {
+      "id": 54,
+      "section": "Type 5 — Alligation Method",
+      "question_markdown": "The concentrations of three acids, A, B and C are specified as 20%, 30% and 40% respectively. They are blended in a ratio of 3 : 5 : a, yielding a solution with a concentration of 30%. What is the value of 'a'? a 'a'",
+      "options": {
+        "A": "3",
+        "B": "1",
+        "C": "2",
+        "D": "4"
+      },
+      "answer": {
+        "option": "A",
+        "text": "3"
+      },
+      "pdf_page": 8
+    },
+    {
+      "id": 55,
+      "section": "Type 6 — Series Method",
+      "question_markdown": "75 L of a mixture contains milk and water in ratio 11 : 6. 15 L of mixture is taken out and replaced by 20 L of water. From current mixture 10 L of the current mixture is taken out and replaced by 40 L of water in the current mixture. Then what is the current ratio of milk and water in the mixture?",
+      "options": {
+        "A": "21 : 47",
+        "B": "23 : 25",
+        "C": "18 : 17",
+        "D": "105 : 59"
+      },
+      "answer": {
+        "option": "A",
+        "text": "21 : 47"
+      },
+      "pdf_page": 9
+    },
+    {
+      "id": 56,
+      "section": "Type 6 — Series Method",
+      "question_markdown": "70 litre of a solution contains milk and water in the ratio 5 : 4. 10 litre of mixture is taken out and 40 litre of water is added in current solution then 15 litre of the current solution is taken out and 45 litre water is added in the current solution. Then what is the current ratio of milk and water in the solution?",
+      "options": {
+        "A": "15 : 64",
+        "B": "17 : 61",
+        "C": "14 : 61",
+        "D": "13 : 64"
+      },
+      "answer": {
+        "option": "B",
+        "text": "17 : 61"
+      },
+      "pdf_page": 9
+    },
+    {
+      "id": 57,
+      "section": "Type 6 — Series Method",
+      "question_markdown": "A can have 25 litres of water and milk mixed in the ratio of 1 : 4. If 3 litres of the mixture is emptied and 2 litres of milk are added and the same process is carried out one more time, what will be the final ratio of milk to water?",
+      "options": {
+        "A": "49 : 11",
+        "B": "72 : 185",
+        "C": "54 : 275",
+        "D": "383 : 77"
+      },
+      "answer": {
+        "option": "D",
+        "text": "383 : 77"
+      },
+      "pdf_page": 9
+    },
+    {
+      "id": 58,
+      "section": "Type 6 — Series Method",
+      "question_markdown": "A vessel contains 64 liter of mixture of milk and water in the ratio 7 : 3 respectively. 8L of mixture is replaced by 12 liter milk. What is the ratio of milk and water in the resulting mixture?",
+      "options": {
+        "A": "64 : 21",
+        "B": "35 : 22",
+        "C": "64 : 23",
+        "D": "65 : 21"
+      },
+      "answer": {
+        "option": "A",
+        "text": "64 : 21"
+      },
+      "pdf_page": 9
+    },
+    {
+      "id": 59,
+      "section": "Type 6 — Series Method",
+      "question_markdown": "A vessel contains a 32 litre solution of acid and water in which the ratio of acid and water is 5 : 3. If 12 litres of the solution are taken out and 1 7 2 litres of water are added to it, then what is the ratio of acid and water in the resulting solution?",
+      "options": {
+        "A": "4 : 7",
+        "B": "8 : 11",
+        "C": "4 : 9",
+        "D": "5 : 6"
+      },
+      "answer": {
+        "option": "D",
+        "text": "5 : 6"
+      },
+      "pdf_page": 9
+    },
+    {
+      "id": 60,
+      "section": "Type 6 — Series Method",
+      "question_markdown": "The ratio of milk and water in a vessel is 13:11. If 48 ltr of mixture is taken out and 81 ltr water is added then ratio of milk and water becomes 7:8. Find quantity of milk in initial mixture.",
+      "options": {
+        "A": "301 ltr",
+        "B": "325 ltr",
+        "C": "295 ltr",
+        "D": "299 ltr"
+      },
+      "answer": {
+        "option": "D",
+        "text": "299 ltr"
+      },
+      "pdf_page": 9
+    },
+    {
+      "id": 61,
+      "section": "Type 7",
+      "question_markdown": "Two vessels A and B, each with the capacity of 8 litres, are full of solutions of acid and water. The ratio of acid and water in Vessel A is 3 : 1 and that in case of Vessel B is 5 : 3. Two litres of solution are taken out from B and added to A. After mixing thoroughly, 2 litres of solution are taken out from A and added to B. What is the ratio of acid and water in the final solution in B? A B ICAR ASSISTANT 29/07/2022 (Shift-",
+      "options": {
+        "A": "11 : 8",
+        "B": "13 : 7",
+        "C": "7 : 3",
+        "D": "9 : 4"
+      },
+      "answer": {
+        "option": "B",
+        "text": "13 : 7"
+      },
+      "pdf_page": 9
+    },
+    {
+      "id": 62,
+      "section": "Type 7",
+      "question_markdown": "80 litres of a mixture of spirit and water in the ratio 7 : 9 is present in a container A. 20 litres of the mixture is transferred to another container B. Then the container A is filled with 20 litres of water. Then 32 litres of the mixture is again transferred to container B. The ratio of water to spirit of the mixture in container B is equal to:",
+      "options": {
+        "A": "87 : 41",
+        "B": "131 : 77",
+        "C": "77 : 131",
+        "D": "41 : 87"
+      },
+      "answer": {
+        "option": "B",
+        "text": "131 : 77"
+      },
+      "pdf_page": 10
+    },
+    {
+      "id": 63,
+      "section": "Type 7",
+      "question_markdown": "A mixture P is formed by removing a certain amount of coffee from a coffee jar and replacing the same amount with cocoa powder. The same amount is again removed from mixture P and replaced with same amount of cocoa powder to form a new mixture Q. If the ratio of coffee and cocoa in the mixture Q is 16 : 9, then the ratio of cocoa in mixture P to that in mixture Q is.",
+      "options": {
+        "A": "4 : 9",
+        "B": "1 : 3",
+        "C": "1 : 2",
+        "D": "5 : 9"
+      },
+      "answer": {
+        "option": "D",
+        "text": "5 : 9"
+      },
+      "pdf_page": 10
+    },
+    {
+      "id": 64,
+      "section": "Type 7",
+      "question_markdown": "Anil mixes cocoa with sugar in the ratio 3 : 2 to prepare mixture A, and coffee with sugar in the ratio 7 : 3 to prepare mixture B. He combines mixtures A and B in the ratio 2: 3 to make a new mixture C. If he mixes C with an equal amount of milk to make a drink, then the percentage of sugar in this drink will be.",
+      "options": {
+        "A": "21",
+        "B": "16",
+        "C": "17",
+        "D": "24"
+      },
+      "answer": {
+        "option": "C",
+        "text": "17"
+      },
+      "pdf_page": 10
+    },
+    {
+      "id": 65,
+      "section": "Type 7",
+      "question_markdown": "A mixture contains lemon juice and sugar syrup in equal proportion. If a new mixture is created by adding this mixture and sugar syrup in the ratio 1 : 3, then the ratio of lemon juice and sugar syrup in the new mixture is.",
+      "options": {
+        "A": "1 : 6",
+        "B": "1 : 4",
+        "C": "1 : 7",
+        "D": "1 : 5"
+      },
+      "answer": {
+        "option": "C",
+        "text": "1 : 7"
+      },
+      "pdf_page": 10
+    },
+    {
+      "id": 66,
+      "section": "Type 7",
+      "question_markdown": "An alloy is prepared by mixing three metals A, B and C in the proportion 3 : 4 : 7 by volume. Weights of the same volume of the metals A, B and C are in the ratio 5 : 2 : 6 . In 130 kg of the alloy , the weight , in kg of the metal C is.",
+      "options": {
+        "A": "96",
+        "B": "84",
+        "C": "70",
+        "D": "48"
+      },
+      "answer": {
+        "option": "B",
+        "text": "84"
+      },
+      "pdf_page": 10
+    },
+    {
+      "id": 67,
+      "section": "Type 7",
+      "question_markdown": "Solution A contains liquids X, Y and Z in the ratio 2 : 3 : 4; solution B contains liquids X and Y in the ratio 5 : 7, while solution C contains liquids Y and Z in the ratio 5 : 4. Three litres of A, 2 litres of B and 5 litres of C are mixed to form a new solution. What is the percentage of liquid Y in the new solution? (Correct to one decimal place). AXY Z",
+      "options": {
+        "A": "45.2%",
+        "B": "49.4%",
+        "C": "48.5%",
+        "D": "46.8%"
+      },
+      "answer": {
+        "option": "B",
+        "text": "49.4%"
+      },
+      "pdf_page": 10
+    },
+    {
+      "id": 68,
+      "section": "Type 7",
+      "question_markdown": "Three boxes of capacity 208 kg, 312 kg and 832 kg are completely filled with three varieties of wheat A1, B1 and C1 respectively. All the three boxes were emptied and the three types of wheat were thoroughly mixed and the mixture was put back in the boxes. How many kg of type Al wheat would be there in the third box? A1B1",
+      "options": {
+        "A": "124 kg",
+        "B": "112 kg",
+        "C": "104 kg",
+        "D": "128 kg"
+      },
+      "answer": {
+        "option": "D",
+        "text": "128 kg"
+      },
+      "pdf_page": 10
+    },
+    {
+      "id": 69,
+      "section": "Type 7",
+      "question_markdown": "When 1 litre water is added to a mixture of milk and water, the new mixture contains 25% milk when 2 litre milk is added to the new mixture, the resultant mixture contains 40% milk. What is the % of milk in the original mixture?",
+      "options": {
+        "A": "33.33%",
+        "B": "50%",
+        "C": "28.57%",
+        "D": "30%"
+      },
+      "answer": {
+        "option": "C",
+        "text": "28.57%"
+      },
+      "pdf_page": 11
+    },
+    {
+      "id": 70,
+      "section": "Type 7",
+      "question_markdown": "A solution contains 75L petrol,110L diesel and 100L kerosene. 30% of this solution is replaced by kerosene and then 2 7 of the obtained solution is replaced by diesel. Find the quantity of petrol in the mixture now.",
+      "options": {
+        "A": "40.5 L",
+        "B": "50 L",
+        "C": "37.5 L",
+        "D": "32.5 L"
+      },
+      "answer": {
+        "option": "C",
+        "text": "37.5 L"
+      },
+      "pdf_page": 11
+    }
+  ]
+}

@@ -1,0 +1,649 @@
+{
+  "schema_version": 3,
+  "chapter_id": "proportion",
+  "chapter_name": "Proportion",
+  "source_file": "Proportion (ClassRoom Sheet).pdf",
+  "question_count": 40,
+  "questions": [
+    {
+      "id": 1,
+      "section": "First Proportion",
+      "question_markdown": "The first proportional of three numbers 6, 12 and 24 is :",
+      "options": {
+        "A": "3",
+        "B": "4",
+        "C": "7",
+        "D": "6"
+      },
+      "answer": {
+        "option": "A",
+        "text": "3"
+      },
+      "pdf_page": 2
+    },
+    {
+      "id": 2,
+      "section": "Second Proportion",
+      "question_markdown": "The second proportional of three numbers 28, 4 and 5 is :",
+      "options": {
+        "A": "39",
+        "B": "48",
+        "C": "35",
+        "D": "40"
+      },
+      "answer": {
+        "option": "C",
+        "text": "35"
+      },
+      "pdf_page": 2
+    },
+    {
+      "id": 3,
+      "section": "Third Proportion",
+      "question_markdown": "The third proportional of three numbers 2, 3 and 15 is :",
+      "options": {
+        "A": "10",
+        "B": "20",
+        "C": "30",
+        "D": "40"
+      },
+      "answer": {
+        "option": "A",
+        "text": "10"
+      },
+      "pdf_page": 2
+    },
+    {
+      "id": 4,
+      "section": "Third Proportion",
+      "question_markdown": "Find the third proportional of 9, 7, ?, 14. 9, 7, ?",
+      "options": {
+        "A": "18",
+        "B": "16",
+        "C": "24",
+        "D": "21"
+      },
+      "answer": {
+        "option": "A",
+        "text": "18"
+      },
+      "pdf_page": 2
+    },
+    {
+      "id": 5,
+      "section": "Fourth Proportion",
+      "question_markdown": "Find the fourth proportional to 4, 9 and 16.",
+      "options": {
+        "A": "18",
+        "B": "27",
+        "C": "36",
+        "D": "16"
+      },
+      "answer": {
+        "option": "C",
+        "text": "36"
+      },
+      "pdf_page": 2
+    },
+    {
+      "id": 6,
+      "section": "Fourth Proportion",
+      "question_markdown": "Find the fourth proportional to 19, 23 and 38.",
+      "options": {
+        "A": "46",
+        "B": "28",
+        "C": "42",
+        "D": "24"
+      },
+      "answer": {
+        "option": "A",
+        "text": "46"
+      },
+      "pdf_page": 2
+    },
+    {
+      "id": 7,
+      "section": "Fourth Proportion",
+      "question_markdown": "Find the ratio between the fourth proportional of 8, 9, 15 and the fourth proportional of 12,",
+      "options": {
+        "A": "9 : 16",
+        "B": "5 : 7",
+        "C": "4 : 3",
+        "D": "3 : 4"
+      },
+      "answer": {
+        "option": "A",
+        "text": "9 : 16"
+      },
+      "pdf_page": 2
+    },
+    {
+      "id": 8,
+      "section": "Fourth Proportion",
+      "question_markdown": "What is the fourth proportional of 1 , ?",
+      "options": {
+        "A": "1 250",
+        "B": "1 275",
+        "C": "1 375",
+        "D": "1 350"
+      },
+      "answer": {
+        "option": "D",
+        "text": "1 350"
+      },
+      "pdf_page": 2
+    },
+    {
+      "id": 9,
+      "section": "Fourth Proportion",
+      "question_markdown": "The fourth proportional to 4, a and 16a is 81. What is the value of a? 4, a16a 81a",
+      "options": {
+        "A": "13 2",
+        "B": "9 2",
+        "C": "11 2",
+        "D": "5 2"
+      },
+      "answer": {
+        "option": "B",
+        "text": "9 2"
+      },
+      "pdf_page": 2
+    },
+    {
+      "id": 10,
+      "section": "First Proportion",
+      "question_markdown": "The first proportional of two numbers 3 and 5 is :",
+      "options": {
+        "A": "1.6",
+        "B": "1.8",
+        "C": "1.2",
+        "D": "1.4"
+      },
+      "answer": {
+        "option": "B",
+        "text": "1.8"
+      },
+      "pdf_page": 2
+    },
+    {
+      "id": 11,
+      "section": "Mean Proportion",
+      "question_markdown": "The mean proportional of 2 and 32 is......",
+      "options": {
+        "A": "16",
+        "B": "8",
+        "C": "12",
+        "D": "6"
+      },
+      "answer": {
+        "option": "B",
+        "text": "8"
+      },
+      "pdf_page": 2
+    },
+    {
+      "id": 12,
+      "section": "Mean Proportion",
+      "question_markdown": "Find the mean proportional of 12.96 and",
+      "options": {
+        "A": "1.44",
+        "B": "96",
+        "C": "44",
+        "D": "69"
+      },
+      "answer": {
+        "option": "A",
+        "text": "1.44"
+      },
+      "pdf_page": 3
+    },
+    {
+      "id": 13,
+      "section": "Mean Proportion",
+      "question_markdown": "The mean proportional of 8a2 and 4 18 a , where a is a positive number, is _______. 8a2 aa",
+      "options": {
+        "A": "2 12 a",
+        "B": "12a",
+        "C": "12a2",
+        "D": "12 a"
+      },
+      "answer": {
+        "option": "D",
+        "text": "12 a"
+      },
+      "pdf_page": 3
+    },
+    {
+      "id": 14,
+      "section": "Mean Proportion",
+      "question_markdown": "The mean proportional between (18 + 82) and (15 – 22) is: (18 + 82)(15 – 22)",
+      "options": {
+        "A": "238 36 2 ",
+        "B": "238 120 2 ",
+        "C": "238 84 2 ",
+        "D": "238 110 2 "
+      },
+      "answer": {
+        "option": "C",
+        "text": "238 84 2 "
+      },
+      "pdf_page": 3
+    },
+    {
+      "id": 15,
+      "section": "Mean Proportion",
+      "question_markdown": "If A is the mean proportion of 24 and 6. B is the mean proportion of 81 and 9. Find the value of 3A + B. A246B819 3A+B",
+      "options": {
+        "A": "33",
+        "B": "32",
+        "C": "63",
+        "D": "55"
+      },
+      "answer": {
+        "option": "C",
+        "text": "63"
+      },
+      "pdf_page": 3
+    },
+    {
+      "id": 16,
+      "section": "Mean Proportion",
+      "question_markdown": "If the mean proportional between p and q is 12, then the possible values of p and q, respectively, are: pq12 p q",
+      "options": {
+        "A": "3, 38",
+        "B": "3, 28",
+        "C": "24, 6",
+        "D": "24,16"
+      },
+      "answer": {
+        "option": "C",
+        "text": "24, 6"
+      },
+      "pdf_page": 3
+    },
+    {
+      "id": 17,
+      "section": "Mean Proportion",
+      "question_markdown": "What is the ratio of the mean proportion of 1.21 and 0.09 with the mean proportion of 0.16 and 0.36?",
+      "options": {
+        "A": "11 : 8",
+        "B": "13 : 8",
+        "C": "13 : 12",
+        "D": "11 : 13"
+      },
+      "answer": {
+        "option": "A",
+        "text": "11 : 8"
+      },
+      "pdf_page": 3
+    },
+    {
+      "id": 18,
+      "section": "Mean Proportion",
+      "question_markdown": "The mean proportional of 4a2 and x is 1 5a , where a is a positive number, then the value of x is_________. 4a2x1 5aa x________",
+      "options": {
+        "A": "4 1 100a",
+        "B": "2 1 100a",
+        "C": "2 1 25a",
+        "D": "4 1 25a"
+      },
+      "answer": {
+        "option": "A",
+        "text": "4 1 100a"
+      },
+      "pdf_page": 3
+    },
+    {
+      "id": 19,
+      "section": "Mean Proportion",
+      "question_markdown": "If 28.9 : x :: x : 36.1, and x > 0, then find the value of x. 28.9 : x :: x : 36.1x > 0x",
+      "options": {
+        "A": "38.3",
+        "B": "32.3",
+        "C": "30.4",
+        "D": "35"
+      },
+      "answer": {
+        "option": "B",
+        "text": "32.3"
+      },
+      "pdf_page": 3
+    },
+    {
+      "id": 20,
+      "section": "Third Proportion",
+      "question_markdown": "The third proportional to 32 and 40 is:",
+      "options": {
+        "A": "56",
+        "B": "48",
+        "C": "42",
+        "D": "50"
+      },
+      "answer": {
+        "option": "D",
+        "text": "50"
+      },
+      "pdf_page": 3
+    },
+    {
+      "id": 21,
+      "section": "Third Proportion",
+      "question_markdown": "The square of the third proportional of 36 and 12 is _______.",
+      "options": {
+        "A": "3",
+        "B": "16",
+        "C": "4",
+        "D": "12"
+      },
+      "answer": {
+        "option": "B",
+        "text": "16"
+      },
+      "pdf_page": 3
+    },
+    {
+      "id": 22,
+      "section": "Third Proportion",
+      "question_markdown": "The third proportional to (x2 – y2) and (x – y) is: (x2 – y2)(x – y)",
+      "options": {
+        "A": "(x – y)",
+        "B": "– y + y x x",
+        "C": "y – y  x x",
+        "D": "(x + y)"
+      },
+      "answer": {
+        "option": "B",
+        "text": "– y + y x x"
+      },
+      "pdf_page": 3
+    },
+    {
+      "id": 23,
+      "section": "Some Important New Mixed Based Questions",
+      "question_markdown": "If p is the third proportional to 8, 20 and q is the fourth proportional to 3, 5, 24 , then find the value of (2p + q). p q ( 2p + q)",
+      "options": {
+        "A": "140",
+        "B": "126",
+        "C": "90",
+        "D": "104"
+      },
+      "answer": {
+        "option": "A",
+        "text": "140"
+      },
+      "pdf_page": 3
+    },
+    {
+      "id": 24,
+      "section": "Some Important New Mixed Based Questions",
+      "question_markdown": "Find the ratio between the fourth proportional of 12, 16, 6 and the third proportional of 4, 6.",
+      "options": {
+        "A": "11 : 5",
+        "B": "3 : 2",
+        "C": "4 : 3",
+        "D": "8 : 9"
+      },
+      "answer": {
+        "option": "D",
+        "text": "8 : 9"
+      },
+      "pdf_page": 4
+    },
+    {
+      "id": 25,
+      "section": "Some Important New Mixed Based Questions",
+      "question_markdown": "If the third proportion to 2y – 1 and 6 is 12 and the fourth proportion to 2x + 7, 5 and 39 is 15, then find the value of x + 2y. 2y – 12x + x + 2y",
+      "options": {
+        "A": "3",
+        "B": "5",
+        "C": "7",
+        "D": "4"
+      },
+      "answer": {
+        "option": "C",
+        "text": "7"
+      },
+      "pdf_page": 4
+    },
+    {
+      "id": 26,
+      "section": "Some Important New Mixed Based Questions",
+      "question_markdown": "If 23 : 85.06 :: 8–4.06 : x, find the value of x. 23 : 85.06 :: 8–4.06 : x, x",
+      "options": {
+        "A": "3 1/2",
+        "B": "1",
+        "C": "23",
+        "D": "0"
+      },
+      "answer": {
+        "option": "B",
+        "text": "1"
+      },
+      "pdf_page": 4
+    },
+    {
+      "id": 27,
+      "section": "Some Important New Mixed Based Questions",
+      "question_markdown": "If four distinct positive numbers, a, b, c and d, in the order given are in proportion, then which of the following options is NOT correct? a, b, cd",
+      "options": {
+        "A": "b, a, d and c, in the order given are in proportion b, a, dc",
+        "B": "c, d, b and a, in the order given are in proportion. c, d, ba",
+        "C": "d, c, b and a, in the order given are in proportion. d, c, ba",
+        "D": "d, b, c and a in the order given are in proportion. d, b, ca"
+      },
+      "answer": {
+        "option": "B",
+        "text": "c, d, b and a, in the order given are in proportion. c, d, ba"
+      },
+      "pdf_page": 4
+    },
+    {
+      "id": 28,
+      "section": "Some Important New Mixed Based Questions",
+      "question_markdown": "Which number should be added to 3, 11, 4 and 14 to make them in proportion?",
+      "options": {
+        "A": "2",
+        "B": "1",
+        "C": "3",
+        "D": "4"
+      },
+      "answer": {
+        "option": "B",
+        "text": "1"
+      },
+      "pdf_page": 4
+    },
+    {
+      "id": 29,
+      "section": "Some Important New Mixed Based Questions",
+      "question_markdown": "When x is added to each of the numbers 7, 11, 18 and 23, then the number so obtained are in proportion. What is the mean proportional between (x – 1) and (2x – 10)? 7, 11, 1823x (x – 1) (2x –",
+      "options": {
+        "A": "68",
+        "B": "78",
+        "C": "98",
+        "D": "48"
+      },
+      "answer": {
+        "option": "D",
+        "text": "48"
+      },
+      "pdf_page": 4
+    },
+    {
+      "id": 30,
+      "section": "Some Important New Mixed Based Questions",
+      "question_markdown": "When x is added to each of 22, 26, 19 and 21, then the numbers so obtained, in this order, are in proportion. Then, if 2x : y :: y : (4x – 8), and y > 0, what is the value of y? x 2x : y :: y : (4x – 8),y > 0 y",
+      "options": {
+        "A": "48",
+        "B": "37",
+        "C": "46",
+        "D": "54"
+      },
+      "answer": {
+        "option": "A",
+        "text": "48"
+      },
+      "pdf_page": 4
+    },
+    {
+      "id": 31,
+      "section": "Some Important New Mixed Based Questions",
+      "question_markdown": "What is the least number subtracted from 14, 36, 20 and 54 so that these numbers become proportional?",
+      "options": {
+        "A": "3",
+        "B": "2",
+        "C": "4",
+        "D": "5"
+      },
+      "answer": {
+        "option": "A",
+        "text": "3"
+      },
+      "pdf_page": 4
+    },
+    {
+      "id": 32,
+      "section": "Some Important New Mixed Based Questions",
+      "question_markdown": "What number should be subtracted from each of the numbers 27, 31, 29 and 37 so that the remainders are proportional?",
+      "options": {
+        "A": "25",
+        "B": "27",
+        "C": "30",
+        "D": "20"
+      },
+      "answer": {
+        "option": "A",
+        "text": "25"
+      },
+      "pdf_page": 4
+    },
+    {
+      "id": 33,
+      "section": "Some Important New Mixed Based Questions",
+      "question_markdown": "If x is subtracted from each of 24, 40, 33 and 57, the numbers, so obtained are in proportion. The ratio of (5x + 12) to (4x +15) is x (5x + 12)(4x +",
+      "options": {
+        "A": "4 : 3",
+        "B": "14 : 13",
+        "C": "7 : 4",
+        "D": "7 : 5"
+      },
+      "answer": {
+        "option": "B",
+        "text": "14 : 13"
+      },
+      "pdf_page": 4
+    },
+    {
+      "id": 34,
+      "section": "Some Important New Mixed Based Questions",
+      "question_markdown": "When x is subtracted from each of the numbers 54, 49, 22 and 21, the numbers so obtained are in proportion. The ratio of (8x – 25) to (7x – 26) is: x (8x –25) (7x –",
+      "options": {
+        "A": "29 : 24",
+        "B": "15 : 13",
+        "C": "27 : 26",
+        "D": "5 : 4"
+      },
+      "answer": {
+        "option": "A",
+        "text": "29 : 24"
+      },
+      "pdf_page": 4
+    },
+    {
+      "id": 35,
+      "section": "Some Important New Mixed Based Questions",
+      "question_markdown": "A varies directly as (B + 18) and A = 108 when B = 36 Find the value of A when B = 68 A, (B + 18)B = 36A",
+      "options": {
+        "A": "75",
+        "B": "86",
+        "C": "127",
+        "D": "172"
+      },
+      "answer": {
+        "option": "D",
+        "text": "172"
+      },
+      "pdf_page": 5
+    },
+    {
+      "id": 36,
+      "section": "Some Important New Mixed Based Questions",
+      "question_markdown": "M varies inversely as (N² + 3). If M = 3 when N = 3, then what will be the value of M when N² = 69? M(N² + 3)N = 3M = 3N² = 69M",
+      "options": {
+        "A": "1 2",
+        "B": "1",
+        "C": "69",
+        "D": "1 4"
+      },
+      "answer": {
+        "option": "A",
+        "text": "1 2"
+      },
+      "pdf_page": 5
+    },
+    {
+      "id": 37,
+      "section": "Some Important New Mixed Based Questions",
+      "question_markdown": "X is directly proportional to A2 and A is inversely proportional to Y. If X is 97 when Y is 6, find X when Y is 2. X, A2AY XYXY",
+      "options": {
+        "A": "873",
+        "B": "871",
+        "C": "872",
+        "D": "875"
+      },
+      "answer": {
+        "option": "A",
+        "text": "873"
+      },
+      "pdf_page": 5
+    },
+    {
+      "id": 38,
+      "section": "Some Important New Mixed Based Questions",
+      "question_markdown": "A function of two variable varies directly with x and inversely with y. Determine function when x = 5 and y = 3. Given that, for x = 0 and y = 1, f = 15 and for x = 1 and y = 15, f = 2. xy x = 5y = 3 x = 0y = 1 f = 15 x = 1y = 15f =",
+      "options": {
+        "A": "10",
+        "B": "2",
+        "C": "5",
+        "D": "15"
+      },
+      "answer": {
+        "option": "A",
+        "text": "10"
+      },
+      "pdf_page": 5
+    },
+    {
+      "id": 39,
+      "section": "Some Important New Mixed Based Questions",
+      "question_markdown": "The fuel consumption (mpg) of a vehicle varies inversely with its weight. A car that weighs 3800 pounds gets 25 mpg on the highway. Find the fuel consumption of a car (in mpg), that weighs 4750 pounds. (mpg) mpg (mpg",
+      "options": {
+        "A": "23.75",
+        "B": "25",
+        "C": "18",
+        "D": "20"
+      },
+      "answer": {
+        "option": "D",
+        "text": "20"
+      },
+      "pdf_page": 5
+    },
+    {
+      "id": 40,
+      "section": "Some Important New Mixed Based Questions",
+      "question_markdown": "Ram, Shyam and Ghanshyam have `32, `46 and `50, respectively, with them. Their mother asks them to give her equal amounts so that the money held b y t h e m n o w a r e i n c o n t i n u e d proportion.Find the amount taken from each of them.",
+      "options": {
+        "A": "`91.78",
+        "B": "`51.60",
+        "C": "`91.36",
+        "D": "`51.78"
+      },
+      "answer": {
+        "option": "B",
+        "text": "`51.60"
+      },
+      "pdf_page": 5
+    }
+  ]
+}
