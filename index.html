@@ -48,6 +48,22 @@
     </section>
     <div class="progressbar"><i id="progressBar"></i></div>
 
+    <section class="scorecard panel">
+      <div class="score-head">
+        <div><span class="eyebrow"><i data-lucide="bar-chart-3"></i> Score card</span><h2>Question tracker & performance</h2></div>
+        <span class="score-note">Saved on this device</span>
+      </div>
+      <div id="scoreSummary" class="score-summary"></div>
+      <div class="score-section">
+        <div class="score-subhead"><b>Topic performance</b><span>Checked questions only</span></div>
+        <div id="sectionScore" class="section-score-list"></div>
+      </div>
+      <div class="score-section">
+        <div class="score-subhead"><b>All questions</b><span>✓ correct · ✕ wrong · • answered in current set · ○ used</span></div>
+        <div id="questionTracker" class="question-tracker"></div>
+      </div>
+    </section>
+
     <section id="empty" class="panel empty">
       <div class="empty-icon"><i data-lucide="sparkles"></i></div>
       <h2>Choose a chapter and start practicing</h2>
@@ -72,7 +88,7 @@
   <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.22/dist/contrib/auto-render.min.js"></script>
   <script defer src="https://cdn.jsdelivr.net/npm/lucide@0.468.0/dist/umd/lucide.min.js"></script>
   <!-- Embedded chapter data is a GitHub Pages fallback if JSON fetches fail. -->
-  <script defer src="data/chapter-data.js"></script>
-  <script defer src="js/app.js"></script>
+  <script defer src="data/chapter-data.js?v=6"></script>
+  <script defer src="js/app.js?v=6"></script>
 </body>
 </html>

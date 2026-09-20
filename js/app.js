@@ -27,6 +27,22 @@ function getProgress() {
 }
 function saveProgress(data) { localStorage.setItem(storageKey(), JSON.stringify(data)); }
 function getUsed() { return new Set(getProgress().usedIds || []); }
+function getHistory() {
+  const h = getProgress().history;
+  return (h && typeof h === 'object') ? h : {};
+}
+
+function getQuestionStatus(q) {
+  const p = getProgress();
+  const h = p.history && p.history[String(q.id)];
+  if (h?.status === 'correct') return 'correct';
+  if (h?.status === 'wrong') return 'wrong';
+  if (h?.status === 'unanswered') return 'unanswered';
+  if (state.set.some(x => x.id === q.id) && state.answers[q.id]) return 'pending';
+  if (getUsed().has(q.id)) return 'used';
+  return 'new';
+}
+
 
 function saveCurrentSet() {
   const p = getProgress();
@@ -48,6 +64,7 @@ function restoreCurrentSet() {
   state.answered = !!p.currentSetAnswered;
   state.answers = (p.currentAnswers && typeof p.currentAnswers === 'object') ? p.currentAnswers : {};
   renderSet();
+  updateScoreCard();
   return true;
 }
 
@@ -99,6 +116,7 @@ function updateChapter() {
   if (!restoreCurrentSet()) {
     $('empty').classList.remove('hidden');
   }
+  updateScoreCard();
   refreshIcons();
 }
 
@@ -143,6 +161,7 @@ function pickSet() {
 
   renderSet();
   updateProgress();
+  updateScoreCard();
 }
 
 function renderSet() {
@@ -195,6 +214,7 @@ function handleAnswerChange(event) {
   card.querySelectorAll('.option').forEach(label => label.classList.toggle('selected', label.querySelector('input') === input));
   updateAnsweredCount();
   saveCurrentSet();
+  updateScoreCard();
 }
 
 function renderMath() {
@@ -214,9 +234,14 @@ function renderMath() {
 function revealSavedResult() {
   const p = getProgress();
   if (typeof p.lastScore !== 'number') return;
-  state.set.forEach(q => revealCard(q, null, true));
+  state.set.forEach(q => {
+    const value = state.answers[q.id];
+    const input = value ? document.querySelector(`[data-q="${q.id}"] input[value="${CSS.escape(value)}"]`) : null;
+    revealCard(q, input, true);
+  });
   $('result').classList.remove('hidden');
   $('result').innerHTML = `<i data-lucide="trophy"></i><span>Score: <b>${p.lastScore}/${state.set.length}</b> · This set is already checked.</span>`;
+  updateScoreCard();
   refreshIcons();
 }
 
@@ -224,12 +249,19 @@ function revealCard(q, chosen, saved = false) {
   const card = document.querySelector(`[data-q="${q.id}"]`);
   if (!card) return;
   const labels = [...card.querySelectorAll('.option')];
+  const isAnswered = !!chosen;
+  const isCorrect = isAnswered && chosen.value === q.answer.option;
+  card.classList.add('checked');
+  card.classList.toggle('correct-card', isCorrect);
+  card.classList.toggle('wrong-card', isAnswered && !isCorrect);
   labels.forEach(l => l.classList.remove('correct','wrong'));
-  if (chosen && chosen.value !== q.answer.option) chosen.closest('.option')?.classList.add('wrong');
+  if (isAnswered && !isCorrect) chosen.closest('.option')?.classList.add('wrong');
   labels.find(l => l.querySelector('input')?.value === q.answer.option)?.classList.add('correct');
   const exp = card.querySelector('.explain');
   exp.classList.remove('hidden');
-  exp.innerHTML = `<i data-lucide="badge-check"></i> Correct answer: <b>${escapeHtml(q.answer.option)}. ${md(q.answer.text)}</b>${q.pdf_page ? ` <span>· PDF page ${q.pdf_page}</span>` : ''}`;
+  exp.innerHTML = isAnswered && !isCorrect
+    ? `<i data-lucide="circle-x"></i><span>Your answer: <b class="bad-text">${escapeHtml(chosen.value)}. ${md(q.options[chosen.value] || '')}</b> · Correct answer: <b>${escapeHtml(q.answer.option)}. ${md(q.answer.text)}</b>${q.pdf_page ? ` <span>· PDF page ${q.pdf_page}</span>` : ''}</span>`
+    : `<i data-lucide="badge-check"></i><span>Correct answer: <b>${escapeHtml(q.answer.option)}. ${md(q.answer.text)}</b>${q.pdf_page ? ` <span>· PDF page ${q.pdf_page}</span>` : ''}</span>`;
   if (saved) card.querySelectorAll('input').forEach(i => i.disabled = true);
 }
 
@@ -254,11 +286,67 @@ function check() {
   p.lastScore = score;
   p.currentSetAnswered = true;
   p.currentAnswers = state.answers;
+  p.history = (p.history && typeof p.history === 'object') ? p.history : {};
+  state.set.forEach(q => {
+    const selected = state.answers[q.id] || null;
+    p.history[String(q.id)] = {
+      selected,
+      correct: selected === q.answer.option,
+      status: selected === q.answer.option ? 'correct' : (selected ? 'wrong' : 'unanswered'),
+      section: q.section || 'Uncategorized'
+    };
+  });
+  p.checkedSets = (p.checkedSets || 0) + 1;
+  p.totalCorrect = Object.values(p.history).filter(x => x.status === 'correct').length;
+  p.totalWrong = Object.values(p.history).filter(x => x.status === 'wrong').length;
+  p.totalAnswered = Object.values(p.history).filter(x => x.status === 'correct' || x.status === 'wrong').length;
   saveProgress(p);
   $('answeredLabel').textContent = `${answered}/${state.set.length} answered`;
   $('result').classList.remove('hidden');
   $('result').innerHTML = `<i data-lucide="trophy"></i><span>Score: <b>${score}/${state.set.length}</b> · Answered: <b>${answered}/${state.set.length}</b></span>`;
+  updateScoreCard();
   renderMath();
+  refreshIcons();
+}
+
+function updateScoreCard() {
+  if (!state.chapter || !$('scoreSummary')) return;
+  const p = getProgress();
+  const history = p.history && typeof p.history === 'object' ? p.history : {};
+  const entries = Object.values(history);
+  const correct = entries.filter(x => x.status === 'correct').length;
+  const wrong = entries.filter(x => x.status === 'wrong').length;
+  const answered = correct + wrong;
+  const used = (p.usedIds || []).length;
+  const accuracy = answered ? Math.round(correct / answered * 100) : 0;
+  $('scoreSummary').innerHTML = [
+    ['used', used, 'questions used'],
+    ['answered', answered, 'checked'],
+    ['correct', correct, 'correct'],
+    ['wrong', wrong, 'wrong'],
+    ['unanswered', entries.filter(x => x.status === 'unanswered').length, 'unanswered'],
+    ['accuracy', `${accuracy}%`, 'accuracy'],
+    ['sets', p.checkedSets || 0, 'sets checked']
+  ].map(([icon,val,label]) => `<div class="score-stat"><span class="score-stat-icon"><i data-lucide="${icon === 'correct' ? 'circle-check' : icon === 'wrong' ? 'circle-x' : icon === 'accuracy' ? 'target' : icon === 'sets' ? 'layers-3' : icon === 'answered' ? 'check-check' : icon === 'unanswered' ? 'circle-minus' : 'book-copy'}"></i></span><div><b>${val}</b><span>${label}</span></div></div>`).join('');
+
+  const questions = state.chapter.data.questions || [];
+  $('questionTracker').innerHTML = questions.map(q => {
+    const st = getQuestionStatus(q);
+    const symbol = st === 'correct' ? '✓' : st === 'wrong' ? '✕' : st === 'unanswered' ? '—' : st === 'pending' ? '•' : st === 'used' ? '○' : '';
+    return `<span class="tracker ${st}" title="Question ${q.id}: ${st}">${q.id}${symbol ? ` ${symbol}` : ''}</span>`;
+  }).join('');
+
+  const sectionMap = {};
+  entries.forEach(e => {
+    const sec = e.section || 'Uncategorized';
+    sectionMap[sec] ||= {correct:0, wrong:0};
+    if (e.status === 'correct') sectionMap[sec].correct++;
+    if (e.status === 'wrong') sectionMap[sec].wrong++;
+  });
+  $('sectionScore').innerHTML = Object.entries(sectionMap).length ? Object.entries(sectionMap).map(([sec,v]) => {
+    const n=v.correct+v.wrong, a=n?Math.round(v.correct/n*100):0;
+    return `<div class="section-score"><div><span>${escapeHtml(sec)}</span><b>${v.correct}/${n} · ${a}%</b></div><div class="mini-bar"><i style="width:${a}%"></i></div></div>`;
+  }).join('') : `<p class="score-empty">No checked questions yet.</p>`;
   refreshIcons();
 }
 
@@ -275,6 +363,7 @@ function resetProgress() {
   $('empty').classList.remove('hidden');
   $('empty').innerHTML = `<div class="empty-icon"><i data-lucide="sparkles"></i></div><h2>Ready for a fresh start</h2><p>All questions in ${escapeHtml(state.chapter.name)} are available again.</p>`;
   updateProgress();
+  updateScoreCard();
   refreshIcons();
 }
 
@@ -316,6 +405,7 @@ async function init() {
 
     if (!state.chapters.length) throw new Error('No chapters found');
     fillChapters();
+    updateScoreCard();
     refreshIcons();
   } catch (err) {
     console.error('SSC Maths Practice boot error:', err);
