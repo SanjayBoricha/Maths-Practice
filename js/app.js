@@ -87,9 +87,30 @@ async function loadChapter(meta) {
   }
 }
 
+let iconRefreshTimer = null;
 function refreshIcons() {
-  if (window.lucide?.createIcons) window.lucide.createIcons();
+  const run = () => {
+    if (window.lucide?.createIcons) {
+      try {
+        window.lucide.createIcons({ attrs: { 'aria-hidden': 'true', focusable: 'false' } });
+        document.querySelectorAll('[data-lucide]').forEach(el => {
+          if (el.tagName.toLowerCase() === 'i') {
+            el.setAttribute('aria-hidden', 'true');
+          }
+        });
+        return true;
+      } catch (err) {
+        console.warn('Icon rendering failed:', err);
+      }
+    }
+    return false;
+  };
+  if (run()) return;
+  clearTimeout(iconRefreshTimer);
+  iconRefreshTimer = setTimeout(run, 150);
 }
+
+window.addEventListener('load', refreshIcons);
 
 function fillChapters() {
   const select = $('chapterSelect');
@@ -332,21 +353,10 @@ function updateScoreCard() {
   const questions = state.chapter.data.questions || [];
   $('questionTracker').innerHTML = questions.map(q => {
     const st = getQuestionStatus(q);
-    const symbol = st === 'correct' ? '✓' : st === 'wrong' ? '✕' : st === 'unanswered' ? '—' : st === 'pending' ? '•' : st === 'used' ? '○' : '';
-    return `<span class="tracker ${st}" title="Question ${q.id}: ${st}">${q.id}${symbol ? ` ${symbol}` : ''}</span>`;
+    const icon = st === 'correct' ? 'circle-check' : st === 'wrong' ? 'circle-x' : st === 'unanswered' ? 'circle-minus' : st === 'pending' ? 'circle-dot' : st === 'used' ? 'circle' : '';
+    return `<span class="tracker ${st}" title="Question ${q.id}: ${st}">${q.id}${icon ? ` <i data-lucide="${icon}"></i>` : ''}</span>`;
   }).join('');
 
-  const sectionMap = {};
-  entries.forEach(e => {
-    const sec = e.section || 'Uncategorized';
-    sectionMap[sec] ||= {correct:0, wrong:0};
-    if (e.status === 'correct') sectionMap[sec].correct++;
-    if (e.status === 'wrong') sectionMap[sec].wrong++;
-  });
-  $('sectionScore').innerHTML = Object.entries(sectionMap).length ? Object.entries(sectionMap).map(([sec,v]) => {
-    const n=v.correct+v.wrong, a=n?Math.round(v.correct/n*100):0;
-    return `<div class="section-score"><div><span>${escapeHtml(sec)}</span><b>${v.correct}/${n} · ${a}%</b></div><div class="mini-bar"><i style="width:${a}%"></i></div></div>`;
-  }).join('') : `<p class="score-empty">No checked questions yet.</p>`;
   refreshIcons();
 }
 
