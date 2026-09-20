@@ -3,12 +3,16 @@ const STORAGE_PREFIX = 'ssc-maths-practice:v3:';
 const state = { chapters: [], chapter: null, set: [], score: null, answered: false };
 const $ = id => document.getElementById(id);
 
+// GitHub Pages can host this project under /Maths-Practice/ (or another
+// repository path). Always resolve assets against the actual page URL rather
+// than assuming the site lives at the domain root.
+const SITE_BASE = new URL('./', document.baseURI);
+const assetUrl = path => new URL(path, SITE_BASE).href;
+
 function escapeHtml(s) {
   return String(s ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 }
 
-// The source JSON stores Markdown + LaTeX. We escape HTML first, then leave
-// LaTeX delimiters intact for KaTeX's auto-renderer.
 function md(s) {
   s = escapeHtml(s);
   s = s.replace(/`([^`]+)`/g, '<code>$1</code>');
@@ -42,22 +46,36 @@ function restoreCurrentSet() {
   state.score = typeof p.lastScore === 'number' ? p.lastScore : null;
   state.answered = !!p.currentSetAnswered;
   renderSet();
-  if (state.answered) revealSavedResult();
   return true;
 }
 
-async function loadChapter(meta) {
-  const r = await fetch(`data/${meta.file}`, { cache: 'no-cache' });
-  if (!r.ok) throw new Error(`Could not load ${meta.file}`);
+async function fetchJson(path) {
+  const url = assetUrl(path);
+  const r = await fetch(url, { cache: 'no-cache' });
+  if (!r.ok) throw new Error(`${r.status} ${r.statusText}: ${url}`);
   return r.json();
 }
 
+async function loadChapter(meta) {
+  // Prefer the JSON asset so the site remains easy to extend. If a GitHub
+  // Pages deployment doesn't expose the JSON correctly, use embedded data.
+  try {
+    return await fetchJson(`data/${meta.file}`);
+  } catch (err) {
+    const embedded = (window.SSC_EMBEDDED_CHAPTERS || []).find(c => c.id === meta.id);
+    if (embedded?.data) return embedded.data;
+    throw err;
+  }
+}
+
 function refreshIcons() {
-  if (window.lucide) lucide.createIcons();
+  if (window.lucide?.createIcons) window.lucide.createIcons();
 }
 
 function fillChapters() {
-  $('chapterSelect').innerHTML = state.chapters.map(c => `<option value="${escapeHtml(c.id)}">${escapeHtml(c.name)}</option>`).join('');
+  const select = $('chapterSelect');
+  select.innerHTML = state.chapters.map(c => `<option value="${escapeHtml(c.id)}">${escapeHtml(c.name)}</option>`).join('');
+  select.disabled = state.chapters.length === 0;
   updateChapter();
 }
 
@@ -76,7 +94,9 @@ function updateChapter() {
   state.set = [];
   state.score = null;
   state.answered = false;
-  restoreCurrentSet();
+  if (!restoreCurrentSet()) {
+    $('empty').classList.remove('hidden');
+  }
   refreshIcons();
 }
 
@@ -103,16 +123,12 @@ function pickSet() {
   if (!state.chapter) return;
   const section = $('sectionSelect').value;
   const used = getUsed();
-  let pool = state.chapter.data.questions.filter(q => (section === 'all' || q.section === section) && !used.has(q.id));
+  const pool = state.chapter.data.questions.filter(q => (section === 'all' || q.section === section) && !used.has(q.id));
 
-  // If fewer than 25 remain in the selected section, use every remaining
-  // question in that section. No question is ever reused until progress is reset.
   state.set = shuffle([...pool]).slice(0, SET_SIZE);
   state.score = null;
   state.answered = false;
 
-  // Reserve the questions immediately. This prevents them from appearing in
-  // another set even if the user closes/reloads the page before submitting.
   state.set.forEach(q => used.add(q.id));
   const p = getProgress();
   p.usedIds = [...used];
@@ -126,10 +142,17 @@ function pickSet() {
 }
 
 function renderSet() {
+  if (!state.set.length) {
+    $('quiz').classList.add('hidden');
+    $('empty').classList.remove('hidden');
+    $('empty').innerHTML = `<div class="empty-icon"><i data-lucide="circle-check"></i></div><h2>No unused questions left</h2><p>Reset this chapter's progress to make all questions available again.</p>`;
+    refreshIcons();
+    return;
+  }
+
   $('empty').classList.add('hidden');
   $('quiz').classList.remove('hidden');
   $('setLabel').textContent = `${state.chapter.name} · ${state.set.length}-question set`;
-  $('scoreText')?.remove();
   $('answeredLabel').textContent = state.answered ? `${state.set.length} answered` : '0 answered';
   $('result').classList.add('hidden');
 
@@ -153,7 +176,7 @@ function renderSet() {
 
 function renderMath() {
   if (!window.renderMathInElement) return;
-  renderMathInElement(document.getElementById('questionList'), {
+  window.renderMathInElement(document.getElementById('questionList'), {
     delimiters: [
       {left: '$$', right: '$$', display: true},
       {left: '\\[', right: '\\]', display: true},
@@ -220,7 +243,9 @@ function resetProgress() {
   state.answered = false;
   $('quiz').classList.add('hidden');
   $('empty').classList.remove('hidden');
+  $('empty').innerHTML = `<div class="empty-icon"><i data-lucide="sparkles"></i></div><h2>Ready for a fresh start</h2><p>All questions in ${escapeHtml(state.chapter.name)} are available again.</p>`;
   updateProgress();
+  refreshIcons();
 }
 
 $('startBtn').onclick = pickSet;
@@ -235,17 +260,31 @@ $('themeBtn').onclick = () => {
 
 if (localStorage.getItem('ssc-theme') === 'dark') document.body.classList.add('dark');
 
-(async () => {
+async function boot() {
+  const fallback = window.SSC_EMBEDDED_CHAPTERS || [];
   try {
-    const manifest = await (await fetch('data/manifest.json', {cache:'no-cache'})).json();
-    state.chapters = await Promise.all(manifest.chapters.map(async meta => ({
-      id: meta.id, name: meta.name, data: await loadChapter(meta)
+    let manifest;
+    try {
+      manifest = await fetchJson('data/manifest.json');
+    } catch (_) {
+      manifest = { chapters: fallback.map(c => ({ id: c.id, name: c.name, file: c.file })) };
+    }
+
+    state.chapters = await Promise.all((manifest.chapters || []).map(async meta => ({
+      id: meta.id,
+      name: meta.name,
+      data: await loadChapter(meta)
     })));
+
+    if (!state.chapters.length) throw new Error('No chapters found');
     fillChapters();
     refreshIcons();
   } catch (e) {
-    $('empty').innerHTML = `<div class="empty-icon"><i data-lucide="triangle-alert"></i></div><h2>Could not load the chapter data</h2><p>Run the site through a web server such as Netlify, GitHub Pages, or a local static server.</p>`;
+    console.error('SSC Maths Practice boot error:', e);
+    $('empty').innerHTML = `<div class="empty-icon"><i data-lucide="triangle-alert"></i></div><h2>Could not load the chapter data</h2><p>The site loaded, but no chapter data was available. Try refreshing the page.</p><small>${escapeHtml(e.message)}</small>`;
     $('empty').classList.remove('hidden');
     refreshIcons();
   }
-})();
+}
+
+boot();
