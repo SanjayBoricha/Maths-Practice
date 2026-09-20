@@ -312,16 +312,16 @@
     {
       "id": 20,
       "section": "Type 1 — Basic Questions",
-      "question_markdown": "A sum of money was divided between Cyrus, Rohan and Mishti. The ratio of the sums received by Cyrus and Rohan was 3 : 2, while the ratio of the sums received by Rohan and Mishti was 7: 12. If the sum received by Cyrus was ` 1,800 less than the sum received by Mishti, how many rupees did Rohan receive as his share?",
+      "question_markdown": "A sum of money was divided between Cyrus, Rohan and Mishti. The ratio of the sums received by Cyrus and Rohan was 3 : 2, while the ratio of the sums received by Rohan and Mishti was 7: 12. If the sum received by Cyrus was ₹ 1,800 less than the sum received by Mishti, how many rupees did Rohan receive as his share?",
       "options": {
-        "A": "` 7,560",
-        "B": "` 9,240",
-        "C": "` 6,300",
-        "D": "` 8,400"
+        "A": "₹ 7,560",
+        "B": "₹ 9,240",
+        "C": "₹ 6,300",
+        "D": "₹ 8,400"
       },
       "answer": {
         "option": "D",
-        "text": "` 8,400"
+        "text": "₹ 8,400"
       },
       "pdf_page": 3
     },
@@ -456,7 +456,7 @@
     {
       "id": 29,
       "section": "Type 2 — Word Problems Based on Basic Concepts",
-      "question_markdown": "A total amount of ` 49 is distributed among A, B and C. A gets ` 5 more than B and B gets ` 4 more than C. What is the ratio of their shares?",
+      "question_markdown": "A total amount of ₹ 49 is distributed among A, B and C. A gets ₹ 5 more than B and B gets ₹ 4 more than C. What is the ratio of their shares?",
       "options": {
         "A": "21 : 16 : 14",
         "B": "21 : 16 : 12",
@@ -504,7 +504,7 @@
     {
       "id": 32,
       "section": "Type 2 — Word Problems Based on Basic Concepts",
-      "question_markdown": "A sum of ` 6,300 is divided among A, B, C and D such that the ratio of the combined share of A and D to the combined share of B and C is 11 : 10 and the ratio of the shares of B and D is 8 : 9. If C receives Rs 1,560, then what is the difference (in Rs) between the shares of A and B ?",
+      "question_markdown": "A sum of ₹ 6,300 is divided among A, B, C and D such that the ratio of the combined share of A and D to the combined share of B and C is 11 : 10 and the ratio of the shares of B and D is 8 : 9. If C receives Rs 1,560, then what is the difference (in Rs) between the shares of A and B ?",
       "options": {
         "A": "180",
         "B": "240",
@@ -536,32 +536,32 @@
     {
       "id": 34,
       "section": "Type 2 — Word Problems Based on Basic Concepts",
-      "question_markdown": "` 1066 is divided among 2 men, 6 women and 8 boys such that the ratio of the shares of a man, a woman and a boy is 3 : 2 : 1. How much money does a man get? (in ` )",
+      "question_markdown": "₹ 1066 is divided among 2 men, 6 women and 8 boys such that the ratio of the shares of a man, a woman and a boy is 3 : 2 : 1. How much money does a man get? (in ₹ )",
       "options": {
-        "A": "` 123",
-        "B": "` 119",
-        "C": "` 121",
-        "D": "` 120"
+        "A": "₹ 123",
+        "B": "₹ 119",
+        "C": "₹ 121",
+        "D": "₹ 120"
       },
       "answer": {
         "option": "A",
-        "text": "` 123"
+        "text": "₹ 123"
       },
       "pdf_page": 5
     },
     {
       "id": 35,
       "section": "Type 2 — Word Problems Based on Basic Concepts",
-      "question_markdown": "A man divides ` 12,900 among 5 sons, 4 daughters and 2 nephews. If each daughter gets four times as much as each nephew, and each son gets five times as much as each nephew, how much does each daughter get?",
+      "question_markdown": "A man divides ₹ 12,900 among 5 sons, 4 daughters and 2 nephews. If each daughter gets four times as much as each nephew, and each son gets five times as much as each nephew, how much does each daughter get?",
       "options": {
-        "A": "` 900",
-        "B": "` 1100",
-        "C": "` 1200",
-        "D": "` 1500"
+        "A": "₹ 900",
+        "B": "₹ 1100",
+        "C": "₹ 1200",
+        "D": "₹ 1500"
       },
       "answer": {
         "option": "C",
-        "text": "` 1200"
+        "text": "₹ 1200"
       },
       "pdf_page": 5
     },
@@ -570,30 +570,30 @@
       "section": "Type 2 — Word Problems Based on Basic Concepts",
       "question_markdown": "Aniruddha, Guru, Yasin and Mahesh rented a house at Rs. 60 per month. Aniruddha con- tributed half of the total amount given by oth- ers, Guru contributed one-third of the total amount given by others and Yasin contrib- uted one-fourth of the total amount given by others. What amount was paid by Mahesh?",
       "options": {
-        "A": "` 15",
-        "B": "` 13",
-        "C": "` 12",
-        "D": "` 20"
+        "A": "₹ 15",
+        "B": "₹ 13",
+        "C": "₹ 12",
+        "D": "₹ 20"
       },
       "answer": {
         "option": "B",
-        "text": "` 13"
+        "text": "₹ 13"
       },
       "pdf_page": 5
     },
     {
       "id": 37,
       "section": "Type 2 — Word Problems Based on Basic Concepts",
-      "question_markdown": "A certain amount was to be distributed among X, Y and Z in the ratio of 12 : 13 : 14 respectively. But it was wrongly distributed in the ratio of 13 : 11 : 15 respectively. Y got ` 160 less. What was the amount? (in ` )",
+      "question_markdown": "A certain amount was to be distributed among X, Y and Z in the ratio of 12 : 13 : 14 respectively. But it was wrongly distributed in the ratio of 13 : 11 : 15 respectively. Y got ₹ 160 less. What was the amount? (in ₹ )",
       "options": {
-        "A": "` 3130",
-        "B": "` 3120",
-        "C": "` 3140",
-        "D": "` 3110 TYPE -3"
+        "A": "₹ 3130",
+        "B": "₹ 3120",
+        "C": "₹ 3140",
+        "D": "₹ 3110 TYPE -3"
       },
       "answer": {
         "option": "B",
-        "text": "` 3120"
+        "text": "₹ 3120"
       },
       "pdf_page": 5
     },
@@ -792,7 +792,7 @@
     {
       "id": 50,
       "section": "Type 4 — Coins",
-      "question_markdown": "R pays ` 100 to P with ` 5, ` 2 and ` 1 coins. The total number of coins used for paying are 40. What is the number of coins of denomination ` 5 in the payment?",
+      "question_markdown": "R pays ₹ 100 to P with ₹ 5, ₹ 2 and ₹ 1 coins. The total number of coins used for paying are 40. What is the number of coins of denomination ₹ 5 in the payment?",
       "options": {
         "A": "16",
         "B": "17",
@@ -824,23 +824,23 @@
     {
       "id": 52,
       "section": "Type 4 — Coins",
-      "question_markdown": "In a bag there are coins of ` 5, ` 10 and ` 20 denominations. The total number of coins in the bag is 240. If the number of coins of ` 5, ` 10 and ` 20 denominations are in the ratio of 2 : 3 : 5, then what is the total amount of money in the bag?",
+      "question_markdown": "In a bag there are coins of ₹ 5, ₹ 10 and ₹ 20 denominations. The total number of coins in the bag is 240. If the number of coins of ₹ 5, ₹ 10 and ₹ 20 denominations are in the ratio of 2 : 3 : 5, then what is the total amount of money in the bag?",
       "options": {
-        "A": "` 3540",
-        "B": "` 4600",
-        "C": "` 4620",
-        "D": "` 3360"
+        "A": "₹ 3540",
+        "B": "₹ 4600",
+        "C": "₹ 4620",
+        "D": "₹ 3360"
       },
       "answer": {
         "option": "D",
-        "text": "` 3360"
+        "text": "₹ 3360"
       },
       "pdf_page": 7
     },
     {
       "id": 53,
       "section": "Type 4 — Coins",
-      "question_markdown": "A payment of ` 120 is made with ` 10, ` 5 and ` 2 coins. A total of 25 coins are used. Which of the following is the number of ` 10 coins used in the payment?",
+      "question_markdown": "A payment of ₹ 120 is made with ₹ 10, ₹ 5 and ₹ 2 coins. A total of 25 coins are used. Which of the following is the number of ₹ 10 coins used in the payment?",
       "options": {
         "A": "6",
         "B": "4",
@@ -856,7 +856,7 @@
     {
       "id": 54,
       "section": "Type 4 — Coins",
-      "question_markdown": "P pays Q a sum of ` 150 using coins of ` 2, ` 5 and ` 10. He uses a total of 50 coins. If the ratio of ` 2 and ` 5 coins used is 5 : 2, then how many coins of ` 10 are used in the payment?",
+      "question_markdown": "P pays Q a sum of ₹ 150 using coins of ₹ 2, ₹ 5 and ₹ 10. He uses a total of 50 coins. If the ratio of ₹ 2 and ₹ 5 coins used is 5 : 2, then how many coins of ₹ 10 are used in the payment?",
       "options": {
         "A": "1",
         "B": "4",
@@ -888,32 +888,32 @@
     {
       "id": 56,
       "section": "Type 5 — Income / Expenditure / Savings",
-      "question_markdown": "The monthly income of two persons is in the ratio of 4 : 5 and their expenditures are in the ratio 7 : 9. If each saves ` 50 per month, then their monthly incomes are:",
+      "question_markdown": "The monthly income of two persons is in the ratio of 4 : 5 and their expenditures are in the ratio 7 : 9. If each saves ₹ 50 per month, then their monthly incomes are:",
       "options": {
-        "A": "` 900; ` 500",
-        "B": "` 400; ` 500",
-        "C": "` 700; ` 900",
-        "D": "` 400; ` 700"
+        "A": "₹ 900; ₹ 500",
+        "B": "₹ 400; ₹ 500",
+        "C": "₹ 700; ₹ 900",
+        "D": "₹ 400; ₹ 700"
       },
       "answer": {
         "option": "B",
-        "text": "` 400; ` 500"
+        "text": "₹ 400; ₹ 500"
       },
       "pdf_page": 7
     },
     {
       "id": 57,
       "section": "Type 5 — Income / Expenditure / Savings",
-      "question_markdown": "The ratio of incomes of two persons is 10 : 6 and the ratio of their expenditure is 18 : 10. If they save ` 5,200 and ` 3,600 respectively, what are their incomes?",
+      "question_markdown": "The ratio of incomes of two persons is 10 : 6 and the ratio of their expenditure is 18 : 10. If they save ₹ 5,200 and ₹ 3,600 respectively, what are their incomes?",
       "options": {
-        "A": "` 9,000, ` 5,400",
-        "B": "` 6,000, ` 3,600",
-        "C": "` 10,000, ` 6,000",
-        "D": "` 16,000, ` 9,600"
+        "A": "₹ 9,000, ₹ 5,400",
+        "B": "₹ 6,000, ₹ 3,600",
+        "C": "₹ 10,000, ₹ 6,000",
+        "D": "₹ 16,000, ₹ 9,600"
       },
       "answer": {
         "option": "D",
-        "text": "` 16,000, ` 9,600"
+        "text": "₹ 16,000, ₹ 9,600"
       },
       "pdf_page": 8
     },
@@ -968,32 +968,32 @@
     {
       "id": 61,
       "section": "Type 5 — Income / Expenditure / Savings",
-      "question_markdown": "Nikhil and Ritu have incomes in the ratio of 2 : 1, they spend in the ratio of 5 : 3 and save in the ratio of 4 : 1. If the total monthly savings of both Nikhil and Ritu together is ` 10,000, find the monthly income of each.",
+      "question_markdown": "Nikhil and Ritu have incomes in the ratio of 2 : 1, they spend in the ratio of 5 : 3 and save in the ratio of 4 : 1. If the total monthly savings of both Nikhil and Ritu together is ₹ 10,000, find the monthly income of each.",
       "options": {
-        "A": "` 2,000, ` 1,000",
-        "B": "` 8,000, ` 4,000",
-        "C": "` 28,000, ` 14,000",
-        "D": "` 10,000, ` 5,000"
+        "A": "₹ 2,000, ₹ 1,000",
+        "B": "₹ 8,000, ₹ 4,000",
+        "C": "₹ 28,000, ₹ 14,000",
+        "D": "₹ 10,000, ₹ 5,000"
       },
       "answer": {
         "option": "C",
-        "text": "` 28,000, ` 14,000"
+        "text": "₹ 28,000, ₹ 14,000"
       },
       "pdf_page": 8
     },
     {
       "id": 62,
       "section": "Type 5 — Income / Expenditure / Savings",
-      "question_markdown": "The ratio of the incomes of A and B in 2020 was 5 : 4. The ratios of their individual incomes in 2020 and 2021 were 4 : 5 and 2 : 3 respect-ively. If the total income of A and B in 2021 was ` 7,05,600, then what was the income (in) of B in 2021?",
+      "question_markdown": "The ratio of the incomes of A and B in 2020 was 5 : 4. The ratios of their individual incomes in 2020 and 2021 were 4 : 5 and 2 : 3 respect-ively. If the total income of A and B in 2021 was ₹ 7,05,600, then what was the income (in) of B in 2021?",
       "options": {
-        "A": "` 3,45,600",
-        "B": "` 2,79,700",
-        "C": "` 3,60,000",
-        "D": "` 4,25,900"
+        "A": "₹ 3,45,600",
+        "B": "₹ 2,79,700",
+        "C": "₹ 3,60,000",
+        "D": "₹ 4,25,900"
       },
       "answer": {
         "option": "A",
-        "text": "` 3,45,600"
+        "text": "₹ 3,45,600"
       },
       "pdf_page": 8
     },
@@ -1304,32 +1304,32 @@
     {
       "id": 82,
       "section": "Applications (no source heading)",
-      "question_markdown": "The total number of men, women and children working in a factory is 40. They earn ` 1343 in a day. If the total wages of men to that of women to that of children is in the ratio of 35 : 26 : 18 and if the wages of a man, a woman and a child are in the ratio of 7 : 13 : 6, then how much does a child earn in a day?",
+      "question_markdown": "The total number of men, women and children working in a factory is 40. They earn ₹ 1343 in a day. If the total wages of men to that of women to that of children is in the ratio of 35 : 26 : 18 and if the wages of a man, a woman and a child are in the ratio of 7 : 13 : 6, then how much does a child earn in a day?",
       "options": {
-        "A": "` 22.40",
-        "B": "` 37.50",
-        "C": "` 25.50",
-        "D": "` 23.50"
+        "A": "₹ 22.40",
+        "B": "₹ 37.50",
+        "C": "₹ 25.50",
+        "D": "₹ 23.50"
       },
       "answer": {
         "option": "C",
-        "text": "` 25.50"
+        "text": "₹ 25.50"
       },
       "pdf_page": 11
     },
     {
       "id": 83,
       "section": "Applications (no source heading)",
-      "question_markdown": "Sohit and Rohit have a certain sum of money in the ratio of 17 : 14 and they spend their money on purchasing books in the ratio of 12 : 8. After purchasing books each of them has ` 3,392. Find the amount of money that Sohit initially had.",
+      "question_markdown": "Sohit and Rohit have a certain sum of money in the ratio of 17 : 14 and they spend their money on purchasing books in the ratio of 12 : 8. After purchasing books each of them has ₹ 3,392. Find the amount of money that Sohit initially had.",
       "options": {
-        "A": "` 7,208",
-        "B": "` 7,218",
-        "C": "` 7,274",
-        "D": "` 7,256"
+        "A": "₹ 7,208",
+        "B": "₹ 7,218",
+        "C": "₹ 7,274",
+        "D": "₹ 7,256"
       },
       "answer": {
         "option": "A",
-        "text": "` 7,208"
+        "text": "₹ 7,208"
       },
       "pdf_page": 11
     },
@@ -1370,14 +1370,14 @@
       "section": "Applications (no source heading)",
       "question_markdown": "According to Mr. Sharma's will, half of his property goes to his wife and the rest is equally divided between his two sons, Ravi and Raj. Some years later, Ravi dies and leaves half of his property to his widow and rest to his brother Raj. When Raj dies he leaves half of his property to his widow and remaining to his mother, who is still alive. The mother now owns 88,000 worth of the property. The total worth of the property of Mr. Sharma was",
       "options": {
-        "A": "` 1,00,000",
-        "B": "` 1,24,000",
-        "C": "` 1,28,000",
-        "D": "` 1,32,000"
+        "A": "₹ 1,00,000",
+        "B": "₹ 1,24,000",
+        "C": "₹ 1,28,000",
+        "D": "₹ 1,32,000"
       },
       "answer": {
         "option": "C",
-        "text": "` 1,28,000"
+        "text": "₹ 1,28,000"
       },
       "pdf_page": 12
     },

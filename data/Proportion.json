@@ -632,16 +632,16 @@
     {
       "id": 40,
       "section": "Some Important New Mixed Based Questions",
-      "question_markdown": "Ram, Shyam and Ghanshyam have `32, `46 and `50, respectively, with them. Their mother asks them to give her equal amounts so that the money held b y t h e m n o w a r e i n c o n t i n u e d proportion.Find the amount taken from each of them.",
+      "question_markdown": "Ram, Shyam and Ghanshyam have ₹32, ₹46 and ₹50, respectively, with them. Their mother asks them to give her equal amounts so that the money held b y t h e m n o w a r e i n c o n t i n u e d proportion.Find the amount taken from each of them.",
       "options": {
-        "A": "`91.78",
-        "B": "`51.60",
-        "C": "`91.36",
-        "D": "`51.78"
+        "A": "₹91.78",
+        "B": "₹51.60",
+        "C": "₹91.36",
+        "D": "₹51.78"
       },
       "answer": {
         "option": "B",
-        "text": "`51.60"
+        "text": "₹51.60"
       },
       "pdf_page": 5
     }

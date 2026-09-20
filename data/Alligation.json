@@ -104,7 +104,7 @@
     {
       "id": 7,
       "section": "TYPE -2",
-      "question_markdown": "In what ratio should coffee powder costing `2500/kg be mixed with coffee powder costing ` 1500/kg so that the cost of the mixture is `2250/kg? `",
+      "question_markdown": "In what ratio should coffee powder costing ₹2500/kg be mixed with coffee powder costing ₹ 1500/kg so that the cost of the mixture is ₹2250/kg? ",
       "options": {
         "A": "1 : 4",
         "B": "4 : 1",
@@ -216,7 +216,7 @@
     {
       "id": 14,
       "section": "TYPE -2",
-      "question_markdown": "Ramendra purchased some watermelons for `1,500. He sold one-fourth of them at a loss of 12%. At what gain percentage should the remaining watermelons be sold so as to gain 25% on the whole transaction (correct to two decimal places)?",
+      "question_markdown": "Ramendra purchased some watermelons for ₹1,500. He sold one-fourth of them at a loss of 12%. At what gain percentage should the remaining watermelons be sold so as to gain 25% on the whole transaction (correct to two decimal places)?",
       "options": {
         "A": "37.33%",
         "B": "33.73%",
@@ -232,7 +232,7 @@
     {
       "id": 15,
       "section": "TYPE -2",
-      "question_markdown": "A student bought 10 pencils and 8 pens at ` 150 . He sells pencil at 4% profit and pen at 7% profit. Overall he gains ` 9. Find the cost price of each pencil and pen. `",
+      "question_markdown": "A student bought 10 pencils and 8 pens at ₹ 150 . He sells pencil at 4% profit and pen at 7% profit. Overall he gains ₹ 9. Find the cost price of each pencil and pen. ",
       "options": {
         "A": "3, 6",
         "B": "5, 10.5",
@@ -248,7 +248,7 @@
     {
       "id": 16,
       "section": "TYPE -3",
-      "question_markdown": "A seller sells 2 watches at 8% and 15% discount each. Total marked price of both the items are ` 2100 . Find the difference between marked price of both items, if total discount is of 12%. `",
+      "question_markdown": "A seller sells 2 watches at 8% and 15% discount each. Total marked price of both the items are ₹ 2100 . Find the difference between marked price of both items, if total discount is of 12%. ",
       "options": {
         "A": "360",
         "B": "300",
@@ -280,16 +280,16 @@
     {
       "id": 18,
       "section": "TYPE -4",
-      "question_markdown": "Harish is having ` 40,000 . He deposited it in 2 banks. Interest given by 1st bank is 9.5% per annum and that of 2nd bank is 5.5% per annum. If at the end of a year Harish got ` 3200 as simple interest. Then find the difference of the balance amount deposited in both banks? `",
+      "question_markdown": "Harish is having ₹ 40,000 . He deposited it in 2 banks. Interest given by 1st bank is 9.5% per annum and that of 2nd bank is 5.5% per annum. If at the end of a year Harish got ₹ 3200 as simple interest. Then find the difference of the balance amount deposited in both banks? ",
       "options": {
-        "A": "` 36000",
-        "B": "` 30000",
-        "C": "` 10000",
-        "D": "` 20000"
+        "A": "₹ 36000",
+        "B": "₹ 30000",
+        "C": "₹ 10000",
+        "D": "₹ 20000"
       },
       "answer": {
         "option": "C",
-        "text": "` 10000"
+        "text": "₹ 10000"
       },
       "pdf_page": 4
     },
@@ -584,7 +584,7 @@
     {
       "id": 37,
       "section": "TYPE -7",
-      "question_markdown": "There are 2 types coins in a box 25p and 50p. The total money in box is ‘ 42 and the total number of coins is 120. Find the number of 25p coins. `",
+      "question_markdown": "There are 2 types coins in a box 25p and 50p. The total money in box is ‘ 42 and the total number of coins is 120. Find the number of 25p coins. ",
       "options": {
         "A": "72",
         "B": "48",
@@ -616,7 +616,7 @@
     {
       "id": 39,
       "section": "TYPE -7",
-      "question_markdown": "A company has undergraduate and graduate employee. The average salary of each graduate employee is `16550 and undergraduate employee is `11950, average salary of workers in company is `14750 if there are total 575 worker in company then find out total number of graduate employee in company? `",
+      "question_markdown": "A company has undergraduate and graduate employee. The average salary of each graduate employee is ₹16550 and undergraduate employee is ₹11950, average salary of workers in company is ₹14750 if there are total 575 worker in company then find out total number of graduate employee in company? ",
       "options": {
         "A": "280",
         "B": "350",
@@ -632,7 +632,7 @@
     {
       "id": 40,
       "section": "TYPE -7",
-      "question_markdown": "A dishonest milkman buy some milk at `10 per liter and mixed 5 liter water to this milk and then sold it at Rs.12/liter and gains 30% profit. Find the quantity of milk that he bought.",
+      "question_markdown": "A dishonest milkman buy some milk at ₹10 per liter and mixed 5 liter water to this milk and then sold it at Rs.12/liter and gains 30% profit. Find the quantity of milk that he bought.",
       "options": {
         "A": "54",
         "B": "50",
@@ -664,7 +664,7 @@
     {
       "id": 42,
       "section": "TYPE -7",
-      "question_markdown": "Two types of sugar worth `42 per kg and `46 per kg are mixed together with a 3rd variety of sugar in the ratio 3 : 3 : 9. If the mixture is worth `47 per kg ,then the price of 3rd variety sugar per kg? `` `",
+      "question_markdown": "Two types of sugar worth ₹42 per kg and ₹46 per kg are mixed together with a 3rd variety of sugar in the ratio 3 : 3 : 9. If the mixture is worth ₹47 per kg ,then the price of 3rd variety sugar per kg?  ",
       "options": {
         "A": "45",
         "B": "49",

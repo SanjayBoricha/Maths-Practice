@@ -8,39 +8,39 @@
     {
       "id": 1,
       "section": "SI Installment (no separate source section heading)",
-      "question_markdown": "`1,380 has to be paid after 4 years. If four equal installments are required with a simple interest of 10% on each installment, then what is the value of each installment?",
+      "question_markdown": "₹1,380 has to be paid after 4 years. If four equal installments are required with a simple interest of 10% on each installment, then what is the value of each installment?",
       "options": {
-        "A": "` 500",
-        "B": "` 200",
-        "C": "` 400",
-        "D": "` 300"
+        "A": "₹ 500",
+        "B": "₹ 200",
+        "C": "₹ 400",
+        "D": "₹ 300"
       },
       "answer": {
         "option": "D",
-        "text": "` 300"
+        "text": "₹ 300"
       },
       "pdf_page": 2
     },
     {
       "id": 2,
       "section": "SI Installment (no separate source section heading)",
-      "question_markdown": "What annual installment will discharge a debt of `26,160 due in 4 years at 6% simple interest p.a.?",
+      "question_markdown": "What annual installment will discharge a debt of ₹26,160 due in 4 years at 6% simple interest p.a.?",
       "options": {
-        "A": "` 4,500",
-        "B": "` 5,500",
-        "C": "` 6,000",
-        "D": "` 5,800"
+        "A": "₹ 4,500",
+        "B": "₹ 5,500",
+        "C": "₹ 6,000",
+        "D": "₹ 5,800"
       },
       "answer": {
         "option": "C",
-        "text": "` 6,000"
+        "text": "₹ 6,000"
       },
       "pdf_page": 2
     },
     {
       "id": 3,
       "section": "SI Installment (no separate source section heading)",
-      "question_markdown": "What annual installment (in `) will discharge a debt of ` 9,429 due in three years at 12.25% simple interest per annum? Note: Installments will be paid at the end of Year 1, Year 2 and Year",
+      "question_markdown": "What annual installment (in ₹) will discharge a debt of ₹ 9,429 due in three years at 12.25% simple interest per annum? Note: Installments will be paid at the end of Year 1, Year 2 and Year",
       "options": {
         "A": "2800",
         "B": "2700",
@@ -56,71 +56,71 @@
     {
       "id": 4,
       "section": "SI Installment (no separate source section heading)",
-      "question_markdown": "What half yearly payment will discharge a debt of ` 4200 in one year at 20% per annum simple interest? `",
+      "question_markdown": "What half yearly payment will discharge a debt of ₹ 4200 in one year at 20% per annum simple interest? ",
       "options": {
-        "A": "` 3600",
-        "B": "` 2200",
-        "C": "` 2000",
-        "D": "` 2100"
+        "A": "₹ 3600",
+        "B": "₹ 2200",
+        "C": "₹ 2000",
+        "D": "₹ 2100"
       },
       "answer": {
         "option": "C",
-        "text": "` 2000"
+        "text": "₹ 2000"
       },
       "pdf_page": 2
     },
     {
       "id": 5,
       "section": "SI Installment (no separate source section heading)",
-      "question_markdown": "What quarterly payment will discharge a debt of ` 2120 in one year at 16% per annum simple interest? `",
+      "question_markdown": "What quarterly payment will discharge a debt of ₹ 2120 in one year at 16% per annum simple interest? ",
       "options": {
-        "A": "` 510",
-        "B": "` 450",
-        "C": "` 470",
-        "D": "` 500"
+        "A": "₹ 510",
+        "B": "₹ 450",
+        "C": "₹ 470",
+        "D": "₹ 500"
       },
       "answer": {
         "option": "D",
-        "text": "` 500"
+        "text": "₹ 500"
       },
       "pdf_page": 2
     },
     {
       "id": 6,
       "section": "SI Installment (no separate source section heading)",
-      "question_markdown": "What five monthly payment will discharge a debt of ` 94500 in 1 4 year at 12% per annum simple interest? `",
+      "question_markdown": "What five monthly payment will discharge a debt of ₹ 94500 in 1 4 year at 12% per annum simple interest? ",
       "options": {
-        "A": "` 30,000",
-        "B": "` 31,000",
-        "C": "` 20,000",
-        "D": "` 33,000"
+        "A": "₹ 30,000",
+        "B": "₹ 31,000",
+        "C": "₹ 20,000",
+        "D": "₹ 33,000"
       },
       "answer": {
         "option": "A",
-        "text": "` 30,000"
+        "text": "₹ 30,000"
       },
       "pdf_page": 2
     },
     {
       "id": 7,
       "section": "SI Installment (no separate source section heading)",
-      "question_markdown": "` 3400 is payable after 3 years. If it is to be paid in 3 installments each year. First installments is 1 3 of the second and 4 of the third installment. Find each install-ment if rate of interest is 10% per annum. `",
+      "question_markdown": "₹ 3400 is payable after 3 years. If it is to be paid in 3 installments each year. First installments is 1 3 of the second and 4 of the third installment. Find each install-ment if rate of interest is 10% per annum. ",
       "options": {
-        "A": "` 400, ` 1200, ` 1600",
-        "B": "` 300, ` 900, ` 1200",
-        "C": "` 100, ` 300, ` 400",
-        "D": "` 240, ` 720, ` 960"
+        "A": "₹ 400, ₹ 1200, ₹ 1600",
+        "B": "₹ 300, ₹ 900, ₹ 1200",
+        "C": "₹ 100, ₹ 300, ₹ 400",
+        "D": "₹ 240, ₹ 720, ₹ 960"
       },
       "answer": {
         "option": "A",
-        "text": "` 400, ` 1200, ` 1600"
+        "text": "₹ 400, ₹ 1200, ₹ 1600"
       },
       "pdf_page": 2
     },
     {
       "id": 8,
       "section": "SI Installment (no separate source section heading)",
-      "question_markdown": "` X is payable after 4 years. If it is to be paid in 4 installments each year. The ratio of installments are 1 : 2 : 3 : 5. Find the value of X if First installment is of ` 50 and rate of interest is 10% per annum.",
+      "question_markdown": " X is payable after 4 years. If it is to be paid in 4 installments each year. The ratio of installments are 1 : 2 : 3 : 5. Find the value of X if First installment is of ₹ 50 and rate of interest is 10% per annum.",
       "options": {
         "A": "600",
         "B": "1100",
@@ -136,39 +136,39 @@
     {
       "id": 9,
       "section": "SI Installment (no separate source section heading)",
-      "question_markdown": "Amount of ` 25,600 is to be paid in three years and three annual installments. If amount of 1st installment is half of the amount of 2nd and 1 3 rd of the 3rd. If the rate of simple interest is 10% p.a. Find amount of 1st installment? `",
+      "question_markdown": "Amount of ₹ 25,600 is to be paid in three years and three annual installments. If amount of 1st installment is half of the amount of 2nd and 1 3 rd of the 3rd. If the rate of simple interest is 10% p.a. Find amount of 1st installment? ",
       "options": {
-        "A": "` 8,000",
-        "B": "` 6,000",
-        "C": "` 4,000",
-        "D": "` 10,000"
+        "A": "₹ 8,000",
+        "B": "₹ 6,000",
+        "C": "₹ 4,000",
+        "D": "₹ 10,000"
       },
       "answer": {
         "option": "C",
-        "text": "` 4,000"
+        "text": "₹ 4,000"
       },
       "pdf_page": 2
     },
     {
       "id": 10,
       "section": "SI Installment (no separate source section heading)",
-      "question_markdown": "A took a loan from B of ` 480 at 6% simple interest on a condition that he would pay it in 4 yearly installments. Out of which first 3 installment would be 1 4 of the principal and the rest amount would be paid in last installment. Find the amount paid by A in the last installment. A`B",
+      "question_markdown": "A took a loan from B of ₹ 480 at 6% simple interest on a condition that he would pay it in 4 yearly installments. Out of which first 3 installment would be 1 4 of the principal and the rest amount would be paid in last installment. Find the amount paid by A in the last installment. AB",
       "options": {
-        "A": "` 192",
-        "B": "` 165",
-        "C": "` 127",
-        "D": "` 263"
+        "A": "₹ 192",
+        "B": "₹ 165",
+        "C": "₹ 127",
+        "D": "₹ 263"
       },
       "answer": {
         "option": "A",
-        "text": "` 192"
+        "text": "₹ 192"
       },
       "pdf_page": 3
     },
     {
       "id": 11,
       "section": "SI Installment (no separate source section heading)",
-      "question_markdown": "A sum of `10 is lent by a child to his friend to be returned in 11 monthly installments of `1 each, the interest being simple. The rate of interest is:",
+      "question_markdown": "A sum of ₹10 is lent by a child to his friend to be returned in 11 monthly installments of ₹1 each, the interest being simple. The rate of interest is:",
       "options": {
         "A": "9 11 % 11",
         "B": "9 21 % 11",
@@ -184,7 +184,7 @@
     {
       "id": 12,
       "section": "SI Installment (no separate source section heading)",
-      "question_markdown": "Ajay lend ` 19 to Atul on condition that the amount is payable in 20 months by 20 equal installments of ` 1 every month. What is the rate of simple interest? `",
+      "question_markdown": "Ajay lend ₹ 19 to Atul on condition that the amount is payable in 20 months by 20 equal installments of ₹ 1 every month. What is the rate of simple interest? ",
       "options": {
         "A": "1 11 % 9",
         "B": "6 6 % 19",
@@ -200,7 +200,7 @@
     {
       "id": 13,
       "section": "SI Installment (no separate source section heading)",
-      "question_markdown": "` 2070 is to be paid in 10 monthly installment. Find rate of interest if each installment is of ` 230. `",
+      "question_markdown": "₹ 2070 is to be paid in 10 monthly installment. Find rate of interest if each installment is of ₹ 230. ",
       "options": {
         "A": "80 % 3",
         "B": "83 % 3",
@@ -216,7 +216,7 @@
     {
       "id": 14,
       "section": "SI Installment (no separate source section heading)",
-      "question_markdown": "An annual installment of `3,500 will discharge a debt of `16,310 due in 4 years at y% simple interest per annum. What is the value of y? [Note: Installments will be paid at the end of Year 1, Year 2, Year 3 and Year 4. yy ]",
+      "question_markdown": "An annual installment of ₹3,500 will discharge a debt of ₹16,310 due in 4 years at y% simple interest per annum. What is the value of y? [Note: Installments will be paid at the end of Year 1, Year 2, Year 3 and Year 4. yy ]",
       "options": {
         "A": "10.5",
         "B": "16.5",
@@ -248,7 +248,7 @@
     {
       "id": 16,
       "section": "SI Installment (no separate source section heading)",
-      "question_markdown": "If the price of an article is `9000, If this article is purchased on the cash down payment of `2200 and rest can be paid in five equal monthly installment of `1400 for next five months. Find the rate of simple interest annually. `` `",
+      "question_markdown": "If the price of an article is ₹9000, If this article is purchased on the cash down payment of ₹2200 and rest can be paid in five equal monthly installment of ₹1400 for next five months. Find the rate of simple interest annually.  ",
       "options": {
         "A": "10%",
         "B": "11%",
@@ -280,7 +280,7 @@
     {
       "id": 18,
       "section": "SI Installment (no separate source section heading)",
-      "question_markdown": "In a store, Arun has two options to buy a mobile phone, either he can pay the full amount of `2,500 or he may buy at an installment scheme, i.e. `520 in down payment and four equal installments, rate of interest being charged at 25% p.a. simple interest. Arun buys a mobile phone on the installment scheme. What is the monthly installment for Arun?",
+      "question_markdown": "In a store, Arun has two options to buy a mobile phone, either he can pay the full amount of ₹2,500 or he may buy at an installment scheme, i.e. ₹520 in down payment and four equal installments, rate of interest being charged at 25% p.a. simple interest. Arun buys a mobile phone on the installment scheme. What is the monthly installment for Arun?",
       "options": {
         "A": "510",
         "B": "530",
@@ -296,23 +296,23 @@
     {
       "id": 19,
       "section": "SI Installment (no separate source section heading)",
-      "question_markdown": "An article is sold for ` 500 cash or ` 150 cash down payments followed by 5 equal monthly installments. If the rate of interest charged is 18% per annum, calculate the monthly installment. ``",
+      "question_markdown": "An article is sold for ₹ 500 cash or ₹ 150 cash down payments followed by 5 equal monthly installments. If the rate of interest charged is 18% per annum, calculate the monthly installment. ",
       "options": {
-        "A": "` 63.07",
-        "B": "` 72.02",
-        "C": "` 75.06",
-        "D": "` 73.06"
+        "A": "₹ 63.07",
+        "B": "₹ 72.02",
+        "C": "₹ 75.06",
+        "D": "₹ 73.06"
       },
       "answer": {
         "option": "D",
-        "text": "` 73.06"
+        "text": "₹ 73.06"
       },
       "pdf_page": 4
     },
     {
       "id": 20,
       "section": "SI Installment (no separate source section heading)",
-      "question_markdown": "A device is available for `8,000 cash or ` 500 down payment followed by four equal monthly installments. If the rate of simple interest charged is 25% per annum, then find the installment, to the nearest rupee.",
+      "question_markdown": "A device is available for ₹8,000 cash or ₹ 500 down payment followed by four equal monthly installments. If the rate of simple interest charged is 25% per annum, then find the installment, to the nearest rupee.",
       "options": {
         "A": "Rs 1,977",
         "B": "Rs 1,790",
@@ -328,7 +328,7 @@
     {
       "id": 21,
       "section": "SI Installment (no separate source section heading)",
-      "question_markdown": "A scooty can be bought for `30000 in cash or `9400 in cash advance payment followed by 4 monthly installments. What will be the value of each installment at 15% p.a. simple interest? IACR Technician",
+      "question_markdown": "A scooty can be bought for ₹30000 in cash or ₹9400 in cash advance payment followed by 4 monthly installments. What will be the value of each installment at 15% p.a. simple interest? IACR Technician",
       "options": {
         "A": "Rs. 5298",
         "B": "Rs. 5565",
@@ -344,7 +344,7 @@
     {
       "id": 22,
       "section": "SI Installment (no separate source section heading)",
-      "question_markdown": "An electric bike is available for `1 lakh. A customer has to pay `20,800 down payment, followed by 4 equal installments. If the rate of interest charged is 25% per annum simple interest, calculate the 4 yearly installments.",
+      "question_markdown": "An electric bike is available for ₹1 lakh. A customer has to pay ₹20,800 down payment, followed by 4 equal installments. If the rate of interest charged is 25% per annum simple interest, calculate the 4 yearly installments.",
       "options": {
         "A": "Rs 28,800",
         "B": "Rs 21,210",
@@ -360,7 +360,7 @@
     {
       "id": 23,
       "section": "SI Installment (no separate source section heading)",
-      "question_markdown": "A cell phone is available for `600 or for `300 cash down payment together with `360 to be paid after two months. Find the rate of interest charged under this scheme.",
+      "question_markdown": "A cell phone is available for ₹600 or for ₹300 cash down payment together with ₹360 to be paid after two months. Find the rate of interest charged under this scheme.",
       "options": {
         "A": "60%",
         "B": "120%",
@@ -376,7 +376,7 @@
     {
       "id": 24,
       "section": "SI Installment (no separate source section heading)",
-      "question_markdown": "A man borrowed a sum of Rs. 7000 from bank at simple interest. After 3 years he paid Rs. 3000 to the bank and the end of 5 years he paid Rs. 5450 and clear all his dues. Find the rate of interest. `",
+      "question_markdown": "A man borrowed a sum of Rs. 7000 from bank at simple interest. After 3 years he paid Rs. 3000 to the bank and the end of 5 years he paid Rs. 5450 and clear all his dues. Find the rate of interest. ",
       "options": {
         "A": "4%",
         "B": "6%",
@@ -392,7 +392,7 @@
     {
       "id": 25,
       "section": "SI Installment (no separate source section heading)",
-      "question_markdown": "Ankit borrowed `15,000 from bank and returned `6500 after 6 years. After 10 years from starting he returned `13,460 and settle his account. What was the rate of interest? `",
+      "question_markdown": "Ankit borrowed ₹15,000 from bank and returned ₹6500 after 6 years. After 10 years from starting he returned ₹13,460 and settle his account. What was the rate of interest? ",
       "options": {
         "A": "4%",
         "B": "3%",
@@ -408,7 +408,7 @@
     {
       "id": 26,
       "section": "SI Installment (no separate source section heading)",
-      "question_markdown": "A man borrowed a sum of ` 10,000 from bank at S.I. After 2 years he paid ` 3,000 and at the end of 5th year he paid ` 2,500 and at the end of 7th years, he paid ` 6,720 and clear all his dues. Find the rate of simple interest per annum. `",
+      "question_markdown": "A man borrowed a sum of ₹ 10,000 from bank at S.I. After 2 years he paid ₹ 3,000 and at the end of 5th year he paid ₹ 2,500 and at the end of 7th years, he paid ₹ 6,720 and clear all his dues. Find the rate of simple interest per annum. ",
       "options": {
         "A": "4.4%",
         "B": "4%",
@@ -440,7 +440,7 @@
     {
       "id": 28,
       "section": "SI Installment (no separate source section heading)",
-      "question_markdown": "P borrows a sum of `5,00,000 from a bank which charges simple interest at the rate of 18% per annum at the beginning of the year. He pays 11 equal monthly installments of `40,000 and mortgages his bike at the end of the year to pay the remaining amount. What is the value of the mortgages bike?",
+      "question_markdown": "P borrows a sum of ₹5,00,000 from a bank which charges simple interest at the rate of 18% per annum at the beginning of the year. He pays 11 equal monthly installments of ₹40,000 and mortgages his bike at the end of the year to pay the remaining amount. What is the value of the mortgages bike?",
       "options": {
         "A": "1,50,000",
         "B": "1,75,000",
@@ -456,16 +456,16 @@
     {
       "id": 29,
       "section": "SI Installment (no separate source section heading)",
-      "question_markdown": "A car with a price of `6,50,000 is bought by making some down payment. On the balance, a simple interest of approx mate 10% is charged in lump sum and the money is to be paid in 20 equal annual installments of `25,000. How much is the down payment?",
+      "question_markdown": "A car with a price of ₹6,50,000 is bought by making some down payment. On the balance, a simple interest of approx mate 10% is charged in lump sum and the money is to be paid in 20 equal annual installments of ₹25,000. How much is the down payment?",
       "options": {
-        "A": "`1,55,945",
-        "B": "`1,95,455",
-        "C": "`1,94,555",
-        "D": "`1,45,955"
+        "A": "₹1,55,945",
+        "B": "₹1,95,455",
+        "C": "₹1,94,555",
+        "D": "₹1,45,955"
       },
       "answer": {
         "option": "B",
-        "text": "`1,95,455"
+        "text": "₹1,95,455"
       },
       "pdf_page": 5
     },
