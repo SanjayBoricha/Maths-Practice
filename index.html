@@ -1,29 +1,76 @@
 <!doctype html>
 <html lang="en">
 <head>
-<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
-<title>SSC Maths Practice</title>
-<link rel="stylesheet" href="css/styles.css">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <meta name="theme-color" content="#111827">
+  <title>SSC Maths Practice</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/lucide-static@0.468.0/font/lucide.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.16.22/dist/katex.min.css">
+  <link rel="stylesheet" href="css/styles.css">
 </head>
 <body>
-<header class="topbar"><div><h1>SSC Maths Practice</h1><p>25-question practice sets from your classroom-sheet JSON files.</p></div><button id="themeBtn" class="ghost">Theme</button></header>
-<main>
-<section class="panel controls">
-  <div class="field"><label>Chapter</label><select id="chapterSelect"></select></div>
-  <div class="field"><label>Section</label><select id="sectionSelect"><option value="all">All sections</option></select></div>
-  <div class="field"><label>Set size</label><select id="sizeSelect"><option>25</option><option>10</option><option>50</option><option>100</option></select></div>
-  <div class="field"><label>Mode</label><select id="modeSelect"><option value="continue">Continue from progress</option><option value="random">Random unused</option><option value="all">Random from all</option></select></div>
-  <button id="startBtn" class="primary">Start practice</button>
-  <label class="upload"><input id="fileInput" type="file" accept=".json,application/json" multiple>Import JSON</label>
-</section>
-<section class="stats"><div><b id="chapterName">—</b><span id="chapterCount">0 questions</span></div><div><b id="progressText">0 / 0</b><span>chapter progress</span></div><div><b id="scoreText">—</b><span>current score</span></div></section>
-<section id="empty" class="panel empty"><h2>Choose a chapter and start</h2><p>Add more JSON chapters through the <code>data/</code> folder and list them in <code>data/manifest.json</code>, or import JSON files above for this session.</p></section>
-<section id="quiz" class="quiz hidden">
-  <div class="quizhead"><span id="setLabel">Set</span><span id="timerLabel"></span></div>
-  <div id="questionList"></div>
-  <div class="actions"><button id="submitBtn" class="primary">Check answers</button><button id="resetBtn" class="ghost">New set</button></div>
-  <div id="result" class="result hidden"></div>
-</section>
-</main>
-<script src="js/app.js"></script>
-</body></html>
+  <header class="topbar">
+    <div class="brand">
+      <div class="brand-icon"><i data-lucide="calculator"></i></div>
+      <div><h1>SSC Maths Practice</h1><p>25-question sets · chapter-wise practice · automatic progress</p></div>
+    </div>
+    <button id="themeBtn" class="icon-btn" title="Toggle theme" aria-label="Toggle theme"><i data-lucide="sun-moon"></i></button>
+  </header>
+
+  <main>
+    <section class="hero panel">
+      <div>
+        <span class="eyebrow"><i data-lucide="target"></i> Exam Practice</span>
+        <h2>Practice without repeating questions.</h2>
+        <p>Your generated sets are saved locally, so questions already assigned to a set won't appear again.</p>
+      </div>
+      <div class="hero-stat"><i data-lucide="layers-3"></i><strong>25</strong><span>questions / set</span></div>
+    </section>
+
+    <section class="panel controls">
+      <div class="field chapter-field">
+        <label for="chapterSelect"><i data-lucide="book-open"></i> Chapter</label>
+        <select id="chapterSelect"></select>
+      </div>
+      <div class="field">
+        <label for="sectionSelect"><i data-lucide="list-filter"></i> Topic / section</label>
+        <select id="sectionSelect"><option value="all">All sections</option></select>
+      </div>
+      <button id="startBtn" class="primary"><i data-lucide="play"></i> Start 25 questions</button>
+      <button id="resetProgressBtn" class="ghost danger-ghost"><i data-lucide="rotate-ccw"></i> Reset progress</button>
+    </section>
+
+    <section class="stats">
+      <div class="stat-card"><div class="stat-icon"><i data-lucide="book-copy"></i></div><div><b id="chapterName">—</b><span id="chapterCount">0 questions</span></div></div>
+      <div class="stat-card"><div class="stat-icon"><i data-lucide="check-check"></i></div><div><b id="progressText">0 / 0</b><span>questions used</span></div></div>
+      <div class="stat-card"><div class="stat-icon"><i data-lucide="percent"></i></div><div><b id="progressPercent">0%</b><span>chapter progress</span></div></div>
+    </section>
+    <div class="progressbar"><i id="progressBar"></i></div>
+
+    <section id="empty" class="panel empty">
+      <div class="empty-icon"><i data-lucide="sparkles"></i></div>
+      <h2>Choose a chapter and start practicing</h2>
+      <p>Chapter JSON files are loaded from <code>data/manifest.json</code>. Add future chapters there as static assets.</p>
+    </section>
+
+    <section id="quiz" class="quiz panel hidden">
+      <div class="quizhead">
+        <div><span class="eyebrow"><i data-lucide="clipboard-list"></i> Current set</span><strong id="setLabel">Set</strong></div>
+        <div class="quiz-meta"><span id="answeredLabel">0 answered</span><span id="timerLabel"></span></div>
+      </div>
+      <div id="questionList"></div>
+      <div class="actions">
+        <button id="submitBtn" class="primary"><i data-lucide="check-circle-2"></i> Check answers</button>
+        <button id="resetBtn" class="ghost"><i data-lucide="shuffle"></i> New set</button>
+      </div>
+      <div id="result" class="result hidden"></div>
+    </section>
+  </main>
+
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.22/dist/katex.min.js"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.22/dist/contrib/auto-render.min.js"></script>
+  <script defer src="https://cdn.jsdelivr.net/npm/lucide@0.468.0/dist/umd/lucide.min.js"></script>
+  <script src="js/app.js"></script>
+</body>
+</html>

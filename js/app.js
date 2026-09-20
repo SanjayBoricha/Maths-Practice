@@ -1,66 +1,251 @@
-const state={chapters:[],questions:[],set:[],chapter:null,score:null,answered:false};
-const $=id=>document.getElementById(id);
-function escapeHtml(s){return String(s).replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));}
-function md(s){
-  s=escapeHtml(s);
-  // Render a small Markdown subset plus LaTeX delimiters as readable math text.
-  s=s.replace(/\$([^$]+)\$/g,'<span class="math">$1</span>');
-  s=s.replace(/`([^`]+)`/g,'<code>$1</code>');
-  s=s.replace(/\*\*([^*]+)\*\*/g,'<strong>$1</strong>');
-  s=s.replace(/\*([^*]+)\*/g,'<em>$1</em>');
-  return s.replace(/\n/g,'<br>');
+const SET_SIZE = 25;
+const STORAGE_PREFIX = 'ssc-maths-practice:v3:';
+const state = { chapters: [], chapter: null, set: [], score: null, answered: false };
+const $ = id => document.getElementById(id);
+
+function escapeHtml(s) {
+  return String(s ?? '').replace(/[&<>"']/g, c => ({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
 }
-async function loadChapter(meta){const r=await fetch('data/'+meta.file,{cache:'no-cache'});return await r.json();}
-function fillChapters(){
- $('chapterSelect').innerHTML=state.chapters.map(c=>`<option value="${c.id}">${escapeHtml(c.name)}</option>`).join('');
- updateChapter();
+
+// The source JSON stores Markdown + LaTeX. We escape HTML first, then leave
+// LaTeX delimiters intact for KaTeX's auto-renderer.
+function md(s) {
+  s = escapeHtml(s);
+  s = s.replace(/`([^`]+)`/g, '<code>$1</code>');
+  s = s.replace(/\*\*([^*]+)\*\*/g, '<strong>$1</strong>');
+  s = s.replace(/\*([^*]+)\*/g, '<em>$1</em>');
+  return s.replace(/\n/g, '<br>');
 }
-function updateChapter(){
- const c=state.chapters.find(x=>x.id===$('chapterSelect').value); state.chapter=c;
- const sec=[...new Set((c.data.questions||[]).map(q=>q.section).filter(Boolean))];
- $('sectionSelect').innerHTML='<option value="all">All sections</option>'+sec.map(s=>`<option value="${escapeHtml(s)}">${escapeHtml(s)}</option>`).join('');
- $('chapterName').textContent=c.name; $('chapterCount').textContent=`${c.data.questions.length} questions`;
- updateProgress();
+
+function storageKey() { return `${STORAGE_PREFIX}${state.chapter.id}`; }
+function getProgress() {
+  try { return JSON.parse(localStorage.getItem(storageKey()) || '{}'); } catch { return {}; }
 }
-function key(){return `ssc-practice:${state.chapter.id}:used`;}
-function getUsed(){try{return new Set(JSON.parse(localStorage.getItem(key())||'[]'));}catch{return new Set();}}
-function updateProgress(){if(!state.chapter)return;const used=getUsed();const n=state.chapter.data.questions.length;const done=Math.min(used.size,n);$('progressText').textContent=`${done} / ${n}`;}
-function pickSet(){
- const n=+$('sizeSelect').value, mode=$('modeSelect').value, sec=$('sectionSelect').value;
- let pool=state.chapter.data.questions.filter(q=>sec==='all'||q.section===sec);
- const used=getUsed();
- if(mode==='continue') pool=pool.filter(q=>!used.has(q.id));
- if(mode==='random') pool=pool.filter(q=>!used.has(q.id));
- pool=[...pool];
- for(let i=pool.length-1;i>0;i--){const j=Math.floor(Math.random()*(i+1));[pool[i],pool[j]]=[pool[j],pool[i]];}
- if(mode==='continue') pool.sort((a,b)=>a.id-b.id);
- if(mode==='random') pool=pool.slice(0,n);
- if(mode==='continue') pool=pool.slice(0,n);
- if(mode==='all') pool=pool.slice(0,n);
- state.set=pool; state.score=null; state.answered=false;
- renderSet();
+function saveProgress(data) { localStorage.setItem(storageKey(), JSON.stringify(data)); }
+function getUsed() { return new Set(getProgress().usedIds || []); }
+
+function saveCurrentSet() {
+  const p = getProgress();
+  p.currentSetIds = state.set.map(q => q.id);
+  p.currentSetAnswered = state.answered;
+  p.lastScore = state.score;
+  saveProgress(p);
 }
-function renderSet(){
- $('empty').classList.add('hidden');$('quiz').classList.remove('hidden');
- $('setLabel').textContent=`${state.chapter.name} · ${state.set.length}-question set`;
- $('scoreText').textContent='—';
- $('questionList').innerHTML=state.set.map((q,idx)=>{
-   const opts=Object.entries(q.options).map(([k,v])=>`<label class="option"><input type="radio" name="q${q.id}" value="${k}"><span><b>${k}.</b> ${md(v)}</span></label>`).join('');
-   return `<article class="qcard" data-q="${q.id}"><div class="qtitle"><span class="num">Q${q.id}</span></div><div class="question">${md(q.question_markdown)}</div><div class="options">${opts}</div><div class="explain hidden"></div></article>`;
- }).join('');
- window.scrollTo({top:0,behavior:'smooth'});
+
+function restoreCurrentSet() {
+  const p = getProgress();
+  if (!Array.isArray(p.currentSetIds) || !p.currentSetIds.length) return false;
+  const byId = new Map(state.chapter.data.questions.map(q => [q.id, q]));
+  const restored = p.currentSetIds.map(id => byId.get(id)).filter(Boolean);
+  if (!restored.length) return false;
+  state.set = restored;
+  state.score = typeof p.lastScore === 'number' ? p.lastScore : null;
+  state.answered = !!p.currentSetAnswered;
+  renderSet();
+  if (state.answered) revealSavedResult();
+  return true;
 }
-function check(){
- if(!state.set.length)return; let score=0,answered=0;const used=getUsed();
- state.set.forEach(q=>{const card=document.querySelector(`[data-q="${q.id}"]`);const chosen=card.querySelector(`input[name="q${q.id}"]:checked`);const labels=[...card.querySelectorAll('.option')];labels.forEach(l=>l.classList.remove('correct','wrong'));const exp=card.querySelector('.explain');
-   if(chosen){answered++; if(chosen.value===q.answer.option){score++;labels.find(l=>l.querySelector('input').value===q.answer.option)?.classList.add('correct');}else{chosen.closest('.option').classList.add('wrong');labels.find(l=>l.querySelector('input').value===q.answer.option)?.classList.add('correct');}}
-   else labels.find(l=>l.querySelector('input').value===q.answer.option)?.classList.add('correct');
-   exp.classList.remove('hidden');exp.innerHTML=`Correct answer: <b>${q.answer.option}. ${md(q.answer.text)}</b>${q.pdf_page?` · PDF page ${q.pdf_page}`:''}`;
-   used.add(q.id);
- });
- localStorage.setItem(key(),JSON.stringify([...used]));state.score=score;state.answered=true;$('scoreText').textContent=`${score} / ${state.set.length}`;$('result').classList.remove('hidden');$('result').textContent=`Score: ${score}/${state.set.length} · Answered: ${answered}/${state.set.length}`;updateProgress();
+
+async function loadChapter(meta) {
+  const r = await fetch(`data/${meta.file}`, { cache: 'no-cache' });
+  if (!r.ok) throw new Error(`Could not load ${meta.file}`);
+  return r.json();
 }
-$('startBtn').onclick=pickSet;$('submitBtn').onclick=check;$('resetBtn').onclick=pickSet;$('chapterSelect').onchange=updateChapter;
-$('themeBtn').onclick=()=>document.body.classList.toggle('dark');
-$('fileInput').onchange=async e=>{for(const file of e.target.files){try{const data=JSON.parse(await file.text());if(!data.questions)continue;const id=data.chapter_id||file.name.replace(/\.json$/i,'').toLowerCase().replace(/[^a-z0-9]+/g,'-');state.chapters.push({id,name:data.chapter_name||file.name,data});}catch(err){alert(`Could not import ${file.name}: ${err.message}`);}}fillChapters();};
-(async()=>{try{const m=await (await fetch('data/manifest.json')).json();state.chapters=await Promise.all(m.chapters.map(async x=>({id:x.id,name:x.name,data:await loadChapter(x)})));fillChapters();}catch(e){$('empty').classList.remove('hidden');$('empty').innerHTML='<h2>Could not load the static chapter manifest</h2><p>Run this site from a local web server rather than file://, or import JSON files above.</p>';}})();
+
+function refreshIcons() {
+  if (window.lucide) lucide.createIcons();
+}
+
+function fillChapters() {
+  $('chapterSelect').innerHTML = state.chapters.map(c => `<option value="${escapeHtml(c.id)}">${escapeHtml(c.name)}</option>`).join('');
+  updateChapter();
+}
+
+function updateChapter() {
+  const c = state.chapters.find(x => x.id === $('chapterSelect').value);
+  if (!c) return;
+  state.chapter = c;
+  const sections = [...new Set((c.data.questions || []).map(q => q.section).filter(Boolean))];
+  $('sectionSelect').innerHTML = '<option value="all">All sections</option>' + sections.map(s => `<option value="${escapeHtml(s)}">${escapeHtml(s)}</option>`).join('');
+  $('chapterName').textContent = c.name;
+  $('chapterCount').textContent = `${c.data.questions.length} questions`;
+  updateProgress();
+  $('quiz').classList.add('hidden');
+  $('empty').classList.remove('hidden');
+  $('result').classList.add('hidden');
+  state.set = [];
+  state.score = null;
+  state.answered = false;
+  restoreCurrentSet();
+  refreshIcons();
+}
+
+function updateProgress() {
+  if (!state.chapter) return;
+  const used = getUsed();
+  const total = state.chapter.data.questions.length;
+  const done = Math.min(used.size, total);
+  const pct = total ? Math.round(done / total * 100) : 0;
+  $('progressText').textContent = `${done} / ${total}`;
+  $('progressPercent').textContent = `${pct}%`;
+  $('progressBar').style.width = `${pct}%`;
+}
+
+function shuffle(arr) {
+  for (let i = arr.length - 1; i > 0; i--) {
+    const j = Math.floor(Math.random() * (i + 1));
+    [arr[i], arr[j]] = [arr[j], arr[i]];
+  }
+  return arr;
+}
+
+function pickSet() {
+  if (!state.chapter) return;
+  const section = $('sectionSelect').value;
+  const used = getUsed();
+  let pool = state.chapter.data.questions.filter(q => (section === 'all' || q.section === section) && !used.has(q.id));
+
+  // If fewer than 25 remain in the selected section, use every remaining
+  // question in that section. No question is ever reused until progress is reset.
+  state.set = shuffle([...pool]).slice(0, SET_SIZE);
+  state.score = null;
+  state.answered = false;
+
+  // Reserve the questions immediately. This prevents them from appearing in
+  // another set even if the user closes/reloads the page before submitting.
+  state.set.forEach(q => used.add(q.id));
+  const p = getProgress();
+  p.usedIds = [...used];
+  p.currentSetIds = state.set.map(q => q.id);
+  p.currentSetAnswered = false;
+  p.lastScore = null;
+  saveProgress(p);
+
+  renderSet();
+  updateProgress();
+}
+
+function renderSet() {
+  $('empty').classList.add('hidden');
+  $('quiz').classList.remove('hidden');
+  $('setLabel').textContent = `${state.chapter.name} · ${state.set.length}-question set`;
+  $('scoreText')?.remove();
+  $('answeredLabel').textContent = state.answered ? `${state.set.length} answered` : '0 answered';
+  $('result').classList.add('hidden');
+
+  $('questionList').innerHTML = state.set.map((q, idx) => {
+    const opts = Object.entries(q.options || {}).map(([k,v]) =>
+      `<label class="option"><input type="radio" name="q${q.id}" value="${escapeHtml(k)}"><span><b>${escapeHtml(k)}.</b> ${md(v)}</span></label>`
+    ).join('');
+    return `<article class="qcard" data-q="${q.id}">
+      <div class="qtitle"><span class="num">${String(idx+1).padStart(2,'0')}</span><span>Question ${idx+1}</span><span class="source-id">#${q.id}</span></div>
+      <div class="question">${md(q.question_markdown)}</div>
+      <div class="options">${opts}</div>
+      <div class="explain hidden"></div>
+    </article>`;
+  }).join('');
+
+  if (state.answered) revealSavedResult();
+  renderMath();
+  refreshIcons();
+  window.scrollTo({ top: 0, behavior: 'smooth' });
+}
+
+function renderMath() {
+  if (!window.renderMathInElement) return;
+  renderMathInElement(document.getElementById('questionList'), {
+    delimiters: [
+      {left: '$$', right: '$$', display: true},
+      {left: '\\[', right: '\\]', display: true},
+      {left: '$', right: '$', display: false},
+      {left: '\\(', right: '\\)', display: false}
+    ],
+    throwOnError: false,
+    strict: false
+  });
+}
+
+function revealSavedResult() {
+  const p = getProgress();
+  if (typeof p.lastScore !== 'number') return;
+  state.set.forEach(q => revealCard(q, null, true));
+  $('result').classList.remove('hidden');
+  $('result').innerHTML = `<i data-lucide="trophy"></i><span>Score: <b>${p.lastScore}/${state.set.length}</b> · This set is already checked.</span>`;
+  refreshIcons();
+}
+
+function revealCard(q, chosen, saved = false) {
+  const card = document.querySelector(`[data-q="${q.id}"]`);
+  if (!card) return;
+  const labels = [...card.querySelectorAll('.option')];
+  labels.forEach(l => l.classList.remove('correct','wrong'));
+  if (chosen && chosen.value !== q.answer.option) chosen.closest('.option')?.classList.add('wrong');
+  labels.find(l => l.querySelector('input')?.value === q.answer.option)?.classList.add('correct');
+  const exp = card.querySelector('.explain');
+  exp.classList.remove('hidden');
+  exp.innerHTML = `<i data-lucide="badge-check"></i> Correct answer: <b>${escapeHtml(q.answer.option)}. ${md(q.answer.text)}</b>${q.pdf_page ? ` <span>· PDF page ${q.pdf_page}</span>` : ''}`;
+  if (saved) card.querySelectorAll('input').forEach(i => i.disabled = true);
+}
+
+function check() {
+  if (!state.set.length || state.answered) return;
+  let score = 0, answered = 0;
+  state.set.forEach(q => {
+    const card = document.querySelector(`[data-q="${q.id}"]`);
+    const chosen = card.querySelector(`input[name="q${q.id}"]:checked`);
+    if (chosen) { answered++; if (chosen.value === q.answer.option) score++; }
+    revealCard(q, chosen);
+    card.querySelectorAll('input').forEach(i => i.disabled = true);
+  });
+  state.score = score;
+  state.answered = true;
+  const p = getProgress();
+  p.lastScore = score;
+  p.currentSetAnswered = true;
+  saveProgress(p);
+  $('answeredLabel').textContent = `${answered}/${state.set.length} answered`;
+  $('result').classList.remove('hidden');
+  $('result').innerHTML = `<i data-lucide="trophy"></i><span>Score: <b>${score}/${state.set.length}</b> · Answered: <b>${answered}/${state.set.length}</b></span>`;
+  renderMath();
+  refreshIcons();
+}
+
+function resetProgress() {
+  if (!state.chapter) return;
+  const ok = confirm(`Reset all progress for ${state.chapter.name}? Questions will become available again.`);
+  if (!ok) return;
+  localStorage.removeItem(storageKey());
+  state.set = [];
+  state.score = null;
+  state.answered = false;
+  $('quiz').classList.add('hidden');
+  $('empty').classList.remove('hidden');
+  updateProgress();
+}
+
+$('startBtn').onclick = pickSet;
+$('submitBtn').onclick = check;
+$('resetBtn').onclick = pickSet;
+$('resetProgressBtn').onclick = resetProgress;
+$('chapterSelect').onchange = updateChapter;
+$('themeBtn').onclick = () => {
+  document.body.classList.toggle('dark');
+  localStorage.setItem('ssc-theme', document.body.classList.contains('dark') ? 'dark' : 'light');
+};
+
+if (localStorage.getItem('ssc-theme') === 'dark') document.body.classList.add('dark');
+
+(async () => {
+  try {
+    const manifest = await (await fetch('data/manifest.json', {cache:'no-cache'})).json();
+    state.chapters = await Promise.all(manifest.chapters.map(async meta => ({
+      id: meta.id, name: meta.name, data: await loadChapter(meta)
+    })));
+    fillChapters();
+    refreshIcons();
+  } catch (e) {
+    $('empty').innerHTML = `<div class="empty-icon"><i data-lucide="triangle-alert"></i></div><h2>Could not load the chapter data</h2><p>Run the site through a web server such as Netlify, GitHub Pages, or a local static server.</p>`;
+    $('empty').classList.remove('hidden');
+    refreshIcons();
+  }
+})();
