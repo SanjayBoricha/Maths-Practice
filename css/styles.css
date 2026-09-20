@@ -29,3 +29,58 @@ svg.lucide{width:1em;height:1em;display:inline-block;vertical-align:-0.14em;stro
 .score-stat > div:last-child{min-width:0;display:flex;flex-direction:column;justify-content:center;align-self:center}
 .score-stat b,.score-stat span{line-height:1.2}
 @media(max-width:640px){.score-stat{grid-template-columns:36px minmax(0,1fr);min-height:60px;padding:8px 12px}}
+
+/* v10 — score metric icon alignment */
+.score-summary{align-items:stretch}
+.score-stat{
+  display:flex !important;
+  align-items:center !important;
+  gap:10px !important;
+  min-height:64px;
+  padding:8px 14px;
+}
+.score-stat-icon{
+  position:relative;
+  width:36px !important;
+  height:36px !important;
+  min-width:36px !important;
+  min-height:36px !important;
+  flex:0 0 36px !important;
+  display:flex !important;
+  align-items:center !important;
+  justify-content:center !important;
+  align-self:center !important;
+  margin:0 !important;
+  padding:0 !important;
+  line-height:0 !important;
+}
+.score-stat-icon svg.lucide{
+  width:17px !important;
+  height:17px !important;
+  min-width:17px !important;
+  min-height:17px !important;
+  display:block !important;
+  margin:0 !important;
+  position:absolute !important;
+  left:50% !important;
+  top:50% !important;
+  transform:translate(-50%,-50%) !important;
+  vertical-align:middle !important;
+}
+.score-stat > div:last-child{
+  min-width:0;
+  height:36px;
+  display:flex !important;
+  flex:1 1 auto;
+  flex-direction:column;
+  justify-content:center !important;
+  align-items:flex-start;
+  align-self:center !important;
+  margin:0 !important;
+  padding:0 !important;
+}
+.score-stat b,.score-stat span{line-height:1.2 !important;margin:0 !important;padding:0 !important}
+@media(max-width:640px){
+  .score-stat{min-height:60px;padding:8px 12px}
+  .score-stat-icon{width:36px !important;height:36px !important;min-width:36px !important;min-height:36px !important}
+}
