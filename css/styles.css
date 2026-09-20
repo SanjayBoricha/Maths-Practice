@@ -20,3 +20,12 @@ svg.lucide{width:1em;height:1em;display:inline-block;vertical-align:-0.14em;stro
 .tracker.wrong svg.lucide,.tracker.unanswered svg.lucide{color:var(--bad)}
 .tracker.pending svg.lucide{color:var(--text)}
 .tracker.used svg.lucide{color:var(--muted)}
+
+/* v9 score-card icon alignment */
+.score-summary{align-items:stretch}
+.score-stat{display:grid;grid-template-columns:36px minmax(0,1fr);align-items:center;gap:10px;min-height:64px;padding:8px 14px}
+.score-stat-icon{width:36px;height:36px;flex:0 0 36px;display:grid;place-items:center;align-self:center;margin:0;border-radius:10px}
+.score-stat-icon svg.lucide{width:17px;height:17px;display:block;margin:0}
+.score-stat > div:last-child{min-width:0;display:flex;flex-direction:column;justify-content:center;align-self:center}
+.score-stat b,.score-stat span{line-height:1.2}
+@media(max-width:640px){.score-stat{grid-template-columns:36px minmax(0,1fr);min-height:60px;padding:8px 12px}}
