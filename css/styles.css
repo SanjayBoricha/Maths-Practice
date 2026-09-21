@@ -86,3 +86,48 @@ svg.lucide{width:1em;height:1em;display:inline-block;vertical-align:-0.14em;stro
 }
 
 .source-chapter{font-size:10px;font-weight:700;color:var(--muted);padding:4px 7px;border:1px solid var(--line);border-radius:999px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:260px}.dark .source-chapter{background:var(--accent-soft)}
+
+/* v16 — refined question tracker scrollbar */
+.question-tracker{
+  scrollbar-width:thin;
+  scrollbar-color:#aab3c0 transparent;
+  scrollbar-gutter:stable;
+}
+.question-tracker::-webkit-scrollbar{
+  width:8px;
+  height:8px;
+}
+.question-tracker::-webkit-scrollbar-track{
+  background:transparent;
+  border-radius:999px;
+}
+.question-tracker::-webkit-scrollbar-thumb{
+  background:#aab3c0;
+  border:2px solid transparent;
+  background-clip:padding-box;
+  border-radius:999px;
+  min-height:34px;
+}
+.question-tracker::-webkit-scrollbar-thumb:hover{
+  background:#7f8a9a;
+  border:2px solid transparent;
+  background-clip:padding-box;
+}
+.question-tracker::-webkit-scrollbar-button{
+  display:none;
+  width:0;
+  height:0;
+}
+.dark .question-tracker{
+  scrollbar-color:#4b5666 transparent;
+}
+.dark .question-tracker::-webkit-scrollbar-thumb{
+  background:#4b5666;
+  border:2px solid transparent;
+  background-clip:padding-box;
+}
+.dark .question-tracker::-webkit-scrollbar-thumb:hover{
+  background:#687587;
+  border:2px solid transparent;
+  background-clip:padding-box;
+}
