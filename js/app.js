@@ -359,7 +359,9 @@ function check() {
   if (!state.set.length || state.answered) return;
   let score = 0, answered = 0;
   state.set.forEach(q => {
-    const card = document.querySelector(`[data-q="${CSS.escape(questionKey(q))}"]`);
+    const key = questionKey(q);
+    const card = document.querySelector(`[data-q="${CSS.escape(key)}"]`);
+    if (!card) return;
     const chosen = card.querySelector(`input[name="q${CSS.escape(key)}"]:checked`);
     if (chosen) {
       answered++;
