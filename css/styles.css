@@ -131,3 +131,21 @@ svg.lucide{width:1em;height:1em;display:inline-block;vertical-align:-0.14em;stro
   border:2px solid transparent;
   background-clip:padding-box;
 }
+
+/* Keep the practice controls on one desktop row: mode, chapter, topic, start, reset. */
+.controls{
+  grid-template-columns:minmax(150px,1.05fr) minmax(80px,.55fr) minmax(260px,2.6fr) max-content max-content;
+  gap:10px;
+  align-items:end;
+}
+.controls .field,
+.controls .field select,
+.controls > button{min-width:0}
+.controls > button{padding-left:12px;padding-right:12px}
+
+@media(max-width:900px){
+  .controls{
+    grid-template-columns:minmax(145px,1.05fr) minmax(80px,.55fr) minmax(220px,2.6fr) max-content max-content;
+    overflow-x:auto;
+  }
+}
