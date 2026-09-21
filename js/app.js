@@ -1,6 +1,7 @@
 const SET_SIZE = 25;
 const STORAGE_PREFIX = 'ssc-maths-practice:v3:';
-const state = { chapters: [], chapter: null, set: [], score: null, answered: false, answers: {} };
+const state = { chapters: [], chapter: null, mode: 'chapter', set: [], score: null, answered: false, answers: {} };
+const MIXED_PROGRESS_ID = '__mixed__';
 const $ = id => document.getElementById(id);
 
 // GitHub Pages can host this project under /Maths-Practice/ (or another
@@ -21,7 +22,49 @@ function md(s) {
   return s.replace(/\n/g, '<br>');
 }
 
-function storageKey() { return `${STORAGE_PREFIX}${state.chapter.id}`; }
+function storageKey() { return `${STORAGE_PREFIX}${state.mode === 'mixed' ? MIXED_PROGRESS_ID : state.chapter.id}`; }
+function questionKey(q) {
+  return state.mode === 'mixed' ? `${q._chapterId}:${q.id}` : String(q.id);
+}
+function totalQuestions() {
+  return state.chapters.reduce((n, c) => n + (c.data.questions || []).length, 0);
+}
+function mixedSignature() {
+  return state.chapters.map(c => `${c.id}:${c.data.questions.length}`).join('|');
+}
+function allMixedQuestions() {
+  const maxId = Math.max(0, ...state.chapters.flatMap(c => c.data.questions.map(q => Number(q.id) || 0)));
+  const queue = [];
+  for (let id = 1; id <= maxId; id++) {
+    const level = [];
+    state.chapters.forEach(c => {
+      const q = c.data.questions.find(x => Number(x.id) === id);
+      if (q) level.push({ ...q, _chapterId: c.id, _chapterName: c.name });
+    });
+    shuffle(level);
+    queue.push(...level);
+  }
+  return queue;
+}
+function ensureMixedQueue() {
+  const p = getProgress();
+  if (p.mixedSignature !== mixedSignature() || !Array.isArray(p.mixedQueue)) {
+    p.mixedSignature = mixedSignature();
+    p.mixedQueue = allMixedQuestions().map(q => questionKey(q));
+    p.usedIds = [];
+    p.currentSetIds = [];
+    p.currentSetAnswered = false;
+    p.currentAnswers = {};
+    p.lastScore = null;
+    saveProgress(p);
+  }
+  return p;
+}
+function mixedQuestionMap() {
+  const map = new Map();
+  state.chapters.forEach(c => c.data.questions.forEach(q => map.set(`${c.id}:${q.id}`, { ...q, _chapterId: c.id, _chapterName: c.name })));
+  return map;
+}
 function getProgress() {
   try { return JSON.parse(localStorage.getItem(storageKey()) || '{}'); } catch { return {}; }
 }
@@ -34,19 +77,20 @@ function getHistory() {
 
 function getQuestionStatus(q) {
   const p = getProgress();
-  const h = p.history && p.history[String(q.id)];
+  const key = questionKey(q);
+  const h = p.history && p.history[key];
   if (h?.status === 'correct') return 'correct';
   if (h?.status === 'wrong') return 'wrong';
   if (h?.status === 'unanswered') return 'unanswered';
-  if (state.set.some(x => x.id === q.id) && state.answers[q.id]) return 'pending';
-  if (getUsed().has(q.id)) return 'used';
+  if (state.set.some(x => questionKey(x) === key) && state.answers[key]) return 'pending';
+  if (getUsed().has(key)) return 'used';
   return 'new';
 }
 
 
 function saveCurrentSet() {
   const p = getProgress();
-  p.currentSetIds = state.set.map(q => q.id);
+  p.currentSetIds = state.set.map(q => questionKey(q));
   p.currentSetAnswered = state.answered;
   p.currentAnswers = state.answers;
   p.lastScore = state.score;
@@ -56,8 +100,10 @@ function saveCurrentSet() {
 function restoreCurrentSet() {
   const p = getProgress();
   if (!Array.isArray(p.currentSetIds) || !p.currentSetIds.length) return false;
-  const byId = new Map(state.chapter.data.questions.map(q => [q.id, q]));
-  const restored = p.currentSetIds.map(id => byId.get(id)).filter(Boolean);
+  const byId = state.mode === 'mixed'
+    ? mixedQuestionMap()
+    : new Map(state.chapter.data.questions.map(q => [String(q.id), q]));
+  const restored = p.currentSetIds.map(id => byId.get(String(id))).filter(Boolean);
   if (!restored.length) return false;
   state.set = restored;
   state.score = typeof p.lastScore === 'number' ? p.lastScore : null;
@@ -120,13 +166,25 @@ function fillChapters() {
 }
 
 function updateChapter() {
+  state.mode = $('modeSelect').value;
   const c = state.chapters.find(x => x.id === $('chapterSelect').value);
-  if (!c) return;
-  state.chapter = c;
-  const sections = [...new Set((c.data.questions || []).map(q => q.section).filter(Boolean))];
-  $('sectionSelect').innerHTML = '<option value="all">All sections</option>' + sections.map(s => `<option value="${escapeHtml(s)}">${escapeHtml(s)}</option>`).join('');
-  $('chapterName').textContent = c.name;
-  $('chapterCount').textContent = `${c.data.questions.length} questions`;
+  if (state.mode === 'mixed') {
+    state.chapter = c || state.chapters[0] || null;
+    $('chapterSelect').disabled = true;
+    $('sectionSelect').disabled = true;
+    $('chapterName').textContent = 'Mixed Practice';
+    $('chapterCount').textContent = `${totalQuestions()} questions across ${state.chapters.length} chapters`;
+    ensureMixedQueue();
+  } else {
+    if (!c) return;
+    state.chapter = c;
+    $('chapterSelect').disabled = false;
+    $('sectionSelect').disabled = false;
+    const sections = [...new Set((c.data.questions || []).map(q => q.section).filter(Boolean))];
+    $('sectionSelect').innerHTML = '<option value="all">All sections</option>' + sections.map(s => `<option value="${escapeHtml(s)}">${escapeHtml(s)}</option>`).join('');
+    $('chapterName').textContent = c.name;
+    $('chapterCount').textContent = `${c.data.questions.length} questions`;
+  }
   updateProgress();
   $('quiz').classList.add('hidden');
   $('empty').classList.remove('hidden');
@@ -134,22 +192,23 @@ function updateChapter() {
   state.set = [];
   state.score = null;
   state.answered = false;
-  if (!restoreCurrentSet()) {
-    $('empty').classList.remove('hidden');
-  }
+  state.answers = {};
+  if (!restoreCurrentSet()) $('empty').classList.remove('hidden');
   updateScoreCard();
   refreshIcons();
 }
 
 function updateProgress() {
-  if (!state.chapter) return;
+  if (!state.chapters.length) return;
   const used = getUsed();
-  const total = state.chapter.data.questions.length;
+  const total = state.mode === 'mixed' ? totalQuestions() : state.chapter.data.questions.length;
   const done = Math.min(used.size, total);
   const pct = total ? Math.round(done / total * 100) : 0;
   $('progressText').textContent = `${done} / ${total}`;
   $('progressPercent').textContent = `${pct}%`;
   $('progressBar').style.width = `${pct}%`;
+  const label = $('progressPercent').nextElementSibling;
+  if (label) label.textContent = state.mode === 'mixed' ? 'mixed progress' : 'chapter progress';
 }
 
 function shuffle(arr) {
@@ -161,20 +220,28 @@ function shuffle(arr) {
 }
 
 function pickSet() {
-  if (!state.chapter) return;
-  const section = $('sectionSelect').value;
+  if (!state.chapters.length) return;
+  let pool;
   const used = getUsed();
-  const pool = state.chapter.data.questions.filter(q => (section === 'all' || q.section === section) && !used.has(q.id));
+  if (state.mode === 'mixed') {
+    const p = ensureMixedQueue();
+    const map = mixedQuestionMap();
+    pool = p.mixedQueue.filter(key => !used.has(key)).map(key => map.get(key)).filter(Boolean).slice(0, SET_SIZE);
+  } else {
+    const section = $('sectionSelect').value;
+    pool = state.chapter.data.questions.filter(q => (section === 'all' || q.section === section) && !used.has(String(q.id)));
+    pool = shuffle([...pool]).slice(0, SET_SIZE);
+  }
 
-  state.set = shuffle([...pool]).slice(0, SET_SIZE);
+  state.set = pool;
   state.score = null;
   state.answered = false;
   state.answers = {};
 
-  state.set.forEach(q => used.add(q.id));
+  state.set.forEach(q => used.add(questionKey(q)));
   const p = getProgress();
   p.usedIds = [...used];
-  p.currentSetIds = state.set.map(q => q.id);
+  p.currentSetIds = state.set.map(q => questionKey(q));
   p.currentSetAnswered = false;
   p.currentAnswers = {};
   p.lastScore = null;
@@ -196,17 +263,18 @@ function renderSet() {
 
   $('empty').classList.add('hidden');
   $('quiz').classList.remove('hidden');
-  $('setLabel').textContent = `${state.chapter.name} · ${state.set.length}-question set`;
+  $('setLabel').textContent = `${state.mode === 'mixed' ? 'Mixed Practice · Easy → Hard' : state.chapter.name} · ${state.set.length}-question set`;
   updateAnsweredCount();
   $('result').classList.add('hidden');
 
   $('questionList').innerHTML = state.set.map((q, idx) => {
-    const selected = state.answers[q.id];
-    return `<article class="qcard${selected ? ' answered' : ''}" data-q="${q.id}">
-      <div class="qtitle"><span class="num">${String(idx+1).padStart(2,'0')}</span><span>Question ${idx+1}</span><span class="answered-badge"><i data-lucide="check"></i> Answered</span><span class="source-id">#${q.id}</span></div>
+    const key = questionKey(q);
+    const selected = state.answers[key];
+    return `<article class="qcard${selected ? ' answered' : ''}" data-q="${escapeHtml(key)}">
+      <div class="qtitle"><span class="num">${String(idx+1).padStart(2,'0')}</span><span>Question ${idx+1}</span>${state.mode === 'mixed' ? `<span class="source-chapter">${escapeHtml(q._chapterName)} · #${escapeHtml(q.id)}</span>` : ''}<span class="answered-badge"><i data-lucide="check"></i> Answered</span><span class="source-id">#${q.id}</span></div>
       <div class="question">${md(q.question_markdown)}</div>
       <div class="options">${Object.entries(q.options || {}).map(([k,v]) =>
-        `<label class="option${selected === k ? ' selected' : ''}"><input type="radio" name="q${q.id}" value="${escapeHtml(k)}"${selected === k ? ' checked' : ''}><span><b>${escapeHtml(k)}.</b> ${md(v)}</span></label>`
+        `<label class="option${selected === k ? ' selected' : ''}"><input type="radio" name="q${escapeHtml(key)}" value="${escapeHtml(k)}"${selected === k ? ' checked' : ''}><span><b>${escapeHtml(k)}.</b> ${md(v)}</span></label>`
       ).join('')}</div>
       <div class="explain hidden"></div>
     </article>`;
@@ -219,7 +287,7 @@ function renderSet() {
 }
 
 function updateAnsweredCount() {
-  const answered = state.set.filter(q => state.answers[q.id]).length;
+  const answered = state.set.filter(q => state.answers[questionKey(q)]).length;
   $('answeredLabel').textContent = `${answered}/${state.set.length} answered`;
   return answered;
 }
@@ -229,8 +297,8 @@ function handleAnswerChange(event) {
   if (!input || state.answered) return;
   const card = input.closest('.qcard');
   if (!card) return;
-  const qId = card.dataset.q;
-  state.answers[qId] = input.value;
+  const qKey = card.dataset.q;
+  state.answers[qKey] = input.value;
   card.classList.add('answered');
   card.querySelectorAll('.option').forEach(label => label.classList.toggle('selected', label.querySelector('input') === input));
   updateAnsweredCount();
@@ -256,8 +324,9 @@ function revealSavedResult() {
   const p = getProgress();
   if (typeof p.lastScore !== 'number') return;
   state.set.forEach(q => {
-    const value = state.answers[q.id];
-    const input = value ? document.querySelector(`[data-q="${q.id}"] input[value="${CSS.escape(value)}"]`) : null;
+    const key = questionKey(q);
+    const value = state.answers[key];
+    const input = value ? document.querySelector(`[data-q="${CSS.escape(key)}"] input[value="${CSS.escape(value)}"]`) : null;
     revealCard(q, input, true);
   });
   $('result').classList.remove('hidden');
@@ -267,7 +336,7 @@ function revealSavedResult() {
 }
 
 function revealCard(q, chosen, saved = false) {
-  const card = document.querySelector(`[data-q="${q.id}"]`);
+  const card = document.querySelector(`[data-q="${CSS.escape(questionKey(q))}"]`);
   if (!card) return;
   const labels = [...card.querySelectorAll('.option')];
   const isAnswered = !!chosen;
@@ -290,11 +359,11 @@ function check() {
   if (!state.set.length || state.answered) return;
   let score = 0, answered = 0;
   state.set.forEach(q => {
-    const card = document.querySelector(`[data-q="${q.id}"]`);
-    const chosen = card.querySelector(`input[name="q${q.id}"]:checked`);
+    const card = document.querySelector(`[data-q="${CSS.escape(questionKey(q))}"]`);
+    const chosen = card.querySelector(`input[name="q${CSS.escape(key)}"]:checked`);
     if (chosen) {
       answered++;
-      state.answers[q.id] = chosen.value;
+      state.answers[key] = chosen.value;
       if (chosen.value === q.answer.option) score++;
       card.classList.add('answered');
     }
@@ -309,8 +378,9 @@ function check() {
   p.currentAnswers = state.answers;
   p.history = (p.history && typeof p.history === 'object') ? p.history : {};
   state.set.forEach(q => {
-    const selected = state.answers[q.id] || null;
-    p.history[String(q.id)] = {
+    const key = questionKey(q);
+    const selected = state.answers[key] || null;
+    p.history[key] = {
       selected,
       correct: selected === q.answer.option,
       status: selected === q.answer.option ? 'correct' : (selected ? 'wrong' : 'unanswered'),
@@ -331,7 +401,7 @@ function check() {
 }
 
 function updateScoreCard() {
-  if (!state.chapter || !$('scoreSummary')) return;
+  if (!$('scoreSummary') || !state.chapters.length) return;
   const p = getProgress();
   const history = p.history && typeof p.history === 'object' ? p.history : {};
   const entries = Object.values(history);
@@ -350,19 +420,23 @@ function updateScoreCard() {
     ['sets', p.checkedSets || 0, 'sets checked']
   ].map(([icon,val,label]) => `<div class="score-stat"><span class="score-stat-icon"><i data-lucide="${icon === 'correct' ? 'circle-check' : icon === 'wrong' ? 'circle-x' : icon === 'accuracy' ? 'target' : icon === 'sets' ? 'layers-3' : icon === 'answered' ? 'check-check' : icon === 'unanswered' ? 'circle-minus' : 'book-copy'}"></i></span><div><b>${val}</b><span>${label}</span></div></div>`).join('');
 
-  const questions = state.chapter.data.questions || [];
+  const questions = state.mode === 'mixed'
+    ? state.chapters.flatMap(c => c.data.questions.map(q => ({ ...q, _chapterId: c.id, _chapterName: c.name })))
+    : state.chapter.data.questions;
   $('questionTracker').innerHTML = questions.map(q => {
     const st = getQuestionStatus(q);
     const icon = st === 'correct' ? 'circle-check' : st === 'wrong' ? 'circle-x' : st === 'unanswered' ? 'circle-minus' : st === 'pending' ? 'circle-dot' : st === 'used' ? 'circle' : '';
-    return `<span class="tracker ${st}" title="Question ${q.id}: ${st}">${q.id}${icon ? ` <i data-lucide="${icon}"></i>` : ''}</span>`;
+    const label = state.mode === 'mixed' ? `${q._chapterName} · Question ${q.id}: ${st}` : `Question ${q.id}: ${st}`;
+    return `<span class="tracker ${st}" title="${escapeHtml(label)}">${state.mode === 'mixed' ? `${escapeHtml(q._chapterId.slice(0,2).toUpperCase())}-` : ''}${q.id}${icon ? ` <i data-lucide="${icon}"></i>` : ''}</span>`;
   }).join('');
 
   refreshIcons();
 }
 
 function resetProgress() {
-  if (!state.chapter) return;
-  const ok = confirm(`Reset all progress for ${state.chapter.name}? Questions will become available again.`);
+  if (!state.chapters.length) return;
+  const name = state.mode === 'mixed' ? 'Mixed Practice' : state.chapter.name;
+  const ok = confirm(`Reset all progress for ${name}? Questions will become available again.`);
   if (!ok) return;
   localStorage.removeItem(storageKey());
   state.set = [];
@@ -371,7 +445,8 @@ function resetProgress() {
   state.answers = {};
   $('quiz').classList.add('hidden');
   $('empty').classList.remove('hidden');
-  $('empty').innerHTML = `<div class="empty-icon"><i data-lucide="sparkles"></i></div><h2>Ready for a fresh start</h2><p>All questions in ${escapeHtml(state.chapter.name)} are available again.</p>`;
+  $('empty').innerHTML = `<div class="empty-icon"><i data-lucide="sparkles"></i></div><h2>Ready for a fresh start</h2><p>All ${state.mode === 'mixed' ? 'mixed-practice' : 'chapter'} questions are available again.</p>`;
+  if (state.mode === 'mixed') ensureMixedQueue();
   updateProgress();
   updateScoreCard();
   refreshIcons();
@@ -379,6 +454,7 @@ function resetProgress() {
 
 function bindEvents() {
   $('startBtn').onclick = pickSet;
+  $('modeSelect').onchange = updateChapter;
   $('submitBtn').onclick = check;
   $('resetBtn').onclick = pickSet;
   $('resetProgressBtn').onclick = resetProgress;

@@ -22,12 +22,13 @@
       <div>
         <span class="eyebrow"><i data-lucide="target"></i> Exam Practice</span>
         <h2>Practice without repeating questions.</h2>
-        <p>Your generated sets are saved locally, so questions already assigned to a set won't appear again.</p>
+        <p>Chapter mode uses the selected chapter. Mixed mode combines all chapters and moves from question 1 toward the end, while permanently avoiding repeats.</p>
       </div>
       <div class="hero-stat"><i data-lucide="layers-3"></i><strong>25</strong><span> questions / set</span></div>
     </section>
 
     <section class="panel controls">
+      <div class="field"><label for="modeSelect"><i data-lucide="layers-2"></i> Practice mode</label><select id="modeSelect"><option value="chapter">Chapter practice</option><option value="mixed">Mixed practice · Easy → Hard</option></select></div>
       <div class="field chapter-field">
         <label for="chapterSelect"><i data-lucide="book-open"></i> Chapter</label>
         <select id="chapterSelect"></select>
@@ -50,7 +51,7 @@
     <section class="scorecard panel">
       <div class="score-head">
         <div><span class="eyebrow"><i data-lucide="bar-chart-3"></i> Score card</span><h2>Question tracker & performance</h2></div>
-        <span class="score-note">Saved on this device</span>
+        <span class="score-note">Saved on this device · No repeats</span>
       </div>
       <div id="scoreSummary" class="score-summary"></div>
       <div class="score-section">
@@ -83,7 +84,7 @@
   <script defer src="https://cdn.jsdelivr.net/npm/katex@0.16.22/dist/contrib/auto-render.min.js"></script>
   <script defer src="https://cdn.jsdelivr.net/npm/lucide@0.468.0/dist/umd/lucide.min.js"></script>
   <!-- Embedded chapter data is a GitHub Pages fallback if JSON fetches fail. -->
-  <script defer src="data/chapter-data.js?v=13"></script>
-  <script defer src="js/app.js?v=13"></script>
+  <script defer src="data/chapter-data.js?v=14"></script>
+  <script defer src="js/app.js?v=14"></script>
 </body>
 </html>

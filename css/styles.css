@@ -84,3 +84,5 @@ svg.lucide{width:1em;height:1em;display:inline-block;vertical-align:-0.14em;stro
   .score-stat{min-height:60px;padding:8px 12px}
   .score-stat-icon{width:36px !important;height:36px !important;min-width:36px !important;min-height:36px !important}
 }
+
+.source-chapter{font-size:10px;font-weight:700;color:var(--muted);padding:4px 7px;border:1px solid var(--line);border-radius:999px;white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:260px}.dark .source-chapter{background:var(--accent-soft)}
