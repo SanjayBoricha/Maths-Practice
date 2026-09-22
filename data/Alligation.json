@@ -792,7 +792,7 @@
     {
       "id": 50,
       "section": "TYPE -7",
-      "question_markdown": "450 toys are divided into 3 types A, B & C. All three types of toys are sold at the profit of 9%, 10% and 12% respectively. Overall profit from type A and B is 9 3/7% Overall profit from all three types is 10%. Find the number of toys kept in category C.",
+      "question_markdown": "450 toys are divided into 3 types A, B & C. All three types of toys are sold at the profit of 9%, 10% and 12% respectively. Overall profit from type A and B is $9\\frac{3}{7}$% Overall profit from all three types is 10%. Find the number of toys kept in category C.",
       "options": {
         "A": "200",
         "B": "150",

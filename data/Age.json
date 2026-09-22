@@ -424,7 +424,7 @@
     {
       "id": 27,
       "section": "Questions Based on Age",
-      "question_markdown": "P got married 15 years ago. Today her age is 3 1 5 times her age at the time of her marriage. At present her son's age is 1 5 of her age. What was her son's age 4 years ago as a fraction of P's age at that time?",
+      "question_markdown": "P got married 15 years ago. Today her age is $3\frac{1}{5}$ times her age at the time of her marriage. At present her son's age is $\frac{1}{5}$ of her age. What was her son's age 4 years ago as a fraction of P's age at that time?",
       "options": {
         "A": "1 9",
         "B": "1 8",
@@ -491,13 +491,13 @@
       "question_markdown": "Five years ago, the age of A was three times the age of B. Ten years ago the age of A was half the age of C. If 'c' represents the present age of C, which of the following options represents the present age of B? AC'c' C",
       "options": {
         "A": "3c – 5",
-        "B": "c 6 + 5",
-        "C": "5c 3 – 10",
-        "D": "(c 10) 3 "
+        "B": "$\frac{c}{6}+5$",
+        "C": "$\frac{5c}{3}-10$",
+        "D": "$\frac{c-10}{3}$"
       },
       "answer": {
         "option": "B",
-        "text": "c 6 + 5"
+        "text": "$\frac{c}{6}+5$"
       },
       "pdf_page": 5
     },

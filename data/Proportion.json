@@ -216,16 +216,16 @@
     {
       "id": 14,
       "section": "Mean Proportion",
-      "question_markdown": "The mean proportional between (18 + 82) and (15 – 22) is: (18 + 82)(15 – 22)",
+      "question_markdown": "The mean proportional between $(18+8\\sqrt{2})$ and $(15-2\\sqrt{2})$ is:",
       "options": {
-        "A": "238 36 2 ",
-        "B": "238 120 2 ",
-        "C": "238 84 2 ",
-        "D": "238 110 2 "
+        "A": "$\\sqrt{238+36\\sqrt{2}}$",
+        "B": "$\\sqrt{238+120\\sqrt{2}}$",
+        "C": "$\\sqrt{238+84\\sqrt{2}}$",
+        "D": "$\\sqrt{238+110\\sqrt{2}}$"
       },
       "answer": {
         "option": "C",
-        "text": "238 84 2 "
+        "text": "$\\sqrt{238+84\\sqrt{2}}$"
       },
       "pdf_page": 3
     },
@@ -282,14 +282,14 @@
       "section": "Mean Proportion",
       "question_markdown": "The mean proportional of 4a2 and x is 1 5a , where a is a positive number, then the value of x is_________. 4a2x1 5aa x________",
       "options": {
-        "A": "4 1 100a",
-        "B": "2 1 100a",
-        "C": "2 1 25a",
-        "D": "4 1 25a"
+        "A": "$\frac{1}{100a^4}$",
+        "B": "$\frac{1}{100a^2}$",
+        "C": "$\frac{1}{25a^2}$",
+        "D": "$\frac{1}{25a^4}$"
       },
       "answer": {
         "option": "A",
-        "text": "4 1 100a"
+        "text": "$\frac{1}{100a^4}$"
       },
       "pdf_page": 3
     },
@@ -344,16 +344,16 @@
     {
       "id": 22,
       "section": "Third Proportion",
-      "question_markdown": "The third proportional to (x2 – y2) and (x – y) is: (x2 – y2)(x – y)",
+      "question_markdown": "The third proportional to $(x^2-y^2)$ and $(x-y)$ is:",
       "options": {
-        "A": "(x – y)",
-        "B": "– y + y x x",
-        "C": "y – y  x x",
-        "D": "(x + y)"
+        "A": "$(x-y)$",
+        "B": "$\frac{x-y}{x+y}$",
+        "C": "$\frac{x+y}{x-y}$",
+        "D": "$(x+y)$"
       },
       "answer": {
         "option": "B",
-        "text": "– y + y x x"
+        "text": "$\frac{x-y}{x+y}$"
       },
       "pdf_page": 3
     },
@@ -410,9 +410,9 @@
       "section": "Some Important New Mixed Based Questions",
       "question_markdown": "If 23 : 85.06 :: 8–4.06 : x, find the value of x. 23 : 85.06 :: 8–4.06 : x, x",
       "options": {
-        "A": "3 1/2",
+        "A": "$\frac{1}{2^3}$",
         "B": "1",
-        "C": "23",
+        "C": "$2^3$",
         "D": "0"
       },
       "answer": {
