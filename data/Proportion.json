@@ -282,14 +282,14 @@
       "section": "Mean Proportion",
       "question_markdown": "The mean proportional of 4a2 and x is 1 5a , where a is a positive number, then the value of x is_________. 4a2x1 5aa x________",
       "options": {
-        "A": "$\frac{1}{100a^4}$",
-        "B": "$\frac{1}{100a^2}$",
-        "C": "$\frac{1}{25a^2}$",
-        "D": "$\frac{1}{25a^4}$"
+        "A": "$\\frac{1}{100a^4}$",
+        "B": "$\\frac{1}{100a^2}$",
+        "C": "$\\frac{1}{25a^2}$",
+        "D": "$\\frac{1}{25a^4}$"
       },
       "answer": {
         "option": "A",
-        "text": "$\frac{1}{100a^4}$"
+        "text": "$\\frac{1}{100a^4}$"
       },
       "pdf_page": 3
     },
@@ -347,13 +347,13 @@
       "question_markdown": "The third proportional to $(x^2-y^2)$ and $(x-y)$ is:",
       "options": {
         "A": "$(x-y)$",
-        "B": "$\frac{x-y}{x+y}$",
-        "C": "$\frac{x+y}{x-y}$",
+        "B": "$\\frac{x-y}{x+y}$",
+        "C": "$\\frac{x+y}{x-y}$",
         "D": "$(x+y)$"
       },
       "answer": {
         "option": "B",
-        "text": "$\frac{x-y}{x+y}$"
+        "text": "$\\frac{x-y}{x+y}$"
       },
       "pdf_page": 3
     },
@@ -410,7 +410,7 @@
       "section": "Some Important New Mixed Based Questions",
       "question_markdown": "If 23 : 85.06 :: 8–4.06 : x, find the value of x. 23 : 85.06 :: 8–4.06 : x, x",
       "options": {
-        "A": "$\frac{1}{2^3}$",
+        "A": "$\\frac{1}{2^3}$",
         "B": "1",
         "C": "$2^3$",
         "D": "0"
